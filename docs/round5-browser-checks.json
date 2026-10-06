@@ -1,0 +1,83 @@
+{
+  "checks": [
+    {
+      "descriptionLeft": 61.1484375,
+      "links": 6,
+      "numberLabels": 0,
+      "scroll": 0,
+      "scrollWidth": 1456,
+      "section": {
+        "height": 990.03125,
+        "top": 1072.6171875
+      },
+      "titles": [
+        {
+          "left": 61.1484375,
+          "title": "Campagne d’influence"
+        },
+        {
+          "left": 61.1484375,
+          "title": "Stratégie"
+        },
+        {
+          "left": 61.1484375,
+          "title": "Évènements"
+        },
+        {
+          "left": 61.1484375,
+          "title": "Brand Content"
+        },
+        {
+          "left": 61.1484375,
+          "title": "RSE / Corporate"
+        },
+        {
+          "left": 61.1484375,
+          "title": "Performance / Affiliation"
+        }
+      ],
+      "width": 1456
+    },
+    {
+      "descriptionLeft": 20,
+      "links": 6,
+      "numberLabels": 0,
+      "scroll": 0,
+      "scrollWidth": 390,
+      "section": {
+        "height": 1028.2578125,
+        "top": 662.4453125
+      },
+      "titles": [
+        {
+          "left": 20,
+          "title": "Campagne d’influence"
+        },
+        {
+          "left": 20,
+          "title": "Stratégie"
+        },
+        {
+          "left": 20,
+          "title": "Évènements"
+        },
+        {
+          "left": 20,
+          "title": "Brand Content"
+        },
+        {
+          "left": 20,
+          "title": "RSE / Corporate"
+        },
+        {
+          "left": 20,
+          "title": "Performance / Affiliation"
+        }
+      ],
+      "width": 390
+    }
+  ],
+  "opened": [
+    "Stratégie"
+  ]
+}

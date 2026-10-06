@@ -38,3 +38,7 @@ Les libellés de catégories des projets ne portent plus de préfixe numérique.
 Le manifeste change seul toutes les trois secondes lorsqu’il est visible. La frappe rapide ne masque pas le texte sémantique ; sa copie animée est ignorée par les lecteurs d’écran. Le cycle s’arrête hors de l’écran ou lorsque l’onglet est masqué. Avec le mouvement réduit, les six textes se présentent à la suite, sans minuterie ni boutons. Les autres carrousels restent manuels.
 
 Les biographies, anecdotes et goûts des sept personnes affichées sont comparés aux sources, ainsi que les 33 études de cas et leurs chiffres. Les suppressions demandées sur les pages d’expertise sont des exceptions ciblées. Les deux projets sans résultats publiés restent signalés ; aucun KPI n’est inventé. Le formulaire n’a pas été envoyé pendant les contrôles.
+
+## Complément : six annotations sur l’accueil
+
+Les index 01 • à 06 • de l’accordéon d’accueil sont retirés du HTML. Les titres et descriptions commencent au bord gauche de la section, sans colonne vide. Les commandes + et les liens des six expertises restent disponibles. La numérotation de l’accordéon de la page Expertises n’est pas modifiée.

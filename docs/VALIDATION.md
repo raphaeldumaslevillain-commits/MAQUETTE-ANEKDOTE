@@ -21,3 +21,7 @@ Les observations sont dans round4-browser-checks.json. Le rapport round3-browser
 ## Livraison
 
 Aucun score Lighthouse ni certification d’accessibilité n’est revendiqué. Les deux projets sans résultats publiés sont signalés, sans KPI fictif. Le code, médias et polices sont autonomes. Le workflow vérifie et prépare GitHub Pages ; l’activation du service dans le dépôt reste nécessaire. Un build réussi ne confirme pas une publication.
+
+## Complément : accordéon d’accueil sans numéros
+
+Les six index sont absents du DOM à 390 et 1456 px. Les six titres et les descriptions commencent sur le même bord gauche (20 px sur mobile, 61,15 px sur ordinateur), sans débordement horizontal. Les six liens restent présents. L’ouverture de Stratégie referme la première expertise. Voir round5-browser-checks.json et previews/accueil-expertises-desktop.jpg.

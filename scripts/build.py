@@ -141,11 +141,11 @@ def deck(slides,label,cls='',next_only=False,labels=True,autoplay=False):
  h+='</div><div class="deck-arrows"><span class="deck-status" aria-live="polite" aria-atomic="true" data-deck-status>1 / '+str(len(slides))+'</span><button type="button" data-deck-prev aria-label="Page précédente">←</button><button type="button" data-deck-next aria-label="Page suivante">→</button></div></div></div>'
  return h
 
-def accordion(cls=''):
+def accordion(cls='',numbered=True):
  h='<div class="expertise-accordion '+cls+'">'
  for i,(label,key) in enumerate(SERVICES):
   desc=text(soup(key).select_one('.page-header-banner-baseline'))
-  h+='<details'+(' open' if i==0 else '')+'><summary><span class="eyebrow">'+str(i+1).zfill(2)+' •</span><h3>'+label+'</h3><span class="accordion-symbol" aria-hidden="true">+</span></summary><div class="expertise-answer"><p>'+esc(desc)+'</p>'+link('Découvrir cette expertise',key)+'</div></details>'
+  h+='<details'+(' open' if i==0 else '')+'><summary>'+('<span class="eyebrow">'+str(i+1).zfill(2)+' •</span>' if numbered else '')+'<h3>'+label+'</h3><span class="accordion-symbol" aria-hidden="true">+</span></summary><div class="expertise-answer"><p>'+esc(desc)+'</p>'+link('Découvrir cette expertise',key)+'</div></details>'
  return h+'</div>'
 
 def client_marquees():
@@ -191,7 +191,7 @@ def home():
  global page;page='index.html';ag=soup('agence');ho=soup('');ghd=DATA['projects'][3]
  b='<section class="masthead"><div class="masthead-meta"><p class="eyebrow">Agence de conseil<br>Marketing d’influence & Brand Content</p></div><h1 class="wordmark" aria-label="Anekdote">Anek<span class="italic">dote</span><span class="dot">.</span></h1></section>'
  b+='<section class="company-stage">'+picture(bg(ag.select_one('.page-header-banner-container')),'L’équipe Anekdote dans un escalier parisien',eager=True)+'<div class="company-overlay"><p class="eyebrow">Enchanté !</p><h2>Nous créons<br>vos <span class="italic">campagnes.</span></h2></div></section>'
- b+='<section class="section home-services"><div class="home-services-heading"><div><h2 class="section-title">L’idée.<br><span class="italic">Puis l’action.</span></h2></div><p class="lead">Nous créons vos campagnes pour accélérer votre notoriété et optimiser votre conversion.</p></div>'+accordion('home-accordion')+'</section>'
+ b+='<section class="section home-services"><div class="home-services-heading"><div><h2 class="section-title">L’idée.<br><span class="italic">Puis l’action.</span></h2></div><p class="lead">Nous créons vos campagnes pour accélérer votre notoriété et optimiser votre conversion.</p></div>'+accordion('home-accordion',numbered=False)+'</section>'
  b+='<section class="section clients"><div class="client-intro"><h2>Nous vous adorons,<br><span class="italic">c’est réciproque.</span></h2><p>Nous avons plus de 50 partenaires qui nous font confiance dans la beauté, la mode, la tech/app, la food et le retail.</p></div>'+client_marquees()+'</section>'
  b+='<section class="section home-agency"><div class="home-agency-photo media-frame reveal">'+picture(BASE+'/wp-content/uploads/2024/09/Design-sans-titre-3.png','Un moment partagé par l’équipe Anekdote')+'</div><div class="home-agency-copy"><h2 class="section-title">Une équipe<br><span class="italic">passionnée.</span></h2><p class="lead">L’échange est notre moteur, le partage est notre super-force, et la positivité est notre arme secrète.</p></div></section>'
  b+='<section class="section proof"><div class="proof-copy"><h2 class="section-title">La créativité.<br><span class="italic">Et son impact.</span></h2><p>Une équipe passionnée pour des campagnes sur-mesure et performantes.</p></div><div class="proof-kpis">'
