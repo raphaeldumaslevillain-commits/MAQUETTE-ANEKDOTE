@@ -36,6 +36,7 @@ for p in D['projects']:
   if norm(k['value']) not in t or norm(k['label']) not in t:errors.append([p['path'],'KPI mismatch',k])
 # Source biographies, anecdotes and article paragraphs remain available in full.
 for t in D['team']:
+ if t['name']=='Pauline':continue # Explicit removal in fourth review; originals stay archived.
  target=root/'equipe/index.html';dest=norm(BeautifulSoup(target.read_text(),'html.parser').get_text(' ',strip=True))
  for field in ['bio','anecdote']:
   for par in BeautifulSoup(t[field],'html.parser').select('p,li'):
@@ -51,11 +52,15 @@ for path in pages:
 for key in ['agence','campagne-dinfluence','strategie','evenements','brand-content','rse-corporate','performance-affiliation','talents','mentions-legales','politique-de-confidentialite']:
  src=BeautifulSoup((root/'content/source-html'/(key+'.html.txt')).read_text(),'html.parser').select_one('#content')
  dest=norm(BeautifulSoup((root/key/'index.html').read_text(),'html.parser').get_text(' ',strip=True))
- for par in src.select('p,li'):
+ if key in ['campagne-dinfluence','strategie','evenements','brand-content','rse-corporate','performance-affiliation']:
+  # This review explicitly ends all expertise pages after the approach / Solar Metrics.
+  source_paragraphs=src.select('.page-header-banner-baseline,.bloc-column-text p,.bloc-column-text li')
+ else:source_paragraphs=src.select('p,li')
+ for par in source_paragraphs:
   original=approved(norm(par.get_text(' ',strip=True)))
   if key=='agence' and par.find_parent(class_='page-header-banner-baseline'):continue # Annotation 17: explicit removal.
   if len(original)>10 and original not in dest:errors.append([key,'missing source paragraph',original[:150]])
-report={'html_pages':len(pages),'projects':len(D['projects']),'team':len(D['team']),'news':0,'approved_changes':['Newsroom removed','Office: 29 rue de Mogador','Agency quote: Christelle, Co-Founder'],'errors':errors}
+report={'html_pages':len(pages),'projects':len(D['projects']),'team':sum(t['name']!='Pauline' for t in D['team']),'news':0,'approved_changes':['Newsroom removed','Office: 29 rue de Mogador','Agency quote: Christelle, Co-Founder','Pauline profile removed','Expertise pages end after approach / Solar Metrics'],'errors':errors}
 (root/'docs/static-validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2));print(json.dumps(report,ensure_ascii=False,indent=2))
 
 raise SystemExit(1 if errors else 0)

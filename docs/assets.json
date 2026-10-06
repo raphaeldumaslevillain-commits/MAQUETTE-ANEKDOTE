@@ -1586,15 +1586,6 @@
     "bytes": 148520
   },
   {
-    "source": "https://www.anekdote.fr/wp-content/uploads/2025/09/12.png",
-    "sourceBytes": 177999,
-    "path": "assets/images/equipe/anekdote-5-pauline-portrait.webp",
-    "width": 334,
-    "height": 487,
-    "variants": [],
-    "bytes": 10908
-  },
-  {
     "source": "https://www.anekdote.fr/wp-content/uploads/2024/09/6.png",
     "sourceBytes": 261253,
     "path": "assets/images/equipe/anekdote-6-carla-portrait.webp",
@@ -1757,13 +1748,6 @@
     "bytes": 19026
   },
   {
-    "source": "https://www.anekdote.fr/wp-content/uploads/2023/12/Design-sans-titre-1.mp4",
-    "sourceBytes": 5544079,
-    "path": "assets/videos/campagne-dinfluence-visuel-1.mp4",
-    "poster": "assets/videos/campagne-dinfluence-visuel-1-poster.webp",
-    "bytes": 2041221
-  },
-  {
     "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/banner-influence.jpg",
     "sourceBytes": 152937,
     "path": "assets/images/campagne-dinfluence/campagne-dinfluence-ambiance-1.webp",
@@ -1854,13 +1838,6 @@
     "bytes": 127220
   },
   {
-    "source": "https://www.anekdote.fr/wp-content/uploads/2024/04/WhatsApp-Video-2024-04-24-at-12.25.05.mp4",
-    "sourceBytes": 8715907,
-    "path": "assets/videos/evenements-visuel-1.mp4",
-    "poster": "assets/videos/evenements-visuel-1-poster.webp",
-    "bytes": 3683577
-  },
-  {
     "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/banner-event-e1700151238251.jpg",
     "sourceBytes": 110756,
     "path": "assets/images/evenements/evenements-ambiance-1.webp",
@@ -1877,20 +1854,6 @@
       }
     ],
     "bytes": 90962
-  },
-  {
-    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/3-IMG_4636-1.jpg",
-    "sourceBytes": 127321,
-    "path": "assets/images/brand-content/brand-content-visuel-1.webp",
-    "width": 668,
-    "height": 668,
-    "variants": [
-      {
-        "path": "assets/images/brand-content/brand-content-visuel-1-480.webp",
-        "width": 480
-      }
-    ],
-    "bytes": 87724
   },
   {
     "source": "https://www.anekdote.fr/wp-content/uploads/2023/12/marcus-x-brand-content-1-1-1.jpg",
@@ -1959,20 +1922,6 @@
       }
     ],
     "bytes": 294962
-  },
-  {
-    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/3-1-1.jpg",
-    "sourceBytes": 94566,
-    "path": "assets/images/rse-corporate/rse-corporate-visuel-1.webp",
-    "width": 668,
-    "height": 668,
-    "variants": [
-      {
-        "path": "assets/images/rse-corporate/rse-corporate-visuel-1-480.webp",
-        "width": 480
-      }
-    ],
-    "bytes": 52652
   },
   {
     "source": "https://www.anekdote.fr/wp-content/uploads/2023/12/wework-1-1-1.jpg",

@@ -163,3 +163,51 @@
 }
 @media(max-width:420px){.project-row-kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.project-row-copy h2{font-size:2.15rem}.member-heading h3{font-size:3rem}.member-heading .eyebrow{font-size:.55rem}.photo-tastes{padding:22px;gap:18px}.taste-group svg{width:21px;height:21px}.taste-group li{font-size:1rem}.taste-group ul{gap:8px}.team-carousel-heading h2{font-size:3.1rem}.solar-heading h2{font-size:3.4rem}.solar-expertises h3{font-size:1.85rem}}
 @media(prefers-reduced-motion:reduce){.scene-motion>picture img{transform:none}.orbit-line{animation:none}.page-intro>.display,.page-intro .editorial-heading,.page-intro>.lead{animation:none}.deck.enhanced .deck-slide:not(.active){transform:none}.footer-invitation:hover .circle-link,.agency-deck .deck-next-only button:hover{transform:none}}
+
+/* Fourth review: quieter headings, automatic manifesto and aligned results. */
+.clients{border-bottom:0}
+.home-services-heading h2,.home-agency-copy h2,.proof-copy h2,.founder-heading h2,.manifest-heading h2,.solar-heading h2{margin-top:0}
+.team-intro>.lead,.contact-intro>.lead{margin-left:0;text-align:left}
+.agency-quote{display:block;text-align:center}
+.agency-quote blockquote{margin-inline:auto}
+.manifest-section{align-items:start}
+.manifest-deck{border-radius:var(--photo-radius)}
+.manifest-deck .deck-slide{position:relative}
+.manifest-deck .is-typing>:not(.typing-copy){opacity:0}
+.manifest-deck .typing-copy p{margin-top:0}
+.agency-deck .deck-next-only button,.team-carousel .deck-arrows button{display:grid;place-items:center;padding:0;line-height:1}
+.agency-deck .deck-next-only button svg,.team-carousel .deck-arrows button svg{width:24px;height:24px;display:block}
+.member-tabs button{border-radius:999px}
+.nav-close{border:0}
+.service-intro+.page-visual{border-radius:var(--photo-radius)}
+.approach-copy-only{display:block}
+.approach-copy-only>.prose{max-width:72ch;margin-inline:auto}
+.project-row-kpis>div{display:grid;grid-template-columns:minmax(0,1fr);grid-template-rows:auto auto;justify-content:stretch;align-content:start;gap:10px}
+.project-row-kpis dd{grid-column:1;grid-row:1;white-space:nowrap;overflow-wrap:normal}
+.project-row-kpis dt{grid-column:1;grid-row:2}
+@supports(grid-template-rows:subgrid){
+ .project-row-kpis{row-gap:10px;grid-auto-rows:auto}
+ .project-row-kpis>div{grid-template-rows:subgrid;grid-row:span 2}
+}
+.kpi-grid strong,.kpi-grid .kpi.long strong{font-size:clamp(3.8rem,7.5vw,8rem);white-space:nowrap;overflow-wrap:normal}
+.kpi-grid.long-values strong,.kpi-grid.long-values .kpi.long strong{font-size:clamp(2.5rem,5.4vw,5.5rem)}
+.solar-expertises li{grid-template-columns:30px minmax(0,1fr)}
+.solar-expertises h3{max-width:none;font-size:clamp(1.5rem,2.1vw,2.5rem)}
+.solar-expertises li:last-child h3{white-space:nowrap}
+.solar-measures{display:flex;flex-direction:column;align-items:center;gap:24px;text-align:center}
+.solar-measures>p{max-width:none;width:100%;font-size:clamp(.8rem,1.05vw,1rem)}
+.solar-measures ul{justify-content:center;gap:12px 34px}
+.solar-measures li{border:0;padding:0;font-size:.95rem}
+.solar-measures li::before{content:none}
+.footer-invitation{padding-top:0}
+@media(max-width:1050px) and (min-width:801px){.solar-expertises ol{grid-template-columns:1fr}}
+@media(max-width:800px){
+ .kpi-grid strong,.kpi-grid .kpi.long strong{font-size:clamp(2.2rem,6.3vw,3.3rem)}
+ .kpi-grid.long-values strong,.kpi-grid.long-values .kpi.long strong{font-size:clamp(1.6rem,5.1vw,2.3rem)}
+ .solar-expertises li{grid-template-columns:25px minmax(0,1fr)}
+ .solar-expertises h3{font-size:clamp(1rem,4.4vw,1.85rem)}
+ .solar-measures>p{font-size:1rem}
+ .solar-measures ul{gap:15px 25px}
+ .solar-measures li{font-size:.9rem}
+}
+@media(prefers-reduced-motion:reduce){.manifest-deck .deck-stage{gap:38px}}

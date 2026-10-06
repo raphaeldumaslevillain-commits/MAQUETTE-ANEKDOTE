@@ -1,12 +1,14 @@
 {
   "html_pages": 58,
   "projects": 33,
-  "team": 8,
+  "team": 7,
   "news": 0,
   "approved_changes": [
     "Newsroom removed",
     "Office: 29 rue de Mogador",
-    "Agency quote: Christelle, Co-Founder"
+    "Agency quote: Christelle, Co-Founder",
+    "Pauline profile removed",
+    "Expertise pages end after approach / Solar Metrics"
   ],
   "errors": []
 }

@@ -11,10 +11,10 @@ Refonte intégrale en HTML, CSS et JavaScript. Site statique, médias et polices
 ## Contenu
 
 - 33 projets en compositions régulières avec image, paragraphe et zone de KPI ; études de cas complètes et chiffres animés.
-- 6 expertises, agence, équipe de 8 personnes, talents.
+- 6 expertises, agence, équipe de 7 personnes, talents.
 - Accueil centré sur l’agence et les expertises, deux bandeaux de logos à sens opposés.
-- Agence à flèche unique et frappe rapide ; manifeste et témoignages Talents en carrousel.
-- Christelle en portrait complet indépendant ; sept membres en carrousel, photo carrée et paragraphe de même hauteur, goûts sur la photo.
+- Agence à flèche unique et frappe rapide ; manifeste automatique toutes les trois secondes et témoignages Talents en carrousel manuel.
+- Christelle en portrait complet indépendant ; six membres en carrousel, photo carrée et paragraphe de même hauteur, goûts sur la photo.
 - Newsroom supprimée de l’expérience et des routes publiques, à la demande du client.
 - Contact en trois étapes, pages légales et conservation des anciennes routes.
 - 58 fichiers HTML, dont 9 redirections et une page 404.
@@ -40,7 +40,7 @@ expertises/                Vue d’ensemble
 campagne-dinfluence/        Pages des six expertises (URLs historiques)
 strategie/ · evenements/ · brand-content/
 rse-corporate/ · performance-affiliation/
-hub-projets/               Portfolio et filtres
+hub-projets/               Portfolio de 33 projets
 projets/                   Études de cas et anciennes archives
 équipe → equipe/           Équipe
 talents/ · contact/

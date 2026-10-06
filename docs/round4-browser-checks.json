@@ -1,0 +1,963 @@
+{
+  "revision": "76 annotations + KPI alignment + Pauline removed",
+  "checks": [
+    {
+      "page": "agence",
+      "width": 1457,
+      "active": "1 sur 6",
+      "top": 241.2734375,
+      "typing": false
+    },
+    {
+      "page": "agence-auto-after",
+      "active": "6 sur 6",
+      "heading": "Nous mettons toute notre énergie",
+      "motionReduced": false,
+      "typingClone": false
+    },
+    {
+      "page": "solar",
+      "width": 1457,
+      "arrows": 0,
+      "borders": [
+        "0px",
+        "0px",
+        "0px",
+        "0px",
+        "0px",
+        "0px"
+      ],
+      "coaching": {
+        "height": 36.7109375,
+        "lineHeight": "36.7164px",
+        "scrollWidth": 590,
+        "width": 589.8125
+      },
+      "mainSections": [
+        "page-intro service-intro",
+        "page-visual media-frame scene-motion",
+        "solar-section"
+      ],
+      "measures": {
+        "align": "center",
+        "height": 26,
+        "lineHeight": "26.0075px"
+      },
+      "photoRadius": "24px",
+      "scrollWidth": 1457
+    },
+    {
+      "route": "index.html",
+      "brokenImages": [],
+      "footerTop": 0,
+      "leadAlignment": null,
+      "scrollWidth": 1457,
+      "width": 1457
+    },
+    {
+      "route": "agence/index.html",
+      "brokenImages": [],
+      "footerTop": 0,
+      "leadAlignment": null,
+      "scrollWidth": 1457,
+      "width": 1457
+    },
+    {
+      "route": "expertises/index.html",
+      "brokenImages": [],
+      "footerTop": 0,
+      "leadAlignment": null,
+      "scrollWidth": 1457,
+      "width": 1457
+    },
+    {
+      "route": "equipe/index.html",
+      "brokenImages": [],
+      "footerTop": 0,
+      "leadAlignment": 0,
+      "scrollWidth": 1457,
+      "width": 1457
+    },
+    {
+      "route": "hub-projets/index.html",
+      "brokenImages": [],
+      "footerTop": 0,
+      "leadAlignment": 0,
+      "scrollWidth": 1457,
+      "width": 1457
+    },
+    {
+      "route": "contact/index.html",
+      "brokenImages": [],
+      "footerTop": 0,
+      "leadAlignment": 0,
+      "scrollWidth": 1457,
+      "width": 1457
+    },
+    {
+      "route": "campagne-dinfluence/index.html",
+      "brokenImages": [],
+      "footerTop": 0,
+      "leadAlignment": 0,
+      "scrollWidth": 1457,
+      "width": 1457
+    },
+    {
+      "route": "strategie/index.html",
+      "brokenImages": [],
+      "footerTop": 0,
+      "leadAlignment": 0,
+      "scrollWidth": 1457,
+      "width": 1457
+    },
+    {
+      "route": "evenements/index.html",
+      "brokenImages": [],
+      "footerTop": 0,
+      "leadAlignment": 0,
+      "scrollWidth": 1457,
+      "width": 1457
+    },
+    {
+      "route": "brand-content/index.html",
+      "brokenImages": [],
+      "footerTop": 0,
+      "leadAlignment": 0,
+      "scrollWidth": 1457,
+      "width": 1457
+    },
+    {
+      "route": "rse-corporate/index.html",
+      "brokenImages": [],
+      "footerTop": 0,
+      "leadAlignment": 0,
+      "scrollWidth": 1457,
+      "width": 1457
+    },
+    {
+      "route": "performance-affiliation/index.html",
+      "brokenImages": [],
+      "footerTop": 0,
+      "leadAlignment": 0,
+      "scrollWidth": 1457,
+      "width": 1457
+    },
+    {
+      "page": "menu",
+      "border": "0px"
+    },
+    {
+      "route": "index.html",
+      "brokenImages": [],
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "route": "agence/index.html",
+      "brokenImages": [],
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "route": "expertises/index.html",
+      "brokenImages": [],
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "route": "equipe/index.html",
+      "brokenImages": [],
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "route": "hub-projets/index.html",
+      "brokenImages": [],
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "route": "contact/index.html",
+      "brokenImages": [],
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "route": "campagne-dinfluence/index.html",
+      "brokenImages": [],
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "route": "strategie/index.html",
+      "brokenImages": [],
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "route": "evenements/index.html",
+      "brokenImages": [],
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "route": "brand-content/index.html",
+      "brokenImages": [],
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "route": "rse-corporate/index.html",
+      "brokenImages": [],
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "route": "performance-affiliation/index.html",
+      "brokenImages": [],
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "page": "solar-mobile",
+      "coaching": {
+        "height": 20.5859375,
+        "lineHeight": "20.592px",
+        "scrollWidth": 310,
+        "width": 310
+      },
+      "measurementWrap": 81.5859375,
+      "width": 390
+    },
+    {
+      "case": "projets/biocyte-x-solar-metrics-influence-affiliation",
+      "alignedRows": true,
+      "next": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "case": "projets/lancement-k-biocyte-event-influence",
+      "alignedRows": true,
+      "next": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "case": "projets/campagne-dinfluence-poderm-juin-aout-2026-strategie-de-test-learn-et-optimisation-du-casting-createurs",
+      "alignedRows": true,
+      "next": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "case": "projets/concert-aya-nakamura-x-ghd-x-juliette-has-a-gun",
+      "alignedRows": true,
+      "next": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "case": "projets/__trashed",
+      "alignedRows": true,
+      "next": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "case": "projets/et-si-le-culot-sinvitait-au-festival-de-cannes",
+      "alignedRows": true,
+      "next": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "case": "projets/festival-de-cannes-x-soskin",
+      "alignedRows": true,
+      "next": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "case": "projets/festival-de-cannes-x-bijou-brijitte",
+      "alignedRows": true,
+      "next": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "case": "projets/festival-de-cannes-x-meganvlt-x-aroma-zone",
+      "alignedRows": true,
+      "next": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "case": "projets/1-million-de-gourmands-ca-se-fete",
+      "alignedRows": true,
+      "next": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "case": "projets/skincarebysamy-x-yves-rocher",
+      "alignedRows": true,
+      "next": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "case": "projets/anniversaire-30-ans-jujufitcats",
+      "alignedRows": true,
+      "next": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "case": "projets/bnp-paribas",
+      "alignedRows": true,
+      "next": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "case": "projets/event-tiktok-x-aroma-zone",
+      "alignedRows": true,
+      "next": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "case": "projets/vichy-feat-jujufitcat",
+      "alignedRows": true,
+      "next": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "case": "projets/benefit-feat-marcus",
+      "alignedRows": true,
+      "next": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "case": "projets/lassie-x-multi-talents",
+      "alignedRows": true,
+      "next": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "case": "projets/paysan-breton-x-createurs-ugc",
+      "alignedRows": true,
+      "next": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "case": "projets/portage-vichy",
+      "alignedRows": true,
+      "next": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "case": "projets/pinterest",
+      "alignedRows": true,
+      "next": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "case": "projets/strategie-tiktok-x-dyson",
+      "alignedRows": true,
+      "next": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "case": "projets/yves-rocher-2",
+      "alignedRows": true,
+      "next": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "case": "projets/mr-moustache-x-multi-talents",
+      "alignedRows": true,
+      "next": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "case": "projets/loreal-luxe-x-my-origines",
+      "alignedRows": true,
+      "next": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "case": "projets/milka-x-natoo",
+      "alignedRows": true,
+      "next": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "case": "projets/etam-x-jujufitcat",
+      "alignedRows": true,
+      "next": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "case": "projets/courir-x-lena-situations",
+      "alignedRows": true,
+      "next": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "case": "projets/strategie-tiktok-x-oh-my-cream",
+      "alignedRows": true,
+      "next": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "case": "projets/savage-fenty-x-jujufitcat",
+      "alignedRows": true,
+      "next": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "case": "projets/air-up-x-jujufitcat",
+      "alignedRows": true,
+      "next": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "case": "projets/sephora-x-les-eclaireuses",
+      "alignedRows": true,
+      "next": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "case": "projets/carrefour-x-multi-talents",
+      "alignedRows": true,
+      "next": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "case": "projets/strategie-tiktok-x-choose",
+      "alignedRows": true,
+      "next": 1,
+      "overflow": [],
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "page": "contact-flow",
+      "progressLabels": 0,
+      "recap": "Espresso / Rooftop",
+      "submit": "Envoyer",
+      "visibleSteps": [
+        "2"
+      ]
+    },
+    {
+      "team": true,
+      "width": 375,
+      "name": "Tiffany",
+      "pageWidth": 410,
+      "photo": [
+        370,
+        370
+      ],
+      "scrollWidth": 410,
+      "status": "1 / 6",
+      "tabRadius": "999px",
+      "textHeight": 370
+    },
+    {
+      "team": true,
+      "width": 375,
+      "name": "Emma.L",
+      "pageWidth": 411,
+      "photo": [
+        371,
+        371
+      ],
+      "scrollWidth": 411,
+      "status": "2 / 6",
+      "tabRadius": "999px",
+      "textHeight": 371
+    },
+    {
+      "team": true,
+      "width": 375,
+      "name": "Emma.c",
+      "pageWidth": 412,
+      "photo": [
+        372,
+        372
+      ],
+      "scrollWidth": 412,
+      "status": "3 / 6",
+      "tabRadius": "999px",
+      "textHeight": 372
+    },
+    {
+      "team": true,
+      "width": 375,
+      "name": "Carla",
+      "pageWidth": 413,
+      "photo": [
+        373,
+        373
+      ],
+      "scrollWidth": 413,
+      "status": "4 / 6",
+      "tabRadius": "999px",
+      "textHeight": 373
+    },
+    {
+      "team": true,
+      "width": 375,
+      "name": "Raphaël",
+      "pageWidth": 414,
+      "photo": [
+        374,
+        374
+      ],
+      "scrollWidth": 414,
+      "status": "5 / 6",
+      "tabRadius": "999px",
+      "textHeight": 374
+    },
+    {
+      "team": true,
+      "width": 375,
+      "name": "Margaux",
+      "pageWidth": 415,
+      "photo": [
+        375,
+        375
+      ],
+      "scrollWidth": 415,
+      "status": "6 / 6",
+      "tabRadius": "999px",
+      "textHeight": 375
+    },
+    {
+      "team": true,
+      "width": 390,
+      "name": "Tiffany",
+      "pageWidth": 417,
+      "photo": [
+        377,
+        377
+      ],
+      "scrollWidth": 417,
+      "status": "1 / 6",
+      "tabRadius": "999px",
+      "textHeight": 377
+    },
+    {
+      "team": true,
+      "width": 390,
+      "name": "Emma.L",
+      "pageWidth": 419,
+      "photo": [
+        379,
+        379
+      ],
+      "scrollWidth": 419,
+      "status": "2 / 6",
+      "tabRadius": "999px",
+      "textHeight": 379
+    },
+    {
+      "team": true,
+      "width": 390,
+      "name": "Emma.c",
+      "pageWidth": 420,
+      "photo": [
+        380,
+        380
+      ],
+      "scrollWidth": 420,
+      "status": "3 / 6",
+      "tabRadius": "999px",
+      "textHeight": 380
+    },
+    {
+      "team": true,
+      "width": 390,
+      "name": "Carla",
+      "pageWidth": 421,
+      "photo": [
+        373,
+        373
+      ],
+      "scrollWidth": 421,
+      "status": "4 / 6",
+      "tabRadius": "999px",
+      "textHeight": 373
+    },
+    {
+      "team": true,
+      "width": 390,
+      "name": "Raphaël",
+      "pageWidth": 422,
+      "photo": [
+        374,
+        374
+      ],
+      "scrollWidth": 422,
+      "status": "5 / 6",
+      "tabRadius": "999px",
+      "textHeight": 374
+    },
+    {
+      "team": true,
+      "width": 390,
+      "name": "Margaux",
+      "pageWidth": 422,
+      "photo": [
+        374,
+        374
+      ],
+      "scrollWidth": 422,
+      "status": "6 / 6",
+      "tabRadius": "999px",
+      "textHeight": 374
+    },
+    {
+      "team": true,
+      "width": 768,
+      "name": "Tiffany",
+      "pageWidth": 425,
+      "photo": [
+        377,
+        377
+      ],
+      "scrollWidth": 425,
+      "status": "1 / 6",
+      "tabRadius": "999px",
+      "textHeight": 377
+    },
+    {
+      "team": true,
+      "width": 768,
+      "name": "Emma.L",
+      "pageWidth": 426,
+      "photo": [
+        378,
+        378
+      ],
+      "scrollWidth": 426,
+      "status": "2 / 6",
+      "tabRadius": "999px",
+      "textHeight": 378
+    },
+    {
+      "team": true,
+      "width": 768,
+      "name": "Emma.c",
+      "pageWidth": 427,
+      "photo": [
+        379,
+        379
+      ],
+      "scrollWidth": 427,
+      "status": "3 / 6",
+      "tabRadius": "999px",
+      "textHeight": 379
+    },
+    {
+      "team": true,
+      "width": 768,
+      "name": "Carla",
+      "pageWidth": 428,
+      "photo": [
+        380,
+        380
+      ],
+      "scrollWidth": 428,
+      "status": "4 / 6",
+      "tabRadius": "999px",
+      "textHeight": 380
+    },
+    {
+      "team": true,
+      "width": 768,
+      "name": "Raphaël",
+      "pageWidth": 430,
+      "photo": [
+        382,
+        382
+      ],
+      "scrollWidth": 430,
+      "status": "5 / 6",
+      "tabRadius": "999px",
+      "textHeight": 382
+    },
+    {
+      "team": true,
+      "width": 768,
+      "name": "Margaux",
+      "pageWidth": 430,
+      "photo": [
+        382,
+        382
+      ],
+      "scrollWidth": 430,
+      "status": "6 / 6",
+      "tabRadius": "999px",
+      "textHeight": 382
+    },
+    {
+      "team": true,
+      "width": 1168,
+      "name": "Tiffany",
+      "pageWidth": 434,
+      "photo": [
+        386,
+        386
+      ],
+      "scrollWidth": 434,
+      "status": "1 / 6",
+      "tabRadius": "999px",
+      "textHeight": 386
+    },
+    {
+      "team": true,
+      "width": 1168,
+      "name": "Emma.L",
+      "pageWidth": 435,
+      "photo": [
+        387,
+        387
+      ],
+      "scrollWidth": 435,
+      "status": "2 / 6",
+      "tabRadius": "999px",
+      "textHeight": 387
+    },
+    {
+      "team": true,
+      "width": 1168,
+      "name": "Emma.c",
+      "pageWidth": 436,
+      "photo": [
+        388,
+        388
+      ],
+      "scrollWidth": 436,
+      "status": "3 / 6",
+      "tabRadius": "999px",
+      "textHeight": 388
+    },
+    {
+      "team": true,
+      "width": 1168,
+      "name": "Carla",
+      "pageWidth": 437,
+      "photo": [
+        389,
+        389
+      ],
+      "scrollWidth": 437,
+      "status": "4 / 6",
+      "tabRadius": "999px",
+      "textHeight": 389
+    },
+    {
+      "team": true,
+      "width": 1168,
+      "name": "Raphaël",
+      "pageWidth": 438,
+      "photo": [
+        390,
+        390
+      ],
+      "scrollWidth": 438,
+      "status": "5 / 6",
+      "tabRadius": "999px",
+      "textHeight": 390
+    },
+    {
+      "team": true,
+      "width": 1168,
+      "name": "Margaux",
+      "pageWidth": 439,
+      "photo": [
+        391,
+        391
+      ],
+      "scrollWidth": 439,
+      "status": "6 / 6",
+      "tabRadius": "999px",
+      "textHeight": 391
+    },
+    {
+      "team": true,
+      "width": 1920,
+      "name": "Tiffany",
+      "pageWidth": 442,
+      "photo": [
+        394,
+        394
+      ],
+      "scrollWidth": 442,
+      "status": "1 / 6",
+      "tabRadius": "999px",
+      "textHeight": 394
+    },
+    {
+      "team": true,
+      "width": 1920,
+      "name": "Emma.L",
+      "pageWidth": 443,
+      "photo": [
+        395,
+        395
+      ],
+      "scrollWidth": 443,
+      "status": "2 / 6",
+      "tabRadius": "999px",
+      "textHeight": 395
+    },
+    {
+      "team": true,
+      "width": 1920,
+      "name": "Emma.c",
+      "pageWidth": 444,
+      "photo": [
+        396,
+        396
+      ],
+      "scrollWidth": 444,
+      "status": "3 / 6",
+      "tabRadius": "999px",
+      "textHeight": 396
+    },
+    {
+      "team": true,
+      "width": 1920,
+      "name": "Carla",
+      "pageWidth": 445,
+      "photo": [
+        397,
+        397
+      ],
+      "scrollWidth": 445,
+      "status": "4 / 6",
+      "tabRadius": "999px",
+      "textHeight": 397
+    },
+    {
+      "team": true,
+      "width": 1920,
+      "name": "Raphaël",
+      "pageWidth": 446,
+      "photo": [
+        398,
+        398
+      ],
+      "scrollWidth": 446,
+      "status": "5 / 6",
+      "tabRadius": "999px",
+      "textHeight": 398
+    },
+    {
+      "team": true,
+      "width": 1920,
+      "name": "Margaux",
+      "pageWidth": 446,
+      "photo": [
+        398,
+        398
+      ],
+      "scrollWidth": 446,
+      "status": "6 / 6",
+      "tabRadius": "999px",
+      "textHeight": 398
+    },
+    {
+      "page": "portfolio-mobile",
+      "aligned": true,
+      "overflow": [],
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "page": "portfolio-final-desktop-confirmed",
+      "misaligned": 0,
+      "overflow": 0,
+      "rows": 33,
+      "scrollWidth": 1457,
+      "width": 1457
+    },
+    {
+      "page": "portfolio-final-mobile-confirmed",
+      "misaligned": 0,
+      "overflow": 0,
+      "rows": 33,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "page": "portfolio-cell-alignment-desktop",
+      "misaligned": 0,
+      "overflow": 0,
+      "rows": 33
+    },
+    {
+      "page": "portfolio-cell-alignment-mobile",
+      "misaligned": 0,
+      "overflow": 0,
+      "rows": 33,
+      "scrollWidth": 390
+    }
+  ],
+  "captures": "Still frames: scroll and reveal transitions temporarily frozen for captures; final stylesheet restored."
+}

@@ -43,6 +43,7 @@
     const status = deck.querySelector('[data-deck-status]');
     const next = deck.querySelector('[data-deck-next]');
     const previous = deck.querySelector('[data-deck-prev]');
+    const automatic = deck.hasAttribute('data-autoplay');
     let current = 0;
     const show = (index, animate = true) => {
       stopTyping(deck);
@@ -59,8 +60,36 @@
         status.textContent = slides[current].querySelector('h2').textContent;
         next.setAttribute('aria-label', 'Lire la section suivante : ' + slides[(current + 1) % slides.length].querySelector('h2').textContent);
         if (animate) typeSlide(deck, slides[current]);
-      } else if (status) status.textContent = `${current + 1} / ${slides.length}`;
+      } else {
+        if (status) status.textContent = `${current + 1} / ${slides.length}`;
+        if (automatic && animate) typeSlide(deck, slides[current]);
+      }
     };
+    if (automatic) {
+      let timer, onScreen = false;
+      const update = () => {
+        clearInterval(timer);
+        if (reduced.matches) {
+          stopTyping(deck);
+          deck.classList.remove('enhanced');
+          slides.forEach(slide => { slide.inert = false; slide.removeAttribute('aria-hidden'); });
+          return;
+        }
+        deck.classList.add('enhanced');
+        show(current, false);
+        if (onScreen && !document.hidden) timer = setInterval(() => show(current + 1), Number(deck.dataset.autoplay));
+      };
+      if ('IntersectionObserver' in window) {
+        new IntersectionObserver(entries => {
+          onScreen = entries.some(entry => entry.isIntersecting);
+          update();
+        }, {threshold:0.15}).observe(deck);
+      } else onScreen = true;
+      document.addEventListener('visibilitychange', update);
+      reduced.addEventListener('change', update);
+      update();
+      return;
+    }
     deck.classList.add('enhanced');
     show(0, false);
     tabs.forEach((tab, i) => tab.addEventListener('click', () => show(i)));
