@@ -53,6 +53,7 @@ for key in ['agence','campagne-dinfluence','strategie','evenements','brand-conte
  dest=norm(BeautifulSoup((root/key/'index.html').read_text(),'html.parser').get_text(' ',strip=True))
  for par in src.select('p,li'):
   original=approved(norm(par.get_text(' ',strip=True)))
+  if key=='agence' and par.find_parent(class_='page-header-banner-baseline'):continue # Annotation 17: explicit removal.
   if len(original)>10 and original not in dest:errors.append([key,'missing source paragraph',original[:150]])
 report={'html_pages':len(pages),'projects':len(D['projects']),'team':len(D['team']),'news':0,'approved_changes':['Newsroom removed','Office: 29 rue de Mogador','Agency quote: Christelle, Co-Founder'],'errors':errors}
 (root/'docs/static-validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2));print(json.dumps(report,ensure_ascii=False,indent=2))

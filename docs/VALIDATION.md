@@ -1,25 +1,23 @@
-# Vérifications de la révision
+# Vérification de la révision des annotations
 
-## Structure et fidélité
+## Sources et structure
 
-58 fichiers HTML, dont 49 pages principales et 9 redirections historiques. Le contrôle vérifie un H1, les métadonnées, la langue, les données structurées, les textes alternatifs et les liens / médias locaux. Les 33 études de cas, leurs paragraphes et KPI, les biographies / anecdotes des huit personnes et les textes des expertises, de l’agence, des talents et des pages légales sont comparés aux sources. Les préférences restent dans la page, sur les portraits. Les corrections explicites de l’adresse et de l’attribution sont documentées.
-
-La Newsroom ne génère plus de pages, ne figure dans aucun lien public ni dans le sitemap. Résultat : aucune erreur dans `static-validation.json`.
+58 fichiers HTML : 49 pages principales et neuf redirections historiques. Contrôle du H1, des métadonnées, de la langue, des données structurées, des liens locaux et des textes alternatifs. Les paragraphes / KPI des 33 projets, les biographies / anecdotes / goûts des huit personnes et les contenus institutionnels sont comparés aux sources. La suppression explicite de la baseline Agence est une exception ciblée. Aucun autre paragraphe source n’est omis. Voir static-validation.json.
 
 ## Navigateur
 
-Sept pages principales ont été contrôlées à 375, 768, 1024 et 1440 px : accueil, agence, expertises, équipe, talents, contact et portfolio. Aucun débordement horizontal ni image en échec détecté dans ces vues. Les hauteurs des portraits et des textes sont identiques ; les biographies et les anecdotes tiennent dans les zones prévues, y compris à 375 px. Voir `responsive-checks.json`.
+Onze pages contrôlées à 390 et 1168 px : accueil, agence, expertises, équipe, portfolio et les six expertises détaillées. Les sept descriptions visées ont exactement le même bord gauche que leur titre. Aucun débordement horizontal ni image chargée en échec détecté ; aucune erreur JavaScript remontée dans ces contrôles.
 
-Navigation des decks Agence et Manifeste, ouverture de Brand Content dans l’accordéon, remplacement biographie / anecdote, préférences sur portrait, pause / reprise des bandeaux et fermeture du menu avec Échap vérifiés. Les compteurs ont été observés pendant leur progression puis à leurs valeurs finales exactes. Le formulaire Contact est strictement identique à la version précédente ; son script est inchangé. Aucun message n’a été envoyé.
+Les 33 études de cas ont aussi été contrôlées à 390 px : aucun chiffre animé plus large que sa zone et aucun débordement de page ; Projet suivant existe sur chaque cas. Le filtre Évènements affiche neuf projets et ouvre l’étude de cas sélectionnée. Les KPI ont été observés en progression puis dans leur format final.
 
-La syntaxe des six fichiers JavaScript est valide. Les 27 vidéos sont inchangées ; la validation précédente de leur première image et de l’index MP4 reste applicable.
+Les sept portraits et blocs de texte ont des hauteurs identiques ; les photos sont carrées à 375, 390, 768, 1168 et 1920 px. Les textes longs défilent sur mobile sans réduire le corps. Navigation par noms, flèches et clavier, révélation des goûts, fermeture du menu et flèche institutionnelle vérifiées. La frappe se termine puis retire son clone visuel. Les slides inactifs portent aria-hidden et inert dans le navigateur ; leurs contenus restent disponibles au repli sans script.
 
-## Accessibilité et performance
+Les logos ont été contrôlés sous la souris : filtre grayscale(1) conservé, deux animations toujours running. Les suppressions demandées ne laissent aucun ancien bouton dans les sections concernées. Les trois KPI d’accueil utilisent rgb(255, 71, 31). La signature de la citation utilise Instrument Serif et les images ciblées ont un rayon de 24 px à 1168 px, 20 px sur mobile.
 
-Commandes visibles de carrousel, focus, états ARIA, slides inactifs retirés de la navigation clavier, accordéon natif, contrôle du mouvement des logos, chiffres finaux disponibles aux lecteurs d’écran. Les règles de mouvement réduit ont été vérifiées dans le code ; aucune émulation système ni certification RGAA n’est revendiquée. Le repli sans JavaScript rend les contenus consultables.
+Les résultats et relevés sont archivés dans round3-browser-checks.json. Les captures de la nouvelle composition sont dans previews/.
 
-169 médias principaux utilisés, environ 362.72 Mo avant optimisation et 99.76 Mo après optimisation. Ce total représente l’ensemble du portfolio. Images responsive, dimensions réservées, vidéos chargées volontairement et polices locales sont conservées. Aucune dépendance JavaScript tierce n’est ajoutée. Aucun score Lighthouse n’est prétendu.
+## Limites et livraison
 
-## Livraison et hébergement
+Les règles de mouvement réduit et le repli sans script sont contrôlés dans le code ; aucune certification d’accessibilité ni score Lighthouse n’est revendiqué. Les 27 vidéos et le script Contact sont inchangés ; leur validation précédente reste applicable. Aucun formulaire n’a été envoyé.
 
-Le dépôt contient tous les médias utilisés et le workflow GitHub Pages. L’activation du service Pages reste nécessaire dans les paramètres GitHub ; une validation du code ne confirme pas une publication. Le formulaire dépend du serveur Anekdote existant pour son envoi, sans dépendance au Drive. Les références historiques aux prestataires dans les textes légaux restent à adapter lors du remplacement de la production.
+Les données manquantes de deux projets sont signalées, sans résultats fictifs. Le code, les médias et les polices sont autonomes, avec un workflow de vérification et de préparation GitHub Pages. L’activation de Pages dans GitHub reste nécessaire : un build réussi ne confirme pas une publication.

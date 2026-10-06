@@ -1,0 +1,912 @@
+{
+  "pages": [
+    {
+      "path": "",
+      "width": 1168,
+      "result": {
+        "brokenImages": [],
+        "controls": 0,
+        "h1": "Anekdote.",
+        "leadOffset": null,
+        "profileHeights": [],
+        "projects": 0,
+        "scroll": 1168,
+        "width": 1168
+      },
+      "errors": []
+    },
+    {
+      "path": "agence",
+      "width": 1168,
+      "result": {
+        "brokenImages": [],
+        "controls": 1,
+        "h1": "L’agence.",
+        "leadOffset": null,
+        "profileHeights": [],
+        "projects": 0,
+        "scroll": 1168,
+        "width": 1168
+      },
+      "errors": []
+    },
+    {
+      "path": "expertises",
+      "width": 1168,
+      "result": {
+        "brokenImages": [],
+        "controls": 0,
+        "h1": "L’idée.Puis l’action.",
+        "leadOffset": null,
+        "profileHeights": [],
+        "projects": 0,
+        "scroll": 1168,
+        "width": 1168
+      },
+      "errors": []
+    },
+    {
+      "path": "equipe",
+      "width": 1168,
+      "result": {
+        "brokenImages": [],
+        "controls": 0,
+        "h1": "L’équipe Anekdote.",
+        "leadOffset": null,
+        "profileHeights": [
+          {
+            "h": 499.8984375,
+            "paragraphs": 1,
+            "text": 499.8984375,
+            "w": 499.8984375
+          },
+          {
+            "h": 499.8984375,
+            "paragraphs": 1,
+            "text": 499.8984375,
+            "w": 499.8984375
+          },
+          {
+            "h": 499.8984375,
+            "paragraphs": 1,
+            "text": 499.8984375,
+            "w": 499.8984375
+          },
+          {
+            "h": 499.8984375,
+            "paragraphs": 1,
+            "text": 499.8984375,
+            "w": 499.8984375
+          },
+          {
+            "h": 499.8984375,
+            "paragraphs": 1,
+            "text": 499.8984375,
+            "w": 499.8984375
+          },
+          {
+            "h": 499.8984375,
+            "paragraphs": 1,
+            "text": 499.8984375,
+            "w": 499.8984375
+          },
+          {
+            "h": 499.8984375,
+            "paragraphs": 1,
+            "text": 499.8984375,
+            "w": 499.8984375
+          }
+        ],
+        "projects": 0,
+        "scroll": 1168,
+        "width": 1168
+      },
+      "errors": []
+    },
+    {
+      "path": "hub-projets",
+      "width": 1168,
+      "result": {
+        "brokenImages": [],
+        "controls": 0,
+        "h1": "Nos projets.",
+        "leadOffset": 0,
+        "profileHeights": [],
+        "projects": 33,
+        "scroll": 1168,
+        "width": 1168
+      },
+      "errors": []
+    },
+    {
+      "path": "strategie",
+      "width": 1168,
+      "result": {
+        "brokenImages": [],
+        "controls": 0,
+        "h1": "Stratégie.",
+        "leadOffset": 0,
+        "profileHeights": [],
+        "projects": 0,
+        "scroll": 1168,
+        "width": 1168
+      },
+      "errors": []
+    },
+    {
+      "path": "campagne-dinfluence",
+      "width": 1168,
+      "result": {
+        "brokenImages": [],
+        "controls": 0,
+        "h1": "Campagne d'influence.",
+        "leadOffset": 0,
+        "profileHeights": [],
+        "projects": 0,
+        "scroll": 1168,
+        "width": 1168
+      },
+      "errors": []
+    },
+    {
+      "path": "evenements",
+      "width": 1168,
+      "result": {
+        "brokenImages": [],
+        "controls": 0,
+        "h1": "Évènements.",
+        "leadOffset": 0,
+        "profileHeights": [],
+        "projects": 0,
+        "scroll": 1168,
+        "width": 1168
+      },
+      "errors": []
+    },
+    {
+      "path": "brand-content",
+      "width": 1168,
+      "result": {
+        "brokenImages": [],
+        "controls": 0,
+        "h1": "Brand content.",
+        "leadOffset": 0,
+        "profileHeights": [],
+        "projects": 0,
+        "scroll": 1168,
+        "width": 1168
+      },
+      "errors": []
+    },
+    {
+      "path": "rse-corporate",
+      "width": 1168,
+      "result": {
+        "brokenImages": [],
+        "controls": 0,
+        "h1": "RSE CORPORATE.",
+        "leadOffset": 0,
+        "profileHeights": [],
+        "projects": 0,
+        "scroll": 1168,
+        "width": 1168
+      },
+      "errors": []
+    },
+    {
+      "path": "performance-affiliation",
+      "width": 1168,
+      "result": {
+        "brokenImages": [],
+        "controls": 0,
+        "h1": "Solar Metrics.",
+        "leadOffset": 0,
+        "profileHeights": [],
+        "projects": 0,
+        "scroll": 1168,
+        "width": 1168
+      },
+      "errors": []
+    },
+    {
+      "path": "",
+      "width": 390,
+      "result": {
+        "brokenImages": [],
+        "controls": 0,
+        "h1": "Anekdote.",
+        "leadOffset": null,
+        "profileHeights": [],
+        "projects": 0,
+        "scroll": 390,
+        "width": 390
+      },
+      "errors": []
+    },
+    {
+      "path": "agence",
+      "width": 390,
+      "result": {
+        "brokenImages": [],
+        "controls": 1,
+        "h1": "L’agence.",
+        "leadOffset": null,
+        "profileHeights": [],
+        "projects": 0,
+        "scroll": 390,
+        "width": 390
+      },
+      "errors": []
+    },
+    {
+      "path": "expertises",
+      "width": 390,
+      "result": {
+        "brokenImages": [],
+        "controls": 0,
+        "h1": "L’idée.Puis l’action.",
+        "leadOffset": null,
+        "profileHeights": [],
+        "projects": 0,
+        "scroll": 390,
+        "width": 390
+      },
+      "errors": []
+    },
+    {
+      "path": "equipe",
+      "width": 390,
+      "result": {
+        "brokenImages": [],
+        "controls": 0,
+        "h1": "L’équipe Anekdote.",
+        "leadOffset": null,
+        "profileHeights": [
+          {
+            "h": 350,
+            "paragraphs": 1,
+            "text": 350,
+            "w": 350
+          },
+          {
+            "h": 350,
+            "paragraphs": 1,
+            "text": 350,
+            "w": 350
+          },
+          {
+            "h": 350,
+            "paragraphs": 1,
+            "text": 350,
+            "w": 350
+          },
+          {
+            "h": 350,
+            "paragraphs": 1,
+            "text": 350,
+            "w": 350
+          },
+          {
+            "h": 350,
+            "paragraphs": 1,
+            "text": 350,
+            "w": 350
+          },
+          {
+            "h": 350,
+            "paragraphs": 1,
+            "text": 350,
+            "w": 350
+          },
+          {
+            "h": 350,
+            "paragraphs": 1,
+            "text": 350,
+            "w": 350
+          }
+        ],
+        "projects": 0,
+        "scroll": 390,
+        "width": 390
+      },
+      "errors": []
+    },
+    {
+      "path": "hub-projets",
+      "width": 390,
+      "result": {
+        "brokenImages": [],
+        "controls": 0,
+        "h1": "Nos projets.",
+        "leadOffset": 0,
+        "profileHeights": [],
+        "projects": 33,
+        "scroll": 390,
+        "width": 390
+      },
+      "errors": []
+    },
+    {
+      "path": "strategie",
+      "width": 390,
+      "result": {
+        "brokenImages": [],
+        "controls": 0,
+        "h1": "Stratégie.",
+        "leadOffset": 0,
+        "profileHeights": [],
+        "projects": 0,
+        "scroll": 390,
+        "width": 390
+      },
+      "errors": []
+    },
+    {
+      "path": "campagne-dinfluence",
+      "width": 390,
+      "result": {
+        "brokenImages": [],
+        "controls": 0,
+        "h1": "Campagne d'influence.",
+        "leadOffset": 0,
+        "profileHeights": [],
+        "projects": 0,
+        "scroll": 390,
+        "width": 390
+      },
+      "errors": []
+    },
+    {
+      "path": "evenements",
+      "width": 390,
+      "result": {
+        "brokenImages": [],
+        "controls": 0,
+        "h1": "Évènements.",
+        "leadOffset": 0,
+        "profileHeights": [],
+        "projects": 0,
+        "scroll": 390,
+        "width": 390
+      },
+      "errors": []
+    },
+    {
+      "path": "brand-content",
+      "width": 390,
+      "result": {
+        "brokenImages": [],
+        "controls": 0,
+        "h1": "Brand content.",
+        "leadOffset": 0,
+        "profileHeights": [],
+        "projects": 0,
+        "scroll": 390,
+        "width": 390
+      },
+      "errors": []
+    },
+    {
+      "path": "rse-corporate",
+      "width": 390,
+      "result": {
+        "brokenImages": [],
+        "controls": 0,
+        "h1": "RSE CORPORATE.",
+        "leadOffset": 0,
+        "profileHeights": [],
+        "projects": 0,
+        "scroll": 390,
+        "width": 390
+      },
+      "errors": []
+    },
+    {
+      "path": "performance-affiliation",
+      "width": 390,
+      "result": {
+        "brokenImages": [],
+        "controls": 0,
+        "h1": "Solar Metrics.",
+        "leadOffset": 0,
+        "profileHeights": [],
+        "projects": 0,
+        "scroll": 390,
+        "width": 390
+      },
+      "errors": []
+    }
+  ],
+  "cases": [
+    {
+      "path": "biocyte-x-solar-metrics-influence-affiliation",
+      "counters": 4,
+      "next": true,
+      "overwide": [],
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "path": "lancement-k-biocyte-event-influence",
+      "counters": 4,
+      "next": true,
+      "overwide": [],
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "path": "campagne-dinfluence-poderm-juin-aout-2026-strategie-de-test-learn-et-optimisation-du-casting-createurs",
+      "counters": 3,
+      "next": true,
+      "overwide": [],
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "path": "concert-aya-nakamura-x-ghd-x-juliette-has-a-gun",
+      "counters": 4,
+      "next": true,
+      "overwide": [],
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "path": "__trashed",
+      "counters": 4,
+      "next": true,
+      "overwide": [],
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "path": "et-si-le-culot-sinvitait-au-festival-de-cannes",
+      "counters": 4,
+      "next": true,
+      "overwide": [],
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "path": "festival-de-cannes-x-soskin",
+      "counters": 4,
+      "next": true,
+      "overwide": [],
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "path": "festival-de-cannes-x-bijou-brijitte",
+      "counters": 4,
+      "next": true,
+      "overwide": [],
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "path": "festival-de-cannes-x-meganvlt-x-aroma-zone",
+      "counters": 4,
+      "next": true,
+      "overwide": [],
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "path": "1-million-de-gourmands-ca-se-fete",
+      "counters": 4,
+      "next": true,
+      "overwide": [],
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "path": "skincarebysamy-x-yves-rocher",
+      "counters": 0,
+      "next": true,
+      "overwide": [],
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "path": "anniversaire-30-ans-jujufitcats",
+      "counters": 4,
+      "next": true,
+      "overwide": [],
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "path": "bnp-paribas",
+      "counters": 4,
+      "next": true,
+      "overwide": [],
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "path": "event-tiktok-x-aroma-zone",
+      "counters": 4,
+      "next": true,
+      "overwide": [],
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "path": "vichy-feat-jujufitcat",
+      "counters": 3,
+      "next": true,
+      "overwide": [],
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "path": "benefit-feat-marcus",
+      "counters": 4,
+      "next": true,
+      "overwide": [],
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "path": "lassie-x-multi-talents",
+      "counters": 4,
+      "next": true,
+      "overwide": [],
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "path": "paysan-breton-x-createurs-ugc",
+      "counters": 4,
+      "next": true,
+      "overwide": [],
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "path": "portage-vichy",
+      "counters": 4,
+      "next": true,
+      "overwide": [],
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "path": "pinterest",
+      "counters": 4,
+      "next": true,
+      "overwide": [],
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "path": "strategie-tiktok-x-dyson",
+      "counters": 4,
+      "next": true,
+      "overwide": [],
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "path": "yves-rocher-2",
+      "counters": 4,
+      "next": true,
+      "overwide": [],
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "path": "mr-moustache-x-multi-talents",
+      "counters": 4,
+      "next": true,
+      "overwide": [],
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "path": "loreal-luxe-x-my-origines",
+      "counters": 0,
+      "next": true,
+      "overwide": [],
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "path": "milka-x-natoo",
+      "counters": 3,
+      "next": true,
+      "overwide": [],
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "path": "etam-x-jujufitcat",
+      "counters": 3,
+      "next": true,
+      "overwide": [],
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "path": "courir-x-lena-situations",
+      "counters": 3,
+      "next": true,
+      "overwide": [],
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "path": "strategie-tiktok-x-oh-my-cream",
+      "counters": 4,
+      "next": true,
+      "overwide": [],
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "path": "savage-fenty-x-jujufitcat",
+      "counters": 4,
+      "next": true,
+      "overwide": [],
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "path": "air-up-x-jujufitcat",
+      "counters": 2,
+      "next": true,
+      "overwide": [],
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "path": "sephora-x-les-eclaireuses",
+      "counters": 3,
+      "next": true,
+      "overwide": [],
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "path": "carrefour-x-multi-talents",
+      "counters": 3,
+      "next": true,
+      "overwide": [],
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "path": "strategie-tiktok-x-choose",
+      "counters": 4,
+      "next": true,
+      "overwide": [],
+      "scroll": 390,
+      "width": 390
+    }
+  ],
+  "containerChecks": [
+    {
+      "width": 375,
+      "client": 375,
+      "photo": [
+        {
+          "h": 335,
+          "w": 335
+        },
+        {
+          "h": 335,
+          "w": 335
+        },
+        {
+          "h": 335,
+          "w": 335
+        },
+        {
+          "h": 335,
+          "w": 335
+        },
+        {
+          "h": 335,
+          "w": 335
+        },
+        {
+          "h": 335,
+          "w": 335
+        },
+        {
+          "h": 335,
+          "w": 335
+        }
+      ],
+      "scroll": 375,
+      "text": [
+        335,
+        335,
+        335,
+        335,
+        335,
+        335,
+        335
+      ]
+    },
+    {
+      "width": 768,
+      "client": 768,
+      "photo": [
+        {
+          "h": 720,
+          "w": 720
+        },
+        {
+          "h": 720,
+          "w": 720
+        },
+        {
+          "h": 720,
+          "w": 720
+        },
+        {
+          "h": 720,
+          "w": 720
+        },
+        {
+          "h": 720,
+          "w": 720
+        },
+        {
+          "h": 720,
+          "w": 720
+        },
+        {
+          "h": 720,
+          "w": 720
+        }
+      ],
+      "scroll": 768,
+      "text": [
+        720,
+        720,
+        720,
+        720,
+        720,
+        720,
+        720
+      ]
+    },
+    {
+      "width": 1920,
+      "client": 1920,
+      "photo": [
+        {
+          "h": 830,
+          "w": 830
+        },
+        {
+          "h": 830,
+          "w": 830
+        },
+        {
+          "h": 830,
+          "w": 830
+        },
+        {
+          "h": 830,
+          "w": 830
+        },
+        {
+          "h": 830,
+          "w": 830
+        },
+        {
+          "h": 830,
+          "w": 830
+        },
+        {
+          "h": 830,
+          "w": 830
+        }
+      ],
+      "scroll": 1920,
+      "text": [
+        830,
+        830,
+        830,
+        830,
+        830,
+        830,
+        830
+      ]
+    }
+  ],
+  "home": {
+    "heroRadius": "24px",
+    "kpiColors": [
+      "rgb(255, 71, 31)",
+      "rgb(255, 71, 31)",
+      "rgb(255, 71, 31)"
+    ],
+    "logoFilters": [
+      "grayscale(1)",
+      "grayscale(1)",
+      "grayscale(1)",
+      "grayscale(1)",
+      "grayscale(1)",
+      "grayscale(1)",
+      "grayscale(1)",
+      "grayscale(1)",
+      "grayscale(1)",
+      "grayscale(1)",
+      "grayscale(1)",
+      "grayscale(1)",
+      "grayscale(1)",
+      "grayscale(1)",
+      "grayscale(1)",
+      "grayscale(1)",
+      "grayscale(1)",
+      "grayscale(1)",
+      "grayscale(1)",
+      "grayscale(1)",
+      "grayscale(1)",
+      "grayscale(1)",
+      "grayscale(1)",
+      "grayscale(1)",
+      "grayscale(1)",
+      "grayscale(1)",
+      "grayscale(1)",
+      "grayscale(1)",
+      "grayscale(1)",
+      "grayscale(1)",
+      "grayscale(1)",
+      "grayscale(1)",
+      "grayscale(1)",
+      "grayscale(1)",
+      "grayscale(1)",
+      "grayscale(1)",
+      "grayscale(1)",
+      "grayscale(1)",
+      "grayscale(1)",
+      "grayscale(1)",
+      "grayscale(1)",
+      "grayscale(1)"
+    ],
+    "photoFilter": "grayscale(1)",
+    "playStates": [
+      "running",
+      "running"
+    ],
+    "removedControls": 0
+  },
+  "carousel": {
+    "active": "Raphaël",
+    "controls": 9,
+    "inert": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    "portrait": "grayscale(1)",
+    "shape": {
+      "bottom": 362.03125,
+      "height": 499.8984375,
+      "left": 49.0546875,
+      "right": 548.953125,
+      "top": -137.8671875,
+      "width": 499.8984375,
+      "x": 49.0546875,
+      "y": -137.8671875
+    },
+    "text": {
+      "bottom": 362.03125,
+      "height": 499.8984375,
+      "left": 619.0390625,
+      "right": 1118.9453125,
+      "top": -137.8671875,
+      "width": 499.90625,
+      "x": 619.0390625,
+      "y": -137.8671875
+    }
+  }
+}

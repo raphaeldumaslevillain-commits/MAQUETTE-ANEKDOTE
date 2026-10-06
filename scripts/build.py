@@ -61,14 +61,35 @@ def section_top(n,title,end='Anekdote'):
 def media_video(source,title):
  info=MAP[source];poster=info.get('poster');
  return '<figure class="media-frame video-figure">'+f'<video controls playsinline preload="none" data-lazy-video aria-label="{esc(title)}"'+(f' poster="{esc(localpath(poster))}"' if poster else '')+f'><source src="{esc(asset(source))}" type="video/mp4">Votre navigateur ne prend pas en charge les vidéos. <a href="{esc(asset(source))}">Télécharger la vidéo</a></video></figure>'
+def counter(value):
+ # Animate the numeric part only; preserve the exact published final value and units.
+ m=re.fullmatch(r'([^0-9]*)([0-9]+(?:[ \u00a0][0-9]{3})*(?:[.,][0-9]+)?)(.*)',value)
+ if not m or m.group(1)=='N°':return esc(value)
+ prefix,n,suffix=m.groups();separator=',' if ',' in n else ('.' if '.' in n else ' ')
+ decimals=len(re.split('[.,]',n)[-1]) if ',' in n or '.' in n else 0
+ number=float(n.replace(' ','').replace('\u00a0','').replace(',','.'))
+ return '<span class="sr-only">'+esc(value)+'</span><span aria-hidden="true" data-count="'+str(number)+'" data-decimals="'+str(decimals)+'" data-prefix="'+esc(prefix)+'" data-suffix="'+esc(suffix)+'" data-separator="'+separator+'">'+esc(value)+'</span>'
+
 def project_item(p,i=0,attrs=False):
- cats=' / '.join(p['categories']);stat=p['kpis'][0] if p['kpis'] else None
+ cats=' / '.join(p['categories']);stats=p['kpis']
  if 'Stratégie Tiktok x ' in p['title']:
   client=p['title'].split('Stratégie Tiktok x ')[-1]
-  stat=next((k for k in p['kpis'] if client.lower() in k['label'].lower()),stat)
- return f'<article class="project-item reveal"'+(f' data-project data-categories="{esc(json.dumps(p["categories"],ensure_ascii=False))}"' if attrs else '')+'>'+f'<a href="{esc(url(p["path"]))}"><div class="media-frame">{picture(p["thumbnail"],p["title"],sizes="(max-width: 800px) 100vw, 50vw")}</div><h3>{esc(p["title"])}</h3><div class="project-meta"><span>{esc(cats)}</span><span>{i+1:02d} •</span></div>'+ (f'<p class="inline-stat">{esc(stat["value"])} {esc(stat["label"])}</p>' if stat else '')+'</a></article>'
-def hero_intro(title,kicker,description='',serif=False):
- return f'<section class="page-intro"><p class="eyebrow">{kicker}</p><h1 class="display{ " serif" if serif else ""}">{title}</h1>'+ (f'<p class="lead">{description}</p>' if description else '')+'</section>'
+  selected=[k for k in stats if client.lower() in k['label'].lower()]
+  stats=selected or stats
+ if not attrs:
+  stat=stats[0] if stats else None
+  return '<article class="project-item reveal"><a href="'+esc(url(p['path']))+'"><div class="media-frame">'+picture(p['thumbnail'],p['title'],sizes="(max-width: 800px) 100vw, 50vw")+'</div><h3>'+esc(p['title'])+'</h3><div class="project-meta"><span>'+esc(cats)+'</span><span>'+str(i+1).zfill(2)+' •</span></div>'+(('<p class="inline-stat">'+esc(stat['value'])+' '+esc(stat['label'])+'</p>') if stat else '')+'</a></article>'
+ description=p['description']
+ if not description:
+  paragraphs=[text(x) for sec in p['sections'] if sec['title']!='Les résultats' for x in BeautifulSoup(sec['html'],'html.parser').select('p') if text(x)]
+  description=paragraphs[0] if paragraphs else p['h1']
+ h='<article class="project-row reveal" data-project data-categories="'+esc(json.dumps(p['categories'],ensure_ascii=False))+'"><a class="project-row-link" href="'+esc(url(p['path']))+'" aria-label="'+esc('Découvrir le projet '+p['title'])+'"><div class="project-row-photo media-frame">'+picture(p['thumbnail'],p['title'],sizes="(max-width: 800px) 100vw, 42vw")+'<span class="project-photo-arrow" aria-hidden="true">↗</span></div><div class="project-row-copy"><div class="project-row-top"><span class="eyebrow">'+str(i+1).zfill(2)+' • '+esc(cats)+'</span><span class="project-row-arrow" aria-hidden="true">↗</span></div><h2>'+esc(p['title'])+'</h2><p class="project-description">'+esc(description)+'</p><dl class="project-row-kpis">'
+ for k in stats:
+  if k['value'] and k['label']:h+='<div><dt>'+esc(k['label'])+'</dt><dd>'+counter(k['value'])+'</dd></div>'
+ return h+'</dl>'+('<p class="project-results-unpublished">Résultats chiffrés non publiés.</p>' if not stats else '')+'<span class="project-discover">Voir le projet <span aria-hidden="true">→</span></span></div></a></article>'
+
+def hero_intro(title,kicker,description='',serif=False,cls=''):
+ return f'<section class="page-intro {cls}"><p class="eyebrow">{kicker}</p><h1 class="display{ " serif" if serif else ""}">{title}</h1>'+ (f'<p class="lead">{description}</p>' if description else '')+'</section>'
 def header(active):
  nav=[('Agence','agence'),('Projets','hub-projets'),('Expertises','expertises'),('Équipe','equipe')]
  h='<a class="skip-link" href="#main">Aller au contenu</a><div class="reading-progress" aria-hidden="true"></div><header class="site-header"><a class="logo" href="'+url()+'" aria-label="Anekdote, accueil"><img src="'+asset(BASE+'/wp-content/uploads/2023/11/logo-anekdote.svg')+'" alt="Anekdote" width="145" height="34"></a><nav class="desktop-nav" aria-label="Navigation principale">'
@@ -102,11 +123,12 @@ def write(path,body,title,description,active='',schema=None):
  dest=ROOT/path;dest.parent.mkdir(parents=True,exist_ok=True);dest.write_text(output);route_manifest.append({'path':path,'source':canonical,'title':title})
 
 
-def deck(slides,label,cls=''):
+def deck(slides,label,cls='',next_only=False):
  # Content is readable without JavaScript. Inert inactive slides are added on enhancement.
  h='<div class="deck '+cls+'" data-deck role="region" aria-roledescription="carrousel" aria-label="'+esc(label)+'"><div class="deck-stage">'
  for i,(title,body) in enumerate(slides):
   h+='<article class="deck-slide'+(' active' if i==0 else '')+'" data-slide role="group" aria-label="'+str(i+1)+' sur '+str(len(slides))+'"><p class="eyebrow deck-label">'+str(i+1).zfill(2)+' • '+esc(title)+'</p>'+body+'</article>'
+ if next_only:return h+'</div><div class="deck-controls deck-next-only"><span class="sr-only" aria-live="polite" aria-atomic="true" data-deck-status>'+esc(slides[0][0])+'</span><button type="button" data-deck-next aria-label="Lire la section suivante">→</button></div></div>'
  h+='</div><div class="deck-controls"><div class="deck-tabs" aria-label="Choisir une page">'
  for i,(title,body) in enumerate(slides):
   h+='<button type="button" data-deck-go="'+str(i)+'" aria-label="'+esc(title)+', page '+str(i+1)+'" aria-pressed="'+('true' if i==0 else 'false')+'">'+str(i+1).zfill(2)+'</button>'
@@ -125,7 +147,7 @@ def client_marquees():
  for im in ho.select('#content img'):
   u=im.get('src','')
   if 'logo-' in u and u not in sources and 'anekdote' not in u.split('/')[-1] and 'arpp' not in u:sources.append(u)
- h='<div class="marquee" data-marquee><div class="marquee-controls"><span class="eyebrow">Ils nous font confiance</span><button type="button" data-marquee-toggle aria-pressed="false">Pause <span aria-hidden="true">Ⅱ</span></button></div>'
+ h='<div class="marquee" data-marquee><div class="marquee-controls"><span class="eyebrow">Ils nous font confiance</span></div>'
  for i,group in enumerate([sources[::2],sources[1::2]]):
   h+='<div class="marquee-row'+(' reverse' if i else '')+'"><div class="marquee-track">'
   for copy in range(2):
@@ -160,13 +182,13 @@ def bio_chunks(content,limit=530):
  return chunks
 
 def home():
- global page;page='index.html';ag=soup('agence');ho=soup('');showreel=ho.select_one('source')['src'];ghd=DATA['projects'][3]
+ global page;page='index.html';ag=soup('agence');ho=soup('');ghd=DATA['projects'][3]
  b='<section class="masthead"><div class="masthead-meta"><p class="eyebrow">Agence de conseil<br>Marketing d’influence & Brand Content</p></div><h1 class="wordmark" aria-label="Anekdote">Anek<span class="italic">dote</span><span class="dot">.</span></h1></section>'
- b+='<section class="company-stage">'+picture(bg(ag.select_one('.page-header-banner-container')),'L’équipe Anekdote dans un escalier parisien',eager=True)+'<div class="company-overlay"><p class="eyebrow">01 • Enchanté !</p><h2>Nous créons<br>vos <span class="italic">campagnes.</span></h2><div class="company-actions">'+link('L’agence','agence')+'<button type="button" class="film-link" data-video-open="'+asset(showreel)+'" data-title="Le film Anekdote">Le film <span aria-hidden="true">▷</span></button></div></div></section>'
+ b+='<section class="company-stage">'+picture(bg(ag.select_one('.page-header-banner-container')),'L’équipe Anekdote dans un escalier parisien',eager=True)+'<div class="company-overlay"><p class="eyebrow">01 • Enchanté !</p><h2>Nous créons<br>vos <span class="italic">campagnes.</span></h2></div></section>'
  b+='<section class="section home-services"><div class="home-services-heading"><div><p class="eyebrow">02 • Nos expertises</p><h2 class="section-title">L’idée.<br><span class="italic">Puis l’action.</span></h2></div><p class="lead">Nous créons vos campagnes pour accélérer votre notoriété et optimiser votre conversion.</p></div>'+accordion('home-accordion')+'</section>'
  b+='<section class="section clients"><div class="client-intro"><h2>Nous vous adorons,<br><span class="italic">c’est réciproque.</span></h2><p>Nous avons plus de 50 partenaires qui nous font confiance dans la beauté, la mode, la tech/app, la food et le retail.</p></div>'+client_marquees()+'</section>'
- b+='<section class="section home-agency"><div class="home-agency-photo media-frame reveal">'+picture(BASE+'/wp-content/uploads/2024/09/Design-sans-titre-3.png','Un moment partagé par l’équipe Anekdote')+'</div><div class="home-agency-copy"><p class="eyebrow">03 • L’esprit d’équipe</p><h2 class="section-title">Une équipe<br><span class="italic">passionnée.</span></h2><p class="lead">L’échange est notre moteur, le partage est notre super-force, et la positivité est notre arme secrète.</p><div class="home-agency-links">'+link('Rencontrer l’équipe','equipe')+link('Notre histoire','agence')+'</div></div></section>'
- b+='<section class="section proof"><div class="proof-copy"><p class="eyebrow">04 • Les résultats</p><h2 class="section-title">La créativité.<br><span class="italic">Et son impact.</span></h2><p>Une équipe passionnée pour des campagnes sur-mesure et performantes.</p>'+link('Découvrir nos projets','hub-projets')+'</div><div class="proof-kpis">'
+ b+='<section class="section home-agency"><div class="home-agency-photo media-frame reveal">'+picture(BASE+'/wp-content/uploads/2024/09/Design-sans-titre-3.png','Un moment partagé par l’équipe Anekdote')+'</div><div class="home-agency-copy"><p class="eyebrow">03 • L’esprit d’équipe</p><h2 class="section-title">Une équipe<br><span class="italic">passionnée.</span></h2><p class="lead">L’échange est notre moteur, le partage est notre super-force, et la positivité est notre arme secrète.</p></div></section>'
+ b+='<section class="section proof"><div class="proof-copy"><p class="eyebrow">04 • Les résultats</p><h2 class="section-title">La créativité.<br><span class="italic">Et son impact.</span></h2><p>Une équipe passionnée pour des campagnes sur-mesure et performantes.</p></div><div class="proof-kpis">'
  for v,l,p,number,decimals,suffix,separator in [('7.2M','de vues au total',ghd,7.2,1,'M','.'),('1,73 M','de reach',DATA['projects'][1],1.73,2,' M',','),('31 377','clics sur lien',DATA['projects'][0],31377,0,'',' ')]:
   b+='<a class="proof-row" href="'+url(p['path'])+'"><strong><span class="sr-only">'+v+'</span><span aria-hidden="true" data-count="'+str(number)+'" data-decimals="'+str(decimals)+'" data-suffix="'+suffix+'" data-separator="'+separator+'">'+v+'</span></strong><p>'+l+'<span>'+esc(p['title'])+'</span></p></a>'
  b+='</div></section>'
@@ -174,7 +196,7 @@ def home():
 
 def agency():
  global page;page='agence/index.html';s=soup('agence');m=s.select_one('#content');sections={text(h):h.parent for h in m.select('h2')}
- b='<section class="agency-intro page-intro"><p class="eyebrow">01 • Anekdote</p><div class="editorial-heading"><h1 class="display">L’<span class="italic">agence.</span></h1><p class="lead">'+esc(text(s.select_one('.page-header-banner-baseline')))+'</p></div></section>'
+ b='<section class="agency-intro page-intro"><p class="eyebrow">01 • Anekdote</p><div class="editorial-heading"><h1 class="display">L’<span class="italic">agence.</span></h1></div></section>'
  slides=[]
  for title in ['Notre histoire','Notre raison d’être','Nos engagements']:
   node=sections[title];paras=node.select('p');chunks=[];group=[];length=0
@@ -185,17 +207,16 @@ def agency():
    if chunks and sum(len(text(x)) for x in group)<100:chunks[-1].extend(group)
    else:chunks.append(group)
   for chunk in chunks:slides.append((title,'<h2>'+esc(title)+'</h2><div class="prose">'+clean(''.join(str(x) for x in chunk))+'</div>'))
- b+='<section class="agency-about wrap"><div class="agency-photo media-frame">'+picture(bg(s.select_one('.page-header-banner-container')),'L’équipe Anekdote',eager=True)+'</div>'+deck(slides,'L’histoire et les engagements Anekdote','agency-deck')+'</section>'
- q=sections['Pourquoi Anekdote ?'];paras=q.select('p');b+='<section class="agency-quote"><div><p class="eyebrow">02 • Pourquoi Anekdote ?</p><span class="quote-glyph" aria-hidden="true">“</span></div><blockquote>'+''.join(clean(str(x)) for x in paras[:2])+'<footer>Christelle, Co-Founder</footer></blockquote></section>'
+ b+='<section class="agency-about wrap"><div class="agency-photo media-frame">'+picture(bg(s.select_one('.page-header-banner-container')),'L’équipe Anekdote',eager=True)+'</div>'+deck(slides,'L’histoire et les engagements Anekdote','agency-deck',True)+'</section>'
+ q=sections['Pourquoi Anekdote ?'];paras=q.select('p');b+='<section class="agency-quote"><div><p class="eyebrow">02 • Pourquoi Anekdote ?</p></div><blockquote>'+''.join(clean(str(x)) for x in paras[:2])+'<footer>Christelle, Co-Founder</footer></blockquote></section>'
  manifest=sections['Manifeste'];slides=[]
  for item in manifest.select('.agence-manifeste-text'):
   h=item.select_one('h3');copy=item.select_one('p');slides.append(('Manifeste','<h3>'+esc(text(h))+'</h3><p>'+esc(text(copy))+'</p>'))
  b+='<section class="manifest-section section"><div class="manifest-heading"><p class="eyebrow">03 • Notre manifeste</p><h2>Ce qui nous<br><span class="italic">anime.</span></h2></div>'+deck(slides,'Le manifeste Anekdote','manifest-deck')+'</section>'
- b+='<div class="agency-outro wrap">'+link('Notre équipe','equipe')+link('Nos engagements','rse-corporate')+'</div>'
  write(page,b,PAGES[BASE+'/agence/']['title'],PAGES[BASE+'/agence/']['description'],'agence')
 
 def portfolio():
- global page;page='hub-projets/index.html';s=soup('hub-projets');b=hero_intro('Nos <span class="italic">projets.</span>','02 • Nos expertises en action',text(s.select_one('.page-header-banner-baseline')))
+ global page;page='hub-projets/index.html';s=soup('hub-projets');b=hero_intro('Nos <span class="italic">projets.</span>','02 • Nos expertises en action',text(s.select_one('.page-header-banner-baseline')),cls='portfolio-intro')
  b+='<div class="project-filters" data-filters role="group" aria-label="Filtrer les projets par expertise"><button type="button" data-filter="all" aria-pressed="true">Tous les projets</button>'
  for label,_ in SERVICES:b+='<button type="button" data-filter="'+esc(label if label!='Campagne d’influence' else "Campagne d'influence")+'" aria-pressed="false">'+label+'</button>'
  b+='<span class="project-count" data-project-count role="status">'+str(len(DATA['projects']))+' projets</span></div><section class="portfolio" aria-label="Portfolio">'
@@ -220,8 +241,9 @@ def cases():
   if result or p['kpis']:
    b+='<section class="case-results"><div class="case-results-top"><h2>Les <span class="italic">résultats.</span></h2><div class="prose">'+clean(result['html'],True) if result else '<section class="case-results"><div class="case-results-top"><h2>Les résultats.</h2><div>'
    b+='</div></div><div class="kpi-grid">'
-   for k in p['kpis']:b+='<div class="kpi'+(' long' if len(k['value'])>8 else '')+'"><strong>'+esc(k['value'])+'</strong><span>'+esc(k['label'])+'</span></div>'
+   for k in p['kpis']:b+='<div class="kpi'+(' long' if len(k['value'])>6 else '')+'"><strong>'+counter(k['value'])+'</strong><span>'+esc(k['label'])+'</span></div>'
    b+='</div></section>'
+  else:b+='<section class="case-results"><div class="case-results-top"><h2>Les <span class="italic">résultats.</span></h2><p class="prose">Résultats chiffrés non publiés.</p></div></section>'
   extras=list(dict.fromkeys(p['extra']))
   if extras:b+='<section class="case-extra prose">'+''.join('<p>'+esc(x)+'</p>' for x in extras)+'</section>'
   if len(p['media'])>len(chapters):
@@ -232,18 +254,29 @@ def cases():
   schema={'@context':'https://schema.org','@type':'CreativeWork','name':p['title'],'description':p['description'],'creator':{'@type':'Organization','name':'Anekdote'},'url':p['url']}
   write(page,b,PAGES[p['url']]['title'],desc,'hub-projets',schema)
 
+def solar_metrics(c):
+ paras=[x for x in c.select('p') if text(x)];groups=c.select('ul')
+ h='<section class="solar-section" id="coaching"><div class="solar-heading reveal"><div><p class="eyebrow">Notre expertise</p><h2>Solar <span class="italic">Metrics.</span></h2></div><span class="solar-tag">Influence · Acquisition · Performance</span></div><div class="solar-main"><div class="solar-narrative reveal"><h3><span class="italic">Pourquoi</span> Solar Metrics ?</h3><div class="prose">'+''.join(clean(str(x)) for x in paras[:2])+'</div></div><div class="solar-orbit reveal" aria-hidden="true"><svg viewBox="0 0 400 400" fill="none"><circle class="orbit-guide" cx="200" cy="200" r="166"/><circle class="orbit-guide" cx="200" cy="200" r="120"/><path class="orbit-line" d="M34 200a166 166 0 0 1 332 0"/><path class="orbit-line inner" d="M200 80a120 120 0 0 1 0 240"/><circle class="orbit-point" cx="200" cy="34" r="5"/><circle class="orbit-point" cx="366" cy="200" r="5"/><circle class="orbit-point" cx="200" cy="366" r="5"/><circle class="orbit-point" cx="34" cy="200" r="5"/></svg><div class="orbit-core"><strong>100<span>%</span></strong><span>Acquisition<br>digitale</span></div><span class="orbit-caption">Une vision hybride de l’influence</span></div></div><div class="solar-expertises reveal"><p class="eyebrow">'+esc(text(paras[2]))+'</p><ol>'
+ for i,li in enumerate(groups[0].select('li')):
+  h+='<li><span class="solar-step">'+str(i+1).zfill(2)+'</span><h3>'+esc(text(li))+'</h3><span class="solar-step-mark" aria-hidden="true">↗</span></li>'
+ h+='</ol></div><div class="solar-measures reveal"><p>'+esc(text(paras[3]))+'</p><ul>'
+ for li in groups[1].select('li'):h+='<li>'+esc(text(li))+'</li>'
+ return h+'</ul></div></section>'
+
 def expertises():
  global page;page='expertises/index.html'
- b='<section class="page-intro expertise-intro"><p class="eyebrow">01 • Nos expertises</p><div class="editorial-heading"><h1 class="display">L’idée.<br><span class="italic">Puis l’action.</span></h1><p class="lead">Une équipe passionnée pour des campagnes sur-mesure et performantes.</p></div></section>'
+ b='<section class="page-intro expertise-intro"><p class="eyebrow">01 • Nos expertises</p><div class="editorial-heading"><h1 class="display">L’idée.<br><span class="italic">Puis l’action.</span></h1></div></section>'
  b+='<section class="expertise-overview wrap"><h2 class="sr-only">Nos expertises</h2><figure class="expertise-new-photo media-frame">'+picture(DATA['projects'][6]['hero'],'Activation influence Anekdote — Festival de Cannes x Soskin',eager=True)+'<figcaption class="eyebrow">L’influence, sur le terrain.</figcaption></figure>'+accordion()+'</section>'
  write(page,b,'Anekdote | Nos expertises en influence et création','Campagne d’influence, stratégie, évènements, Brand Content, RSE / Corporate, Performance / Affiliation.','expertises')
  for i,(label,key) in enumerate(SERVICES):
-  page=key+'/index.html';s=soup(key);m=s.select_one('#content');b=hero_intro(esc(text(s.h1))+'<span class="orange">.</span>',str(i+1).zfill(2)+' • Nos expertises',text(s.select_one('.page-header-banner-baseline')),True)
+  page=key+'/index.html';s=soup(key);m=s.select_one('#content');b=hero_intro(esc(text(s.h1))+'<span class="orange">.</span>',str(i+1).zfill(2)+' • Nos expertises',text(s.select_one('.page-header-banner-baseline')),True,'service-intro')
   b+='<div class="page-visual">'+picture(bg(s.select_one('.page-header-banner-container')),label,eager=True)+'</div>'
   for c in m.select('.bloc-column-text'):
-   h=c.find('h2');title=text(h) or 'Solar Metrics';b+='<section class="story-section reveal"'+(' id="coaching"' if key=='performance-affiliation' else '')+'><div><p class="eyebrow">Notre expertise</p><h2>'+esc(title)+'</h2></div><div class="prose">'+inner(c,True)+'</div></section>'
+   if key=='performance-affiliation':b+=solar_metrics(c)
+   else:
+    h=c.find('h2');title=text(h);b+='<section class="story-section reveal"><div><p class="eyebrow">Notre expertise</p><h2>'+esc(title)+'</h2></div><div class="prose">'+inner(c,True)+'</div></section>'
   med=m.select_one('.bloc-column-visual source,.bloc-column-visual img')
-  if med and med.get('src') in MAP:b+='<section class="section">'+(media_video(med['src'],label) if MAP[med['src']]['path'].endswith('.mp4') else '<div class="page-visual">'+picture(med['src'],label)+'</div>')+'</section>'
+  if key!='performance-affiliation' and med and med.get('src') in MAP:b+='<section class="section">'+(media_video(med['src'],label) if MAP[med['src']]['path'].endswith('.mp4') else '<div class="page-visual">'+picture(med['src'],label)+'</div>')+'</section>'
   # Preserve source-selected project relationships before adding category matching.
   related=[]
   for c in m.select('.page-project-container a[href]'):
@@ -254,27 +287,26 @@ def expertises():
   write(page,b,PAGES[BASE+'/'+key+'/']['title'],PAGES[BASE+'/'+key+'/']['description'],'expertises')
 
 def team():
- global page;page='equipe/index.html';s=soup('equipe')
+ global page;page='equipe/index.html';s=soup('equipe');christelle=DATA['team'][0]
  b=hero_intro('L’équipe <span class="italic">Anekdote.</span>','01 • #TeamAnekdote',text(s.select_one('.page-header-banner-baseline')))
  spirit=s.select_one('.bloc-column-text');im=s.select_one('.bloc-column-visual img')
- b+='<section class="team-spirit"><div><h2 class="section-title">L’esprit<br><span class="italic">d’équipe.</span></h2><div class="prose">'+inner(spirit,True)+'</div></div><div class="media-frame">'+picture(im['src'],'Un moment partagé par l’équipe Anekdote',eager=True)+'</div></section><section class="team-people">'
- for i,t in enumerate(DATA['team']):
-  key='person-'+str(i+1);an=BeautifulSoup(t['anecdote'],'html.parser');lists=an.select('ul');groups=[[text(li) for li in ul.select('li')] for ul in lists]
-  overlay=''
-  if groups:
-   for j,items in enumerate(groups[:2]):
-    overlay+='<div class="taste-group"><h3>'+('J’aime' if j==0 else 'Je n’aime pas')+'</h3><ul>'
-    for item in items:overlay+='<li>'+heart(j==1)+'<span>'+esc(item)+'</span></li>'
-    overlay+='</ul></div>'
-  else:
-   # Christelle has no published preference lists: keep her real anecdote, without inventing tastes.
-   overlay='<div class="photo-anecdote"><p class="eyebrow">Une Anekdote</p>'+clean(str(an.select_one('p')))+'</div>'
-  b+='<article class="person reveal" id="'+key+'"><div class="person-photo"><div class="person-portrait media-frame">'+picture(t['portrait'],t['name']+' — portrait Anekdote',sizes='(max-width: 800px) 90vw, 45vw')+'<div class="photo-tastes" id="'+key+'-tastes">'+overlay+'</div><button type="button" class="taste-toggle" data-tastes-toggle aria-controls="'+key+'-tastes" aria-expanded="false">'+heart()+'<span>'+('J’aime / Je n’aime pas' if groups else 'Une Anekdote')+'</span></button></div><div class="person-index"><span class="eyebrow">#TeamAnekdote</span><span class="eyebrow">'+str(i+1).zfill(2)+' •</span></div></div><div class="person-story"><header class="person-heading"><h2>'+esc(t['name'])+'</h2><span class="eyebrow person-view-label" data-person-label>Le portrait</span></header><div class="person-content" id="'+key+'-content"><div data-person-bio>'
-  chunks=bio_chunks(t['bio'])
-  if len(chunks)>1:b+=deck([('Le portrait','<div class="prose">'+x+'</div>') for x in chunks],'Le portrait de '+t['name'],'bio-deck')
-  else:b+='<div class="prose">'+chunks[0]+'</div>'
-  b+='</div><div class="prose person-anecdote" data-person-anecdote hidden>'+portrait_content(t['anecdote'])+(picture(BASE+'/wp-content/uploads/2023/11/Group-1798.svg','Les deux mantras de Christelle') if t['name']=='Christelle' else '')+'</div></div><button class="person-toggle text-link" type="button" data-person-toggle aria-controls="'+key+'-content" aria-pressed="false"><span>Une Anekdote</span><span class="link-symbol" aria-hidden="true">↗</span></button></div></article>'
- b+='</section>';write(page,b,PAGES[BASE+'/equipe/']['title'],PAGES[BASE+'/equipe/']['description'],'equipe')
+ b+='<section class="team-spirit"><div><h2 class="section-title">L’esprit<br><span class="italic">d’équipe.</span></h2><div class="prose">'+inner(spirit,True)+'</div></div><div class="media-frame team-group-photo">'+picture(im['src'],'Un moment partagé par l’équipe Anekdote',eager=True)+'</div></section>'
+ b+='<section class="founder-section wrap" aria-labelledby="founder-name"><div class="founder-heading reveal"><p class="eyebrow">02 • À l’origine de l’aventure</p><h2 id="founder-name">Christelle<span class="italic">.</span></h2><span class="founder-role">Co-Founder</span></div><div class="founder-layout"><div class="founder-photo media-frame reveal">'+picture(christelle['portrait'],'Christelle — Co-Founder d’Anekdote',sizes='(max-width: 800px) 90vw, 42vw')+'</div><div class="founder-story prose reveal">'+clean(christelle['bio'])+'</div></div><div class="founder-anecdote reveal"><div><p class="eyebrow">Une Anekdote</p><div class="prose">'+portrait_content(christelle['anecdote'])+'</div></div><div class="founder-mantras">'+picture(BASE+'/wp-content/uploads/2023/11/Group-1798.svg','Les deux mantras de Christelle')+'</div></div></section>'
+ b+='<section class="team-carousel-section wrap" aria-labelledby="team-heading"><div class="team-carousel-heading"><div><p class="eyebrow">03 • Des personnalités, une équipe</p><h2 id="team-heading">Les visages<br><span class="italic">Anekdote.</span></h2></div></div><div class="deck team-carousel" data-deck role="region" aria-roledescription="carrousel" aria-label="Les membres de l’équipe"><div class="deck-stage">'
+ for i,t in enumerate(DATA['team'][1:]):
+  key='member-'+str(i+1);an=BeautifulSoup(t['anecdote'],'html.parser');groups=[[text(li) for li in ul.select('li')] for ul in an.select('ul')];overlay=''
+  for j,items in enumerate(groups[:2]):
+   overlay+='<div class="taste-group"><h4>'+('J’aime' if j==0 else 'Je n’aime pas')+'</h4><ul>'
+   for item in items:overlay+='<li>'+heart(j==1)+'<span>'+esc(item)+'</span></li>'
+   overlay+='</ul></div>'
+  # All real biography and anecdote paragraphs form one paragraph. Preferences stay on the photo.
+  bio=BeautifulSoup(t['bio'],'html.parser');copy=[text(x) for x in bio.select('p') if text(x)]+[text(x) for x in an.select('p') if text(x)]
+  body=' '.join(copy)
+  b+='<article class="deck-slide team-slide'+(' active' if i==0 else '')+'" data-slide role="group" aria-label="'+esc(t['name'])+', '+str(i+1)+' sur 7"><header class="member-heading"><h3>'+esc(t['name'])+'</h3><span class="eyebrow">#TeamAnekdote · '+str(i+1).zfill(2)+'</span></header><div class="member-layout"><div class="member-photo media-frame" data-profile-photo tabindex="0" role="button" aria-label="Découvrir les goûts de '+esc(t['name'])+'" aria-expanded="false" aria-controls="'+key+'-tastes">'+picture(t['portrait'],t['name']+' — portrait Anekdote',sizes='(max-width: 800px) 90vw, 42vw')+'<div class="photo-tastes" id="'+key+'-tastes" aria-hidden="true">'+overlay+'</div></div><div class="member-story" tabindex="0" role="region" aria-label="Le portrait de '+esc(t['name'])+'"><p>'+esc(body)+'</p></div></div></article>'
+ b+='</div><div class="deck-controls"><div class="deck-tabs member-tabs" aria-label="Choisir un membre">'
+ for i,t in enumerate(DATA['team'][1:]):b+='<button type="button" data-deck-go="'+str(i)+'" aria-label="'+esc(t['name'])+', membre '+str(i+1)+'" aria-pressed="'+('true' if i==0 else 'false')+'"><span class="member-name-index" aria-hidden="true">'+str(i+1).zfill(2)+'</span>'+esc(t['name'])+'</button>'
+ b+='</div><div class="deck-arrows"><span class="deck-status" data-deck-status aria-live="polite" aria-atomic="true">1 / 7</span><button type="button" data-deck-prev aria-label="Membre précédent">←</button><button type="button" data-deck-next aria-label="Membre suivant">→</button></div></div></div></section>'
+ write(page,b,PAGES[BASE+'/equipe/']['title'],PAGES[BASE+'/equipe/']['description'],'equipe')
 
 def talents():
  global page;page='talents/index.html';s=soup('talents')

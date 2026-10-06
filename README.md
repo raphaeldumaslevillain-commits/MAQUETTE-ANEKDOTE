@@ -6,15 +6,15 @@ Refonte intégrale en HTML, CSS et JavaScript. Site statique, médias et polices
 
 ![Accueil desktop](docs/previews/accueil-desktop.jpg)
 
-[Voir la composition mobile](docs/previews/accueil-mobile.jpg)
+[Voir la composition mobile](docs/previews/accueil-mobile.jpg) · [Équipe](docs/previews/equipe-raphael-desktop.jpg) · [Solar Metrics](docs/previews/solar-metrics-desktop.jpg) · [Projets](docs/previews/projets-editorial-desktop.jpg)
 
 ## Contenu
 
-- 33 études de cas, avec leurs textes, médias et KPI publiés.
+- 33 projets en compositions régulières avec image, paragraphe et zone de KPI ; études de cas complètes et chiffres animés.
 - 6 expertises, agence, équipe de 8 personnes, talents.
 - Accueil centré sur l’agence et les expertises, deux bandeaux de logos à sens opposés.
-- Agence et manifeste en decks ; témoignages Talents en carrousel.
-- Portraits avec préférences au survol / au toucher et anecdotes remplaçant les biographies.
+- Agence à flèche unique et frappe rapide ; manifeste et témoignages Talents en carrousel.
+- Christelle en portrait complet indépendant ; sept membres en carrousel, photo carrée et paragraphe de même hauteur, goûts sur la photo.
 - Newsroom supprimée de l’expérience et des routes publiques, à la demande du client.
 - Contact en trois étapes, pages légales et conservation des anciennes routes.
 - 58 fichiers HTML, dont 9 redirections et une page 404.

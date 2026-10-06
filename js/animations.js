@@ -26,4 +26,36 @@
   };
   window.addEventListener('scroll', () => {if (!pending) {pending = true; requestAnimationFrame(update);}}, {passive: true});
   update();
+  document.querySelectorAll('.nav-primary a').forEach((link, i) => link.style.setProperty('--nav-order', i));
+  // Depth only on editorial hero images; portraits and client logos stay unaffected.
+  const scenes = [...document.querySelectorAll('.company-stage,.service-intro + .page-visual,.case-hero')];
+  const activeScenes = new Set();
+  let sceneFrame = 0;
+  const paintScenes = () => {
+    sceneFrame = 0;
+    document.querySelector('.site-header')?.classList.toggle('is-scrolled', scrollY > 12);
+    if (reduced.matches || document.hidden) return;
+    for (const scene of activeScenes) {
+      const box = scene.getBoundingClientRect();
+      const shift = Math.max(-14, Math.min(14, (innerHeight / 2 - box.top - box.height / 2) * .035));
+      scene.style.setProperty('--scene-shift', `${shift.toFixed(2)}px`);
+    }
+  };
+  const scheduleScenes = () => { if (!sceneFrame) sceneFrame = requestAnimationFrame(paintScenes); };
+  if ('IntersectionObserver' in window) {
+    const sceneObserver = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) activeScenes.add(entry.target); else activeScenes.delete(entry.target);
+      });
+      scheduleScenes();
+    });
+    scenes.forEach(scene => { scene.classList.add('scene-motion'); sceneObserver.observe(scene); });
+  }
+  window.addEventListener('scroll', scheduleScenes, {passive:true});
+  window.addEventListener('resize', scheduleScenes, {passive:true});
+  reduced.addEventListener('change', event => {
+    if (event.matches) scenes.forEach(scene => scene.style.removeProperty('--scene-shift'));
+    scheduleScenes();
+  });
+  paintScenes();
 })();

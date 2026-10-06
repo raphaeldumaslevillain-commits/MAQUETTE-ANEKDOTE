@@ -1631,12 +1631,6 @@
     "bytes": 177852
   },
   {
-    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/ANEKDOTE_PRESENTATION.mp4",
-    "sourceBytes": 5012254,
-    "path": "assets/videos/home-visuel-1.mp4",
-    "bytes": 2826704
-  },
-  {
     "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/Air-France-logo-couleur-1.svg",
     "sourceBytes": 126609,
     "path": "assets/images/home/home-visuel-27.svg",
@@ -2011,20 +2005,6 @@
       }
     ],
     "bytes": 65350
-  },
-  {
-    "source": "https://www.anekdote.fr/wp-content/uploads/2026/06/photos-site-Anekdote-carre.png",
-    "sourceBytes": 46196,
-    "path": "assets/images/performance-affiliation/performance-affiliation-visuel-1.webp",
-    "width": 668,
-    "height": 668,
-    "variants": [
-      {
-        "path": "assets/images/performance-affiliation/performance-affiliation-visuel-1-480.webp",
-        "width": 480
-      }
-    ],
-    "bytes": 31230
   },
   {
     "source": "https://www.anekdote.fr/wp-content/uploads/2026/03/photo-site-header-5.png",
