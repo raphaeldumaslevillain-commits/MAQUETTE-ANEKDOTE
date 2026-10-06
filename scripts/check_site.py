@@ -21,7 +21,7 @@ for path in pages:
   try:json.loads(x.string)
   except Exception:errors.append([str(path),'invalid jsonld'])
 # Exact project prose and KPI checks.
-def norm(t):return re.sub(r'\s+',' ',t).strip()
+def norm(t):return re.sub(r'\s+',' ',t.replace('\u2068','')).strip()
 D=json.loads((root/'content/site-content.json').read_text())
 for p in D['projects']:
  path=root/p['path']/'index.html';s=BeautifulSoup(path.read_text(),'html.parser');t=norm(s.get_text(' ',strip=True))
@@ -44,6 +44,13 @@ for n in D['news']:
  for par in BeautifulSoup(n['html'],'html.parser').select('p,li'):
   original=norm(par.get_text(' ',strip=True))
   if original not in dest:errors.append(['newsroom',n['slug'],'missing source paragraph',original[:150]])
+# Verify all institutional, expertise, talent and legal source paragraphs too.
+for key in ['agence','campagne-dinfluence','strategie','evenements','brand-content','rse-corporate','performance-affiliation','talents','mentions-legales','politique-de-confidentialite']:
+ src=BeautifulSoup((root/'content/source-html'/(key+'.html.txt')).read_text(),'html.parser').select_one('#content')
+ dest=norm(BeautifulSoup((root/key/'index.html').read_text(),'html.parser').get_text(' ',strip=True))
+ for par in src.select('p,li'):
+  original=norm(par.get_text(' ',strip=True))
+  if len(original)>10 and original not in dest:errors.append([key,'missing source paragraph',original[:150]])
 report={'html_pages':len(pages),'projects':len(D['projects']),'team':len(D['team']),'news':len(D['news']),'errors':errors}
 (root/'docs/static-validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2));print(json.dumps(report,ensure_ascii=False,indent=2))
 

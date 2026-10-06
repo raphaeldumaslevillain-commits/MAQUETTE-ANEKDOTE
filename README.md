@@ -2,6 +2,12 @@
 
 Refonte intégrale en HTML, CSS et JavaScript. Site statique, médias et polices locaux, sans framework ni compilation nécessaire pour le consulter.
 
+## Aperçus
+
+![Accueil desktop](docs/previews/accueil-desktop.jpg)
+
+[Voir la composition mobile](docs/previews/accueil-mobile.jpg)
+
 ## Contenu
 
 - 33 études de cas, avec leurs textes, médias et KPI publiés.
@@ -75,6 +81,7 @@ La charte Drive cite PP Editorial New Italic. En l’absence de fichier web et d
 - [Direction artistique et interactions](docs/DIRECTION-ARTISTIQUE.md)
 - [Sources et droits](docs/SOURCES.md)
 - [Contrôles et performances](docs/VALIDATION.md)
+- [Activation de GitHub Pages](docs/DEPLOIEMENT.md)
 - [Pages](docs/routes.json) et [médias](docs/assets.json)
 
 Le code de cette livraison et les éléments de marque doivent être utilisés dans le cadre du projet Anekdote. Les photos, vidéos, campagnes, logos et citations restent ceux de leurs ayants droit respectifs. Les licences OFL s’appliquent aux polices concernées.

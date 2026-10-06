@@ -1,0 +1,168 @@
+{
+  "videos": 27,
+  "errors": [],
+  "checks": [
+    {
+      "path": "assets/videos/air-up-x-jujufitcat/air-up-x-jujufitcat-contenu-2.mp4",
+      "firstFrameDecoded": true,
+      "fastStart": true,
+      "bytes": 353262
+    },
+    {
+      "path": "assets/videos/benefit-feat-marcus/benefit-feat-marcus-contenu-2.mp4",
+      "firstFrameDecoded": true,
+      "fastStart": true,
+      "bytes": 302456
+    },
+    {
+      "path": "assets/videos/biocyte-x-solar-metrics-influence-affiliation/biocyte-x-solar-metrics-influence-affiliation-contenu-2.mp4",
+      "firstFrameDecoded": true,
+      "fastStart": true,
+      "bytes": 3454690
+    },
+    {
+      "path": "assets/videos/campagne-dinfluence-poderm-juin-aout-2026-strategie-de-test-learn-et-optimisation-du-/campagne-dinfluence-poderm-juin-aout-2026-strategie-de-test-learn-et-optimisation-du--contenu-1.mp4",
+      "firstFrameDecoded": true,
+      "fastStart": true,
+      "bytes": 9648238
+    },
+    {
+      "path": "assets/videos/campagne-dinfluence-poderm-juin-aout-2026-strategie-de-test-learn-et-optimisation-du-/campagne-dinfluence-poderm-juin-aout-2026-strategie-de-test-learn-et-optimisation-du--contenu-2.mp4",
+      "firstFrameDecoded": true,
+      "fastStart": true,
+      "bytes": 3484796
+    },
+    {
+      "path": "assets/videos/campagne-dinfluence-visuel-1.mp4",
+      "firstFrameDecoded": true,
+      "fastStart": true,
+      "bytes": 2041221
+    },
+    {
+      "path": "assets/videos/concert-aya-nakamura-x-ghd-x-juliette-has-a-gun/concert-aya-nakamura-x-ghd-x-juliette-has-a-gun-contenu-1.mp4",
+      "firstFrameDecoded": true,
+      "fastStart": true,
+      "bytes": 1563260
+    },
+    {
+      "path": "assets/videos/concert-aya-nakamura-x-ghd-x-juliette-has-a-gun/concert-aya-nakamura-x-ghd-x-juliette-has-a-gun-contenu-2.mp4",
+      "firstFrameDecoded": true,
+      "fastStart": true,
+      "bytes": 4700459
+    },
+    {
+      "path": "assets/videos/et-si-le-culot-sinvitait-au-festival-de-cannes/et-si-le-culot-sinvitait-au-festival-de-cannes-contenu-1.mp4",
+      "firstFrameDecoded": true,
+      "fastStart": true,
+      "bytes": 4959811
+    },
+    {
+      "path": "assets/videos/evenements-visuel-1.mp4",
+      "firstFrameDecoded": true,
+      "fastStart": true,
+      "bytes": 3683577
+    },
+    {
+      "path": "assets/videos/festival-de-cannes-x-bijou-brijitte/festival-de-cannes-x-bijou-brijitte-contenu-1.mp4",
+      "firstFrameDecoded": true,
+      "fastStart": true,
+      "bytes": 1507654
+    },
+    {
+      "path": "assets/videos/festival-de-cannes-x-meganvlt-x-aroma-zone/festival-de-cannes-x-meganvlt-x-aroma-zone-contenu-1.mp4",
+      "firstFrameDecoded": true,
+      "fastStart": true,
+      "bytes": 25862223
+    },
+    {
+      "path": "assets/videos/home-visuel-1.mp4",
+      "firstFrameDecoded": true,
+      "fastStart": true,
+      "bytes": 2826704
+    },
+    {
+      "path": "assets/videos/lassie-x-multi-talents/lassie-x-multi-talents-contenu-1.mp4",
+      "firstFrameDecoded": true,
+      "fastStart": true,
+      "bytes": 915334
+    },
+    {
+      "path": "assets/videos/lassie-x-multi-talents/lassie-x-multi-talents-contenu-2.mp4",
+      "firstFrameDecoded": true,
+      "fastStart": true,
+      "bytes": 2452414
+    },
+    {
+      "path": "assets/videos/loreal-luxe-x-my-origines/loreal-luxe-x-my-origines-contenu-2.mp4",
+      "firstFrameDecoded": true,
+      "fastStart": true,
+      "bytes": 999318
+    },
+    {
+      "path": "assets/videos/milka-x-natoo/milka-x-natoo-contenu-2.mp4",
+      "firstFrameDecoded": true,
+      "fastStart": true,
+      "bytes": 507126
+    },
+    {
+      "path": "assets/videos/mr-moustache-x-multi-talents/mr-moustache-x-multi-talents-contenu-2.mp4",
+      "firstFrameDecoded": true,
+      "fastStart": true,
+      "bytes": 815288
+    },
+    {
+      "path": "assets/videos/paysan-breton-x-createurs-ugc/paysan-breton-x-createurs-ugc-contenu-1.mp4",
+      "firstFrameDecoded": true,
+      "fastStart": true,
+      "bytes": 4796499
+    },
+    {
+      "path": "assets/videos/paysan-breton-x-createurs-ugc/paysan-breton-x-createurs-ugc-contenu-2.mp4",
+      "firstFrameDecoded": true,
+      "fastStart": true,
+      "bytes": 8087511
+    },
+    {
+      "path": "assets/videos/roland-garros-vincent-nadal/roland-garros-vincent-nadal-contenu-1.mp4",
+      "firstFrameDecoded": true,
+      "fastStart": true,
+      "bytes": 1876231
+    },
+    {
+      "path": "assets/videos/savage-fenty-x-jujufitcat/savage-fenty-x-jujufitcat-contenu-2.mp4",
+      "firstFrameDecoded": true,
+      "fastStart": true,
+      "bytes": 278051
+    },
+    {
+      "path": "assets/videos/sephora-x-les-eclaireuses/sephora-x-les-eclaireuses-contenu-2.mp4",
+      "firstFrameDecoded": true,
+      "fastStart": true,
+      "bytes": 298353
+    },
+    {
+      "path": "assets/videos/strategie-tiktok-x-dyson/strategie-tiktok-x-dyson-contenu-2.mp4",
+      "firstFrameDecoded": true,
+      "fastStart": true,
+      "bytes": 427123
+    },
+    {
+      "path": "assets/videos/vichy-feat-jujufitcat/vichy-feat-jujufitcat-contenu-2.mp4",
+      "firstFrameDecoded": true,
+      "fastStart": true,
+      "bytes": 542674
+    },
+    {
+      "path": "assets/videos/yves-rocher-2/yves-rocher-2-contenu-1.mp4",
+      "firstFrameDecoded": true,
+      "fastStart": true,
+      "bytes": 883211
+    },
+    {
+      "path": "assets/videos/yves-rocher-2/yves-rocher-2-contenu-2.mp4",
+      "firstFrameDecoded": true,
+      "fastStart": true,
+      "bytes": 862101
+    }
+  ]
+}

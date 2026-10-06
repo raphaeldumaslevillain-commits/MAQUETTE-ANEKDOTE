@@ -4,7 +4,9 @@
 
 La validation de `scripts/check_site.py` contrôle les 65 fichiers HTML de la livraison : un seul H1 par page principale, langue française, titre et description, JSON-LD valide, présence des images alternatives et existence des liens internes et médias. Les redirections historiques sont identifiées séparément.
 
-Elle compare chaque paragraphe et chaque liste des 33 études de cas avec l’extraction source, puis vérifie les valeurs et libellés de KPI. Elle contrôle aussi les biographies, anecdotes des huit personnes et paragraphes des six articles. Résultat : aucune erreur. Voir `static-validation.json`.
+Elle compare chaque paragraphe et chaque liste des 33 études de cas avec l’extraction source, puis vérifie les valeurs et libellés de KPI. Elle contrôle aussi les biographies, anecdotes des huit personnes, paragraphes des six articles et textes institutionnels, expertises, talents et pages légales. Les caractères invisibles de direction de texte sont ignorés pour la comparaison. Résultat : aucune erreur. Voir `static-validation.json`.
+
+Les 27 vidéos ont été contrôlées : première image décodable et index MP4 placé avant les données pour le démarrage rapide (`video-validation.json`).
 
 La syntaxe des cinq fichiers JavaScript est contrôlée avec Node. Le site ne charge aucune librairie JavaScript tierce.
 
@@ -22,9 +24,9 @@ Ces vérifications ne constituent pas une certification RGAA. Aucun audit automa
 
 ## Performance
 
-187 médias principaux utilisés passent de 350,89 Mo de fichiers source à environ 96,65 Mo après optimisation, soit environ 72 % de réduction. Cette somme représente tout le portfolio, pas le poids d’une page visitée. Les variantes responsive, posters, polices et textes complètent le dépôt.
+187 médias principaux utilisés passent de 350,89 Mo de fichiers source à environ 96,32 Mo après optimisation, soit environ 72 % de réduction. Cette somme représente tout le portfolio, pas le poids d’une page visitée. Les variantes responsive, posters, polices et textes complètent le dépôt.
 
-Les images ont des dimensions déclarées, une source responsive lorsque nécessaire et un chargement différé, sauf les visuels d’entrée. Les vidéos utilisent `preload="none"`, une affiche locale et une lecture volontaire. Le showreel est injecté seulement à l’ouverture de son lecteur. La compression de la longue vidéo Aroma-Zone ramène son fichier à environ 24,67 Mo. Les polices locales utilisent `font-display: swap` et des sous-ensembles latin / latin étendu.
+Les images ont des dimensions déclarées, une source responsive lorsque nécessaire et un chargement différé, sauf les visuels d’entrée. Les vidéos utilisent `preload="none"`, une affiche locale et une lecture volontaire. Le showreel est injecté seulement à l’ouverture de son lecteur. La compression de la longue vidéo Aroma-Zone ramène son fichier à environ 24,66 Mo. Les polices locales utilisent `font-display: swap` et des sous-ensembles latin / latin étendu.
 
 ## Limites à valider avant remplacement de la production
 
