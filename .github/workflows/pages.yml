@@ -1,0 +1,75 @@
+name: Validate and publish Anekdote
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: anekdote-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+      - name: Unpack the initial delivery if present
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import base64, io, zipfile, shutil
+          parts=sorted(Path('.delivery').glob('site.part-*'))
+          if parts:
+              data=base64.b64decode(''.join(p.read_text() for p in parts))
+              with zipfile.ZipFile(io.BytesIO(data)) as archive:
+                  for name in archive.namelist():
+                      path=Path(name)
+                      if path.is_absolute() or '..' in path.parts: raise ValueError('Invalid delivery path')
+                  archive.extractall('.')
+              shutil.rmtree('.delivery')
+          PY
+      - name: Install build tools
+        run: |
+          python3 -m venv .venv
+          .venv/bin/pip install -r requirements.txt
+      - name: Restore any missing local media
+        run: .venv/bin/python scripts/restore_media.py
+      - name: Rebuild and validate every page
+        run: |
+          .venv/bin/python scripts/build.py
+          .venv/bin/python scripts/check_site.py
+          for file in js/*.js; do node --check "$file"; done
+      - name: Commit the complete self-contained delivery
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m 'Integrate audited Anekdote pages and optimized local media'
+            git push origin main
+          fi
+      - name: Prepare public files
+        run: .venv/bin/python scripts/package_pages.py
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: .site
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

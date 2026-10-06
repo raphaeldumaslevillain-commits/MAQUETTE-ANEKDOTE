@@ -1,1 +1,80 @@
-# MAQUETTE-ANEKDOTE
+# Anekdote — Editorial × Human × Proof
+
+Refonte intégrale en HTML, CSS et JavaScript. Site statique, médias et polices locaux, sans framework ni compilation nécessaire pour le consulter.
+
+## Contenu
+
+- 33 études de cas, avec leurs textes, médias et KPI publiés.
+- 6 expertises, agence, équipe de 8 personnes, talents.
+- Newsroom : 6 articles repris et rendus accessibles individuellement.
+- Contact en trois étapes, pages légales et conservation des anciennes routes.
+- 65 fichiers HTML, dont 9 redirections et une page 404.
+
+L’audit porte sur les pages publiques accessibles le 6 octobre 2026 depuis [anekdote.fr](https://www.anekdote.fr/). Les informations commerciales, citations, biographies et résultats proviennent de ce site. Les nouveaux intertitres et compositions éditoriales organisent ces contenus ; ils ne créent pas de nouvelles réalisations ou de nouveaux résultats.
+
+## Consulter
+
+Ouvrir `index.html` ou lancer un petit serveur à la racine :
+
+```sh
+python3 -m http.server 8765
+```
+
+Puis ouvrir `http://localhost:8765/`. Aucun accès au Drive n’est nécessaire.
+
+## Organisation
+
+```text
+index.html                 Accueil
+agence/                    Agence
+expertises/                Vue d’ensemble
+campagne-dinfluence/        Pages des six expertises (URLs historiques)
+strategie/ · evenements/ · brand-content/
+rse-corporate/ · performance-affiliation/
+hub-projets/               Portfolio et filtres
+projets/                   Études de cas et anciennes archives
+équipe → equipe/           Équipe
+talents/ · newsroom/ · contact/
+assets/                    Images WebP, SVG, vidéos MP4, polices WOFF2
+css/ · js/                 Styles et interactions
+content/                   Contenus et snapshots publics audités
+docs/                      Audit, DA, sources, contrôles et manifestes
+scripts/                   Reconstruction et validation hors navigateur
+```
+
+## Modifier et reconstruire
+
+Les pages HTML sont directement utilisables et modifiables. Pour garder une édition cohérente de toutes les pages, modifier `scripts/build.py`, `content/site-content.json` ou les styles, puis :
+
+```sh
+python3 -m venv .venv
+.venv/bin/pip install -r requirements.txt
+.venv/bin/python scripts/build.py
+.venv/bin/python scripts/check_site.py
+```
+
+Le générateur utilise les snapshots publics conservés dans `content/source-html/*.html.txt`, pas le site distant. `scripts/restore_media.py` sert uniquement à restaurer un fichier média manquant depuis son URL publique d’origine ; il nécessite FFmpeg pour les vidéos. Il n’est jamais exécuté à la consultation du site.
+
+## Déploiement GitHub Pages
+
+Le dépôt contient le workflow `.github/workflows/pages.yml`. Dans **Settings → Pages**, choisir **GitHub Actions** comme source. Le workflow vérifie les pages, prépare un dossier public et le publie. Aucun serveur Node ou Python n’est nécessaire en production.
+
+Les liens internes sont relatifs : le site accepte le sous-répertoire `/MAQUETTE-ANEKDOTE/`. Les URL canoniques et le sitemap conservent le domaine final Anekdote ; l’hébergement GitHub constitue une maquette consultable.
+
+## Points de reprise
+
+Le formulaire utilise le destinataire technique existant d’Anekdote, Contact Form 7 n°547. La validation et les trois étapes ont été testées, ainsi que la réponse CORS du serveur. Aucun message de test n’a été envoyé : la réception effective d’un email reste à vérifier avec l’agence avant remplacement du site de production. L’interface confirme l’envoi uniquement si le serveur renvoie `mail_sent` et propose le formulaire original en cas d’échec.
+
+Les textes légaux historiques sont conservés. Ils contiennent l’ancienne adresse de siège, des références à WordPress / hébergeur / prestataire et un libellé d’email incomplet. Ils devront être validés par Anekdote pour le nouvel hébergement ; aucune information légale inconnue n’a été inventée.
+
+La charte Drive cite PP Editorial New Italic. En l’absence de fichier web et de licence web fournis, cette version utilise Instrument Serif, libre sous OFL, avec Inter. Les deux polices sont hébergées localement ; leurs licences sont dans `assets/fonts/`.
+
+## Documentation
+
+- [Audit et arborescence](docs/AUDIT.md)
+- [Direction artistique et interactions](docs/DIRECTION-ARTISTIQUE.md)
+- [Sources et droits](docs/SOURCES.md)
+- [Contrôles et performances](docs/VALIDATION.md)
+- [Pages](docs/routes.json) et [médias](docs/assets.json)
+
+Le code de cette livraison et les éléments de marque doivent être utilisés dans le cadre du projet Anekdote. Les photos, vidéos, campagnes, logos et citations restent ceux de leurs ayants droit respectifs. Les licences OFL s’appliquent aux polices concernées.
