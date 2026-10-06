@@ -145,7 +145,7 @@ def accordion(cls='',numbered=True):
  h='<div class="expertise-accordion '+cls+'">'
  for i,(label,key) in enumerate(SERVICES):
   desc=text(soup(key).select_one('.page-header-banner-baseline'))
-  h+='<details'+(' open' if i==0 else '')+'><summary>'+('<span class="eyebrow">'+str(i+1).zfill(2)+' •</span>' if numbered else '')+'<h3>'+label+'</h3><span class="accordion-symbol" aria-hidden="true">+</span></summary><div class="expertise-answer"><p>'+esc(desc)+'</p>'+link('Découvrir cette expertise',key)+'</div></details>'
+  h+='<details><summary>'+('<span class="eyebrow">'+str(i+1).zfill(2)+' •</span>' if numbered else '')+'<h3>'+label+'</h3><span class="accordion-symbol" aria-hidden="true">+</span></summary><div class="expertise-answer"><p>'+esc(desc)+'</p>'+link('Découvrir cette expertise',key)+'</div></details>'
  return h+'</div>'
 
 def client_marquees():
@@ -284,6 +284,21 @@ def expertises():
   # Annotation revision: the expertise page ends after its approach / Solar Metrics.
   write(page,b,PAGES[BASE+'/'+key+'/']['title'],PAGES[BASE+'/'+key+'/']['description'],'expertises')
 
+def member_paragraphs(member):
+ # Preserve every supplied sentence while restoring meaningful paragraph breaks.
+ paragraphs=[]
+ for field in ['bio','anecdote']:
+  fragment=BeautifulSoup(member[field],'html.parser')
+  nodes=fragment.select('p')
+  if not nodes:nodes=[node for node in fragment.select('div') if not node.find(['div','p','ul'])]
+  for node in nodes:
+   value=text(node)
+   if not value:continue
+   for start in ['Gestionnaire aguerrie,','Toujours à l’affût des dernières tendances,','Curieux, créatif et toujours à la recherche','Ma mission ? Donner du sens','Toujours un projet ou une idée en tête,']:
+    value=value.replace(' '+start,'\n'+start)
+   paragraphs.extend(part.strip() for part in value.split('\n') if part.strip())
+ return ''.join('<p>'+esc(part)+'</p>' for part in paragraphs)
+
 def team():
  global page;page='equipe/index.html';s=soup('equipe');christelle=DATA['team'][0]
  members=[dict(t,display_name=('Emma.L' if j==2 else 'Emma.c' if j==3 else t['name'])) for j,t in enumerate(DATA['team']) if j>0 and t['name']!='Pauline']
@@ -291,17 +306,14 @@ def team():
  spirit=s.select_one('.bloc-column-text');im=s.select_one('.bloc-column-visual img')
  b+='<section class="team-spirit"><div><h2 class="section-title">L’esprit<br><span class="italic">d’équipe.</span></h2><div class="prose">'+inner(spirit,True)+'</div></div><div class="media-frame team-group-photo">'+picture(im['src'],'Un moment partagé par l’équipe Anekdote',eager=True)+'</div></section>'
  b+='<section class="founder-section wrap" aria-labelledby="founder-name"><div class="founder-heading reveal"><h2 id="founder-name">Christelle<span class="italic">.</span></h2><span class="founder-role">Co-Founder</span></div><div class="founder-layout"><div class="founder-photo media-frame reveal">'+picture(christelle['portrait'],'Christelle — Co-Founder d’Anekdote',sizes='(max-width: 800px) 90vw, 42vw')+'</div><div class="founder-story prose reveal">'+clean(christelle['bio'])+'</div></div><div class="founder-anecdote reveal"><div><p class="eyebrow">Une Anekdote</p><div class="prose">'+portrait_content(christelle['anecdote'])+'</div></div><div class="founder-mantras">'+picture(BASE+'/wp-content/uploads/2023/11/Group-1798.svg','Les deux mantras de Christelle')+'</div></div></section>'
- b+='<section class="team-carousel-section wrap" aria-label="L’équipe Anekdote"><div class="deck team-carousel" data-deck role="region" aria-roledescription="carrousel" aria-label="Les membres de l’équipe"><div class="deck-stage">'
+ b+='<section class="team-carousel-section wrap" id="team-members" aria-label="L’équipe Anekdote"><div class="deck team-carousel" data-deck role="region" aria-roledescription="carrousel" aria-label="Les membres de l’équipe"><div class="deck-stage">'
  for i,t in enumerate(members):
   key='member-'+str(i+1);an=BeautifulSoup(t['anecdote'],'html.parser');groups=[[text(li) for li in ul.select('li')] for ul in an.select('ul')];overlay=''
   for j,items in enumerate(groups[:2]):
    overlay+='<div class="taste-group"><h4>'+('J’aime' if j==0 else 'Je n’aime pas')+'</h4><ul>'
    for item in items:overlay+='<li>'+heart(j==1)+'<span>'+esc(item)+'</span></li>'
    overlay+='</ul></div>'
-  # All real biography and anecdote paragraphs form one paragraph. Preferences stay on the photo.
-  bio=BeautifulSoup(t['bio'],'html.parser');copy=[text(x) for x in bio.select('p') if text(x)]+[text(x) for x in an.select('p') if text(x)]
-  body=' '.join(copy)
-  b+='<article class="deck-slide team-slide'+(' active' if i==0 else '')+'" data-slide role="group" aria-label="'+esc(t['display_name'])+', '+str(i+1)+' sur '+str(len(members))+'"><header class="member-heading"><h3>'+esc(t['display_name'])+'</h3><span class="eyebrow">#TeamAnekdote · '+str(i+1).zfill(2)+'</span></header><div class="member-layout"><div class="member-photo media-frame" data-profile-photo tabindex="0" role="button" aria-label="Découvrir les goûts de '+esc(t['display_name'])+'" aria-expanded="false" aria-controls="'+key+'-tastes">'+picture(t['portrait'],t['display_name']+' — portrait Anekdote',sizes='(max-width: 800px) 90vw, 42vw')+'<div class="photo-tastes" id="'+key+'-tastes" aria-hidden="true">'+overlay+'</div></div><div class="member-story" tabindex="0" role="region" aria-label="Le portrait de '+esc(t['display_name'])+'"><p>'+esc(body)+'</p></div></div></article>'
+  b+='<article class="deck-slide team-slide'+(' active' if i==0 else '')+'" data-slide role="group" aria-label="'+esc(t['display_name'])+', '+str(i+1)+' sur '+str(len(members))+'"><header class="member-heading"><h3>'+esc(t['display_name'])+'</h3><span class="eyebrow">#TeamAnekdote · '+str(i+1).zfill(2)+'</span></header><div class="member-layout"><div class="member-photo media-frame" data-profile-photo tabindex="0" role="button" aria-label="Découvrir les goûts de '+esc(t['display_name'])+'" aria-expanded="false" aria-controls="'+key+'-tastes">'+picture(t['portrait'],t['display_name']+' — portrait Anekdote',sizes='(max-width: 800px) 180px, 400px')+'<div class="photo-tastes" id="'+key+'-tastes" aria-hidden="true">'+overlay+'</div></div><div class="member-story" tabindex="0" role="region" aria-label="Le portrait de '+esc(t['display_name'])+'">'+member_paragraphs(t)+'</div></div></article>'
  b+='</div><div class="deck-controls"><div class="deck-tabs member-tabs" aria-label="Choisir un membre">'
  for i,t in enumerate(members):b+='<button type="button" data-deck-go="'+str(i)+'" aria-label="'+esc(t['display_name'])+', membre '+str(i+1)+'" aria-pressed="'+('true' if i==0 else 'false')+'"><span class="member-name-index" aria-hidden="true">'+str(i+1).zfill(2)+'</span>'+esc(t['display_name'])+'</button>'
  b+='</div><div class="deck-arrows"><span class="deck-status" data-deck-status aria-live="polite" aria-atomic="true">1 / '+str(len(members))+'</span><button type="button" data-deck-prev aria-label="Membre précédent">'+arrow(True)+'</button><button type="button" data-deck-next aria-label="Membre suivant">'+arrow()+'</button></div></div></div></section>'

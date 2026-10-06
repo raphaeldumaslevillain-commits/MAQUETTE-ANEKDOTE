@@ -37,3 +37,13 @@ Le contraste calculé est de 15,71:1 pour le texte principal sombre et de 8,66:1
 La validation du site reste sans erreur sur 58 fichiers HTML, 33 projets et sept personnes. Les aperçus de l’accueil sont actualisés ; les captures de cette révision utilisent les styles et mouvements livrés.
 
 Référence d’implémentation : [transition de vue MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document/startViewTransition).
+
+## Carrousel compact et deux nouvelles personnes
+
+Les huit profils sont vérifiés à 1456 × 790, 1280 × 660, 390 × 844, 375 × 667 et 768 × 1024 px, soit 40 observations. Chaque carrousel tient dans la hauteur disponible sous l’en-tête, sans débordement horizontal de page. Les photos chargent toutes et restent carrées ; les sept profils inactifs sont masqués et inertes. Sur ordinateur à 1456 × 790, toutes les biographies tiennent dans leur panneau sans défilement. Sur mobile, les longues biographies peuvent défiler dans la zone de texte ; celle de Louise tient entièrement à 390 × 844.
+
+Les goûts de Louana et Louise sont comparés aux contenus transmis, et leur affichage au clavier est vérifié. Les flèches bouclent correctement entre Louise et Tiffany et le compte indique huit personnes. Les neuf personnes publiques, avec Christelle, passent la vérification des contenus.
+
+Les deux accordéons comportent six lignes et aucune ligne ouverte au chargement ; après rechargement de l’accueil, ils restent fermés. L’ouverture de Stratégie ferme Campagne d’influence. Le curseur du thème parcourt 66 px sur ordinateur et 20 px à 390 px, avec un bouton de 44 px de hauteur. À 320 px, le bouton mesure 60 px de largeur et l’en-tête conserve un espace entre le logo et les commandes.
+
+Les neuf tests du thème restent valides et le contrôle statique ne relève aucune erreur sur 58 fichiers HTML et 33 projets. Aucune erreur JavaScript n’a été observée. Voir compact-team-browser-checks.json et les aperçus equipe-louana-desktop.jpg, equipe-louise-desktop.jpg et equipe-louise-mobile.jpg.

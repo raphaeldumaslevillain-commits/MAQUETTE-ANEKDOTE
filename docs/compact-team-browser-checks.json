@@ -1,0 +1,1074 @@
+{
+  "observations": [
+    {
+      "controls": {
+        "bottom": 710.234375,
+        "height": 77,
+        "left": 61.1484375,
+        "right": 1394.8515625,
+        "top": 633.234375,
+        "width": 1333.703125,
+        "x": 61.1484375,
+        "y": 633.234375
+      },
+      "height": 790,
+      "name": "Louise",
+      "photo": {
+        "bottom": 613.234375,
+        "height": 400,
+        "left": 61.1484375,
+        "right": 461.1484375,
+        "top": 213.234375,
+        "width": 400,
+        "x": 61.1484375,
+        "y": 213.234375
+      },
+      "scrollTop": 2431,
+      "scrollWidth": 1456,
+      "section": {
+        "bottom": 742.234375,
+        "height": 640.0625,
+        "left": 0,
+        "right": 1456,
+        "top": 102.171875,
+        "width": 1456,
+        "x": 0,
+        "y": 102.171875
+      },
+      "step": "louise-desktop",
+      "story": {
+        "height": 400,
+        "paragraphs": 3,
+        "scrollHeight": 400
+      },
+      "width": 1456
+    },
+    {
+      "controls": {
+        "bottom": 473.234375,
+        "height": 77,
+        "left": 61.1484375,
+        "right": 1394.8515625,
+        "top": 396.234375,
+        "width": 1333.703125,
+        "x": 61.1484375,
+        "y": 396.234375
+      },
+      "name": "Louana",
+      "paragraphs": 3,
+      "scrollTop": 2668,
+      "step": "louana-desktop"
+    },
+    {
+      "controls": {
+        "bottom": 826.1640625,
+        "height": 118,
+        "left": 20,
+        "right": 370,
+        "top": 708.1640625,
+        "width": 350,
+        "x": 20,
+        "y": 708.1640625
+      },
+      "height": 844,
+      "photo": {
+        "bottom": 296.1640625,
+        "height": 151.9140625,
+        "left": 119.0390625,
+        "right": 270.953125,
+        "top": 144.25,
+        "width": 151.9140625,
+        "x": 119.0390625,
+        "y": 144.25
+      },
+      "scrollTop": 2952.5,
+      "section": {
+        "bottom": 842.1640625,
+        "height": 760.109375,
+        "left": 0,
+        "right": 390,
+        "top": 82.0546875,
+        "width": 390,
+        "x": 0,
+        "y": 82.0546875
+      },
+      "step": "louise-mobile",
+      "story": {
+        "height": 384,
+        "scrollHeight": 384
+      },
+      "width": 390
+    },
+    {
+      "count": 6,
+      "knob": "matrix(1, 0, 0, 1, 0, 0)",
+      "open": 0,
+      "step": "home-default-collapsed",
+      "theme": "light"
+    },
+    {
+      "open": [
+        "Stratégie"
+      ],
+      "step": "home-accordion-interaction"
+    },
+    {
+      "open": 0,
+      "step": "home-reload-collapsed"
+    },
+    {
+      "count": 6,
+      "open": 0,
+      "step": "expertise-default-collapsed"
+    },
+    {
+      "buttonWidth": 110,
+      "step": "slide-desktop-dark",
+      "theme": "dark",
+      "transform": "matrix(1, 0, 0, 1, 66, 0)"
+    },
+    {
+      "checked": "false",
+      "step": "slide-desktop-light",
+      "theme": "light",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)"
+    },
+    {
+      "buttonHeight": 44,
+      "buttonWidth": 64,
+      "scrollWidth": 390,
+      "step": "slide-mobile-dark",
+      "transform": "matrix(1, 0, 0, 1, 20, 0)",
+      "width": 390
+    },
+    {
+      "actionsLeft": 126.8203125,
+      "buttonWidth": 60,
+      "logoRight": 118,
+      "scrollWidth": 320,
+      "step": "slide-small-mobile-light",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "width": 320
+    },
+    {
+      "expanded": "true",
+      "items": [
+        "mon teckel",
+        "montréal",
+        "le cinéma",
+        "la viande",
+        "le gin tonic",
+        "les araignées"
+      ],
+      "step": "louana-tastes"
+    },
+    {
+      "height": 790,
+      "scrollTop": 2149,
+      "section": {
+        "bottom": 1024.234375,
+        "height": 640.0625,
+        "left": 0,
+        "right": 1456,
+        "top": 384.171875,
+        "width": 1456,
+        "x": 0,
+        "y": 384.171875
+      },
+      "step": "capture-louana-desktop",
+      "width": 1456
+    },
+    {
+      "expanded": "true",
+      "items": [
+        "La danse",
+        "Les verres en terrasse",
+        "Tate McRae",
+        "Être à l’heure",
+        "Prendre le train",
+        "Me lever tôt pour prendre le train"
+      ],
+      "step": "louise-tastes"
+    },
+    {
+      "height": 790,
+      "scrollTop": 2148.5,
+      "section": {
+        "bottom": 1024.734375,
+        "height": 640.0625,
+        "left": 0,
+        "right": 1456,
+        "top": 384.671875,
+        "width": 1456,
+        "x": 0,
+        "y": 384.671875
+      },
+      "step": "capture-louise-desktop",
+      "width": 1456
+    },
+    {
+      "name": "Tiffany",
+      "status": "1 / 8",
+      "step": "next-wrap"
+    },
+    {
+      "name": "Louise",
+      "status": "8 / 8",
+      "step": "previous-wrap-keyboard"
+    },
+    {
+      "controls": {
+        "bottom": 702.234375,
+        "height": 77,
+        "left": 61.1484375,
+        "right": 1394.8515625,
+        "top": 625.234375,
+        "width": 1333.703125,
+        "x": 61.1484375,
+        "y": 625.234375
+      },
+      "height": 790,
+      "scrollTop": 2439,
+      "section": {
+        "bottom": 734.234375,
+        "height": 640.0625,
+        "left": 0,
+        "right": 1456,
+        "top": 94.171875,
+        "width": 1456,
+        "x": 0,
+        "y": 94.171875
+      },
+      "step": "proof-louise-desktop",
+      "width": 1456
+    },
+    {
+      "controls": {
+        "bottom": 701.734375,
+        "height": 77,
+        "left": 61.1484375,
+        "right": 1394.8515625,
+        "top": 624.734375,
+        "width": 1333.703125,
+        "x": 61.1484375,
+        "y": 624.734375
+      },
+      "height": 790,
+      "scrollTop": 2439.5,
+      "section": {
+        "bottom": 733.734375,
+        "height": 640.0625,
+        "left": 0,
+        "right": 1456,
+        "top": 93.671875,
+        "width": 1456,
+        "x": 0,
+        "y": 93.671875
+      },
+      "step": "proof-louana-desktop",
+      "width": 1456
+    }
+  ],
+  "team": [
+    {
+      "availableHeight": 696,
+      "height": 790,
+      "hiddenSlides": 7,
+      "name": "Tiffany",
+      "photo": {
+        "height": 400,
+        "loaded": true,
+        "width": 400
+      },
+      "scrollWidth": 1456,
+      "sectionHeight": 640.0625,
+      "status": "1 / 8",
+      "story": {
+        "height": 400,
+        "paragraphs": 5,
+        "scrollHeight": 400
+      },
+      "width": 1456
+    },
+    {
+      "availableHeight": 696,
+      "height": 790,
+      "hiddenSlides": 7,
+      "name": "Emma.L",
+      "photo": {
+        "height": 400,
+        "loaded": true,
+        "width": 400
+      },
+      "scrollWidth": 1456,
+      "sectionHeight": 640.0625,
+      "status": "2 / 8",
+      "story": {
+        "height": 400,
+        "paragraphs": 3,
+        "scrollHeight": 400
+      },
+      "width": 1456
+    },
+    {
+      "availableHeight": 696,
+      "height": 790,
+      "hiddenSlides": 7,
+      "name": "Emma.c",
+      "photo": {
+        "height": 400,
+        "loaded": true,
+        "width": 400
+      },
+      "scrollWidth": 1456,
+      "sectionHeight": 640.0625,
+      "status": "3 / 8",
+      "story": {
+        "height": 400,
+        "paragraphs": 4,
+        "scrollHeight": 400
+      },
+      "width": 1456
+    },
+    {
+      "availableHeight": 696,
+      "height": 790,
+      "hiddenSlides": 7,
+      "name": "Carla",
+      "photo": {
+        "height": 400,
+        "loaded": true,
+        "width": 400
+      },
+      "scrollWidth": 1456,
+      "sectionHeight": 640.0625,
+      "status": "4 / 8",
+      "story": {
+        "height": 400,
+        "paragraphs": 4,
+        "scrollHeight": 400
+      },
+      "width": 1456
+    },
+    {
+      "availableHeight": 696,
+      "height": 790,
+      "hiddenSlides": 7,
+      "name": "Raphaël",
+      "photo": {
+        "height": 400,
+        "loaded": true,
+        "width": 400
+      },
+      "scrollWidth": 1456,
+      "sectionHeight": 640.0625,
+      "status": "5 / 8",
+      "story": {
+        "height": 400,
+        "paragraphs": 4,
+        "scrollHeight": 400
+      },
+      "width": 1456
+    },
+    {
+      "availableHeight": 696,
+      "height": 790,
+      "hiddenSlides": 7,
+      "name": "Margaux",
+      "photo": {
+        "height": 400,
+        "loaded": true,
+        "width": 400
+      },
+      "scrollWidth": 1456,
+      "sectionHeight": 640.0625,
+      "status": "6 / 8",
+      "story": {
+        "height": 400,
+        "paragraphs": 3,
+        "scrollHeight": 400
+      },
+      "width": 1456
+    },
+    {
+      "availableHeight": 696,
+      "height": 790,
+      "hiddenSlides": 7,
+      "name": "Louana",
+      "photo": {
+        "height": 400,
+        "loaded": true,
+        "width": 400
+      },
+      "scrollWidth": 1456,
+      "sectionHeight": 640.0625,
+      "status": "7 / 8",
+      "story": {
+        "height": 400,
+        "paragraphs": 3,
+        "scrollHeight": 400
+      },
+      "width": 1456
+    },
+    {
+      "availableHeight": 696,
+      "height": 790,
+      "hiddenSlides": 7,
+      "name": "Louise",
+      "photo": {
+        "height": 400,
+        "loaded": true,
+        "width": 400
+      },
+      "scrollWidth": 1456,
+      "sectionHeight": 640.0625,
+      "status": "8 / 8",
+      "story": {
+        "height": 400,
+        "paragraphs": 3,
+        "scrollHeight": 400
+      },
+      "width": 1456
+    },
+    {
+      "availableHeight": 566,
+      "height": 660,
+      "hiddenSlides": 7,
+      "name": "Tiffany",
+      "photo": {
+        "height": 300,
+        "loaded": true,
+        "width": 300
+      },
+      "scrollWidth": 1280,
+      "sectionHeight": 532.3203125,
+      "status": "1 / 8",
+      "story": {
+        "height": 300,
+        "paragraphs": 5,
+        "scrollHeight": 312
+      },
+      "width": 1280
+    },
+    {
+      "availableHeight": 566,
+      "height": 660,
+      "hiddenSlides": 7,
+      "name": "Emma.L",
+      "photo": {
+        "height": 300,
+        "loaded": true,
+        "width": 300
+      },
+      "scrollWidth": 1280,
+      "sectionHeight": 532.3203125,
+      "status": "2 / 8",
+      "story": {
+        "height": 300,
+        "paragraphs": 3,
+        "scrollHeight": 300
+      },
+      "width": 1280
+    },
+    {
+      "availableHeight": 566,
+      "height": 660,
+      "hiddenSlides": 7,
+      "name": "Emma.c",
+      "photo": {
+        "height": 300,
+        "loaded": true,
+        "width": 300
+      },
+      "scrollWidth": 1280,
+      "sectionHeight": 532.3203125,
+      "status": "3 / 8",
+      "story": {
+        "height": 300,
+        "paragraphs": 4,
+        "scrollHeight": 300
+      },
+      "width": 1280
+    },
+    {
+      "availableHeight": 566,
+      "height": 660,
+      "hiddenSlides": 7,
+      "name": "Carla",
+      "photo": {
+        "height": 300,
+        "loaded": true,
+        "width": 300
+      },
+      "scrollWidth": 1280,
+      "sectionHeight": 532.3203125,
+      "status": "4 / 8",
+      "story": {
+        "height": 300,
+        "paragraphs": 4,
+        "scrollHeight": 300
+      },
+      "width": 1280
+    },
+    {
+      "availableHeight": 566,
+      "height": 660,
+      "hiddenSlides": 7,
+      "name": "Raphaël",
+      "photo": {
+        "height": 300,
+        "loaded": true,
+        "width": 300
+      },
+      "scrollWidth": 1280,
+      "sectionHeight": 532.3203125,
+      "status": "5 / 8",
+      "story": {
+        "height": 300,
+        "paragraphs": 4,
+        "scrollHeight": 300
+      },
+      "width": 1280
+    },
+    {
+      "availableHeight": 566,
+      "height": 660,
+      "hiddenSlides": 7,
+      "name": "Margaux",
+      "photo": {
+        "height": 300,
+        "loaded": true,
+        "width": 300
+      },
+      "scrollWidth": 1280,
+      "sectionHeight": 532.3203125,
+      "status": "6 / 8",
+      "story": {
+        "height": 300,
+        "paragraphs": 3,
+        "scrollHeight": 300
+      },
+      "width": 1280
+    },
+    {
+      "availableHeight": 566,
+      "height": 660,
+      "hiddenSlides": 7,
+      "name": "Louana",
+      "photo": {
+        "height": 300,
+        "loaded": true,
+        "width": 300
+      },
+      "scrollWidth": 1280,
+      "sectionHeight": 532.3203125,
+      "status": "7 / 8",
+      "story": {
+        "height": 300,
+        "paragraphs": 3,
+        "scrollHeight": 300
+      },
+      "width": 1280
+    },
+    {
+      "availableHeight": 566,
+      "height": 660,
+      "hiddenSlides": 7,
+      "name": "Louise",
+      "photo": {
+        "height": 300,
+        "loaded": true,
+        "width": 300
+      },
+      "scrollWidth": 1280,
+      "sectionHeight": 532.3203125,
+      "status": "8 / 8",
+      "story": {
+        "height": 300,
+        "paragraphs": 3,
+        "scrollHeight": 300
+      },
+      "width": 1280
+    },
+    {
+      "availableHeight": 762,
+      "height": 844,
+      "hiddenSlides": 7,
+      "name": "Tiffany",
+      "photo": {
+        "height": 151.9140625,
+        "loaded": true,
+        "width": 151.9140625
+      },
+      "scrollWidth": 390,
+      "sectionHeight": 760.109375,
+      "status": "1 / 8",
+      "story": {
+        "height": 384,
+        "paragraphs": 5,
+        "scrollHeight": 504
+      },
+      "width": 390
+    },
+    {
+      "availableHeight": 762,
+      "height": 844,
+      "hiddenSlides": 7,
+      "name": "Emma.L",
+      "photo": {
+        "height": 151.9140625,
+        "loaded": true,
+        "width": 151.9140625
+      },
+      "scrollWidth": 390,
+      "sectionHeight": 760.109375,
+      "status": "2 / 8",
+      "story": {
+        "height": 384,
+        "paragraphs": 3,
+        "scrollHeight": 384
+      },
+      "width": 390
+    },
+    {
+      "availableHeight": 762,
+      "height": 844,
+      "hiddenSlides": 7,
+      "name": "Emma.c",
+      "photo": {
+        "height": 151.9140625,
+        "loaded": true,
+        "width": 151.91407775878906
+      },
+      "scrollWidth": 390,
+      "sectionHeight": 760.109375,
+      "status": "3 / 8",
+      "story": {
+        "height": 384,
+        "paragraphs": 4,
+        "scrollHeight": 420
+      },
+      "width": 390
+    },
+    {
+      "availableHeight": 762,
+      "height": 844,
+      "hiddenSlides": 7,
+      "name": "Carla",
+      "photo": {
+        "height": 151.9140625,
+        "loaded": true,
+        "width": 151.9140625
+      },
+      "scrollWidth": 390,
+      "sectionHeight": 760.109375,
+      "status": "4 / 8",
+      "story": {
+        "height": 384,
+        "paragraphs": 4,
+        "scrollHeight": 396
+      },
+      "width": 390
+    },
+    {
+      "availableHeight": 762,
+      "height": 844,
+      "hiddenSlides": 7,
+      "name": "Raphaël",
+      "photo": {
+        "height": 151.9140625,
+        "loaded": true,
+        "width": 151.9140625
+      },
+      "scrollWidth": 390,
+      "sectionHeight": 760.109375,
+      "status": "5 / 8",
+      "story": {
+        "height": 384,
+        "paragraphs": 4,
+        "scrollHeight": 468
+      },
+      "width": 390
+    },
+    {
+      "availableHeight": 762,
+      "height": 844,
+      "hiddenSlides": 7,
+      "name": "Margaux",
+      "photo": {
+        "height": 151.9140625,
+        "loaded": true,
+        "width": 151.9140625
+      },
+      "scrollWidth": 390,
+      "sectionHeight": 760.109375,
+      "status": "6 / 8",
+      "story": {
+        "height": 384,
+        "paragraphs": 3,
+        "scrollHeight": 384
+      },
+      "width": 390
+    },
+    {
+      "availableHeight": 762,
+      "height": 844,
+      "hiddenSlides": 7,
+      "name": "Louana",
+      "photo": {
+        "height": 151.9140625,
+        "loaded": true,
+        "width": 151.9140625
+      },
+      "scrollWidth": 390,
+      "sectionHeight": 760.109375,
+      "status": "7 / 8",
+      "story": {
+        "height": 384,
+        "paragraphs": 3,
+        "scrollHeight": 384
+      },
+      "width": 390
+    },
+    {
+      "availableHeight": 762,
+      "height": 844,
+      "hiddenSlides": 7,
+      "name": "Louise",
+      "photo": {
+        "height": 151.9140625,
+        "loaded": true,
+        "width": 151.9140625
+      },
+      "scrollWidth": 390,
+      "sectionHeight": 760.109375,
+      "status": "8 / 8",
+      "story": {
+        "height": 384,
+        "paragraphs": 3,
+        "scrollHeight": 384
+      },
+      "width": 390
+    },
+    {
+      "availableHeight": 585,
+      "height": 667,
+      "hiddenSlides": 7,
+      "name": "Tiffany",
+      "photo": {
+        "height": 120.0546875,
+        "loaded": true,
+        "width": 120.0546875
+      },
+      "scrollWidth": 375,
+      "sectionHeight": 551.25,
+      "status": "1 / 8",
+      "story": {
+        "height": 207,
+        "paragraphs": 5,
+        "scrollHeight": 528
+      },
+      "width": 375
+    },
+    {
+      "availableHeight": 585,
+      "height": 667,
+      "hiddenSlides": 7,
+      "name": "Emma.L",
+      "photo": {
+        "height": 120.0546875,
+        "loaded": true,
+        "width": 120.0546875
+      },
+      "scrollWidth": 375,
+      "sectionHeight": 551.25,
+      "status": "2 / 8",
+      "story": {
+        "height": 207,
+        "paragraphs": 3,
+        "scrollHeight": 312
+      },
+      "width": 375
+    },
+    {
+      "availableHeight": 585,
+      "height": 667,
+      "hiddenSlides": 7,
+      "name": "Emma.c",
+      "photo": {
+        "height": 120.0546875,
+        "loaded": true,
+        "width": 120.05469512939452
+      },
+      "scrollWidth": 375,
+      "sectionHeight": 551.25,
+      "status": "3 / 8",
+      "story": {
+        "height": 207,
+        "paragraphs": 4,
+        "scrollHeight": 420
+      },
+      "width": 375
+    },
+    {
+      "availableHeight": 585,
+      "height": 667,
+      "hiddenSlides": 7,
+      "name": "Carla",
+      "photo": {
+        "height": 120.0546875,
+        "loaded": true,
+        "width": 120.05467987060548
+      },
+      "scrollWidth": 375,
+      "sectionHeight": 551.25,
+      "status": "4 / 8",
+      "story": {
+        "height": 207,
+        "paragraphs": 4,
+        "scrollHeight": 420
+      },
+      "width": 375
+    },
+    {
+      "availableHeight": 585,
+      "height": 667,
+      "hiddenSlides": 7,
+      "name": "Raphaël",
+      "photo": {
+        "height": 120.0546875,
+        "loaded": true,
+        "width": 120.0546875
+      },
+      "scrollWidth": 375,
+      "sectionHeight": 551.25,
+      "status": "5 / 8",
+      "story": {
+        "height": 207,
+        "paragraphs": 4,
+        "scrollHeight": 492
+      },
+      "width": 375
+    },
+    {
+      "availableHeight": 585,
+      "height": 667,
+      "hiddenSlides": 7,
+      "name": "Margaux",
+      "photo": {
+        "height": 120.0546875,
+        "loaded": true,
+        "width": 120.0546875
+      },
+      "scrollWidth": 375,
+      "sectionHeight": 551.25,
+      "status": "6 / 8",
+      "story": {
+        "height": 207,
+        "paragraphs": 3,
+        "scrollHeight": 288
+      },
+      "width": 375
+    },
+    {
+      "availableHeight": 585,
+      "height": 667,
+      "hiddenSlides": 7,
+      "name": "Louana",
+      "photo": {
+        "height": 120.0546875,
+        "loaded": true,
+        "width": 120.0546875
+      },
+      "scrollWidth": 375,
+      "sectionHeight": 551.25,
+      "status": "7 / 8",
+      "story": {
+        "height": 207,
+        "paragraphs": 3,
+        "scrollHeight": 264
+      },
+      "width": 375
+    },
+    {
+      "availableHeight": 585,
+      "height": 667,
+      "hiddenSlides": 7,
+      "name": "Louise",
+      "photo": {
+        "height": 120.0546875,
+        "loaded": true,
+        "width": 120.0546875
+      },
+      "scrollWidth": 375,
+      "sectionHeight": 551.25,
+      "status": "8 / 8",
+      "story": {
+        "height": 207,
+        "paragraphs": 3,
+        "scrollHeight": 360
+      },
+      "width": 375
+    },
+    {
+      "availableHeight": 942,
+      "height": 1024,
+      "hiddenSlides": 7,
+      "name": "Tiffany",
+      "photo": {
+        "height": 160,
+        "loaded": true,
+        "width": 160
+      },
+      "scrollWidth": 768,
+      "sectionHeight": 775.7578125,
+      "status": "1 / 8",
+      "story": {
+        "height": 384,
+        "paragraphs": 5,
+        "scrollHeight": 384
+      },
+      "width": 768
+    },
+    {
+      "availableHeight": 942,
+      "height": 1024,
+      "hiddenSlides": 7,
+      "name": "Emma.L",
+      "photo": {
+        "height": 160,
+        "loaded": true,
+        "width": 160
+      },
+      "scrollWidth": 768,
+      "sectionHeight": 775.7578125,
+      "status": "2 / 8",
+      "story": {
+        "height": 384,
+        "paragraphs": 3,
+        "scrollHeight": 384
+      },
+      "width": 768
+    },
+    {
+      "availableHeight": 942,
+      "height": 1024,
+      "hiddenSlides": 7,
+      "name": "Emma.c",
+      "photo": {
+        "height": 160,
+        "loaded": true,
+        "width": 160
+      },
+      "scrollWidth": 768,
+      "sectionHeight": 775.7578125,
+      "status": "3 / 8",
+      "story": {
+        "height": 384,
+        "paragraphs": 4,
+        "scrollHeight": 384
+      },
+      "width": 768
+    },
+    {
+      "availableHeight": 942,
+      "height": 1024,
+      "hiddenSlides": 7,
+      "name": "Carla",
+      "photo": {
+        "height": 160,
+        "loaded": true,
+        "width": 160
+      },
+      "scrollWidth": 768,
+      "sectionHeight": 775.7578125,
+      "status": "4 / 8",
+      "story": {
+        "height": 384,
+        "paragraphs": 4,
+        "scrollHeight": 384
+      },
+      "width": 768
+    },
+    {
+      "availableHeight": 942,
+      "height": 1024,
+      "hiddenSlides": 7,
+      "name": "Raphaël",
+      "photo": {
+        "height": 160,
+        "loaded": true,
+        "width": 160
+      },
+      "scrollWidth": 768,
+      "sectionHeight": 775.7578125,
+      "status": "5 / 8",
+      "story": {
+        "height": 384,
+        "paragraphs": 4,
+        "scrollHeight": 384
+      },
+      "width": 768
+    },
+    {
+      "availableHeight": 942,
+      "height": 1024,
+      "hiddenSlides": 7,
+      "name": "Margaux",
+      "photo": {
+        "height": 160,
+        "loaded": true,
+        "width": 160
+      },
+      "scrollWidth": 768,
+      "sectionHeight": 775.7578125,
+      "status": "6 / 8",
+      "story": {
+        "height": 384,
+        "paragraphs": 3,
+        "scrollHeight": 384
+      },
+      "width": 768
+    },
+    {
+      "availableHeight": 942,
+      "height": 1024,
+      "hiddenSlides": 7,
+      "name": "Louana",
+      "photo": {
+        "height": 160,
+        "loaded": true,
+        "width": 160
+      },
+      "scrollWidth": 768,
+      "sectionHeight": 775.7578125,
+      "status": "7 / 8",
+      "story": {
+        "height": 384,
+        "paragraphs": 3,
+        "scrollHeight": 384
+      },
+      "width": 768
+    },
+    {
+      "availableHeight": 942,
+      "height": 1024,
+      "hiddenSlides": 7,
+      "name": "Louise",
+      "photo": {
+        "height": 160,
+        "loaded": true,
+        "width": 160
+      },
+      "scrollWidth": 768,
+      "sectionHeight": 775.7578125,
+      "status": "8 / 8",
+      "story": {
+        "height": 384,
+        "paragraphs": 3,
+        "scrollHeight": 384
+      },
+      "width": 768
+    }
+  ]
+}

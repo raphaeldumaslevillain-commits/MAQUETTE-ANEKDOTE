@@ -48,3 +48,15 @@ Les index 01 • à 06 • de l’accordéon d’accueil sont retirés du HTML. 
 Une capsule soleil/lune est ajoutée dans l’en-tête de toutes les pages. Son libellé indique Clair ou Sombre ; elle devient un bouton rond de 44 px sur les petits écrans. Le mode sombre associe des fonds charbon, des textes crème, des séparateurs discrets et un orange légèrement éclairci. Les logos et illustrations à traits s’adaptent, les photographies conservent leur rendu et les panneaux éditoriaux sombres restent lisibles.
 
 Le thème se déploie en cercle depuis le bouton pendant 620 ms, accompagné d’une rotation soleil/lune. Les navigateurs sans transition de vue utilisent un fondu. Le mouvement réduit désactive ces animations. Le choix est mémorisé localement et appliqué avant l’affichage de la page ; la préférence du système est utilisée lors de la première visite. Le contrôle fonctionne au clavier et annonce le thème activé.
+
+## Curseur coulissant, accordéons fermés et équipe complétée
+
+Le curseur soleil/lune se déplace de gauche à droite dans la capsule avec une transition de 380 ms, et revient à gauche pour le mode clair. Il reste coulissant sur mobile. L’animation circulaire de la page est conservée ; le curseur et le libellé ont leurs propres transitions pour rester visibles pendant ce déploiement.
+
+Les six lignes d’expertise démarrent fermées sur l’accueil et sur la page Expertises. Leur ouverture reste manuelle et une seule ligne s’ouvre à la fois.
+
+Les portraits du carrousel sont ramenés à 400 px maximum sur ordinateur, puis adaptés à la hauteur de la fenêtre. Sur mobile, les portraits sont plus petits et le texte utilise une zone de lecture adaptée. Le nom, la photo, le texte et les flèches restent réunis dans la fenêtre. Les boutons de sélection défilent horizontalement sur les petits écrans. Les longues biographies restent lisibles dans leur zone, sans déplacer les commandes hors de la page.
+
+Les textes sont répartis en paragraphes par idée, avec une introduction distincte et des espacements cohérents. Les phrases source sont conservées. La biographie de Carla, fournie en blocs HTML, bénéficie aussi de cette présentation.
+
+Louana et Louise sont ajoutées avec les photos et contenus transmis par le client, leurs trois goûts et leurs trois dégoûts. Le carrousel comporte désormais huit membres ; Christelle conserve sa présentation indépendante, soit neuf personnes au total. Pauline reste retirée.

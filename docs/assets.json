@@ -1993,5 +1993,21 @@
     "path": "assets/images/equipe/christelle-mantras.svg",
     "sourceBytes": 114544,
     "bytes": 114544
+  },
+  {
+    "path": "assets/images/equipe/louana-portrait.webp",
+    "width": 960,
+    "height": 1280,
+    "format": "webp",
+    "bytes": 95634,
+    "source": "Photo fournie par le client"
+  },
+  {
+    "path": "assets/images/equipe/louise-portrait.webp",
+    "width": 920,
+    "height": 882,
+    "format": "webp",
+    "bytes": 83928,
+    "source": "Photo fournie par le client"
   }
 ]

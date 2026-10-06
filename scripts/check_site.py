@@ -39,9 +39,16 @@ for t in D['team']:
  if t['name']=='Pauline':continue # Explicit removal in fourth review; originals stay archived.
  target=root/'equipe/index.html';dest=norm(BeautifulSoup(target.read_text(),'html.parser').get_text(' ',strip=True))
  for field in ['bio','anecdote']:
-  for par in BeautifulSoup(t[field],'html.parser').select('p,li'):
+  fragment=BeautifulSoup(t[field],'html.parser')
+  paragraphs=fragment.select('p,li')
+  if not fragment.select('p'):paragraphs+=[node for node in fragment.select('div') if not node.find(['div','p','ul'])]
+  for par in paragraphs:
    original=norm(par.get_text(' ',strip=True))
    if original not in dest:errors.append(['equipe',t['name'],'missing source paragraph',original[:150]])
+# Both expertise lists start collapsed; opening a row remains an explicit user action.
+for route in ['index.html','expertises/index.html']:
+ if BeautifulSoup((root/route).read_text(),'html.parser').select('.expertise-accordion details[open]'):
+  errors.append([route,'expertise accordion open on load'])
 # Newsroom was explicitly removed from the published experience by the user.
 if (root/'newsroom').exists():errors.append(['newsroom','retired routes still exist'])
 for path in pages:

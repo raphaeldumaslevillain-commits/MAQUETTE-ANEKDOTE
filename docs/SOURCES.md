@@ -19,3 +19,6 @@ Les polices WOFF2 viennent de Google Fonts et sont locales. Inter et Instrument 
 ## Droits
 
 Les marques, logos, personnes photographiées, textes, citations et créations de campagne restent la propriété de leurs ayants droit. Leur reprise est faite pour cette refonte demandée du site Anekdote, sans création de nouveaux droits ni invention d’autorisation de campagne. La vérification du périmètre de publication final de ces médias appartient à l’agence.
+## Membres ajoutées le 6 octobre 2026
+
+Les portraits de Louana et de Louise, leurs présentations et leurs listes de goûts sont fournis directement par le client pour leur intégration à l’équipe. Les photos livrées sont conservées comme portraits, exportées en WebP pour le site ; le noir et blanc est appliqué dans la feuille de style, conformément aux autres membres. Aucune anecdote, autre photo ou information personnelle supplémentaire n’est inventée.

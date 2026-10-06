@@ -216,3 +216,43 @@
 .home-accordion summary{grid-template-columns:minmax(0,1fr) 40px}
 .home-accordion .expertise-answer{padding-left:0}
 @media(max-width:800px){.home-accordion summary{grid-template-columns:minmax(0,1fr) 25px}}
+
+/* Compact team portraits keep the name, copy and navigation together on screen. */
+.team-carousel-section{padding-block:28px 32px;scroll-margin-top:calc(var(--nav) + 12px)}
+.member-heading{margin-bottom:18px}
+.member-heading h3{font-size:clamp(2.5rem,4vw,3.8rem)}
+.member-layout{--portrait-size:min(400px,40cqw,calc(100svh - 360px));grid-template-columns:var(--portrait-size) minmax(0,1fr);gap:clamp(28px,4vw,64px)}
+.member-photo{width:var(--portrait-size);height:var(--portrait-size);justify-self:start}
+.member-story{height:var(--portrait-size);padding:0 12px 0 0;display:block}
+.member-story>p{font-size:clamp(1rem,1.15vw,1.125rem);line-height:1.6;max-width:64ch}
+.member-story>p+p{margin-top:14px}
+.member-story>p:first-child{font-weight:500}
+.team-carousel .deck-controls{margin-top:20px;flex-wrap:nowrap;gap:24px}
+.member-tabs{flex:1;min-width:0;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:thin;padding:6px;scroll-padding-inline:6px}
+.member-tabs button{flex:none;padding:10px 12px;white-space:nowrap}
+.team-carousel .deck-arrows{flex:none;margin-left:auto;gap:12px}
+.team-carousel .deck-arrows button{width:44px;height:44px}
+.team-carousel .photo-tastes{padding:24px;gap:20px;overflow:auto;overscroll-behavior:contain}
+.team-carousel .photo-tastes h4{margin-bottom:10px}
+.team-carousel .taste-group ul{gap:9px}
+.team-carousel .taste-group li{font-size:1rem}
+@media(max-width:800px){
+ .team-carousel-section{padding-block:16px}
+ .member-heading{margin-bottom:10px;gap:12px}
+ .member-heading h3{font-size:clamp(2rem,8vw,2.6rem)}
+ .member-heading .eyebrow{font-size:.6rem}
+ .member-layout{--portrait-size:min(160px,18svh);grid-template-columns:minmax(0,1fr);gap:14px}
+ .member-photo{justify-self:center}
+ .member-story{height:clamp(160px,calc(100svh - 460px),384px);padding:0 10px 0 0}
+ .member-story>p{font-size:1rem;line-height:1.5;max-width:none}
+ .member-story>p+p{margin-top:12px}
+ .team-carousel.enhanced>.deck-controls{display:grid;grid-template-columns:minmax(0,1fr);gap:8px;margin-top:14px;padding-top:10px}
+ .member-tabs{gap:8px;padding:4px;max-width:100%}
+ .team-carousel .deck-arrows{width:100%;justify-content:flex-end;margin-left:0}
+ .team-carousel .deck-status{margin-right:auto}
+ .team-carousel .photo-tastes{padding:14px;gap:14px}
+ .team-carousel .photo-tastes h4{font-size:.6rem;margin-bottom:6px}
+ .team-carousel .taste-group ul{gap:5px}
+ .team-carousel .taste-group li{font-size:.75rem;line-height:1.3}
+ .team-carousel .taste-group svg{width:15px;height:15px}
+}
