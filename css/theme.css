@@ -1,0 +1,39 @@
+/* Theme tokens keep photographs intact and preserve the editorial dark panels. */
+:root{color-scheme:light;--deep:#171716;--on-deep:#f4f2eb;--accent-ink:#171716;--surface:#e9e7df}
+:root[data-theme=dark]{color-scheme:dark;--paper:#191918;--ink:#f4f2eb;--muted:#b8b6ae;--line:#464640;--white:#242422;--orange:#ff714f;--deep:#101010;--surface:#282826;--portrait-shadow:0 14px 38px -22px #000b}
+.theme-toggle{display:inline-flex;align-items:center;justify-content:center;gap:10px;flex:none;width:110px;height:44px;padding:5px 12px 5px 5px;border:1px solid var(--line);border-radius:999px;background:transparent;color:var(--ink);font-size:.72rem;font-weight:500;line-height:1;transition:border-color .2s,background .2s}
+.theme-toggle:hover{border-color:var(--ink);background:var(--surface)}
+.theme-toggle:active .theme-icon{transform:scale(.9)}
+.theme-icon{display:grid;place-items:center;position:relative;width:32px;height:32px;flex:none;border-radius:50%;background:var(--ink);color:var(--paper);transition:transform .3s var(--ease)}
+.theme-icon svg{position:absolute;width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;transition:transform .45s var(--ease),opacity .25s}
+.theme-moon{opacity:0;transform:rotate(-65deg) scale(.55)}
+[data-theme=dark] .theme-sun{opacity:0;transform:rotate(65deg) scale(.55)}
+[data-theme=dark] .theme-moon{opacity:1;transform:rotate(0) scale(1)}
+.theme-toggle [data-theme-label]{min-width:43px;text-align:left}
+.theme-toggle:focus-visible{outline-color:var(--ink);outline-offset:4px}
+.skip-link{color:var(--paper)}
+::selection{color:var(--accent-ink);background:var(--orange)}
+:is(.project-editorial,.site-footer,.nav-dialog,.agency-quote,.case-results,.manifest-deck,.talents-voices,.solar-section,.video-dialog,.photo-tastes,.company-overlay,.talent-quote:not(:nth-child(4n))){--paper:var(--on-deep);--ink:#171716}
+:is(.project-editorial,.site-footer,.nav-dialog,.agency-quote,.case-results,.manifest-deck,.talents-voices,.solar-section,.video-dialog,.talent-quote:not(:nth-child(4n))){background:var(--deep);color:var(--on-deep)}
+.nav-dialog::backdrop{background:var(--deep)}
+.company-overlay,.photo-tastes{color:var(--on-deep)}
+.form-field input,.form-field select,.form-field textarea{color:var(--ink)}
+.choice:has(input:checked),.legal-source-note{background:var(--surface)}
+:root[data-theme=dark] .site-header>.logo img{filter:brightness(0) invert(1)}
+:root[data-theme=dark] .site-header.is-scrolled{box-shadow:0 5px 22px -16px #000b}
+:root[data-theme=dark] .media-frame{background:#282826}
+:root[data-theme=dark] :is(.marquee-group img,.client-logos img){filter:grayscale(1) invert(1)}
+:root[data-theme=dark] :is(.founder-mantras img,.person-story .role-legend,.person-story .prose>img,.choice img){filter:grayscale(1) invert(1)}
+:root[data-theme=dark] .form-field:focus-within label{color:var(--orange)}
+:root[data-theme=dark] :is(.button:hover,.circle-link:hover,.media-play:hover,.taste-toggle:hover,.agency-deck .deck-next-only button:hover,.footer-invitation:hover .circle-link){color:var(--accent-ink)}
+/* The new snapshot expands from the switch; page navigation keeps its own animation. */
+.theme-reveal::view-transition-group(root){animation:none}
+.theme-reveal::view-transition-old(root),.theme-reveal::view-transition-new(root){animation:none;mix-blend-mode:normal}
+.theme-reveal::view-transition-old(root){z-index:1}
+.theme-reveal::view-transition-new(root){z-index:2}
+.theme-fading body,.theme-fading :is(.site-header,.section,.site-footer,.manifest-deck,.choice,.theme-toggle){transition:background-color .36s,color .36s,border-color .36s}
+@media(max-width:1050px){.header-actions{gap:16px}.theme-toggle{width:44px;padding:5px}.theme-toggle [data-theme-label]{display:none}}
+@media(max-width:800px){.header-actions{gap:12px}.coffee::before{margin-right:7px}}
+@media(max-width:360px){.site-header>.logo{width:105px}.header-actions{gap:8px}.coffee{font-size:1.15rem}.coffee::before{display:none}}
+@media(prefers-reduced-motion:reduce){.theme-toggle,.theme-icon,.theme-icon svg{transition:none}}
+@media(print){:root[data-theme=dark]{--paper:#fff;--ink:#171716;--muted:#696862;--line:#cecdc6;--orange:#ff471f;color-scheme:light}.theme-toggle{display:none}.case-results{background:white;color:black}}

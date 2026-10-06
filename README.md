@@ -82,6 +82,8 @@ La charte Drive cite PP Editorial New Italic. En l’absence de fichier web et d
 
 Les annotations et modifications demandées sont détaillées dans [MODIFICATIONS.md](docs/MODIFICATIONS.md). Les contenus source et l’audit initial restent archivés pour la traçabilité ; les anciens articles ne sont plus publiés.
 
+Le bouton soleil/lune de l’en-tête permet de choisir le thème clair ou sombre. Le choix est conservé d’une page et d’une visite à l’autre ; la première visite suit la préférence du système. L’animation circulaire respecte le mouvement réduit. [Aperçu des deux thèmes](docs/previews/themes-clair-sombre.jpg). Les contrôles du thème peuvent être relancés avec `node scripts/check_theme.cjs`.
+
 ## Documentation
 
 - [Audit et arborescence](docs/AUDIT.md)

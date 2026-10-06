@@ -29,6 +29,7 @@ jobs:
           .venv/bin/python scripts/build.py
           .venv/bin/python scripts/check_site.py
           for file in js/*.js; do node --check "$file"; done
+          node scripts/check_theme.cjs
       - name: Prepare public files
         run: .venv/bin/python scripts/package_pages.py
       - uses: actions/upload-pages-artifact@v4

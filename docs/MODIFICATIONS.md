@@ -42,3 +42,9 @@ Les biographies, anecdotes et goûts des sept personnes affichées sont comparé
 ## Complément : six annotations sur l’accueil
 
 Les index 01 • à 06 • de l’accordéon d’accueil sont retirés du HTML. Les titres et descriptions commencent au bord gauche de la section, sans colonne vide. Les commandes + et les liens des six expertises restent disponibles. La numérotation de l’accordéon de la page Expertises n’est pas modifiée.
+
+## Thèmes clair et sombre
+
+Une capsule soleil/lune est ajoutée dans l’en-tête de toutes les pages. Son libellé indique Clair ou Sombre ; elle devient un bouton rond de 44 px sur les petits écrans. Le mode sombre associe des fonds charbon, des textes crème, des séparateurs discrets et un orange légèrement éclairci. Les logos et illustrations à traits s’adaptent, les photographies conservent leur rendu et les panneaux éditoriaux sombres restent lisibles.
+
+Le thème se déploie en cercle depuis le bouton pendant 620 ms, accompagné d’une rotation soleil/lune. Les navigateurs sans transition de vue utilisent un fondu. Le mouvement réduit désactive ces animations. Le choix est mémorisé localement et appliqué avant l’affichage de la page ; la préférence du système est utilisée lors de la première visite. Le contrôle fonctionne au clavier et annonce le thème activé.

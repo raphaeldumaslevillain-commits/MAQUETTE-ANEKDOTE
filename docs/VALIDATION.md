@@ -25,3 +25,15 @@ Aucun score Lighthouse ni certification d’accessibilité n’est revendiqué. 
 ## Complément : accordéon d’accueil sans numéros
 
 Les six index sont absents du DOM à 390 et 1456 px. Les six titres et les descriptions commencent sur le même bord gauche (20 px sur mobile, 61,15 px sur ordinateur), sans débordement horizontal. Les six liens restent présents. L’ouverture de Stratégie referme la première expertise. Voir round5-browser-checks.json et previews/accueil-expertises-desktop.jpg.
+
+## Thèmes clair et sombre
+
+Les deux palettes et le contrôle soleil/lune sont vérifiés dans le navigateur. Le thème sombre persiste au rechargement et lors de la navigation. Le contrôle conserve son nom accessible, expose son état, fonctionne avec Entrée et Espace et garde le focus. L’en-tête est vérifié à 320, 375, 390, 768, 1050, 1150, 1280 et 1456 px, sans débordement ; le bouton mesure au moins 44 × 44 px. À 320 px, une adaptation conserve l’espace entre le logo et les commandes.
+
+Les fonds et textes des sections Agence, du manifeste, du menu, du portfolio, de Solar Metrics et du pied de page sont vérifiés. Le parcours Contact arrive jusqu’aux champs de la troisième étape, avec choix et textes lisibles, sans envoi. Les photographies chargées gardent leurs couleurs ou leur noir et blanc existant. Aucune erreur JavaScript n’a été observée. Voir theme-browser-checks.json et previews/themes-clair-sombre.jpg.
+
+Le contraste calculé est de 15,71:1 pour le texte principal sombre et de 8,66:1 pour le texte secondaire. Les neuf contrôles de scripts/check_theme.cjs passent : préférence enregistrée, préférence système et changement du système, priorité du choix manuel, mouvement réduit, stockage indisponible, repli sans transition de vue, animation et clics répétés, récupération après transition interrompue et synchronisation entre onglets. Les scénarios de repli sont testés dans un environnement simulé ; la transition circulaire et sa fin sont observées dans le navigateur local.
+
+La validation du site reste sans erreur sur 58 fichiers HTML, 33 projets et sept personnes. Les aperçus de l’accueil sont actualisés ; les captures de cette révision utilisent les styles et mouvements livrés.
+
+Référence d’implémentation : [transition de vue MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document/startViewTransition).

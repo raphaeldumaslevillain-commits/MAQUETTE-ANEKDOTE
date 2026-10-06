@@ -1,0 +1,288 @@
+{
+  "observations": [
+    {
+      "background": "rgb(25, 25, 24)",
+      "className": "",
+      "footer": {
+        "background": "rgb(16, 16, 16)",
+        "text": "rgb(244, 242, 235)"
+      },
+      "logo": "brightness(0) invert(1)",
+      "scrollWidth": 1280,
+      "step": "desktop-dark",
+      "text": "rgb(244, 242, 235)",
+      "theme": "dark",
+      "width": 1280
+    },
+    {
+      "background": "rgb(25, 25, 24)",
+      "manifest": {
+        "background": "rgb(16, 16, 16)",
+        "text": "rgb(244, 242, 235)"
+      },
+      "step": "persist-on-agency",
+      "theme": "dark"
+    },
+    {
+      "header": [
+        {
+          "element": "logo",
+          "height": 29,
+          "right": 145,
+          "width": 125,
+          "x": 20
+        },
+        {
+          "element": "coffee",
+          "height": 26,
+          "right": 258,
+          "width": 77.3203125,
+          "x": 180.6796875
+        },
+        {
+          "element": "theme-toggle",
+          "height": 44,
+          "right": 314,
+          "width": 44,
+          "x": 270
+        },
+        {
+          "element": "menu-toggle",
+          "height": 44,
+          "right": 370,
+          "width": 44,
+          "x": 326
+        }
+      ],
+      "scrollWidth": 390,
+      "step": "mobile-dark",
+      "theme": "dark",
+      "width": 390
+    },
+    {
+      "background": "rgb(23, 23, 22)",
+      "open": true,
+      "step": "mobile-menu-light",
+      "text": "rgb(244, 242, 235)"
+    },
+    {
+      "choice": {
+        "background": "rgb(40, 40, 38)",
+        "text": "rgb(244, 242, 235)"
+      },
+      "scrollWidth": 390,
+      "step": "contact-dark",
+      "theme": "dark",
+      "width": 390
+    },
+    {
+      "fields": [
+        {
+          "border": "rgb(70, 70, 64)",
+          "color": "rgb(244, 242, 235)"
+        },
+        {
+          "border": "rgb(70, 70, 64)",
+          "color": "rgb(244, 242, 235)"
+        },
+        {
+          "border": "rgb(70, 70, 64)",
+          "color": "rgb(244, 242, 235)"
+        },
+        {
+          "border": "rgb(70, 70, 64)",
+          "color": "rgb(244, 242, 235)"
+        },
+        {
+          "border": "rgb(70, 70, 64)",
+          "color": "rgb(244, 242, 235)"
+        },
+        {
+          "border": "rgb(70, 70, 64)",
+          "color": "rgb(244, 242, 235)"
+        }
+      ],
+      "scrollWidth": 390,
+      "step": "contact-dark-fields",
+      "theme": "dark",
+      "width": 390
+    },
+    {
+      "background": "rgb(25, 25, 24)",
+      "scrollWidth": 1456,
+      "solar": {
+        "background": "rgb(16, 16, 16)",
+        "text": "rgb(244, 242, 235)"
+      },
+      "step": "solar-dark",
+      "theme": "dark",
+      "width": 1456
+    },
+    {
+      "category": "rgb(184, 182, 174)",
+      "kpi": "rgb(255, 113, 79)",
+      "projects": 33,
+      "scrollWidth": 1456,
+      "step": "projects-dark",
+      "theme": "dark",
+      "width": 1456
+    },
+    {
+      "items": [
+        {
+          "element": "logo",
+          "right": 125,
+          "width": 105,
+          "x": 20
+        },
+        {
+          "element": "header-actions",
+          "right": 301.2578125,
+          "width": 176.2578125,
+          "x": 125
+        }
+      ],
+      "scrollWidth": 320,
+      "step": "responsive-header",
+      "theme": "dark",
+      "width": 320
+    },
+    {
+      "items": [
+        {
+          "element": "logo",
+          "right": 145,
+          "width": 125,
+          "x": 20
+        },
+        {
+          "element": "header-actions",
+          "right": 355,
+          "width": 189.3203125,
+          "x": 165.6796875
+        }
+      ],
+      "scrollWidth": 375,
+      "step": "responsive-header",
+      "theme": "dark",
+      "width": 375
+    },
+    {
+      "items": [
+        {
+          "element": "logo",
+          "right": 149,
+          "width": 125,
+          "x": 24
+        },
+        {
+          "element": "header-actions",
+          "right": 744,
+          "width": 189.3203125,
+          "x": 554.6796875
+        }
+      ],
+      "scrollWidth": 768,
+      "step": "responsive-header",
+      "theme": "dark",
+      "width": 768
+    },
+    {
+      "items": [
+        {
+          "element": "logo",
+          "right": 189.09375,
+          "width": 145,
+          "x": 44.09375
+        },
+        {
+          "element": "desktop-nav",
+          "right": 576.703125,
+          "width": 195.6640625,
+          "x": 381.0390625
+        },
+        {
+          "element": "header-actions",
+          "right": 1005.90625,
+          "width": 237.2578125,
+          "x": 768.6484375
+        }
+      ],
+      "scrollWidth": 1050,
+      "step": "responsive-header",
+      "theme": "dark",
+      "width": 1050
+    },
+    {
+      "items": [
+        {
+          "element": "logo",
+          "right": 193.296875,
+          "width": 145,
+          "x": 48.296875
+        },
+        {
+          "element": "desktop-nav",
+          "right": 589.703125,
+          "width": 195.6640625,
+          "x": 394.0390625
+        },
+        {
+          "element": "header-actions",
+          "right": 1101.703125,
+          "width": 311.2578125,
+          "x": 790.4453125
+        }
+      ],
+      "scrollWidth": 1150,
+      "step": "responsive-header",
+      "theme": "dark",
+      "width": 1150
+    },
+    {
+      "background": "rgb(244, 242, 235)",
+      "buttonHeight": 44,
+      "buttonWidth": 110,
+      "checked": "false",
+      "focused": true,
+      "label": "Thème sombre",
+      "scrollWidth": 1456,
+      "step": "final-light-keyboard",
+      "text": "rgb(23, 23, 22)",
+      "theme": "light",
+      "width": 1456
+    },
+    {
+      "checked": "true",
+      "className": "theme-reveal",
+      "label": "Thème sombre",
+      "status": "Thème sombre activé.",
+      "step": "final-dark-reveal",
+      "theme": "dark"
+    },
+    {
+      "checked": "true",
+      "className": "",
+      "step": "final-persistence",
+      "theme": "dark"
+    },
+    {
+      "actionsLeft": 137.7421875,
+      "checked": "true",
+      "logoRight": 125,
+      "scrollWidth": 320,
+      "step": "final-small-mobile",
+      "theme": "dark",
+      "width": 320
+    }
+  ],
+  "functional_checks": 9,
+  "console_errors": [],
+  "contrast_ratios": {
+    "dark_body": 15.71,
+    "dark_secondary": 8.66,
+    "dark_accent": 6.47,
+    "light_body": 16.02,
+    "light_secondary": 4.99
+  }
+}
