@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="fr-FR" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,400;1,600&display=swap" rel="stylesheet">
+	<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v28.1 - https://yoast.com/product/yoast-seo-wordpress/ -->
+	<title>Projet Archive - Anekdote</title>
+	<link rel="canonical" href="https://www.anekdote.fr/projets/" />
+	<link rel="next" href="https://www.anekdote.fr/projets/page/2/" />
+	<meta property="og:locale" content="fr_FR" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Projet Archive - Anekdote" />
+	<meta property="og:url" content="https://www.anekdote.fr/projets/" />
+	<meta property="og:site_name" content="Anekdote" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"CollectionPage","@id":"https:\/\/www.anekdote.fr\/projets\/","url":"https:\/\/www.anekdote.fr\/projets\/","name":"Projet Archive - Anekdote","isPartOf":{"@id":"https:\/\/www.anekdote.fr\/#website"},"primaryImageOfPage":{"@id":"https:\/\/www.anekdote.fr\/projets\/#primaryimage"},"image":{"@id":"https:\/\/www.anekdote.fr\/projets\/#primaryimage"},"thumbnailUrl":"https:\/\/www.anekdote.fr\/wp-content\/uploads\/2026\/09\/Firefly_7_8b64d5b1-c100-4ba8-ba05-66e349b85b3c.png.webp","breadcrumb":{"@id":"https:\/\/www.anekdote.fr\/projets\/#breadcrumb"},"inLanguage":"fr-FR"},{"@type":"ImageObject","inLanguage":"fr-FR","@id":"https:\/\/www.anekdote.fr\/projets\/#primaryimage","url":"https:\/\/www.anekdote.fr\/wp-content\/uploads\/2026\/09\/Firefly_7_8b64d5b1-c100-4ba8-ba05-66e349b85b3c.png.webp","contentUrl":"https:\/\/www.anekdote.fr\/wp-content\/uploads\/2026\/09\/Firefly_7_8b64d5b1-c100-4ba8-ba05-66e349b85b3c.png.webp","width":1200,"height":1200},{"@type":"BreadcrumbList","@id":"https:\/\/www.anekdote.fr\/projets\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/www.anekdote.fr\/"},{"@type":"ListItem","position":2,"name":"Projet"}]},{"@type":"WebSite","@id":"https:\/\/www.anekdote.fr\/#website","url":"https:\/\/www.anekdote.fr\/","name":"Anekdote","description":"","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/www.anekdote.fr\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"fr-FR"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="alternate" type="application/rss+xml" title="Anekdote &raquo; Flux" href="https://www.anekdote.fr/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Anekdote &raquo; Flux des commentaires" href="https://www.anekdote.fr/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Anekdote &raquo; Flux pour Projet" href="https://www.anekdote.fr/projets/feed/" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+
+
+<link rel='stylesheet' id='contact-form-7-css' href='https://www.anekdote.fr/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.6' media='all' />
+<link rel='stylesheet' id='twentysixteen-style-css' href='https://www.anekdote.fr/wp-content/themes/anekdote/style.css?ver=20221101' media='all' />
+<link rel="https://api.w.org/" href="https://www.anekdote.fr/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.anekdote.fr/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.0.2" />
+<!-- Matomo --><script>
+(function () {
+function initTracking() {
+var _paq = window._paq = window._paq || [];
+_paq.push(['trackAllContentImpressions']);_paq.push(['trackPageView']);_paq.push(['enableLinkTracking']);_paq.push(['alwaysUseSendBeacon']);_paq.push(['setTrackerUrl', "\/\/www.anekdote.fr\/wp-content\/plugins\/matomo\/app\/matomo.php"]);_paq.push(['setSiteId', '1']);var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+g.type='text/javascript'; g.async=true; g.src="\/\/www.anekdote.fr\/wp-content\/uploads\/matomo\/matomo.js"; s.parentNode.insertBefore(g,s);
+}
+if (document.prerendering) {
+	document.addEventListener('prerenderingchange', initTracking, {once: true});
+} else {
+	initTracking();
+}
+})();
+</script>
+<!-- End Matomo Code --><link rel="icon" href="https://www.anekdote.fr/wp-content/uploads/2023/12/cropped-favicon-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www.anekdote.fr/wp-content/uploads/2023/12/cropped-favicon-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.anekdote.fr/wp-content/uploads/2023/12/cropped-favicon-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www.anekdote.fr/wp-content/uploads/2023/12/cropped-favicon-270x270.png" />
+</head>
+
+<body class="archive post-type-archive post-type-archive-projets wp-embed-responsive wp-theme-anekdote hfeed">
+<div id="page" class="site">
+	<div class="site-inner">
+	
+	<div class="menu-container">
+		<div class="main-menu-container">
+			<a href="https://www.anekdote.fr" class="menu-logo">
+				<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/logo-anekdote.svg" alt="Anekdote" aria-hidden="true" loading="lazy"/>
+			</a>
+			<nav class="main-menu-navigation">
+				<div class="menu-navigation-content"><ul id="menu-menu-principal" class="menu"><li id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"><a href="https://www.anekdote.fr/agence/">Agence</a></li>
+<li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="https://www.anekdote.fr/hub-projets/">Projets</a></li>
+<li id="menu-item-261" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-261"><a>Expertises</a>
+<ul class="sub-menu">
+	<li id="menu-item-272" class="campaign-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-272"><a href="https://www.anekdote.fr/campagne-dinfluence/">Campagne d’influence</a></li>
+	<li id="menu-item-275" class="strategy-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-275"><a href="https://www.anekdote.fr/strategie/">Stratégie</a></li>
+	<li id="menu-item-273" class="event-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-273"><a href="https://www.anekdote.fr/evenements/">Évènements</a></li>
+	<li id="menu-item-276" class="brand-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-276"><a href="https://www.anekdote.fr/brand-content/">Brand content</a></li>
+	<li id="menu-item-274" class="coaching-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-274"><a href="https://www.anekdote.fr/rse-corporate/">RSE / Corporate</a></li>
+	<li id="menu-item-2048" class="solar-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-2048"><a href="https://www.anekdote.fr/performance-affiliation/">Performance / Affiliation</a></li>
+</ul>
+</li>
+<li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="https://www.anekdote.fr/equipe/">Équipe</a></li>
+<li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="https://www.anekdote.fr/talents/">Talents</a></li>
+<li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="https://www.anekdote.fr/newsroom/">Newsroom</a></li>
+<li id="menu-item-1320" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1320"><a href="https://www.anekdote.fr/contact/">Contact</a></li>
+</ul></div>			</nav>
+			
+			<div class="responsive-menu-button">
+				<div class="bar-1">&nbsp;</div>
+				<div class="bar-2">&nbsp;</div>
+				<div class="bar-3">&nbsp;</div>
+			</div>
+		</div>
+	</div>	
+		
+		<div class="responsive-menu-container">
+			<div class="responsive-menu-header">
+				<a href="https://www.anekdote.fr" class="menu-logo">
+					<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/logo-anekdote.svg" alt="Anekdote" aria-hidden="true" loading="lazy"/>
+				</a>
+
+				<div class="close-menu-button">
+					<div class="bar-1">&nbsp;</div>
+					<div class="bar-3">&nbsp;</div>
+				</div>
+			</div>
+			
+			<nav class="responsive-menu-navigation">
+				<div class="responsive-navigation-content"><ul id="menu-menu-principal-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"><a href="https://www.anekdote.fr/agence/">Agence</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="https://www.anekdote.fr/hub-projets/">Projets</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-261"><a>Expertises</a>
+<ul class="sub-menu">
+	<li class="campaign-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-272"><a href="https://www.anekdote.fr/campagne-dinfluence/">Campagne d’influence</a></li>
+	<li class="strategy-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-275"><a href="https://www.anekdote.fr/strategie/">Stratégie</a></li>
+	<li class="event-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-273"><a href="https://www.anekdote.fr/evenements/">Évènements</a></li>
+	<li class="brand-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-276"><a href="https://www.anekdote.fr/brand-content/">Brand content</a></li>
+	<li class="coaching-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-274"><a href="https://www.anekdote.fr/rse-corporate/">RSE / Corporate</a></li>
+	<li class="solar-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-2048"><a href="https://www.anekdote.fr/performance-affiliation/">Performance / Affiliation</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="https://www.anekdote.fr/equipe/">Équipe</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="https://www.anekdote.fr/talents/">Talents</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="https://www.anekdote.fr/newsroom/">Newsroom</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1320"><a href="https://www.anekdote.fr/contact/">Contact</a></li>
+</ul></div>			</nav>
+		</div>	
+		
+		<div id="content" class="site-content">
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main">
+
+		
+			<header class="page-header">
+				<h1 class="page-title">Archives : <span>Projet</span></h1><div class="taxonomy-description"><p>Les projets</p>
+</div>			</header><!-- .page-header -->
+
+			
+<article id="post-2385" class="post-2385 projets type-projets status-publish has-post-thumbnail hentry">
+	<header class="entry-header">
+		
+		<h2 class="entry-title"><a href="https://www.anekdote.fr/projets/biocyte-x-solar-metrics-influence-affiliation/" rel="bookmark">BIOCYTE x SOLAR METRICS | Influence &#038; affiliation</a></h2>	</header><!-- .entry-header -->
+
+	
+	
+	<a class="post-thumbnail" href="https://www.anekdote.fr/projets/biocyte-x-solar-metrics-influence-affiliation/" aria-hidden="true">
+		<img width="1200" height="1200" src="https://www.anekdote.fr/wp-content/uploads/2026/09/Firefly_7_8b64d5b1-c100-4ba8-ba05-66e349b85b3c.png.webp" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="BIOCYTE x SOLAR METRICS | Influence &#038; affiliation" decoding="async" fetchpriority="high" srcset="https://www.anekdote.fr/wp-content/uploads/2026/09/Firefly_7_8b64d5b1-c100-4ba8-ba05-66e349b85b3c.png.webp 1200w, https://www.anekdote.fr/wp-content/uploads/2026/09/Firefly_7_8b64d5b1-c100-4ba8-ba05-66e349b85b3c.png-300x300.webp 300w, https://www.anekdote.fr/wp-content/uploads/2026/09/Firefly_7_8b64d5b1-c100-4ba8-ba05-66e349b85b3c.png-1024x1024.webp 1024w, https://www.anekdote.fr/wp-content/uploads/2026/09/Firefly_7_8b64d5b1-c100-4ba8-ba05-66e349b85b3c.png-150x150.webp 150w, https://www.anekdote.fr/wp-content/uploads/2026/09/Firefly_7_8b64d5b1-c100-4ba8-ba05-66e349b85b3c.png-768x768.webp 768w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 984px) 60vw, (max-width: 1362px) 62vw, 840px" />	</a>
+
+		
+	<div class="entry-content">
+			</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+					</footer><!-- .entry-footer -->
+</article><!-- #post-2385 -->
+
+<article id="post-2405" class="post-2405 projets type-projets status-publish has-post-thumbnail hentry">
+	<header class="entry-header">
+		
+		<h2 class="entry-title"><a href="https://www.anekdote.fr/projets/lancement-k-biocyte-event-influence/" rel="bookmark">LANCEMENT K-BIOCYTE : Event influence</a></h2>	</header><!-- .entry-header -->
+
+	
+	
+	<a class="post-thumbnail" href="https://www.anekdote.fr/projets/lancement-k-biocyte-event-influence/" aria-hidden="true">
+		<img width="668" height="668" src="https://www.anekdote.fr/wp-content/uploads/2026/09/photos-site-Anekdote-carre.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="LANCEMENT K-BIOCYTE : Event influence" decoding="async" srcset="https://www.anekdote.fr/wp-content/uploads/2026/09/photos-site-Anekdote-carre.png 668w, https://www.anekdote.fr/wp-content/uploads/2026/09/photos-site-Anekdote-carre-300x300.png 300w, https://www.anekdote.fr/wp-content/uploads/2026/09/photos-site-Anekdote-carre-150x150.png 150w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 984px) 60vw, (max-width: 1362px) 62vw, 840px" />	</a>
+
+		
+	<div class="entry-content">
+			</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+					</footer><!-- .entry-footer -->
+</article><!-- #post-2405 -->
+
+<article id="post-2362" class="post-2362 projets type-projets status-publish has-post-thumbnail hentry">
+	<header class="entry-header">
+		
+		<h2 class="entry-title"><a href="https://www.anekdote.fr/projets/campagne-dinfluence-poderm-juin-aout-2026-strategie-de-test-learn-et-optimisation-du-casting-createurs/" rel="bookmark">Campagne d&rsquo;Influence Poderm</a></h2>	</header><!-- .entry-header -->
+
+	
+	
+	<a class="post-thumbnail" href="https://www.anekdote.fr/projets/campagne-dinfluence-poderm-juin-aout-2026-strategie-de-test-learn-et-optimisation-du-casting-createurs/" aria-hidden="true">
+		<img width="668" height="668" src="https://www.anekdote.fr/wp-content/uploads/2026/09/minia.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Campagne d&rsquo;Influence Poderm" decoding="async" srcset="https://www.anekdote.fr/wp-content/uploads/2026/09/minia.png 668w, https://www.anekdote.fr/wp-content/uploads/2026/09/minia-300x300.png 300w, https://www.anekdote.fr/wp-content/uploads/2026/09/minia-150x150.png 150w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 984px) 60vw, (max-width: 1362px) 62vw, 840px" />	</a>
+
+		
+	<div class="entry-content">
+			</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+					</footer><!-- .entry-footer -->
+</article><!-- #post-2362 -->
+
+<article id="post-2285" class="post-2285 projets type-projets status-publish has-post-thumbnail hentry">
+	<header class="entry-header">
+		
+		<h2 class="entry-title"><a href="https://www.anekdote.fr/projets/concert-aya-nakamura-x-ghd-x-juliette-has-a-gun/" rel="bookmark">Concert Aya Nakamura x GHD x Juliette Has A Gun</a></h2>	</header><!-- .entry-header -->
+
+	
+	
+	<a class="post-thumbnail" href="https://www.anekdote.fr/projets/concert-aya-nakamura-x-ghd-x-juliette-has-a-gun/" aria-hidden="true">
+		<img width="668" height="668" src="https://www.anekdote.fr/wp-content/uploads/2026/06/photos-site-Anekdote-carre-11.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Concert Aya Nakamura x GHD x Juliette Has A Gun" decoding="async" loading="lazy" srcset="https://www.anekdote.fr/wp-content/uploads/2026/06/photos-site-Anekdote-carre-11.png 668w, https://www.anekdote.fr/wp-content/uploads/2026/06/photos-site-Anekdote-carre-11-300x300.png 300w, https://www.anekdote.fr/wp-content/uploads/2026/06/photos-site-Anekdote-carre-11-150x150.png 150w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 984px) 60vw, (max-width: 1362px) 62vw, 840px" />	</a>
+
+		
+	<div class="entry-content">
+			</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+					</footer><!-- .entry-footer -->
+</article><!-- #post-2285 -->
+
+<article id="post-2282" class="post-2282 projets type-projets status-publish has-post-thumbnail hentry">
+	<header class="entry-header">
+		
+		<h2 class="entry-title"><a href="https://www.anekdote.fr/projets/__trashed/" rel="bookmark">Roland Garros x Vincent Nadal</a></h2>	</header><!-- .entry-header -->
+
+	
+	
+	<a class="post-thumbnail" href="https://www.anekdote.fr/projets/__trashed/" aria-hidden="true">
+		<img width="668" height="668" src="https://www.anekdote.fr/wp-content/uploads/2026/06/photos-site-Anekdote-carre-10.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Roland Garros x Vincent Nadal" decoding="async" loading="lazy" srcset="https://www.anekdote.fr/wp-content/uploads/2026/06/photos-site-Anekdote-carre-10.png 668w, https://www.anekdote.fr/wp-content/uploads/2026/06/photos-site-Anekdote-carre-10-300x300.png 300w, https://www.anekdote.fr/wp-content/uploads/2026/06/photos-site-Anekdote-carre-10-150x150.png 150w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 984px) 60vw, (max-width: 1362px) 62vw, 840px" />	</a>
+
+		
+	<div class="entry-content">
+			</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+					</footer><!-- .entry-footer -->
+</article><!-- #post-2282 -->
+
+<article id="post-2162" class="post-2162 projets type-projets status-publish has-post-thumbnail hentry">
+	<header class="entry-header">
+		
+		<h2 class="entry-title"><a href="https://www.anekdote.fr/projets/et-si-le-culot-sinvitait-au-festival-de-cannes/" rel="bookmark">Et si le culot s&rsquo;invitait au Festival de Cannes ?</a></h2>	</header><!-- .entry-header -->
+
+	
+	
+	<a class="post-thumbnail" href="https://www.anekdote.fr/projets/et-si-le-culot-sinvitait-au-festival-de-cannes/" aria-hidden="true">
+		<img width="668" height="668" src="https://www.anekdote.fr/wp-content/uploads/2026/06/4.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Et si le culot s&rsquo;invitait au Festival de Cannes ?" decoding="async" loading="lazy" srcset="https://www.anekdote.fr/wp-content/uploads/2026/06/4.jpg 668w, https://www.anekdote.fr/wp-content/uploads/2026/06/4-300x300.jpg 300w, https://www.anekdote.fr/wp-content/uploads/2026/06/4-150x150.jpg 150w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 984px) 60vw, (max-width: 1362px) 62vw, 840px" />	</a>
+
+		
+	<div class="entry-content">
+			</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+					</footer><!-- .entry-footer -->
+</article><!-- #post-2162 -->
+
+<article id="post-2178" class="post-2178 projets type-projets status-publish has-post-thumbnail hentry">
+	<header class="entry-header">
+		
+		<h2 class="entry-title"><a href="https://www.anekdote.fr/projets/festival-de-cannes-x-soskin/" rel="bookmark">Festival de Cannes x Soskin</a></h2>	</header><!-- .entry-header -->
+
+	
+	
+	<a class="post-thumbnail" href="https://www.anekdote.fr/projets/festival-de-cannes-x-soskin/" aria-hidden="true">
+		<img width="1200" height="772" src="https://www.anekdote.fr/wp-content/uploads/2026/06/3-1200x772.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Festival de Cannes x Soskin" decoding="async" loading="lazy" srcset="https://www.anekdote.fr/wp-content/uploads/2026/06/3-1200x772.png 1200w, https://www.anekdote.fr/wp-content/uploads/2026/06/3-300x193.png 300w, https://www.anekdote.fr/wp-content/uploads/2026/06/3-1024x658.png 1024w, https://www.anekdote.fr/wp-content/uploads/2026/06/3-150x96.png 150w, https://www.anekdote.fr/wp-content/uploads/2026/06/3-768x494.png 768w, https://www.anekdote.fr/wp-content/uploads/2026/06/3.png 1440w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 984px) 60vw, (max-width: 1362px) 62vw, 840px" />	</a>
+
+		
+	<div class="entry-content">
+		<p>Enfin</p>
+	</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+					</footer><!-- .entry-footer -->
+</article><!-- #post-2178 -->
+
+<article id="post-2185" class="post-2185 projets type-projets status-publish has-post-thumbnail hentry">
+	<header class="entry-header">
+		
+		<h2 class="entry-title"><a href="https://www.anekdote.fr/projets/festival-de-cannes-x-bijou-brijitte/" rel="bookmark">Festival de Cannes x Bijou Brijitte</a></h2>	</header><!-- .entry-header -->
+
+	
+	
+	<a class="post-thumbnail" href="https://www.anekdote.fr/projets/festival-de-cannes-x-bijou-brijitte/" aria-hidden="true">
+		<img width="1200" height="772" src="https://www.anekdote.fr/wp-content/uploads/2026/06/2-1200x772.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Festival de Cannes x Bijou Brijitte" decoding="async" loading="lazy" srcset="https://www.anekdote.fr/wp-content/uploads/2026/06/2-1200x772.png 1200w, https://www.anekdote.fr/wp-content/uploads/2026/06/2-300x193.png 300w, https://www.anekdote.fr/wp-content/uploads/2026/06/2-1024x658.png 1024w, https://www.anekdote.fr/wp-content/uploads/2026/06/2-150x96.png 150w, https://www.anekdote.fr/wp-content/uploads/2026/06/2-768x494.png 768w, https://www.anekdote.fr/wp-content/uploads/2026/06/2.png 1440w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 984px) 60vw, (max-width: 1362px) 62vw, 840px" />	</a>
+
+		
+	<div class="entry-content">
+			</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+					</footer><!-- .entry-footer -->
+</article><!-- #post-2185 -->
+
+<article id="post-2195" class="post-2195 projets type-projets status-publish has-post-thumbnail hentry">
+	<header class="entry-header">
+		
+		<h2 class="entry-title"><a href="https://www.anekdote.fr/projets/festival-de-cannes-x-meganvlt-x-aroma-zone/" rel="bookmark">Festival de Cannes x @meganvlt x Aroma &#8211; zone</a></h2>	</header><!-- .entry-header -->
+
+	
+	
+	<a class="post-thumbnail" href="https://www.anekdote.fr/projets/festival-de-cannes-x-meganvlt-x-aroma-zone/" aria-hidden="true">
+		<img width="668" height="668" src="https://www.anekdote.fr/wp-content/uploads/2026/06/1-1.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Festival de Cannes x @meganvlt x Aroma &#8211; zone" decoding="async" loading="lazy" srcset="https://www.anekdote.fr/wp-content/uploads/2026/06/1-1.jpg 668w, https://www.anekdote.fr/wp-content/uploads/2026/06/1-1-300x300.jpg 300w, https://www.anekdote.fr/wp-content/uploads/2026/06/1-1-150x150.jpg 150w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 984px) 60vw, (max-width: 1362px) 62vw, 840px" />	</a>
+
+		
+	<div class="entry-content">
+			</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+					</footer><!-- .entry-footer -->
+</article><!-- #post-2195 -->
+
+<article id="post-1990" class="post-1990 projets type-projets status-publish has-post-thumbnail hentry">
+	<header class="entry-header">
+		
+		<h2 class="entry-title"><a href="https://www.anekdote.fr/projets/1-million-de-gourmands-ca-se-fete/" rel="bookmark">1 million de gourmands, ça se fête!</a></h2>	</header><!-- .entry-header -->
+
+	
+	
+	<a class="post-thumbnail" href="https://www.anekdote.fr/projets/1-million-de-gourmands-ca-se-fete/" aria-hidden="true">
+		<img width="668" height="668" src="https://www.anekdote.fr/wp-content/uploads/2026/03/photos-site-Anekdote-carre-6.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="1 million de gourmands, ça se fête!" decoding="async" loading="lazy" srcset="https://www.anekdote.fr/wp-content/uploads/2026/03/photos-site-Anekdote-carre-6.png 668w, https://www.anekdote.fr/wp-content/uploads/2026/03/photos-site-Anekdote-carre-6-300x300.png 300w, https://www.anekdote.fr/wp-content/uploads/2026/03/photos-site-Anekdote-carre-6-150x150.png 150w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 984px) 60vw, (max-width: 1362px) 62vw, 840px" />	</a>
+
+		
+	<div class="entry-content">
+			</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+					</footer><!-- .entry-footer -->
+</article><!-- #post-1990 -->
+
+	<nav class="navigation pagination" aria-label="Pagination des publications">
+		<h2 class="screen-reader-text">Pagination des publications</h2>
+		<div class="nav-links"><span aria-current="page" class="page-numbers current"><span class="meta-nav screen-reader-text">Page </span>1</span>
+<a class="page-numbers" href="https://www.anekdote.fr/projets/page/2/"><span class="meta-nav screen-reader-text">Page </span>2</a>
+<span class="page-numbers dots">…</span>
+<a class="page-numbers" href="https://www.anekdote.fr/projets/page/4/"><span class="meta-nav screen-reader-text">Page </span>4</a>
+<a class="next page-numbers" href="https://www.anekdote.fr/projets/page/2/">Next page</a></div>
+	</nav>
+		</main><!-- .site-main -->
+	</div><!-- .content-area -->
+
+
+	<aside id="secondary" class="sidebar widget-area">
+		<section id="block-2" class="widget widget_block widget_search"><form role="search" method="get" action="https://www.anekdote.fr/" class="wp-block-search__button-outside wp-block-search__text-button wp-block-search"    ><label class="wp-block-search__label" for="wp-block-search__input-1" >Rechercher</label><div class="wp-block-search__inside-wrapper" ><input class="wp-block-search__input" id="wp-block-search__input-1" placeholder="" value="" type="search" name="s" required /><button aria-label="Rechercher" class="wp-block-search__button wp-element-button" type="submit" >Rechercher</button></div></form></section><section id="block-3" class="widget widget_block"><div class="wp-block-group"><div class="wp-block-group__inner-container is-layout-flow wp-block-group-is-layout-flow"><h2 class="wp-block-heading">Articles récents</h2><ul class="wp-block-latest-posts__list wp-block-latest-posts"></ul></div></div></section><section id="block-4" class="widget widget_block"><div class="wp-block-group"><div class="wp-block-group__inner-container is-layout-flow wp-block-group-is-layout-flow"><h2 class="wp-block-heading">Commentaires récents</h2><div class="no-comments wp-block-latest-comments">Aucun commentaire à afficher.</div></div></div></section>	</aside><!-- .sidebar .widget-area -->
+
+		</div><!-- .site-content -->
+
+		<div class="footer-contact-icon-container">
+			<a href="https://www.anekdote.fr/contact" class="footer-contact-icon-content">
+				<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/icon-contact-hover.svg" class="footer-contact-icon-text top" alt="Contact" aria-hidden="true" loading="lazy"/>
+
+				<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/icon-contact.svg" alt="Contact" aria-hidden="true" loading="lazy"/>
+			</a>
+		</div>	
+
+		<div class="footer-contact-responsive-icon-container">
+			<a href="https://www.anekdote.fr/contact" class="footer-contact-icon-content">
+				<img src="https://www.anekdote.fr/wp-content/uploads/2023/12/icon-contact-responsive.svg" alt="Contact" aria-hidden="true" loading="lazy"/>
+			</a>
+		</div>	
+
+		<footer id="colophon" class="site-footer">
+			<div class="footer-container">
+				<div class="footer-content footer-left-column">
+					<ul class="footer-column">
+						<li><h3 class="footer-title">Plan du site</h3></li>
+						<li><a href="https://www.anekdote.fr/agence" title="Agence">Agence</a></li>
+						<li><a href="https://www.anekdote.fr/hub-projets" title="Projets">Projets</a></li>
+						<li><a href="https://www.anekdote.fr/talents" title="Talents">Talents</a></li>
+						<li><a href="https://www.anekdote.fr/equipe" title="Équipe">Équipe</a></li>
+					</ul>
+
+					<ul class="footer-column">
+						<li><h3 class="footer-title">Expertises</h3></li>
+						<li><a href="https://www.anekdote.fr/brand-content" title="Brand Content">Brand Content</a></li>
+						<li><a href="https://www.anekdote.fr/campagne-dinfluence" title="Campagnes d’Influence">Campagnes d’Influence</a></li>
+						<li><a href="https://www.anekdote.fr/strategie" title="Stratégie">Stratégie</a></li>
+						<li><a href="https://www.anekdote.fr/evenements" title="Événements">Événements</a></li>
+						<li><a href="https://www.anekdote.fr/coaching" title="Coaching">Coaching</a></li>
+						<li><a href="https://www.anekdote.fr/performance-affiliation" title="Coaching">Performance / Affiliation</a></li>
+					</ul>
+				</div>
+
+				<div class="footer-content footer-right-column">
+					<ul class="footer-column">
+						<li><h3 class="footer-title">Légal</h3></li>
+						<li><a href="https://www.anekdote.fr/politique-de-confidentialite" title="Confidentialité">Confidentialité</a></li>
+						<li><a href="https://www.anekdote.fr/mentions-legales" title="Mentions légales">Mentions légales</a></li>
+					</ul>
+
+					<ul class="footer-column">
+						<li><h3 class="footer-title">Contact</h3></li>
+						<li><a href="https://www.instagram.com/anekdotefr/" target="_blank" title="Instagram">Instagram</a></li>
+						<li><a href="https://linkedin.com/company/anekdote-influence" target="_blank" title="Linkedin">Linkedin</a></li>
+					</ul>
+
+					<ul class="footer-column">
+						<li><h3 class="footer-title">Localisation</h3></li>
+						<li>4 rue Jules Lefebvre,</li>
+						<li>Paris 75009</li>
+					</ul>
+				</div>
+			</div>
+			
+			<p class="label-container">
+				<span>En partenariat avec</span> 
+				<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/logo-arpp.png" alt="Umic - Arpp" aria-hidden="true" loading="lazy"/>
+			</p>
+			
+			<p class="copyright-container">© 2023 — Copyright</p>
+		</footer><!-- .site-footer -->
+
+
+	</div><!-- .site-inner -->
+</div><!-- .site -->
+
+<script src="https://www.anekdote.fr/wp-content/themes/anekdote/js/jquery.min.js"></script>
+<script src="https://www.anekdote.fr/wp-content/themes/anekdote/slick/slick.min.js"></script>
+<script src="https://www.anekdote.fr/wp-content/themes/anekdote/js/script.js"></script>
+
+</body>
+</html>

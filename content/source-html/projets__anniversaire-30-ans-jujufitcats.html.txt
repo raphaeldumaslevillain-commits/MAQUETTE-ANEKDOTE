@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="fr-FR" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,400;1,600&display=swap" rel="stylesheet">
+	<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v28.1 - https://yoast.com/product/yoast-seo-wordpress/ -->
+	<title>Anniversaire 30 ans Jujufitcats - Anekdote</title>
+	<meta name="description" content="Organisation d&#039;une fête à l&#039;occasion des 30 ans de Jujufitcats. Recherche et choix du lieu, du traiteur, de la pâtisserie pour le gâteau, des DJs, envoi d&#039;invitations personnalisées, organisation du shopping et des essayages pour la tenue, respect du thème &quot;Fashion Week&quot;." />
+	<link rel="canonical" href="https://www.anekdote.fr/projets/anniversaire-30-ans-jujufitcats/" />
+	<meta property="og:locale" content="fr_FR" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Anniversaire 30 ans Jujufitcats - Anekdote" />
+	<meta property="og:description" content="Organisation d&#039;une fête à l&#039;occasion des 30 ans de Jujufitcats. Recherche et choix du lieu, du traiteur, de la pâtisserie pour le gâteau, des DJs, envoi d&#039;invitations personnalisées, organisation du shopping et des essayages pour la tenue, respect du thème &quot;Fashion Week&quot;." />
+	<meta property="og:url" content="https://www.anekdote.fr/projets/anniversaire-30-ans-jujufitcats/" />
+	<meta property="og:site_name" content="Anekdote" />
+	<meta property="article:modified_time" content="2026-06-10T09:58:55+00:00" />
+	<meta property="og:image" content="https://www.anekdote.fr/wp-content/uploads/2025/03/photos-site-Anekdote-carre.png" />
+	<meta property="og:image:width" content="668" />
+	<meta property="og:image:height" content="668" />
+	<meta property="og:image:type" content="image/png" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="Durée de lecture estimée" />
+	<meta name="twitter:data1" content="1 minute" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/www.anekdote.fr\/projets\/anniversaire-30-ans-jujufitcats\/","url":"https:\/\/www.anekdote.fr\/projets\/anniversaire-30-ans-jujufitcats\/","name":"Anniversaire 30 ans Jujufitcats - Anekdote","isPartOf":{"@id":"https:\/\/www.anekdote.fr\/#website"},"primaryImageOfPage":{"@id":"https:\/\/www.anekdote.fr\/projets\/anniversaire-30-ans-jujufitcats\/#primaryimage"},"image":{"@id":"https:\/\/www.anekdote.fr\/projets\/anniversaire-30-ans-jujufitcats\/#primaryimage"},"thumbnailUrl":"https:\/\/www.anekdote.fr\/wp-content\/uploads\/2025\/03\/photos-site-Anekdote-carre.png","datePublished":"2025-03-14T13:12:07+00:00","dateModified":"2026-06-10T09:58:55+00:00","description":"Organisation d'une fête à l'occasion des 30 ans de Jujufitcats. Recherche et choix du lieu, du traiteur, de la pâtisserie pour le gâteau, des DJs, envoi d'invitations personnalisées, organisation du shopping et des essayages pour la tenue, respect du thème \"Fashion Week\".","breadcrumb":{"@id":"https:\/\/www.anekdote.fr\/projets\/anniversaire-30-ans-jujufitcats\/#breadcrumb"},"inLanguage":"fr-FR","potentialAction":[{"@type":"ReadAction","target":["https:\/\/www.anekdote.fr\/projets\/anniversaire-30-ans-jujufitcats\/"]}]},{"@type":"ImageObject","inLanguage":"fr-FR","@id":"https:\/\/www.anekdote.fr\/projets\/anniversaire-30-ans-jujufitcats\/#primaryimage","url":"https:\/\/www.anekdote.fr\/wp-content\/uploads\/2025\/03\/photos-site-Anekdote-carre.png","contentUrl":"https:\/\/www.anekdote.fr\/wp-content\/uploads\/2025\/03\/photos-site-Anekdote-carre.png","width":668,"height":668},{"@type":"BreadcrumbList","@id":"https:\/\/www.anekdote.fr\/projets\/anniversaire-30-ans-jujufitcats\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/www.anekdote.fr\/"},{"@type":"ListItem","position":2,"name":"Projet","item":"https:\/\/www.anekdote.fr\/projets\/"},{"@type":"ListItem","position":3,"name":"Anniversaire 30 ans Jujufitcats"}]},{"@type":"WebSite","@id":"https:\/\/www.anekdote.fr\/#website","url":"https:\/\/www.anekdote.fr\/","name":"Anekdote","description":"","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/www.anekdote.fr\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"fr-FR"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="alternate" type="application/rss+xml" title="Anekdote &raquo; Flux" href="https://www.anekdote.fr/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Anekdote &raquo; Flux des commentaires" href="https://www.anekdote.fr/comments/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.anekdote.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.anekdote.fr%2Fprojets%2Fanniversaire-30-ans-jujufitcats%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.anekdote.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.anekdote.fr%2Fprojets%2Fanniversaire-30-ans-jujufitcats%2F&#038;format=xml" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+
+
+<link rel='stylesheet' id='contact-form-7-css' href='https://www.anekdote.fr/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.6' media='all' />
+<link rel='stylesheet' id='twentysixteen-style-css' href='https://www.anekdote.fr/wp-content/themes/anekdote/style.css?ver=20221101' media='all' />
+<link rel="https://api.w.org/" href="https://www.anekdote.fr/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.anekdote.fr/wp-json/wp/v2/projets/1774" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.anekdote.fr/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.0.2" />
+<link rel='shortlink' href='https://www.anekdote.fr/?p=1774' />
+<!-- Matomo --><script>
+(function () {
+function initTracking() {
+var _paq = window._paq = window._paq || [];
+_paq.push(['trackAllContentImpressions']);_paq.push(['trackPageView']);_paq.push(['enableLinkTracking']);_paq.push(['alwaysUseSendBeacon']);_paq.push(['setTrackerUrl', "\/\/www.anekdote.fr\/wp-content\/plugins\/matomo\/app\/matomo.php"]);_paq.push(['setSiteId', '1']);var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+g.type='text/javascript'; g.async=true; g.src="\/\/www.anekdote.fr\/wp-content\/uploads\/matomo\/matomo.js"; s.parentNode.insertBefore(g,s);
+}
+if (document.prerendering) {
+	document.addEventListener('prerenderingchange', initTracking, {once: true});
+} else {
+	initTracking();
+}
+})();
+</script>
+<!-- End Matomo Code --><link rel="icon" href="https://www.anekdote.fr/wp-content/uploads/2023/12/cropped-favicon-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www.anekdote.fr/wp-content/uploads/2023/12/cropped-favicon-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.anekdote.fr/wp-content/uploads/2023/12/cropped-favicon-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www.anekdote.fr/wp-content/uploads/2023/12/cropped-favicon-270x270.png" />
+</head>
+
+<body class="wp-singular projets-template-default single single-projets postid-1774 wp-embed-responsive wp-theme-anekdote">
+<div id="page" class="site">
+	<div class="site-inner">
+	
+	<div class="menu-container">
+		<div class="main-menu-container">
+			<a href="https://www.anekdote.fr" class="menu-logo">
+				<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/logo-anekdote.svg" alt="Anekdote" aria-hidden="true" loading="lazy"/>
+			</a>
+			<nav class="main-menu-navigation">
+				<div class="menu-navigation-content"><ul id="menu-menu-principal" class="menu"><li id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"><a href="https://www.anekdote.fr/agence/">Agence</a></li>
+<li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="https://www.anekdote.fr/hub-projets/">Projets</a></li>
+<li id="menu-item-261" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-261"><a>Expertises</a>
+<ul class="sub-menu">
+	<li id="menu-item-272" class="campaign-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-272"><a href="https://www.anekdote.fr/campagne-dinfluence/">Campagne d’influence</a></li>
+	<li id="menu-item-275" class="strategy-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-275"><a href="https://www.anekdote.fr/strategie/">Stratégie</a></li>
+	<li id="menu-item-273" class="event-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-273"><a href="https://www.anekdote.fr/evenements/">Évènements</a></li>
+	<li id="menu-item-276" class="brand-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-276"><a href="https://www.anekdote.fr/brand-content/">Brand content</a></li>
+	<li id="menu-item-274" class="coaching-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-274"><a href="https://www.anekdote.fr/rse-corporate/">RSE / Corporate</a></li>
+	<li id="menu-item-2048" class="solar-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-2048"><a href="https://www.anekdote.fr/performance-affiliation/">Performance / Affiliation</a></li>
+</ul>
+</li>
+<li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="https://www.anekdote.fr/equipe/">Équipe</a></li>
+<li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="https://www.anekdote.fr/talents/">Talents</a></li>
+<li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="https://www.anekdote.fr/newsroom/">Newsroom</a></li>
+<li id="menu-item-1320" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1320"><a href="https://www.anekdote.fr/contact/">Contact</a></li>
+</ul></div>			</nav>
+			
+			<div class="responsive-menu-button">
+				<div class="bar-1">&nbsp;</div>
+				<div class="bar-2">&nbsp;</div>
+				<div class="bar-3">&nbsp;</div>
+			</div>
+		</div>
+	</div>	
+		
+		<div class="responsive-menu-container">
+			<div class="responsive-menu-header">
+				<a href="https://www.anekdote.fr" class="menu-logo">
+					<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/logo-anekdote.svg" alt="Anekdote" aria-hidden="true" loading="lazy"/>
+				</a>
+
+				<div class="close-menu-button">
+					<div class="bar-1">&nbsp;</div>
+					<div class="bar-3">&nbsp;</div>
+				</div>
+			</div>
+			
+			<nav class="responsive-menu-navigation">
+				<div class="responsive-navigation-content"><ul id="menu-menu-principal-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"><a href="https://www.anekdote.fr/agence/">Agence</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="https://www.anekdote.fr/hub-projets/">Projets</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-261"><a>Expertises</a>
+<ul class="sub-menu">
+	<li class="campaign-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-272"><a href="https://www.anekdote.fr/campagne-dinfluence/">Campagne d’influence</a></li>
+	<li class="strategy-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-275"><a href="https://www.anekdote.fr/strategie/">Stratégie</a></li>
+	<li class="event-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-273"><a href="https://www.anekdote.fr/evenements/">Évènements</a></li>
+	<li class="brand-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-276"><a href="https://www.anekdote.fr/brand-content/">Brand content</a></li>
+	<li class="coaching-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-274"><a href="https://www.anekdote.fr/rse-corporate/">RSE / Corporate</a></li>
+	<li class="solar-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-2048"><a href="https://www.anekdote.fr/performance-affiliation/">Performance / Affiliation</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="https://www.anekdote.fr/equipe/">Équipe</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="https://www.anekdote.fr/talents/">Talents</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="https://www.anekdote.fr/newsroom/">Newsroom</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1320"><a href="https://www.anekdote.fr/contact/">Contact</a></li>
+</ul></div>			</nav>
+		</div>	
+		
+		<div id="content" class="site-content">
+<div class="projet-page">
+						<div class="page-header-banner-container">
+				<style>
+					.page-header-banner-container{
+						background-image : url(https://www.anekdote.fr/wp-content/uploads/2025/03/photo-site-header-1.png)
+					}
+
+					@media screen and (max-width: 768px) {
+						.page-header-banner-container{
+							background-image : url(https://www.anekdote.fr/wp-content/uploads/2025/03/photo-site-header-1.png)
+						}
+					}
+				</style>				
+				
+				<div class="page-header-banner-content">
+					<h1 class="page-header-banner-title">Anniversaire de Jujufitcats</h1>
+					<div class="page-header-banner-baseline"><p>Organisation d&rsquo;une soirée pour fêter les 30 ans de Jujufitcats.</p>
+</div>
+				</div>
+			</div>
+				
+	<div class="projet-column-container projet-context-container">
+									<div class="projet-column-visual">	
+											
+											<img src="https://www.anekdote.fr/wp-content/uploads/2025/03/photos-site-Anekdote-carre.png" alt="Anniversaire 30 ans Jujufitcats" aria-hidden="true" loading="lazy"/>
+									</div>
+		
+				<div class="projet-column-text">
+					<h2>Le contexte</h2>
+					<p>A l&rsquo;occasion de ses 30 ans, Jujufitcats nous confie l&rsquo;organisation de sa soirée d&rsquo;anniversaire avec sa famille et ses amis. L&rsquo;idée est de créer une fête sur le thème « Fashion Week » afin de réunir Juju et ses proches pour cette date importante. Du lieu au traiteur, en passant par le DJ et la tenue de Juju, nous nous occupons de tout.</p>
+				</div>
+						</div>
+	
+	<div class="projet-column-container projet-proposition-container">
+									<div class="projet-column-text">
+					<h2>Notre <br/> proposition</h2>
+					<p style="text-align: center;" data-start="75" data-end="233">Création d’un événement exclusif sur le thème <strong data-start="121" data-end="141">« Fashion Week »</strong>, offrant à Jujufitcats et ses invités une expérience immersive dans l’univers de la mode.</p>
+<p style="text-align: center;" data-start="235" data-end="959"><strong data-start="238" data-end="261">Un lieu d’exception</strong> : privatisation du musée Jacquemart-André pour une soirée élégante et prestigieuse.<br data-start="349" data-end="352" /><strong data-start="355" data-end="394">Une mise en scène mode </strong>: tapis rouge à l’entrée et une scénographie inspirée des plus grands défilés.<br data-start="488" data-end="491" /><strong data-start="494" data-end="526">Un look sur-mesure pour Juju</strong> : expérience shopping avec la styliste Bérénice Barbe aux Galeries Lafayette, avec une tenue signée LIVY Studio et Jacquemus.<br data-start="664" data-end="667" /><strong data-start="670" data-end="702">Une ambiance musicale unique</strong> : DJ sets exclusifs par Juste Romain et DJ Timac.<br data-start="756" data-end="759" /><strong data-start="762" data-end="799">Des souvenirs capturés par un pro</strong> : Shooting photo XXL signé Pierre Perusseau.<br data-start="844" data-end="847" /><strong data-start="850" data-end="884">Des invitations personnalisées</strong> : création de cartons d’invitation sur-mesure pour une touche exclusive.</p>
+<p style="text-align: center;" data-start="961" data-end="1132">Une gestion de <strong data-start="976" data-end="985">A à Z</strong> : concept global, sélection des prestataires, scénographie, coordination et production pour offrir une soirée inoubliable à Juju et ses proches.</p>
+				</div>
+		
+				<div class="projet-column-visual">
+											
+											<img src="https://www.anekdote.fr/wp-content/uploads/2025/03/photos-site-Anekdote-carre-1.png" alt="Anniversaire 30 ans Jujufitcats" aria-hidden="true" loading="lazy"/>
+									</div>
+						</div>
+	
+	<div class="projet-results-container">
+													<div class="projet-results-text">
+					<h2>Les résultats</h2>
+					<p>Un storytelling mode et prestige parfaitement incarné, un timing respecté, un lieu d’exception sublimé, une ambiance inoubliable et surtout une satisfaction unanime !</p>
+				</div>
+		
+				<div class="projet-results-table">
+					<div class="projet-results-table-up">
+						<p class="projet-results-table-cell-1">
+																								<span class="results-table-cell-number">30</span>
+									<br/>
+									<span>ans</span>
+																					</p>
+						
+						<p class="projet-results-table-cell-2">
+																								<span class="results-table-cell-number">+1200</span>
+									<br/>
+									<span>photos</span>
+																					</p>
+					</div>
+					
+					<div class="projet-results-table-down">
+						<p class="projet-results-table-cell-3">
+																								<span class="results-table-cell-number">1M</span>
+									<br/>
+									<span>de souvenirs</span>
+																					</p>
+						
+						<p class="projet-results-table-cell-4">
+																								<span class="results-table-cell-number">100%</span>
+									<br/>
+									<span>expérience unique</span>
+																					</p>
+					</div>
+				</div>
+										</div>
+	
+														</div> 
+
+
+		</div><!-- .site-content -->
+
+		<div class="footer-contact-icon-container">
+			<a href="https://www.anekdote.fr/contact" class="footer-contact-icon-content">
+				<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/icon-contact-hover.svg" class="footer-contact-icon-text top" alt="Contact" aria-hidden="true" loading="lazy"/>
+
+				<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/icon-contact.svg" alt="Contact" aria-hidden="true" loading="lazy"/>
+			</a>
+		</div>	
+
+		<div class="footer-contact-responsive-icon-container">
+			<a href="https://www.anekdote.fr/contact" class="footer-contact-icon-content">
+				<img src="https://www.anekdote.fr/wp-content/uploads/2023/12/icon-contact-responsive.svg" alt="Contact" aria-hidden="true" loading="lazy"/>
+			</a>
+		</div>	
+
+		<footer id="colophon" class="site-footer">
+			<div class="footer-container">
+				<div class="footer-content footer-left-column">
+					<ul class="footer-column">
+						<li><h3 class="footer-title">Plan du site</h3></li>
+						<li><a href="https://www.anekdote.fr/agence" title="Agence">Agence</a></li>
+						<li><a href="https://www.anekdote.fr/hub-projets" title="Projets">Projets</a></li>
+						<li><a href="https://www.anekdote.fr/talents" title="Talents">Talents</a></li>
+						<li><a href="https://www.anekdote.fr/equipe" title="Équipe">Équipe</a></li>
+					</ul>
+
+					<ul class="footer-column">
+						<li><h3 class="footer-title">Expertises</h3></li>
+						<li><a href="https://www.anekdote.fr/brand-content" title="Brand Content">Brand Content</a></li>
+						<li><a href="https://www.anekdote.fr/campagne-dinfluence" title="Campagnes d’Influence">Campagnes d’Influence</a></li>
+						<li><a href="https://www.anekdote.fr/strategie" title="Stratégie">Stratégie</a></li>
+						<li><a href="https://www.anekdote.fr/evenements" title="Événements">Événements</a></li>
+						<li><a href="https://www.anekdote.fr/coaching" title="Coaching">Coaching</a></li>
+						<li><a href="https://www.anekdote.fr/performance-affiliation" title="Coaching">Performance / Affiliation</a></li>
+					</ul>
+				</div>
+
+				<div class="footer-content footer-right-column">
+					<ul class="footer-column">
+						<li><h3 class="footer-title">Légal</h3></li>
+						<li><a href="https://www.anekdote.fr/politique-de-confidentialite" title="Confidentialité">Confidentialité</a></li>
+						<li><a href="https://www.anekdote.fr/mentions-legales" title="Mentions légales">Mentions légales</a></li>
+					</ul>
+
+					<ul class="footer-column">
+						<li><h3 class="footer-title">Contact</h3></li>
+						<li><a href="https://www.instagram.com/anekdotefr/" target="_blank" title="Instagram">Instagram</a></li>
+						<li><a href="https://linkedin.com/company/anekdote-influence" target="_blank" title="Linkedin">Linkedin</a></li>
+					</ul>
+
+					<ul class="footer-column">
+						<li><h3 class="footer-title">Localisation</h3></li>
+						<li>4 rue Jules Lefebvre,</li>
+						<li>Paris 75009</li>
+					</ul>
+				</div>
+			</div>
+			
+			<p class="label-container">
+				<span>En partenariat avec</span> 
+				<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/logo-arpp.png" alt="Umic - Arpp" aria-hidden="true" loading="lazy"/>
+			</p>
+			
+			<p class="copyright-container">© 2023 — Copyright</p>
+		</footer><!-- .site-footer -->
+
+
+	</div><!-- .site-inner -->
+</div><!-- .site -->
+
+<script src="https://www.anekdote.fr/wp-content/themes/anekdote/js/jquery.min.js"></script>
+<script src="https://www.anekdote.fr/wp-content/themes/anekdote/slick/slick.min.js"></script>
+<script src="https://www.anekdote.fr/wp-content/themes/anekdote/js/script.js"></script>
+
+</body>
+</html>

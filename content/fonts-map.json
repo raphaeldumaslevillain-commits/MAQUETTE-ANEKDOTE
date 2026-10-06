@@ -1,0 +1,26 @@
+[
+  {
+    "source": "https://fonts.gstatic.com/s/instrumentserif/v5/jizHRFtNs2ka5fXjeivQ4LroWlx-6zAjgn7Motmp5r61.woff2",
+    "path": "assets/fonts/instrument-serif-italic-latin-ext.woff2"
+  },
+  {
+    "source": "https://fonts.gstatic.com/s/instrumentserif/v5/jizHRFtNs2ka5fXjeivQ4LroWlx-6zAjjH7Motmp5g.woff2",
+    "path": "assets/fonts/instrument-serif-italic-latin.woff2"
+  },
+  {
+    "source": "https://fonts.gstatic.com/s/instrumentserif/v5/jizBRFtNs2ka5fXjeivQ4LroWlx-6zsTjnTLgNuZ5w.woff2",
+    "path": "assets/fonts/instrument-serif-regular-latin-ext.woff2"
+  },
+  {
+    "source": "https://fonts.gstatic.com/s/instrumentserif/v5/jizBRFtNs2ka5fXjeivQ4LroWlx-6zUTjnTLgNs.woff2",
+    "path": "assets/fonts/instrument-serif-regular-latin.woff2"
+  },
+  {
+    "source": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7W0Q5n-wU.woff2",
+    "path": "assets/fonts/inter-regular-latin-ext.woff2"
+  },
+  {
+    "source": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2",
+    "path": "assets/fonts/inter-regular-latin.woff2"
+  }
+]

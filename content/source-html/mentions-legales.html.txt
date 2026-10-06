@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="fr-FR" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,400;1,600&display=swap" rel="stylesheet">
+	<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v28.1 - https://yoast.com/product/yoast-seo-wordpress/ -->
+	<title>Mentions légales - Anekdote</title>
+	<link rel="canonical" href="https://www.anekdote.fr/mentions-legales/" />
+	<meta property="og:locale" content="fr_FR" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Mentions légales - Anekdote" />
+	<meta property="og:description" content="Editeurs du site ANEKDOTE &#8211; 9 RUE ARISTIDE BRUANT 75018 PARIS Site internet : anekdote.fr Développement Digital Green &#8211; 9 RUE DES COLONNES 75002 PARIS Site internet : digital.green Conditions d&rsquo;utilisation Le site accessible par l’url suivante : anekdote.fr est exploité dans le respect de la législation française. L&rsquo;utilisation de ce site est régie par &hellip; Continue reading &quot;Mentions légales&quot;" />
+	<meta property="og:url" content="https://www.anekdote.fr/mentions-legales/" />
+	<meta property="og:site_name" content="Anekdote" />
+	<meta property="article:modified_time" content="2024-01-03T14:09:35+00:00" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="Durée de lecture estimée" />
+	<meta name="twitter:data1" content="7 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/www.anekdote.fr\/mentions-legales\/","url":"https:\/\/www.anekdote.fr\/mentions-legales\/","name":"Mentions légales - Anekdote","isPartOf":{"@id":"https:\/\/www.anekdote.fr\/#website"},"datePublished":"2023-11-24T16:32:44+00:00","dateModified":"2024-01-03T14:09:35+00:00","breadcrumb":{"@id":"https:\/\/www.anekdote.fr\/mentions-legales\/#breadcrumb"},"inLanguage":"fr-FR","potentialAction":[{"@type":"ReadAction","target":["https:\/\/www.anekdote.fr\/mentions-legales\/"]}]},{"@type":"BreadcrumbList","@id":"https:\/\/www.anekdote.fr\/mentions-legales\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/www.anekdote.fr\/"},{"@type":"ListItem","position":2,"name":"Mentions légales"}]},{"@type":"WebSite","@id":"https:\/\/www.anekdote.fr\/#website","url":"https:\/\/www.anekdote.fr\/","name":"Anekdote","description":"","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/www.anekdote.fr\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"fr-FR"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="alternate" type="application/rss+xml" title="Anekdote &raquo; Flux" href="https://www.anekdote.fr/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Anekdote &raquo; Flux des commentaires" href="https://www.anekdote.fr/comments/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.anekdote.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.anekdote.fr%2Fmentions-legales%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.anekdote.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.anekdote.fr%2Fmentions-legales%2F&#038;format=xml" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+
+
+<link rel='stylesheet' id='contact-form-7-css' href='https://www.anekdote.fr/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.6' media='all' />
+<link rel='stylesheet' id='twentysixteen-style-css' href='https://www.anekdote.fr/wp-content/themes/anekdote/style.css?ver=20221101' media='all' />
+<link rel="https://api.w.org/" href="https://www.anekdote.fr/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.anekdote.fr/wp-json/wp/v2/pages/828" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.anekdote.fr/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.0.2" />
+<link rel='shortlink' href='https://www.anekdote.fr/?p=828' />
+<!-- Matomo --><script>
+(function () {
+function initTracking() {
+var _paq = window._paq = window._paq || [];
+_paq.push(['trackAllContentImpressions']);_paq.push(['trackPageView']);_paq.push(['enableLinkTracking']);_paq.push(['alwaysUseSendBeacon']);_paq.push(['setTrackerUrl', "\/\/www.anekdote.fr\/wp-content\/plugins\/matomo\/app\/matomo.php"]);_paq.push(['setSiteId', '1']);var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+g.type='text/javascript'; g.async=true; g.src="\/\/www.anekdote.fr\/wp-content\/uploads\/matomo\/matomo.js"; s.parentNode.insertBefore(g,s);
+}
+if (document.prerendering) {
+	document.addEventListener('prerenderingchange', initTracking, {once: true});
+} else {
+	initTracking();
+}
+})();
+</script>
+<!-- End Matomo Code --><link rel="icon" href="https://www.anekdote.fr/wp-content/uploads/2023/12/cropped-favicon-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www.anekdote.fr/wp-content/uploads/2023/12/cropped-favicon-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.anekdote.fr/wp-content/uploads/2023/12/cropped-favicon-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www.anekdote.fr/wp-content/uploads/2023/12/cropped-favicon-270x270.png" />
+</head>
+
+<body class="wp-singular page-template-default page page-id-828 wp-embed-responsive wp-theme-anekdote">
+<div id="page" class="site">
+	<div class="site-inner">
+	
+	<div class="menu-container">
+		<div class="main-menu-container">
+			<a href="https://www.anekdote.fr" class="menu-logo">
+				<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/logo-anekdote.svg" alt="Anekdote" aria-hidden="true" loading="lazy"/>
+			</a>
+			<nav class="main-menu-navigation">
+				<div class="menu-navigation-content"><ul id="menu-menu-principal" class="menu"><li id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"><a href="https://www.anekdote.fr/agence/">Agence</a></li>
+<li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="https://www.anekdote.fr/hub-projets/">Projets</a></li>
+<li id="menu-item-261" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-261"><a>Expertises</a>
+<ul class="sub-menu">
+	<li id="menu-item-272" class="campaign-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-272"><a href="https://www.anekdote.fr/campagne-dinfluence/">Campagne d’influence</a></li>
+	<li id="menu-item-275" class="strategy-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-275"><a href="https://www.anekdote.fr/strategie/">Stratégie</a></li>
+	<li id="menu-item-273" class="event-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-273"><a href="https://www.anekdote.fr/evenements/">Évènements</a></li>
+	<li id="menu-item-276" class="brand-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-276"><a href="https://www.anekdote.fr/brand-content/">Brand content</a></li>
+	<li id="menu-item-274" class="coaching-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-274"><a href="https://www.anekdote.fr/rse-corporate/">RSE / Corporate</a></li>
+	<li id="menu-item-2048" class="solar-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-2048"><a href="https://www.anekdote.fr/performance-affiliation/">Performance / Affiliation</a></li>
+</ul>
+</li>
+<li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="https://www.anekdote.fr/equipe/">Équipe</a></li>
+<li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="https://www.anekdote.fr/talents/">Talents</a></li>
+<li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="https://www.anekdote.fr/newsroom/">Newsroom</a></li>
+<li id="menu-item-1320" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1320"><a href="https://www.anekdote.fr/contact/">Contact</a></li>
+</ul></div>			</nav>
+			
+			<div class="responsive-menu-button">
+				<div class="bar-1">&nbsp;</div>
+				<div class="bar-2">&nbsp;</div>
+				<div class="bar-3">&nbsp;</div>
+			</div>
+		</div>
+	</div>	
+		
+		<div class="responsive-menu-container">
+			<div class="responsive-menu-header">
+				<a href="https://www.anekdote.fr" class="menu-logo">
+					<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/logo-anekdote.svg" alt="Anekdote" aria-hidden="true" loading="lazy"/>
+				</a>
+
+				<div class="close-menu-button">
+					<div class="bar-1">&nbsp;</div>
+					<div class="bar-3">&nbsp;</div>
+				</div>
+			</div>
+			
+			<nav class="responsive-menu-navigation">
+				<div class="responsive-navigation-content"><ul id="menu-menu-principal-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"><a href="https://www.anekdote.fr/agence/">Agence</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="https://www.anekdote.fr/hub-projets/">Projets</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-261"><a>Expertises</a>
+<ul class="sub-menu">
+	<li class="campaign-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-272"><a href="https://www.anekdote.fr/campagne-dinfluence/">Campagne d’influence</a></li>
+	<li class="strategy-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-275"><a href="https://www.anekdote.fr/strategie/">Stratégie</a></li>
+	<li class="event-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-273"><a href="https://www.anekdote.fr/evenements/">Évènements</a></li>
+	<li class="brand-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-276"><a href="https://www.anekdote.fr/brand-content/">Brand content</a></li>
+	<li class="coaching-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-274"><a href="https://www.anekdote.fr/rse-corporate/">RSE / Corporate</a></li>
+	<li class="solar-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-2048"><a href="https://www.anekdote.fr/performance-affiliation/">Performance / Affiliation</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="https://www.anekdote.fr/equipe/">Équipe</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="https://www.anekdote.fr/talents/">Talents</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="https://www.anekdote.fr/newsroom/">Newsroom</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1320"><a href="https://www.anekdote.fr/contact/">Contact</a></li>
+</ul></div>			</nav>
+		</div>	
+		
+		<div id="content" class="site-content">
+<div class="site-page">
+	<div class="page-header-banner-container">
+		<div class="page-header-banner-content">
+			<h1 class="page-header-banner-title">Mentions légales</h1>
+		</div>
+	</div>
+	
+	<div class="site-page-wrapper">
+					<h2>Editeurs du site</h2>
+<p>ANEKDOTE &#8211; 9 RUE ARISTIDE BRUANT 75018 PARIS<br />
+Site internet : anekdote.fr</p>
+<h2>Développement</h2>
+<p>Digital Green &#8211; 9 RUE DES COLONNES 75002 PARIS<br />
+Site internet : digital.green</p>
+<h2>Conditions d&rsquo;utilisation</h2>
+<p>Le site accessible par l’url suivante : anekdote.fr est exploité dans le respect de la législation française.</p>
+<p>L&rsquo;utilisation de ce site est régie par les présentes conditions générales. En utilisant le site, vous reconnaissez avoir pris connaissance de ces conditions et les avoir acceptées. Celles-ci pourront être modifiées à tout moment et sans préavis par ANEKDOTE.</p>
+<p>ANEKDOTE ne saurait être tenu pour responsable en aucune manière d’une mauvaise utilisation du service.</p>
+<h2>Responsable éditorial</h2>
+<p>ANEKDOTE &#8211; 9 RUE ARISTIDE BRUANT 75018 PARIS<br />
+anekdote.fr<br />
+ANEKDOTE est une SASU<br />
+N° siret : 89091436900016</p>
+<h2>Limitation de responsabilité</h2>
+<p>Les informations contenues sur ce site sont aussi précises que possibles et le site est périodiquement remis à jour, mais peut toutefois contenir des inexactitudes, des omissions ou des lacunes. Si vous constatez une lacune, erreur ou ce qui paraît être un dysfonctionnement, merci de bien vouloir le signaler par email en décrivant le problème de la manière la plus précise possible (page posant problème, action déclenchante, type d’ordinateur et de navigateur utilisé, …).</p>
+<p>Tout contenu téléchargé se fait aux risques et périls de l&rsquo;utilisateur et sous sa seule responsabilité. En conséquence, ANEKDOTE ne saurait être tenu responsable d&rsquo;un quelconque dommage subi par l&rsquo;ordinateur de l&rsquo;utilisateur ou d&rsquo;une quelconque perte de données consécutives au téléchargement.</p>
+<p>Les photos sont non contractuelles.</p>
+<p>Les liens hypertextes mis en place dans le cadre du présent site internet en direction d&rsquo;autres ressources présentes sur le réseau Internet ne sauraient engager la responsabilité de ANEKDOTE.</p>
+<h2>Litiges</h2>
+<p>Les présentes conditions sont régies par les lois françaises et toute contestation ou litiges qui pourraient naître de l&rsquo;interprétation ou de l&rsquo;exécution de celles-ci seront de la compétence exclusive des tribunaux dont dépend ANEKDOTE. La langue de référence, pour le règlement de contentieux éventuels, est le français.</p>
+<h2>Droit d&rsquo;accès</h2>
+<p>En application de cette loi, les internautes disposent d’un droit d’accès, de rectification, de modification et de suppression concernant les données qui les concernent personnellement. Ce droit peut être exercé par voie postale auprès de ANEKDOTE, 9 RUE ARISTIDE BRUANT 75018 PARIS ou par voie électronique à l’adresse email suivante : adresse email entreprise entreprise.</p>
+<p>Les informations personnelles collectées ne sont en aucun cas confiées à des tiers hormis pour l’éventuelle bonne exécution de la prestation commandée par l’internaute.</p>
+<h2>Confidentialité</h2>
+<p>Vos données personnelles sont confidentielles et ne seront en aucun cas communiquées à des tiers hormis pour la bonne exécution de la prestation.</p>
+<h2>Propriété intellectuelle</h2>
+<p>Tout le contenu du présent site, incluant, de façon non limitative, les graphismes, images, textes, vidéos, animations, sons, logos, gifs et icônes ainsi que leur mise en forme sont la propriété exclusive de ANEKDOTE à l&rsquo;exception des marques, logos ou contenus appartenant à d&rsquo;autres sociétés partenaires ou auteurs.</p>
+<p>Toute reproduction, distribution, modification, adaptation, retransmission ou publication, même partielle, de ces différents éléments est strictement interdite sans l&rsquo;accord exprès par écrit de ANEKDOTE. Cette représentation ou reproduction, par quelque procédé que ce soit, constitue une contrefaçon sanctionnée par les articles L.3335-2 et suivants du Code de la propriété intellectuelle. Le non-respect de cette interdiction constitue une contrefaçon pouvant engager la responsabilité civile et pénale du contrefacteur. En outre, les propriétaires des Contenus copiés pourraient intenter une action en justice à votre encontre.</p>
+<p>ANEKDOTE est identiquement propriétaire des « droits des producteurs de bases de données » visés au Livre III, Titre IV, du Code de la Propriété Intellectuelle (loi n° 98-536 du 1er juillet 1998) relative aux droits d&rsquo;auteur et aux bases de données.</p>
+<p>Les utilisateurs et visiteurs du site internet peuvent mettre en place un hyperlien en direction de ce site, mais uniquement en direction de la page d’accueil, accessible à l’URL suivante : anekdote.fr, à condition que ce lien s’ouvre dans une nouvelle fenêtre. En particulier un lien vers une sous page (« lien profond ») est interdit, ainsi que l’ouverture du présent site au sein d’un cadre (« framing »), sauf l&rsquo;autorisation expresse et préalable de ANEKDOTE.</p>
+<p>Pour toute demande d&rsquo;autorisation ou d&rsquo;information, veuillez nous contacter par email : adresse email entreprise. Des conditions spécifiques sont prévues pour la presse.</p>
+<h2>Hébergeur</h2>
+<p>DATA CAMPUS</p>
+<p>Adresse : 35 RUE DU GRAND PUITS – 79230 VOUILLE</p>
+<h2>Conditions de service</h2>
+<p>Ce site est proposé en langages HTML5 et CSS3, pour un meilleur confort d&rsquo;utilisation et un graphisme plus agréable, nous vous recommandons de recourir à des navigateurs modernes comme Safari, Firefox, Chrome,&#8230;</p>
+<h2>Informations et exclusion</h2>
+<p>ANEKDOTE met en œuvre tous les moyens dont elle dispose, pour assurer une information fiable et une mise à jour fiable de ses sites internet. Toutefois, des erreurs ou omissions peuvent survenir. L&rsquo;internaute devra donc s&rsquo;assurer de l&rsquo;exactitude des informations auprès de ANEKDOTE, et signaler toutes modifications du site qu&rsquo;il jugerait utile. ANEKDOTE n&rsquo;est en aucun cas responsable de l&rsquo;utilisation faite de ces informations, et de tout préjudice direct ou indirect pouvant en découler.</p>
+<h2>Cookies</h2>
+<p>Pour des besoins de statistiques et d&rsquo;affichage, le présent site utilise des cookies. Il s&rsquo;agit de petits fichiers textes stockés sur votre disque dur afin d&rsquo;enregistrer des données techniques sur votre navigation. Certaines parties de ce site ne peuvent être fonctionnelle sans l’acceptation de cookies.</p>
+<h2>Liens hypertextes</h2>
+<p>Le ou les sites internet de ANEKDOTE peuvent offrir des liens vers d’autres sites internet ou d’autres ressources disponibles sur Internet.</p>
+<p>ANEKDOTE ne dispose d&rsquo;aucun moyen pour contrôler les sites en connexion avec ses sites internet. ANEKDOTE ne répond pas de la disponibilité de tels sites et sources externes, ni ne la garantit. Elle ne peut être tenue pour responsable de tout dommage, de quelque nature que ce soit, résultant du contenu de ces sites ou sources externes, et notamment des informations, produits ou services qu’ils proposent, ou de tout usage qui peut être fait de ces éléments. Les risques liés à cette utilisation incombent pleinement à l&rsquo;internaute, qui doit se conformer à leurs conditions d&rsquo;utilisation.</p>
+<p>Les utilisateurs, les abonnés et les visiteurs des sites internet de ANEKDOTE ne peuvent mettre en place un hyperlien en direction de ce site sans l&rsquo;autorisation expresse et préalable de ANEKDOTE.</p>
+<p>Dans l&rsquo;hypothèse où un utilisateur ou visiteur souhaiterait mettre en place un hyperlien en direction d’un des sites internet de ANEKDOTE, il lui appartiendra d&rsquo;adresser un email accessible sur le site afin de formuler sa demande de mise en place d&rsquo;un hyperlien. ANEKDOTE se réserve le droit d’accepter ou de refuser un hyperlien sans avoir à en justifier sa décision.</p>
+<h2>Recherche</h2>
+<p>En outre, le renvoi sur un site internet pour compléter une information recherchée ne signifie en aucune façon que ANEKDOTE reconnaît ou accepte quelque responsabilité quant à la teneur ou à l&rsquo;utilisation dudit site.</p>
+<h2>Précautions d&rsquo;usage</h2>
+<p>Il vous incombe par conséquent de prendre les précautions d&rsquo;usage nécessaires pour vous assurer que ce que vous choisissez d&rsquo;utiliser ne soit pas entaché d&rsquo;erreurs voire d&rsquo;éléments de nature destructrice tels que virus, trojans, etc&#8230;.</p>
+<h2>Responsabilité</h2>
+<p>Aucune autre garantie n&rsquo;est accordée au client, auquel incombe l&rsquo;obligation de formuler clairement ses besoins et le devoir de s&rsquo;informer. Si des informations fournies par ANEKDOTE apparaissent inexactes, il appartiendra au client de procéder lui-même à toutes vérifications de la cohérence ou de la vraisemblance des résultats obtenus. ANEKDOTE ne sera en aucune façon responsable vis à vis des tiers de l&rsquo;utilisation par le client des informations ou de leur absence contenues dans ses produits y compris un de ses sites Internet.</p>
+			</div>
+</div>
+
+
+		</div><!-- .site-content -->
+
+		<div class="footer-contact-icon-container">
+			<a href="https://www.anekdote.fr/contact" class="footer-contact-icon-content">
+				<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/icon-contact-hover.svg" class="footer-contact-icon-text top" alt="Contact" aria-hidden="true" loading="lazy"/>
+
+				<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/icon-contact.svg" alt="Contact" aria-hidden="true" loading="lazy"/>
+			</a>
+		</div>	
+
+		<div class="footer-contact-responsive-icon-container">
+			<a href="https://www.anekdote.fr/contact" class="footer-contact-icon-content">
+				<img src="https://www.anekdote.fr/wp-content/uploads/2023/12/icon-contact-responsive.svg" alt="Contact" aria-hidden="true" loading="lazy"/>
+			</a>
+		</div>	
+
+		<footer id="colophon" class="site-footer">
+			<div class="footer-container">
+				<div class="footer-content footer-left-column">
+					<ul class="footer-column">
+						<li><h3 class="footer-title">Plan du site</h3></li>
+						<li><a href="https://www.anekdote.fr/agence" title="Agence">Agence</a></li>
+						<li><a href="https://www.anekdote.fr/hub-projets" title="Projets">Projets</a></li>
+						<li><a href="https://www.anekdote.fr/talents" title="Talents">Talents</a></li>
+						<li><a href="https://www.anekdote.fr/equipe" title="Équipe">Équipe</a></li>
+					</ul>
+
+					<ul class="footer-column">
+						<li><h3 class="footer-title">Expertises</h3></li>
+						<li><a href="https://www.anekdote.fr/brand-content" title="Brand Content">Brand Content</a></li>
+						<li><a href="https://www.anekdote.fr/campagne-dinfluence" title="Campagnes d’Influence">Campagnes d’Influence</a></li>
+						<li><a href="https://www.anekdote.fr/strategie" title="Stratégie">Stratégie</a></li>
+						<li><a href="https://www.anekdote.fr/evenements" title="Événements">Événements</a></li>
+						<li><a href="https://www.anekdote.fr/coaching" title="Coaching">Coaching</a></li>
+						<li><a href="https://www.anekdote.fr/performance-affiliation" title="Coaching">Performance / Affiliation</a></li>
+					</ul>
+				</div>
+
+				<div class="footer-content footer-right-column">
+					<ul class="footer-column">
+						<li><h3 class="footer-title">Légal</h3></li>
+						<li><a href="https://www.anekdote.fr/politique-de-confidentialite" title="Confidentialité">Confidentialité</a></li>
+						<li><a href="https://www.anekdote.fr/mentions-legales" title="Mentions légales">Mentions légales</a></li>
+					</ul>
+
+					<ul class="footer-column">
+						<li><h3 class="footer-title">Contact</h3></li>
+						<li><a href="https://www.instagram.com/anekdotefr/" target="_blank" title="Instagram">Instagram</a></li>
+						<li><a href="https://linkedin.com/company/anekdote-influence" target="_blank" title="Linkedin">Linkedin</a></li>
+					</ul>
+
+					<ul class="footer-column">
+						<li><h3 class="footer-title">Localisation</h3></li>
+						<li>4 rue Jules Lefebvre,</li>
+						<li>Paris 75009</li>
+					</ul>
+				</div>
+			</div>
+			
+			<p class="label-container">
+				<span>En partenariat avec</span> 
+				<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/logo-arpp.png" alt="Umic - Arpp" aria-hidden="true" loading="lazy"/>
+			</p>
+			
+			<p class="copyright-container">© 2023 — Copyright</p>
+		</footer><!-- .site-footer -->
+
+
+	</div><!-- .site-inner -->
+</div><!-- .site -->
+
+<script src="https://www.anekdote.fr/wp-content/themes/anekdote/js/jquery.min.js"></script>
+<script src="https://www.anekdote.fr/wp-content/themes/anekdote/slick/slick.min.js"></script>
+<script src="https://www.anekdote.fr/wp-content/themes/anekdote/js/script.js"></script>
+
+</body>
+</html>

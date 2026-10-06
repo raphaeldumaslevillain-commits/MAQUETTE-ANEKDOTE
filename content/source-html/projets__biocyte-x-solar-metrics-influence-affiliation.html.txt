@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="fr-FR" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,400;1,600&display=swap" rel="stylesheet">
+	<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v28.1 - https://yoast.com/product/yoast-seo-wordpress/ -->
+	<title>BIOCYTE x SOLAR METRICS | Influence &amp; affiliation - Anekdote</title>
+	<link rel="canonical" href="https://www.anekdote.fr/projets/biocyte-x-solar-metrics-influence-affiliation/" />
+	<meta property="og:locale" content="fr_FR" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="BIOCYTE x SOLAR METRICS | Influence &amp; affiliation - Anekdote" />
+	<meta property="og:url" content="https://www.anekdote.fr/projets/biocyte-x-solar-metrics-influence-affiliation/" />
+	<meta property="og:site_name" content="Anekdote" />
+	<meta property="og:image" content="https://www.anekdote.fr/wp-content/uploads/2026/09/Firefly_7_8b64d5b1-c100-4ba8-ba05-66e349b85b3c.png.webp" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="1200" />
+	<meta property="og:image:type" content="image/webp" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="Durée de lecture estimée" />
+	<meta name="twitter:data1" content="1 minute" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/www.anekdote.fr\/projets\/biocyte-x-solar-metrics-influence-affiliation\/","url":"https:\/\/www.anekdote.fr\/projets\/biocyte-x-solar-metrics-influence-affiliation\/","name":"BIOCYTE x SOLAR METRICS | Influence & affiliation - Anekdote","isPartOf":{"@id":"https:\/\/www.anekdote.fr\/#website"},"primaryImageOfPage":{"@id":"https:\/\/www.anekdote.fr\/projets\/biocyte-x-solar-metrics-influence-affiliation\/#primaryimage"},"image":{"@id":"https:\/\/www.anekdote.fr\/projets\/biocyte-x-solar-metrics-influence-affiliation\/#primaryimage"},"thumbnailUrl":"https:\/\/www.anekdote.fr\/wp-content\/uploads\/2026\/09\/Firefly_7_8b64d5b1-c100-4ba8-ba05-66e349b85b3c.png.webp","datePublished":"2026-09-17T12:13:29+00:00","breadcrumb":{"@id":"https:\/\/www.anekdote.fr\/projets\/biocyte-x-solar-metrics-influence-affiliation\/#breadcrumb"},"inLanguage":"fr-FR","potentialAction":[{"@type":"ReadAction","target":["https:\/\/www.anekdote.fr\/projets\/biocyte-x-solar-metrics-influence-affiliation\/"]}]},{"@type":"ImageObject","inLanguage":"fr-FR","@id":"https:\/\/www.anekdote.fr\/projets\/biocyte-x-solar-metrics-influence-affiliation\/#primaryimage","url":"https:\/\/www.anekdote.fr\/wp-content\/uploads\/2026\/09\/Firefly_7_8b64d5b1-c100-4ba8-ba05-66e349b85b3c.png.webp","contentUrl":"https:\/\/www.anekdote.fr\/wp-content\/uploads\/2026\/09\/Firefly_7_8b64d5b1-c100-4ba8-ba05-66e349b85b3c.png.webp","width":1200,"height":1200},{"@type":"BreadcrumbList","@id":"https:\/\/www.anekdote.fr\/projets\/biocyte-x-solar-metrics-influence-affiliation\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/www.anekdote.fr\/"},{"@type":"ListItem","position":2,"name":"Projet","item":"https:\/\/www.anekdote.fr\/projets\/"},{"@type":"ListItem","position":3,"name":"BIOCYTE x SOLAR METRICS | Influence &#038; affiliation"}]},{"@type":"WebSite","@id":"https:\/\/www.anekdote.fr\/#website","url":"https:\/\/www.anekdote.fr\/","name":"Anekdote","description":"","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/www.anekdote.fr\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"fr-FR"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="alternate" type="application/rss+xml" title="Anekdote &raquo; Flux" href="https://www.anekdote.fr/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Anekdote &raquo; Flux des commentaires" href="https://www.anekdote.fr/comments/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.anekdote.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.anekdote.fr%2Fprojets%2Fbiocyte-x-solar-metrics-influence-affiliation%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.anekdote.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.anekdote.fr%2Fprojets%2Fbiocyte-x-solar-metrics-influence-affiliation%2F&#038;format=xml" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+
+
+<link rel='stylesheet' id='contact-form-7-css' href='https://www.anekdote.fr/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.6' media='all' />
+<link rel='stylesheet' id='twentysixteen-style-css' href='https://www.anekdote.fr/wp-content/themes/anekdote/style.css?ver=20221101' media='all' />
+<link rel="https://api.w.org/" href="https://www.anekdote.fr/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.anekdote.fr/wp-json/wp/v2/projets/2385" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.anekdote.fr/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.0.2" />
+<link rel='shortlink' href='https://www.anekdote.fr/?p=2385' />
+<!-- Matomo --><script>
+(function () {
+function initTracking() {
+var _paq = window._paq = window._paq || [];
+_paq.push(['trackAllContentImpressions']);_paq.push(['trackPageView']);_paq.push(['enableLinkTracking']);_paq.push(['alwaysUseSendBeacon']);_paq.push(['setTrackerUrl', "\/\/www.anekdote.fr\/wp-content\/plugins\/matomo\/app\/matomo.php"]);_paq.push(['setSiteId', '1']);var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+g.type='text/javascript'; g.async=true; g.src="\/\/www.anekdote.fr\/wp-content\/uploads\/matomo\/matomo.js"; s.parentNode.insertBefore(g,s);
+}
+if (document.prerendering) {
+	document.addEventListener('prerenderingchange', initTracking, {once: true});
+} else {
+	initTracking();
+}
+})();
+</script>
+<!-- End Matomo Code --><link rel="icon" href="https://www.anekdote.fr/wp-content/uploads/2023/12/cropped-favicon-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www.anekdote.fr/wp-content/uploads/2023/12/cropped-favicon-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.anekdote.fr/wp-content/uploads/2023/12/cropped-favicon-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www.anekdote.fr/wp-content/uploads/2023/12/cropped-favicon-270x270.png" />
+</head>
+
+<body class="wp-singular projets-template-default single single-projets postid-2385 wp-embed-responsive wp-theme-anekdote">
+<div id="page" class="site">
+	<div class="site-inner">
+	
+	<div class="menu-container">
+		<div class="main-menu-container">
+			<a href="https://www.anekdote.fr" class="menu-logo">
+				<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/logo-anekdote.svg" alt="Anekdote" aria-hidden="true" loading="lazy"/>
+			</a>
+			<nav class="main-menu-navigation">
+				<div class="menu-navigation-content"><ul id="menu-menu-principal" class="menu"><li id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"><a href="https://www.anekdote.fr/agence/">Agence</a></li>
+<li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="https://www.anekdote.fr/hub-projets/">Projets</a></li>
+<li id="menu-item-261" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-261"><a>Expertises</a>
+<ul class="sub-menu">
+	<li id="menu-item-272" class="campaign-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-272"><a href="https://www.anekdote.fr/campagne-dinfluence/">Campagne d’influence</a></li>
+	<li id="menu-item-275" class="strategy-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-275"><a href="https://www.anekdote.fr/strategie/">Stratégie</a></li>
+	<li id="menu-item-273" class="event-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-273"><a href="https://www.anekdote.fr/evenements/">Évènements</a></li>
+	<li id="menu-item-276" class="brand-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-276"><a href="https://www.anekdote.fr/brand-content/">Brand content</a></li>
+	<li id="menu-item-274" class="coaching-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-274"><a href="https://www.anekdote.fr/rse-corporate/">RSE / Corporate</a></li>
+	<li id="menu-item-2048" class="solar-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-2048"><a href="https://www.anekdote.fr/performance-affiliation/">Performance / Affiliation</a></li>
+</ul>
+</li>
+<li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="https://www.anekdote.fr/equipe/">Équipe</a></li>
+<li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="https://www.anekdote.fr/talents/">Talents</a></li>
+<li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="https://www.anekdote.fr/newsroom/">Newsroom</a></li>
+<li id="menu-item-1320" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1320"><a href="https://www.anekdote.fr/contact/">Contact</a></li>
+</ul></div>			</nav>
+			
+			<div class="responsive-menu-button">
+				<div class="bar-1">&nbsp;</div>
+				<div class="bar-2">&nbsp;</div>
+				<div class="bar-3">&nbsp;</div>
+			</div>
+		</div>
+	</div>	
+		
+		<div class="responsive-menu-container">
+			<div class="responsive-menu-header">
+				<a href="https://www.anekdote.fr" class="menu-logo">
+					<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/logo-anekdote.svg" alt="Anekdote" aria-hidden="true" loading="lazy"/>
+				</a>
+
+				<div class="close-menu-button">
+					<div class="bar-1">&nbsp;</div>
+					<div class="bar-3">&nbsp;</div>
+				</div>
+			</div>
+			
+			<nav class="responsive-menu-navigation">
+				<div class="responsive-navigation-content"><ul id="menu-menu-principal-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"><a href="https://www.anekdote.fr/agence/">Agence</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="https://www.anekdote.fr/hub-projets/">Projets</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-261"><a>Expertises</a>
+<ul class="sub-menu">
+	<li class="campaign-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-272"><a href="https://www.anekdote.fr/campagne-dinfluence/">Campagne d’influence</a></li>
+	<li class="strategy-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-275"><a href="https://www.anekdote.fr/strategie/">Stratégie</a></li>
+	<li class="event-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-273"><a href="https://www.anekdote.fr/evenements/">Évènements</a></li>
+	<li class="brand-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-276"><a href="https://www.anekdote.fr/brand-content/">Brand content</a></li>
+	<li class="coaching-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-274"><a href="https://www.anekdote.fr/rse-corporate/">RSE / Corporate</a></li>
+	<li class="solar-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-2048"><a href="https://www.anekdote.fr/performance-affiliation/">Performance / Affiliation</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="https://www.anekdote.fr/equipe/">Équipe</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="https://www.anekdote.fr/talents/">Talents</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="https://www.anekdote.fr/newsroom/">Newsroom</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1320"><a href="https://www.anekdote.fr/contact/">Contact</a></li>
+</ul></div>			</nav>
+		</div>	
+		
+		<div id="content" class="site-content">
+<div class="projet-page">
+						<div class="page-header-banner-container">
+				<style>
+					.page-header-banner-container{
+						background-image : url(https://www.anekdote.fr/wp-content/uploads/2026/09/Copie-de-photo-site-header-3.png)
+					}
+
+					@media screen and (max-width: 768px) {
+						.page-header-banner-container{
+							background-image : url(https://www.anekdote.fr/wp-content/uploads/2026/09/photo-site-responsive.png)
+						}
+					}
+				</style>				
+				
+				<div class="page-header-banner-content">
+					<h1 class="page-header-banner-title">BIOCYTE x SOLAR METRICS <br />
+Influence & affiliation</h1>
+					<div class="page-header-banner-baseline"><p>Du branding à la performance : transformer l&rsquo;image de marque en un levier d&rsquo;acquisition rentable et mesurable.</p>
+</div>
+				</div>
+			</div>
+				
+	<div class="projet-column-container projet-context-container">
+									<div class="projet-column-visual">	
+											
+											<img src="https://www.anekdote.fr/wp-content/uploads/2026/09/Capture-decran-2026-09-17-a-12.07.03.png" alt="BIOCYTE x SOLAR METRICS | Influence &#038; affiliation" aria-hidden="true" loading="lazy"/>
+									</div>
+		
+				<div class="projet-column-text">
+					<h2>Le contexte</h2>
+					<p>Historiquement perçu comme un levier purement orienté vers l&rsquo;image de marque et la notoriété, le marketing d&rsquo;influence fait aujourd&rsquo;hui l&rsquo;objet d&rsquo;une transition stratégique majeure chez <b data-path-to-node="3" data-index-in-node="186">Biocyte</b>.</p>
+<p>L&rsquo;ambition est de transformer ce canal en un <b data-path-to-node="3" data-index-in-node="240">véritable levier d&rsquo;acquisition mesurable (ROI cible de 2,5), </b> via une stratégie hybride influence-affiliation, tout en consolidant sa notoriété, sa désirabilité et sa crédibilité scientifique.</p>
+				</div>
+						</div>
+	
+	<div class="projet-column-container projet-proposition-container">
+									<div class="projet-column-text">
+					<h2>Notre <br/> proposition</h2>
+					<p>Nous avons construit un dispositif full funnel associant influence paid et affiliation : création d’un programme d’affiliation via Affilae, tracking centralisé des ventes, construction d’un crew de talents affinitaires, collaborations pensées dans la durée plutôt qu’en one-shot, activations paid couplées à la commission et pilotage continu des performances.</p>
+<p>La stratégie prévoyait également de travailler plusieurs temps forts produits K-Beauty, solaire, minceur, kératine…  avec des profils sélectionnés en fonction de leur affinité avec les besoins consommateurs.</p>
+				</div>
+		
+				<div class="projet-column-visual">
+											<video autoplay nocontrols muted loop playsinline>
+							<source src="https://www.anekdote.fr/wp-content/uploads/2026/09/VIDEO-2026-09-17-11-16-20.mp4" type="video/mp4" />
+							Votre navigateur ne prend pas en charge les vidéos
+						</video>
+											
+									</div>
+						</div>
+	
+	<div class="projet-results-container">
+													<div class="projet-results-text">
+					<h2>Les résultats</h2>
+					<p>La stratégie déployée a largement dépassé les attentes initiales en matière de rentabilité et de conversion!</p>
+				</div>
+		
+				<div class="projet-results-table">
+					<div class="projet-results-table-up">
+						<p class="projet-results-table-cell-1">
+																								<span class="results-table-cell-number">20</span>
+									<br/>
+									<span>créatrices activées </span>
+																					</p>
+						
+						<p class="projet-results-table-cell-2">
+																								<span class="results-table-cell-number">1</span>
+									<br/>
+									<span>programme affilié de 6 mois</span>
+																					</p>
+					</div>
+					
+					<div class="projet-results-table-down">
+						<p class="projet-results-table-cell-3">
+																								<span class="results-table-cell-number">31 377</span>
+									<br/>
+									<span>clics sur lien </span>
+																					</p>
+						
+						<p class="projet-results-table-cell-4">
+																								<span class="results-table-cell-number">5</span>
+									<br/>
+									<span>gammes de produits</span>
+																					</p>
+					</div>
+				</div>
+										</div>
+	
+														</div> 
+
+
+		</div><!-- .site-content -->
+
+		<div class="footer-contact-icon-container">
+			<a href="https://www.anekdote.fr/contact" class="footer-contact-icon-content">
+				<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/icon-contact-hover.svg" class="footer-contact-icon-text top" alt="Contact" aria-hidden="true" loading="lazy"/>
+
+				<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/icon-contact.svg" alt="Contact" aria-hidden="true" loading="lazy"/>
+			</a>
+		</div>	
+
+		<div class="footer-contact-responsive-icon-container">
+			<a href="https://www.anekdote.fr/contact" class="footer-contact-icon-content">
+				<img src="https://www.anekdote.fr/wp-content/uploads/2023/12/icon-contact-responsive.svg" alt="Contact" aria-hidden="true" loading="lazy"/>
+			</a>
+		</div>	
+
+		<footer id="colophon" class="site-footer">
+			<div class="footer-container">
+				<div class="footer-content footer-left-column">
+					<ul class="footer-column">
+						<li><h3 class="footer-title">Plan du site</h3></li>
+						<li><a href="https://www.anekdote.fr/agence" title="Agence">Agence</a></li>
+						<li><a href="https://www.anekdote.fr/hub-projets" title="Projets">Projets</a></li>
+						<li><a href="https://www.anekdote.fr/talents" title="Talents">Talents</a></li>
+						<li><a href="https://www.anekdote.fr/equipe" title="Équipe">Équipe</a></li>
+					</ul>
+
+					<ul class="footer-column">
+						<li><h3 class="footer-title">Expertises</h3></li>
+						<li><a href="https://www.anekdote.fr/brand-content" title="Brand Content">Brand Content</a></li>
+						<li><a href="https://www.anekdote.fr/campagne-dinfluence" title="Campagnes d’Influence">Campagnes d’Influence</a></li>
+						<li><a href="https://www.anekdote.fr/strategie" title="Stratégie">Stratégie</a></li>
+						<li><a href="https://www.anekdote.fr/evenements" title="Événements">Événements</a></li>
+						<li><a href="https://www.anekdote.fr/coaching" title="Coaching">Coaching</a></li>
+						<li><a href="https://www.anekdote.fr/performance-affiliation" title="Coaching">Performance / Affiliation</a></li>
+					</ul>
+				</div>
+
+				<div class="footer-content footer-right-column">
+					<ul class="footer-column">
+						<li><h3 class="footer-title">Légal</h3></li>
+						<li><a href="https://www.anekdote.fr/politique-de-confidentialite" title="Confidentialité">Confidentialité</a></li>
+						<li><a href="https://www.anekdote.fr/mentions-legales" title="Mentions légales">Mentions légales</a></li>
+					</ul>
+
+					<ul class="footer-column">
+						<li><h3 class="footer-title">Contact</h3></li>
+						<li><a href="https://www.instagram.com/anekdotefr/" target="_blank" title="Instagram">Instagram</a></li>
+						<li><a href="https://linkedin.com/company/anekdote-influence" target="_blank" title="Linkedin">Linkedin</a></li>
+					</ul>
+
+					<ul class="footer-column">
+						<li><h3 class="footer-title">Localisation</h3></li>
+						<li>4 rue Jules Lefebvre,</li>
+						<li>Paris 75009</li>
+					</ul>
+				</div>
+			</div>
+			
+			<p class="label-container">
+				<span>En partenariat avec</span> 
+				<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/logo-arpp.png" alt="Umic - Arpp" aria-hidden="true" loading="lazy"/>
+			</p>
+			
+			<p class="copyright-container">© 2023 — Copyright</p>
+		</footer><!-- .site-footer -->
+
+
+	</div><!-- .site-inner -->
+</div><!-- .site -->
+
+<script src="https://www.anekdote.fr/wp-content/themes/anekdote/js/jquery.min.js"></script>
+<script src="https://www.anekdote.fr/wp-content/themes/anekdote/slick/slick.min.js"></script>
+<script src="https://www.anekdote.fr/wp-content/themes/anekdote/js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Bureau Betak proposes conscious design solutions, sustainable materials and responsible practices for every show and event."
+    />
+    <title>BUREAU BETAK</title>
+    <script type="module" crossorigin src="/assets/index-e16aa302.js"></script>
+    <link rel="stylesheet" href="/assets/index-399af977.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+    /* Cookie Banner + DNSS link – Bureau Betak */
+    (function(){
+      document.addEventListener("DOMContentLoaded",function(){
+        /* --- Cookie Banner --- */
+        if(!localStorage.getItem("bb_cookie_consent")){
+          var b=document.createElement("div");
+          b.id="bb-cookie-banner";
+          b.style.cssText="position:fixed;bottom:0;left:0;right:0;z-index:99999;background:#111;border-top:1px solid #333;padding:14px 24px;display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap;font-family:Helvetica,Arial,sans-serif";
+          var t=document.createElement("span");
+          t.style.cssText="color:#ccc;font-size:11px;line-height:1.5;max-width:600px";
+          t.innerHTML='We use cookies to improve your experience. See our <a href="#" id="bb-cookie-link" style="color:#fff;text-decoration:underline">Cookie Policy</a> for details.';
+          b.appendChild(t);
+          var lk=t.querySelector("#bb-cookie-link");
+          if(lk){lk.onclick=function(e){e.preventDefault();window.__bbLegalTab=1;window.__bbLegalOpen=true;window.dispatchEvent(new CustomEvent("bb:openLegal",{detail:1}));return false;};}
+          var a=document.createElement("button");
+          a.textContent="Accept";
+          a.style.cssText="background:#fff;color:#000;border:none;padding:6px 20px;font-size:11px;cursor:pointer;letter-spacing:.3px";
+          a.onclick=function(){localStorage.setItem("bb_cookie_consent","accepted");b.remove()};
+          b.appendChild(a);
+          var d=document.createElement("button");
+          d.textContent="Decline";
+          d.style.cssText="background:none;color:#888;border:1px solid #555;padding:6px 20px;font-size:11px;cursor:pointer;letter-spacing:.3px";
+          d.onclick=function(){localStorage.setItem("bb_cookie_consent","declined");b.remove()};
+          b.appendChild(d);
+          document.body.appendChild(b);
+        }
+      });
+    })();
+    </script>
+  </body>
+</html>

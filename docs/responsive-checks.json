@@ -1,0 +1,44 @@
+[
+  {
+    "path": "agence/index.html",
+    "brokenImages": [],
+    "h1s": 1,
+    "pageWidth": 390,
+    "width": 390
+  },
+  {
+    "path": "equipe/index.html",
+    "brokenImages": [],
+    "h1s": 1,
+    "pageWidth": 390,
+    "width": 390
+  },
+  {
+    "path": "newsroom/index.html",
+    "brokenImages": [],
+    "h1s": 1,
+    "pageWidth": 390,
+    "width": 390
+  },
+  {
+    "path": "expertises/index.html",
+    "brokenImages": [],
+    "h1s": 1,
+    "pageWidth": 390,
+    "width": 390
+  },
+  {
+    "path": "projets/biocyte-x-solar-metrics-influence-affiliation/index.html",
+    "brokenImages": [],
+    "h1s": 1,
+    "pageWidth": 390,
+    "width": 390
+  },
+  {
+    "path": "projets/concert-aya-nakamura-x-ghd-x-juliette-has-a-gun/index.html",
+    "brokenImages": [],
+    "h1s": 1,
+    "pageWidth": 390,
+    "width": 390
+  }
+]

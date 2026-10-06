@@ -1,0 +1,583 @@
+
+<!DOCTYPE html>
+<html lang="fr-FR" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,400;1,600&display=swap" rel="stylesheet">
+	<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v28.1 - https://yoast.com/product/yoast-seo-wordpress/ -->
+	<title>Anekdote | Agence de conseil en Marketing d&#039;Influence &amp; Brand Content</title>
+	<meta name="description" content="Anekdote crée vos campagnes d&#039;influence et de brand content pour accélérer votre notoriété et optimiser votre conversion." />
+	<link rel="canonical" href="https://www.anekdote.fr/" />
+	<meta property="og:locale" content="fr_FR" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Anekdote | Agence de conseil en Marketing d&#039;Influence &amp; Brand Content" />
+	<meta property="og:description" content="Anekdote crée vos campagnes d&#039;influence et de brand content pour accélérer votre notoriété et optimiser votre conversion." />
+	<meta property="og:url" content="https://www.anekdote.fr/" />
+	<meta property="og:site_name" content="Anekdote" />
+	<meta property="article:modified_time" content="2026-03-18T17:42:42+00:00" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/www.anekdote.fr\/","url":"https:\/\/www.anekdote.fr\/","name":"Anekdote | Agence de conseil en Marketing d'Influence & Brand Content","isPartOf":{"@id":"https:\/\/www.anekdote.fr\/#website"},"datePublished":"2023-11-13T11:19:53+00:00","dateModified":"2026-03-18T17:42:42+00:00","description":"Anekdote crée vos campagnes d'influence et de brand content pour accélérer votre notoriété et optimiser votre conversion.","breadcrumb":{"@id":"https:\/\/www.anekdote.fr\/#breadcrumb"},"inLanguage":"fr-FR","potentialAction":[{"@type":"ReadAction","target":["https:\/\/www.anekdote.fr\/"]}]},{"@type":"BreadcrumbList","@id":"https:\/\/www.anekdote.fr\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"WebSite","@id":"https:\/\/www.anekdote.fr\/#website","url":"https:\/\/www.anekdote.fr\/","name":"Anekdote","description":"","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/www.anekdote.fr\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"fr-FR"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="alternate" type="application/rss+xml" title="Anekdote &raquo; Flux" href="https://www.anekdote.fr/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Anekdote &raquo; Flux des commentaires" href="https://www.anekdote.fr/comments/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.anekdote.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.anekdote.fr%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.anekdote.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.anekdote.fr%2F&#038;format=xml" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+
+
+<link rel='stylesheet' id='contact-form-7-css' href='https://www.anekdote.fr/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.6' media='all' />
+<link rel='stylesheet' id='twentysixteen-style-css' href='https://www.anekdote.fr/wp-content/themes/anekdote/style.css?ver=20221101' media='all' />
+<link rel="https://api.w.org/" href="https://www.anekdote.fr/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.anekdote.fr/wp-json/wp/v2/pages/6" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.anekdote.fr/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.0.2" />
+<link rel='shortlink' href='https://www.anekdote.fr/' />
+<!-- Matomo --><script>
+(function () {
+function initTracking() {
+var _paq = window._paq = window._paq || [];
+_paq.push(['trackAllContentImpressions']);_paq.push(['trackPageView']);_paq.push(['enableLinkTracking']);_paq.push(['alwaysUseSendBeacon']);_paq.push(['setTrackerUrl', "\/\/www.anekdote.fr\/wp-content\/plugins\/matomo\/app\/matomo.php"]);_paq.push(['setSiteId', '1']);var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+g.type='text/javascript'; g.async=true; g.src="\/\/www.anekdote.fr\/wp-content\/uploads\/matomo\/matomo.js"; s.parentNode.insertBefore(g,s);
+}
+if (document.prerendering) {
+	document.addEventListener('prerenderingchange', initTracking, {once: true});
+} else {
+	initTracking();
+}
+})();
+</script>
+<!-- End Matomo Code --><link rel="icon" href="https://www.anekdote.fr/wp-content/uploads/2023/12/cropped-favicon-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www.anekdote.fr/wp-content/uploads/2023/12/cropped-favicon-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.anekdote.fr/wp-content/uploads/2023/12/cropped-favicon-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www.anekdote.fr/wp-content/uploads/2023/12/cropped-favicon-270x270.png" />
+</head>
+
+<body class="home wp-singular page-template page-template-templates page-template-homepage page-template-templateshomepage-php page page-id-6 wp-embed-responsive wp-theme-anekdote">
+<div id="page" class="site">
+	<div class="site-inner">
+	
+	<div class="menu-container">
+		<div class="main-menu-container">
+			<a href="https://www.anekdote.fr" class="menu-logo">
+				<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/logo-anekdote.svg" alt="Anekdote" aria-hidden="true" loading="lazy"/>
+			</a>
+			<nav class="main-menu-navigation">
+				<div class="menu-navigation-content"><ul id="menu-menu-principal" class="menu"><li id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"><a href="https://www.anekdote.fr/agence/">Agence</a></li>
+<li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="https://www.anekdote.fr/hub-projets/">Projets</a></li>
+<li id="menu-item-261" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-261"><a>Expertises</a>
+<ul class="sub-menu">
+	<li id="menu-item-272" class="campaign-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-272"><a href="https://www.anekdote.fr/campagne-dinfluence/">Campagne d’influence</a></li>
+	<li id="menu-item-275" class="strategy-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-275"><a href="https://www.anekdote.fr/strategie/">Stratégie</a></li>
+	<li id="menu-item-273" class="event-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-273"><a href="https://www.anekdote.fr/evenements/">Évènements</a></li>
+	<li id="menu-item-276" class="brand-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-276"><a href="https://www.anekdote.fr/brand-content/">Brand content</a></li>
+	<li id="menu-item-274" class="coaching-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-274"><a href="https://www.anekdote.fr/rse-corporate/">RSE / Corporate</a></li>
+	<li id="menu-item-2048" class="solar-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-2048"><a href="https://www.anekdote.fr/performance-affiliation/">Performance / Affiliation</a></li>
+</ul>
+</li>
+<li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="https://www.anekdote.fr/equipe/">Équipe</a></li>
+<li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="https://www.anekdote.fr/talents/">Talents</a></li>
+<li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="https://www.anekdote.fr/newsroom/">Newsroom</a></li>
+<li id="menu-item-1320" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1320"><a href="https://www.anekdote.fr/contact/">Contact</a></li>
+</ul></div>			</nav>
+			
+			<div class="responsive-menu-button">
+				<div class="bar-1">&nbsp;</div>
+				<div class="bar-2">&nbsp;</div>
+				<div class="bar-3">&nbsp;</div>
+			</div>
+		</div>
+	</div>	
+		
+		<div class="responsive-menu-container">
+			<div class="responsive-menu-header">
+				<a href="https://www.anekdote.fr" class="menu-logo">
+					<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/logo-anekdote.svg" alt="Anekdote" aria-hidden="true" loading="lazy"/>
+				</a>
+
+				<div class="close-menu-button">
+					<div class="bar-1">&nbsp;</div>
+					<div class="bar-3">&nbsp;</div>
+				</div>
+			</div>
+			
+			<nav class="responsive-menu-navigation">
+				<div class="responsive-navigation-content"><ul id="menu-menu-principal-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"><a href="https://www.anekdote.fr/agence/">Agence</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="https://www.anekdote.fr/hub-projets/">Projets</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-261"><a>Expertises</a>
+<ul class="sub-menu">
+	<li class="campaign-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-272"><a href="https://www.anekdote.fr/campagne-dinfluence/">Campagne d’influence</a></li>
+	<li class="strategy-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-275"><a href="https://www.anekdote.fr/strategie/">Stratégie</a></li>
+	<li class="event-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-273"><a href="https://www.anekdote.fr/evenements/">Évènements</a></li>
+	<li class="brand-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-276"><a href="https://www.anekdote.fr/brand-content/">Brand content</a></li>
+	<li class="coaching-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-274"><a href="https://www.anekdote.fr/rse-corporate/">RSE / Corporate</a></li>
+	<li class="solar-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-2048"><a href="https://www.anekdote.fr/performance-affiliation/">Performance / Affiliation</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="https://www.anekdote.fr/equipe/">Équipe</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="https://www.anekdote.fr/talents/">Talents</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="https://www.anekdote.fr/newsroom/">Newsroom</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1320"><a href="https://www.anekdote.fr/contact/">Contact</a></li>
+</ul></div>			</nav>
+		</div>	
+		
+		<div id="content" class="site-content">
+<div class="home-page">	
+						<div class="header-banner-container">
+				<style>
+					.header-banner-container{
+						background-image : url(https://www.anekdote.fr/wp-content/uploads/2023/12/GettyImages-1427715131-1-min.jpg)
+					}
+
+					@media screen and (max-width: 768px) {
+						.header-banner-container{
+							background-image : url(https://www.anekdote.fr/wp-content/uploads/2023/12/GettyImages-1427715131-1-min-1-1.jpg)
+						}
+					}
+				</style>
+				
+				<div class="header-banner-content">
+					<h1 class="header-banner-title"><span class="title-line-1">Agence de conseil</span><br />
+<span class="title-line-2">marketing d'influence</span><br />
+<span class="title-line-3">brand content</span></h1>
+					<p class="header-banner-baseline">Une équipe passionnée<br />
+pour des campagnes sur-mesure et performantes</p>
+				</div>
+			</div>
+				
+						<div class="home-introduction-container">
+				<div class="scrolled-bar-container">
+					<p class="scrolled-bar-content">
+
+						<span class="scrolled-bar-text">&nbsp; <b>anecdote :</b> petite histoire qui se retient aisément et engage sa communauté</span>
+						
+						<span class="scrolled-bar-text-2">&nbsp; <b>anecdote :</b> petite histoire qui se retient aisément et engage sa communauté</span>
+					</p>
+				</div>
+				
+				<div class="home-introduction-content">
+					<div class="home-introduction-visual">
+													<video autoplay nocontrols muted loop playsinline>
+								<source src="https://www.anekdote.fr/wp-content/uploads/2023/11/ANEKDOTE_PRESENTATION.mp4" type="video/mp4" />
+								Votre navigateur ne prend pas en charge les vidéos
+							</video>
+												
+											</div>
+					
+					<div class="home-introduction-text">
+						<h2>Enchanté !</h2>
+						<p>Nous créons vos campagnes pour accélérer<br />
+votre notoriété et optimiser votre conversion.<br />
+Embarquez dans l’aventure Anekdote !</p>
+						<a href="https://www.anekdote.fr/agence" class="cta-circled" title="Agence">
+							<b>Agence</b>
+							<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/circle-cta.svg" alt="cercle" aria-hidden="true" loading="lazy"/>
+						</a>
+					</div>
+				</div>
+			</div>
+				
+						<div class="home-expertise-container">
+				<div class="home-expertise-content">
+					<div class="home-expertise-text">
+						<h2>Nos expertises</h2>
+						<p>Notre expertise s’articule autour de 5 services.</p>
+						<ul class="home-expertise-skill-container">
+																					<li class="home-expertise-skill-content">
+									<a href="https://www.anekdote.fr/campagne-dinfluence/" title="Campagne d’influence">
+										<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/icon-influence.svg" alt="Campagne d’influence" aria-hidden="true" loading="lazy"/>
+										<span>Campagne d’influence</span>
+									</a>
+								</li>
+															<li class="home-expertise-skill-content">
+									<a href="https://www.anekdote.fr/strategie/" title="Stratégie">
+										<img src="https://www.anekdote.fr/wp-content/uploads/2026/03/Fichier-1-1.svg" alt="Stratégie" aria-hidden="true" loading="lazy"/>
+										<span>Stratégie</span>
+									</a>
+								</li>
+															<li class="home-expertise-skill-content">
+									<a href="https://www.anekdote.fr/evenements/" title="Évènements">
+										<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/🦆-icon-_megaphone_.svg" alt="Évènements" aria-hidden="true" loading="lazy"/>
+										<span>Évènements</span>
+									</a>
+								</li>
+															<li class="home-expertise-skill-content">
+									<a href="https://www.anekdote.fr/brand-content/" title="Brand Content">
+										<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/icon-brand.svg" alt="Brand Content" aria-hidden="true" loading="lazy"/>
+										<span>Brand Content</span>
+									</a>
+								</li>
+															<li class="home-expertise-skill-content">
+									<a href="https://www.anekdote.fr/rse-corporate/" title="RSE / Corporate ">
+										<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/🦆-icon-_light-bulb-on_.svg" alt="RSE / Corporate " aria-hidden="true" loading="lazy"/>
+										<span>RSE / Corporate </span>
+									</a>
+								</li>
+															<li class="home-expertise-skill-content">
+									<a href="https://www.anekdote.fr/performance-affiliation/" title="Performance / Affiliation ">
+										<img src="https://www.anekdote.fr/wp-content/uploads/2026/03/Fichier-10-1-1.svg" alt="Performance / Affiliation " aria-hidden="true" loading="lazy"/>
+										<span>Performance / Affiliation </span>
+									</a>
+								</li>
+																			</ul>
+					</div>
+					
+					<div class="home-expertise-slider-wrapper">
+						<div class="home-expertise-slider-button" onclick="$('.home-expertise-slider-container').slick('slickNext');">
+							<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/icon-slider-arrow.svg" alt="Suivant"loading="lazy">
+						</div>
+						
+						<div class="home-expertise-slider-container">
+																				
+								<div class="home-expertise-slide-container home-expertise-slide-container-1">
+									<style>
+										.home-expertise-slide-container-1{
+											background-image : url(https://www.anekdote.fr/wp-content/uploads/2023/11/CAMPAGNE_INFLUENCE.jpg)
+										}
+
+										@media screen and (max-width: 768px) {
+											.home-expertise-slide-container-1{
+												background-image : url(https://www.anekdote.fr/wp-content/uploads/2023/12/photo-rubrique-home-rubrique-campagne-dinfluence-1-min.jpg)
+											}
+										}
+									</style>
+									
+									<a href="https://www.anekdote.fr/campagne-dinfluence/" title="Campagne d’influence">
+										<div class="home-expertise-slide-content">
+											<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/icon-influence.svg" alt="Campagne d’influence" aria-hidden="true" loading="lazy"/>
+											<span>Campagne d’influence</span>
+										</div>
+									</a>
+								</div>
+
+														
+								<div class="home-expertise-slide-container home-expertise-slide-container-2">
+									<style>
+										.home-expertise-slide-container-2{
+											background-image : url(https://www.anekdote.fr/wp-content/uploads/2023/12/marcus-x-brand-content-1-2.jpg)
+										}
+
+										@media screen and (max-width: 768px) {
+											.home-expertise-slide-container-2{
+												background-image : url(https://www.anekdote.fr/wp-content/uploads/2023/12/marcus-x-brand-content-1-min.jpg)
+											}
+										}
+									</style>
+									
+									<a href="https://www.anekdote.fr/brand-content/" title="Brand Content">
+										<div class="home-expertise-slide-content">
+											<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/icon-brand.svg" alt="Brand Content" aria-hidden="true" loading="lazy"/>
+											<span>Brand Content</span>
+										</div>
+									</a>
+								</div>
+
+														
+								<div class="home-expertise-slide-container home-expertise-slide-container-3">
+									<style>
+										.home-expertise-slide-container-3{
+											background-image : url(https://www.anekdote.fr/wp-content/uploads/2023/11/EVENEMENTS.jpg)
+										}
+
+										@media screen and (max-width: 768px) {
+											.home-expertise-slide-container-3{
+												background-image : url(https://www.anekdote.fr/wp-content/uploads/2023/12/3-PRIOYves-Rocher-237-OK-2-min.jpg)
+											}
+										}
+									</style>
+									
+									<a href="https://www.anekdote.fr/evenements/" title="Évènements">
+										<div class="home-expertise-slide-content">
+											<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/🦆-icon-_megaphone_.svg" alt="Évènements" aria-hidden="true" loading="lazy"/>
+											<span>Évènements</span>
+										</div>
+									</a>
+								</div>
+
+														
+								<div class="home-expertise-slide-container home-expertise-slide-container-4">
+									<style>
+										.home-expertise-slide-container-4{
+											background-image : url(https://www.anekdote.fr/wp-content/uploads/2023/12/wework-1-2-1.jpg)
+										}
+
+										@media screen and (max-width: 768px) {
+											.home-expertise-slide-container-4{
+												background-image : url(https://www.anekdote.fr/wp-content/uploads/2023/12/wework-1-min.jpg)
+											}
+										}
+									</style>
+									
+									<a href="https://www.anekdote.fr/rse-corporate/" title="RSE / Corporate">
+										<div class="home-expertise-slide-content">
+											<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/🦆-icon-_light-bulb-on_.svg" alt="RSE / Corporate" aria-hidden="true" loading="lazy"/>
+											<span>RSE / Corporate</span>
+										</div>
+									</a>
+								</div>
+
+														
+								<div class="home-expertise-slide-container home-expertise-slide-container-5">
+									<style>
+										.home-expertise-slide-container-5{
+											background-image : url(https://www.anekdote.fr/wp-content/uploads/2024/05/Design-sans-titre-35.jpg)
+										}
+
+										@media screen and (max-width: 768px) {
+											.home-expertise-slide-container-5{
+												background-image : url(https://www.anekdote.fr/wp-content/uploads/2024/05/Design-sans-titre-36.jpg)
+											}
+										}
+									</style>
+									
+									<a href="https://www.anekdote.fr/strategie/" title="Stratégie">
+										<div class="home-expertise-slide-content">
+											<img src="https://www.anekdote.fr/wp-content/uploads/2026/03/Fichier-1-1.svg" alt="Stratégie" aria-hidden="true" loading="lazy"/>
+											<span>Stratégie</span>
+										</div>
+									</a>
+								</div>
+
+																			</div>
+					</div>
+					
+				</div>
+			</div>
+				
+	<div class="home-actualites-container">
+		<div class="home-actualites-text">
+			<h2>Anekdotes <br/> du mois</h2>
+		</div>
+		
+		<div class="home-actualites-visual">
+						
+			<div class="home-actualites-visual-content">
+				<div class="home-actualites-image">
+					<img src="https://www.anekdote.fr/wp-content/uploads/2024/09/Design-sans-titre-7.png" class="actualites-image" alt="Avril Dump" loading="lazy"/>
+					<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/icon-bracket-up.svg" class="bracket-up" aria-hidden="true" loading="lazy"/>
+					<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/icon-bracket-down.svg" class="bracket-down" aria-hidden="true" loading="lazy"/>
+				</div>
+				<ul class="home-actualites-info">
+					<li class="home-actualites-hashtag">
+						<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/icon-instagram.svg" aria-hidden="true" loading="lazy"/>
+						<span>#TeamAnekdote</span>
+					</li>
+					
+					<li class="home-actualites-legende">
+						<a href="https://www.instagram.com/p/C6ZEPT8L_19/?img_index=1" target="_blank" title="Avril Dump">
+							<span>Avril Dump</span>
+							<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/icon-arrow-up.svg" aria-hidden="true" loading="lazy"/>
+						</a>
+					</li>
+				</ul>
+			</div>
+				
+			<div class="home-actualites-visual-content">
+				<div class="home-actualites-image">
+					<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/paris-2024-anekdote.jpg" class="actualites-image" alt="Soirée Paris 2024" loading="lazy"/>
+					<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/icon-bracket-up.svg" class="bracket-up" aria-hidden="true" loading="lazy"/>
+					<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/icon-bracket-down.svg" class="bracket-down" aria-hidden="true" loading="lazy"/>
+				</div>
+				<ul class="home-actualites-info">
+					<li class="home-actualites-hashtag">
+						<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/icon-instagram.svg" aria-hidden="true" loading="lazy"/>
+						<span>#JO2024</span>
+					</li>
+					
+					<li class="home-actualites-legende">
+						<a href="https://www.instagram.com/p/CxdbJHXs-Nk/?hl=fr&img_index=1" target="_blank" title="Soirée Paris 2024">
+							<span>Soirée Paris 2024</span>
+							<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/icon-arrow-up.svg" aria-hidden="true" loading="lazy"/>
+						</a>
+					</li>
+				</ul>
+			</div>
+							</div>
+		
+		<div class="home-actualites-cta">
+			<p>Rejoignez nous sur</p>
+			<a href="https://www.instagram.com/anekdotefr/" target="_blank" class="cta-circled" title="Instagram">
+				<b>Instagram</b>
+				<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/circle-cta.svg" alt="cercle" aria-hidden="true" loading="lazy"/>
+			</a>
+		</div>
+	</div>
+	
+						<div class="home-references-container">
+				<div class="home-references-text">
+					<h2>nous vous adorons,<br />
+c’est réciproque</h2>
+					<p>Nous avons plus de 50 partenaires qui nous font confiance<br />
+dans la beauté, la mode, la tech/app, la food et le retail.</p>
+					
+					<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/home-legende.svg" class="home-references-legende" alt="Vous pourriez être là" loading="lazy"/>
+				</div>
+		
+				<div class="home-references-visual-up">					
+					<div class="home-references-scroll-up">
+																						<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/Air-France-logo-couleur-1.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/Choose-logo-noir-1.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/L_Oreal-logo-noir.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/Air-Up-logo-couleur-1.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/Wethenew-logo-noir-1.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/Oceansapart-logo-noir-1.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/Benefit-logo-rose-1.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/My-Origines-logo-couelurs-1.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/Vichy-logo-noir-1.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/Carrefour-logo-longueur.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/Dyson-logo-noir-1.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/Monsieur-Moustache-logo-noir-1.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/12/Babbel-logo-couleur-1.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/les-eclaireuses-logo-noir.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/LVMH-logo-noir-1.svg" alt="" aria-hidden="true"/>
+																		</div>
+					
+					<div class="home-references-scroll-up-2">
+																						<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/Air-France-logo-couleur-1.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/Choose-logo-noir-1.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/L_Oreal-logo-noir.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/Air-Up-logo-couleur-1.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/Wethenew-logo-noir-1.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/Oceansapart-logo-noir-1.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/Benefit-logo-rose-1.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/My-Origines-logo-couelurs-1.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/Vichy-logo-noir-1.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/Carrefour-logo-longueur.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/Dyson-logo-noir-1.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/Monsieur-Moustache-logo-noir-1.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/12/Babbel-logo-couleur-1.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/les-eclaireuses-logo-noir.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/LVMH-logo-noir-1.svg" alt="" aria-hidden="true"/>
+																		</div>
+				</div>
+				
+				<div class="home-references-visual-down">
+					<div class="home-references-scroll-down">
+																						<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/Oh-My-Cream-logo-noir-1.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/Milka-logo-couleur-1.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/Savage-x-Fenty-logo-noir-1.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/Sephora-logo-noir-1.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/Air-Up-logo-couleur-1.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/Etam-logo-noir-1.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/Fabletics-logo-noir-1.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/12/Babbel-logo-couleur-1.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/My-Origines-logo-couelurs-1.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/LVMH-logo-noir-1.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/Air-France-logo-couleur-1.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/Wethenew-logo-noir-1.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/Monsieur-Moustache-logo-noir-1.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/Benefit-logo-rose-1.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/Oceansapart-logo-noir-1.svg" alt="" aria-hidden="true"/>
+																		</div>
+					
+					<div class="home-references-scroll-down-2">
+																						<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/Oh-My-Cream-logo-noir-1.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/Milka-logo-couleur-1.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/Savage-x-Fenty-logo-noir-1.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/Sephora-logo-noir-1.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/Air-Up-logo-couleur-1.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/Etam-logo-noir-1.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/Fabletics-logo-noir-1.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/12/Babbel-logo-couleur-1.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/My-Origines-logo-couelurs-1.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/LVMH-logo-noir-1.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/Air-France-logo-couleur-1.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/Wethenew-logo-noir-1.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/Monsieur-Moustache-logo-noir-1.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/Benefit-logo-rose-1.svg" alt="" aria-hidden="true"/>
+																<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/Oceansapart-logo-noir-1.svg" alt="" aria-hidden="true"/>
+																		</div>
+				</div>
+				
+									
+				<img src="https://www.anekdote.fr/wp-content/uploads/2023/12/home-legende-responsive.svg" class="home-references-legende-responsive" alt="Vous pourriez être là" loading="lazy"/>
+			</div>
+			</div> 
+
+
+		</div><!-- .site-content -->
+
+		<div class="footer-contact-icon-container">
+			<a href="https://www.anekdote.fr/contact" class="footer-contact-icon-content">
+				<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/icon-contact-hover.svg" class="footer-contact-icon-text top" alt="Contact" aria-hidden="true" loading="lazy"/>
+
+				<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/icon-contact.svg" alt="Contact" aria-hidden="true" loading="lazy"/>
+			</a>
+		</div>	
+
+		<div class="footer-contact-responsive-icon-container">
+			<a href="https://www.anekdote.fr/contact" class="footer-contact-icon-content">
+				<img src="https://www.anekdote.fr/wp-content/uploads/2023/12/icon-contact-responsive.svg" alt="Contact" aria-hidden="true" loading="lazy"/>
+			</a>
+		</div>	
+
+		<footer id="colophon" class="site-footer">
+			<div class="footer-container">
+				<div class="footer-content footer-left-column">
+					<ul class="footer-column">
+						<li><h3 class="footer-title">Plan du site</h3></li>
+						<li><a href="https://www.anekdote.fr/agence" title="Agence">Agence</a></li>
+						<li><a href="https://www.anekdote.fr/hub-projets" title="Projets">Projets</a></li>
+						<li><a href="https://www.anekdote.fr/talents" title="Talents">Talents</a></li>
+						<li><a href="https://www.anekdote.fr/equipe" title="Équipe">Équipe</a></li>
+					</ul>
+
+					<ul class="footer-column">
+						<li><h3 class="footer-title">Expertises</h3></li>
+						<li><a href="https://www.anekdote.fr/brand-content" title="Brand Content">Brand Content</a></li>
+						<li><a href="https://www.anekdote.fr/campagne-dinfluence" title="Campagnes d’Influence">Campagnes d’Influence</a></li>
+						<li><a href="https://www.anekdote.fr/strategie" title="Stratégie">Stratégie</a></li>
+						<li><a href="https://www.anekdote.fr/evenements" title="Événements">Événements</a></li>
+						<li><a href="https://www.anekdote.fr/coaching" title="Coaching">Coaching</a></li>
+						<li><a href="https://www.anekdote.fr/performance-affiliation" title="Coaching">Performance / Affiliation</a></li>
+					</ul>
+				</div>
+
+				<div class="footer-content footer-right-column">
+					<ul class="footer-column">
+						<li><h3 class="footer-title">Légal</h3></li>
+						<li><a href="https://www.anekdote.fr/politique-de-confidentialite" title="Confidentialité">Confidentialité</a></li>
+						<li><a href="https://www.anekdote.fr/mentions-legales" title="Mentions légales">Mentions légales</a></li>
+					</ul>
+
+					<ul class="footer-column">
+						<li><h3 class="footer-title">Contact</h3></li>
+						<li><a href="https://www.instagram.com/anekdotefr/" target="_blank" title="Instagram">Instagram</a></li>
+						<li><a href="https://linkedin.com/company/anekdote-influence" target="_blank" title="Linkedin">Linkedin</a></li>
+					</ul>
+
+					<ul class="footer-column">
+						<li><h3 class="footer-title">Localisation</h3></li>
+						<li>4 rue Jules Lefebvre,</li>
+						<li>Paris 75009</li>
+					</ul>
+				</div>
+			</div>
+			
+			<p class="label-container">
+				<span>En partenariat avec</span> 
+				<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/logo-arpp.png" alt="Umic - Arpp" aria-hidden="true" loading="lazy"/>
+			</p>
+			
+			<p class="copyright-container">© 2023 — Copyright</p>
+		</footer><!-- .site-footer -->
+
+
+	</div><!-- .site-inner -->
+</div><!-- .site -->
+
+<script src="https://www.anekdote.fr/wp-content/themes/anekdote/js/jquery.min.js"></script>
+<script src="https://www.anekdote.fr/wp-content/themes/anekdote/slick/slick.min.js"></script>
+<script src="https://www.anekdote.fr/wp-content/themes/anekdote/js/script.js"></script>
+
+</body>
+</html>

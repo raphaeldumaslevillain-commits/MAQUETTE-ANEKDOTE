@@ -1,0 +1,2305 @@
+[
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2026/09/Copie-de-photo-site-header-3.png",
+    "sourceBytes": 1067643,
+    "path": "assets/images/projets/biocyte-x-solar-metrics-influence-affiliation/biocyte-x-solar-metrics-influence-affiliation-hero.webp",
+    "width": 1440,
+    "height": 926,
+    "variants": [
+      {
+        "path": "assets/images/projets/biocyte-x-solar-metrics-influence-affiliation/biocyte-x-solar-metrics-influence-affiliation-hero-900.webp",
+        "width": 899
+      },
+      {
+        "path": "assets/images/projets/biocyte-x-solar-metrics-influence-affiliation/biocyte-x-solar-metrics-influence-affiliation-hero-480.webp",
+        "width": 479
+      }
+    ],
+    "bytes": 76700
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2026/09/Firefly_7_8b64d5b1-c100-4ba8-ba05-66e349b85b3c.png.webp",
+    "sourceBytes": 60892,
+    "path": "assets/images/projets/biocyte-x-solar-metrics-influence-affiliation/biocyte-x-solar-metrics-influence-affiliation-apercu.webp",
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "path": "assets/images/projets/biocyte-x-solar-metrics-influence-affiliation/biocyte-x-solar-metrics-influence-affiliation-apercu-900.webp",
+        "width": 900
+      },
+      {
+        "path": "assets/images/projets/biocyte-x-solar-metrics-influence-affiliation/biocyte-x-solar-metrics-influence-affiliation-apercu-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 53690
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2026/09/Capture-decran-2026-09-17-a-12.07.03.png",
+    "sourceBytes": 2288823,
+    "path": "assets/images/projets/biocyte-x-solar-metrics-influence-affiliation/biocyte-x-solar-metrics-influence-affiliation-contenu-1.webp",
+    "width": 1046,
+    "height": 1438,
+    "variants": [
+      {
+        "path": "assets/images/projets/biocyte-x-solar-metrics-influence-affiliation/biocyte-x-solar-metrics-influence-affiliation-contenu-1-900.webp",
+        "width": 900
+      },
+      {
+        "path": "assets/images/projets/biocyte-x-solar-metrics-influence-affiliation/biocyte-x-solar-metrics-influence-affiliation-contenu-1-480.webp",
+        "width": 479
+      }
+    ],
+    "bytes": 63380
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2026/09/VIDEO-2026-09-17-11-16-20.mp4",
+    "sourceBytes": 7396251,
+    "path": "assets/videos/biocyte-x-solar-metrics-influence-affiliation/biocyte-x-solar-metrics-influence-affiliation-contenu-2.mp4",
+    "poster": "assets/videos/biocyte-x-solar-metrics-influence-affiliation/biocyte-x-solar-metrics-influence-affiliation-contenu-2-poster.webp",
+    "bytes": 3454690
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2026/09/Copie-de-photo-site-header-2.png",
+    "sourceBytes": 2032176,
+    "path": "assets/images/projets/lancement-k-biocyte-event-influence/lancement-k-biocyte-event-influence-hero.webp",
+    "width": 1440,
+    "height": 926,
+    "variants": [
+      {
+        "path": "assets/images/projets/lancement-k-biocyte-event-influence/lancement-k-biocyte-event-influence-hero-900.webp",
+        "width": 899
+      },
+      {
+        "path": "assets/images/projets/lancement-k-biocyte-event-influence/lancement-k-biocyte-event-influence-hero-480.webp",
+        "width": 479
+      }
+    ],
+    "bytes": 189210
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2026/09/photos-site-Anekdote-carre.png",
+    "sourceBytes": 445024,
+    "path": "assets/images/projets/lancement-k-biocyte-event-influence/lancement-k-biocyte-event-influence-apercu.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/lancement-k-biocyte-event-influence/lancement-k-biocyte-event-influence-apercu-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 30936
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2026/09/event-scaled.jpg",
+    "sourceBytes": 553011,
+    "path": "assets/images/projets/lancement-k-biocyte-event-influence/lancement-k-biocyte-event-influence-contenu-1.webp",
+    "width": 1920,
+    "height": 1440,
+    "variants": [
+      {
+        "path": "assets/images/projets/lancement-k-biocyte-event-influence/lancement-k-biocyte-event-influence-contenu-1-900.webp",
+        "width": 900
+      },
+      {
+        "path": "assets/images/projets/lancement-k-biocyte-event-influence/lancement-k-biocyte-event-influence-contenu-1-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 189500
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2026/09/cafe-scaled.jpg",
+    "sourceBytes": 809603,
+    "path": "assets/images/projets/lancement-k-biocyte-event-influence/lancement-k-biocyte-event-influence-contenu-2.webp",
+    "width": 1440,
+    "height": 1920,
+    "variants": [
+      {
+        "path": "assets/images/projets/lancement-k-biocyte-event-influence/lancement-k-biocyte-event-influence-contenu-2-900.webp",
+        "width": 900
+      },
+      {
+        "path": "assets/images/projets/lancement-k-biocyte-event-influence/lancement-k-biocyte-event-influence-contenu-2-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 321782
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2026/09/HEADER-PODERM.png",
+    "sourceBytes": 1280048,
+    "path": "assets/images/projets/campagne-dinfluence-poderm-juin-aout-2026-strategie-de-test-learn-et-optimisation-du-/campagne-dinfluence-poderm-juin-aout-2026-strategie-de-test-learn-et-optimisation-du--hero.webp",
+    "width": 1440,
+    "height": 926,
+    "variants": [
+      {
+        "path": "assets/images/projets/campagne-dinfluence-poderm-juin-aout-2026-strategie-de-test-learn-et-optimisation-du-/campagne-dinfluence-poderm-juin-aout-2026-strategie-de-test-learn-et-optimisation-du--hero-900.webp",
+        "width": 899
+      },
+      {
+        "path": "assets/images/projets/campagne-dinfluence-poderm-juin-aout-2026-strategie-de-test-learn-et-optimisation-du-/campagne-dinfluence-poderm-juin-aout-2026-strategie-de-test-learn-et-optimisation-du--hero-480.webp",
+        "width": 479
+      }
+    ],
+    "bytes": 83138
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2026/09/minia.png",
+    "sourceBytes": 512781,
+    "path": "assets/images/projets/campagne-dinfluence-poderm-juin-aout-2026-strategie-de-test-learn-et-optimisation-du-/campagne-dinfluence-poderm-juin-aout-2026-strategie-de-test-learn-et-optimisation-du--apercu.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/campagne-dinfluence-poderm-juin-aout-2026-strategie-de-test-learn-et-optimisation-du-/campagne-dinfluence-poderm-juin-aout-2026-strategie-de-test-learn-et-optimisation-du--apercu-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 45834
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2026/09/sunshineforlaeti_2026-07-29T08_02_51.000Z_instagram_STORY.mp4",
+    "sourceBytes": 12773715,
+    "path": "assets/videos/campagne-dinfluence-poderm-juin-aout-2026-strategie-de-test-learn-et-optimisation-du-/campagne-dinfluence-poderm-juin-aout-2026-strategie-de-test-learn-et-optimisation-du--contenu-1.mp4",
+    "poster": "assets/videos/campagne-dinfluence-poderm-juin-aout-2026-strategie-de-test-learn-et-optimisation-du-/campagne-dinfluence-poderm-juin-aout-2026-strategie-de-test-learn-et-optimisation-du--contenu-1-poster.webp",
+    "bytes": 9648238
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2026/09/etdieucrea_2026-06-14T15_22_34.000Z_instagram_STORY-1.mp4",
+    "sourceBytes": 3264145,
+    "path": "assets/videos/campagne-dinfluence-poderm-juin-aout-2026-strategie-de-test-learn-et-optimisation-du-/campagne-dinfluence-poderm-juin-aout-2026-strategie-de-test-learn-et-optimisation-du--contenu-2.mp4",
+    "poster": "assets/videos/campagne-dinfluence-poderm-juin-aout-2026-strategie-de-test-learn-et-optimisation-du-/campagne-dinfluence-poderm-juin-aout-2026-strategie-de-test-learn-et-optimisation-du--contenu-2-poster.webp",
+    "bytes": 3484796
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2026/06/Copie-de-photo-site-header-1.png",
+    "sourceBytes": 1540136,
+    "path": "assets/images/projets/concert-aya-nakamura-x-ghd-x-juliette-has-a-gun/concert-aya-nakamura-x-ghd-x-juliette-has-a-gun-hero.webp",
+    "width": 1440,
+    "height": 926,
+    "variants": [
+      {
+        "path": "assets/images/projets/concert-aya-nakamura-x-ghd-x-juliette-has-a-gun/concert-aya-nakamura-x-ghd-x-juliette-has-a-gun-hero-900.webp",
+        "width": 899
+      },
+      {
+        "path": "assets/images/projets/concert-aya-nakamura-x-ghd-x-juliette-has-a-gun/concert-aya-nakamura-x-ghd-x-juliette-has-a-gun-hero-480.webp",
+        "width": 479
+      }
+    ],
+    "bytes": 138110
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2026/06/photos-site-Anekdote-carre-11.png",
+    "sourceBytes": 458226,
+    "path": "assets/images/projets/concert-aya-nakamura-x-ghd-x-juliette-has-a-gun/concert-aya-nakamura-x-ghd-x-juliette-has-a-gun-apercu.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/concert-aya-nakamura-x-ghd-x-juliette-has-a-gun/concert-aya-nakamura-x-ghd-x-juliette-has-a-gun-apercu-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 34158
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2026/06/WhatsApp-Video-2026-05-30-at-18.02.14.mp4",
+    "sourceBytes": 1762660,
+    "path": "assets/videos/concert-aya-nakamura-x-ghd-x-juliette-has-a-gun/concert-aya-nakamura-x-ghd-x-juliette-has-a-gun-contenu-1.mp4",
+    "poster": "assets/videos/concert-aya-nakamura-x-ghd-x-juliette-has-a-gun/concert-aya-nakamura-x-ghd-x-juliette-has-a-gun-contenu-1-poster.webp",
+    "bytes": 1563260
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2026/06/IMG_7200-1-1.mov",
+    "sourceBytes": 47542964,
+    "path": "assets/videos/concert-aya-nakamura-x-ghd-x-juliette-has-a-gun/concert-aya-nakamura-x-ghd-x-juliette-has-a-gun-contenu-2.mp4",
+    "poster": "assets/videos/concert-aya-nakamura-x-ghd-x-juliette-has-a-gun/concert-aya-nakamura-x-ghd-x-juliette-has-a-gun-contenu-2-poster.webp",
+    "bytes": 4700459
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2026/06/Copie-de-photo-site-header-3.png",
+    "sourceBytes": 1999949,
+    "path": "assets/images/projets/roland-garros-vincent-nadal/roland-garros-vincent-nadal-hero.webp",
+    "width": 1440,
+    "height": 926,
+    "variants": [
+      {
+        "path": "assets/images/projets/roland-garros-vincent-nadal/roland-garros-vincent-nadal-hero-900.webp",
+        "width": 899
+      },
+      {
+        "path": "assets/images/projets/roland-garros-vincent-nadal/roland-garros-vincent-nadal-hero-480.webp",
+        "width": 479
+      }
+    ],
+    "bytes": 206552
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2026/06/photos-site-Anekdote-carre-10.png",
+    "sourceBytes": 595186,
+    "path": "assets/images/projets/roland-garros-vincent-nadal/roland-garros-vincent-nadal-apercu.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/roland-garros-vincent-nadal/roland-garros-vincent-nadal-apercu-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 67972
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2026/06/IMG_8319-2.mov",
+    "sourceBytes": 16253563,
+    "path": "assets/videos/roland-garros-vincent-nadal/roland-garros-vincent-nadal-contenu-1.mp4",
+    "poster": "assets/videos/roland-garros-vincent-nadal/roland-garros-vincent-nadal-contenu-1-poster.webp",
+    "bytes": 1876231
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2026/06/740234d6-cbcd-4d4e-a9b2-0a3507f3f321-2-scaled.jpg",
+    "sourceBytes": 607594,
+    "path": "assets/videos/roland-garros-vincent-nadal/roland-garros-vincent-nadal-contenu-2.webp",
+    "width": 1080,
+    "height": 1920,
+    "variants": [
+      {
+        "path": "assets/videos/roland-garros-vincent-nadal/roland-garros-vincent-nadal-contenu-2-900.webp",
+        "width": 900
+      },
+      {
+        "path": "assets/videos/roland-garros-vincent-nadal/roland-garros-vincent-nadal-contenu-2-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 292620
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2026/06/Copie-de-photo-site-header.png",
+    "sourceBytes": 2412205,
+    "path": "assets/images/projets/et-si-le-culot-sinvitait-au-festival-de-cannes/et-si-le-culot-sinvitait-au-festival-de-cannes-hero.webp",
+    "width": 1440,
+    "height": 926,
+    "variants": [
+      {
+        "path": "assets/images/projets/et-si-le-culot-sinvitait-au-festival-de-cannes/et-si-le-culot-sinvitait-au-festival-de-cannes-hero-900.webp",
+        "width": 899
+      },
+      {
+        "path": "assets/images/projets/et-si-le-culot-sinvitait-au-festival-de-cannes/et-si-le-culot-sinvitait-au-festival-de-cannes-hero-480.webp",
+        "width": 479
+      }
+    ],
+    "bytes": 304288
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2026/06/4.jpg",
+    "sourceBytes": 131950,
+    "path": "assets/images/projets/et-si-le-culot-sinvitait-au-festival-de-cannes/et-si-le-culot-sinvitait-au-festival-de-cannes-apercu.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/et-si-le-culot-sinvitait-au-festival-de-cannes/et-si-le-culot-sinvitait-au-festival-de-cannes-apercu-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 125756
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2026/06/BAB_TIMELAPS_DBM-BPI-2-2.mp4",
+    "sourceBytes": 62993452,
+    "path": "assets/videos/et-si-le-culot-sinvitait-au-festival-de-cannes/et-si-le-culot-sinvitait-au-festival-de-cannes-contenu-1.mp4",
+    "poster": "assets/videos/et-si-le-culot-sinvitait-au-festival-de-cannes/et-si-le-culot-sinvitait-au-festival-de-cannes-contenu-1-poster.webp",
+    "bytes": 4959811
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2026/06/8.jpg",
+    "sourceBytes": 121698,
+    "path": "assets/images/projets/festival-de-cannes-x-soskin/festival-de-cannes-x-soskin-hero.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/festival-de-cannes-x-soskin/festival-de-cannes-x-soskin-hero-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 91972
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2026/06/3-1200x772.png",
+    "sourceBytes": 1259219,
+    "path": "assets/images/projets/festival-de-cannes-x-soskin/festival-de-cannes-x-soskin-apercu.webp",
+    "width": 1200,
+    "height": 772,
+    "variants": [
+      {
+        "path": "assets/images/projets/festival-de-cannes-x-soskin/festival-de-cannes-x-soskin-apercu-900.webp",
+        "width": 900
+      },
+      {
+        "path": "assets/images/projets/festival-de-cannes-x-soskin/festival-de-cannes-x-soskin-apercu-480.webp",
+        "width": 479
+      }
+    ],
+    "bytes": 138254
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2026/06/7.jpg",
+    "sourceBytes": 82890,
+    "path": "assets/images/projets/festival-de-cannes-x-soskin/festival-de-cannes-x-soskin-contenu-1.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/festival-de-cannes-x-soskin/festival-de-cannes-x-soskin-contenu-1-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 65300
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2026/06/2.png",
+    "sourceBytes": 2486075,
+    "path": "assets/images/projets/festival-de-cannes-x-bijou-brijitte/festival-de-cannes-x-bijou-brijitte-hero.webp",
+    "width": 1440,
+    "height": 926,
+    "variants": [
+      {
+        "path": "assets/images/projets/festival-de-cannes-x-bijou-brijitte/festival-de-cannes-x-bijou-brijitte-hero-900.webp",
+        "width": 899
+      },
+      {
+        "path": "assets/images/projets/festival-de-cannes-x-bijou-brijitte/festival-de-cannes-x-bijou-brijitte-hero-480.webp",
+        "width": 479
+      }
+    ],
+    "bytes": 342204
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2026/06/2-1200x772.png",
+    "sourceBytes": 1656136,
+    "path": "assets/images/projets/festival-de-cannes-x-bijou-brijitte/festival-de-cannes-x-bijou-brijitte-apercu.webp",
+    "width": 1200,
+    "height": 772,
+    "variants": [
+      {
+        "path": "assets/images/projets/festival-de-cannes-x-bijou-brijitte/festival-de-cannes-x-bijou-brijitte-apercu-900.webp",
+        "width": 900
+      },
+      {
+        "path": "assets/images/projets/festival-de-cannes-x-bijou-brijitte/festival-de-cannes-x-bijou-brijitte-apercu-480.webp",
+        "width": 479
+      }
+    ],
+    "bytes": 223224
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2026/06/e78238ee-77fc-4c31-9f88-66faf1afe7a6-3.mov",
+    "sourceBytes": 9632812,
+    "path": "assets/videos/festival-de-cannes-x-bijou-brijitte/festival-de-cannes-x-bijou-brijitte-contenu-1.mp4",
+    "poster": "assets/videos/festival-de-cannes-x-bijou-brijitte/festival-de-cannes-x-bijou-brijitte-contenu-1-poster.webp",
+    "bytes": 1507654
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2026/06/5.jpg",
+    "sourceBytes": 108455,
+    "path": "assets/images/projets/festival-de-cannes-x-bijou-brijitte/festival-de-cannes-x-bijou-brijitte-contenu-2.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/festival-de-cannes-x-bijou-brijitte/festival-de-cannes-x-bijou-brijitte-contenu-2-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 97906
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2026/06/Copie-de-photo-site-header-2.png",
+    "sourceBytes": 1635905,
+    "path": "assets/images/projets/festival-de-cannes-x-meganvlt-x-aroma-zone/festival-de-cannes-x-meganvlt-x-aroma-zone-hero.webp",
+    "width": 1440,
+    "height": 926,
+    "variants": [
+      {
+        "path": "assets/images/projets/festival-de-cannes-x-meganvlt-x-aroma-zone/festival-de-cannes-x-meganvlt-x-aroma-zone-hero-900.webp",
+        "width": 899
+      },
+      {
+        "path": "assets/images/projets/festival-de-cannes-x-meganvlt-x-aroma-zone/festival-de-cannes-x-meganvlt-x-aroma-zone-hero-480.webp",
+        "width": 479
+      }
+    ],
+    "bytes": 151716
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2026/06/1-1.jpg",
+    "sourceBytes": 82837,
+    "path": "assets/images/projets/festival-de-cannes-x-meganvlt-x-aroma-zone/festival-de-cannes-x-meganvlt-x-aroma-zone-apercu.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/festival-de-cannes-x-meganvlt-x-aroma-zone/festival-de-cannes-x-meganvlt-x-aroma-zone-apercu-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 63626
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2026/06/OFF-a-Cannes-jour-4-🎬❤️☀️-sport-interviews-shopping-soiree-au-@festivaldecannes-avec-@aro-2.mp4",
+    "sourceBytes": 62940216,
+    "path": "assets/videos/festival-de-cannes-x-meganvlt-x-aroma-zone/festival-de-cannes-x-meganvlt-x-aroma-zone-contenu-1.mp4",
+    "poster": "assets/videos/festival-de-cannes-x-meganvlt-x-aroma-zone/festival-de-cannes-x-meganvlt-x-aroma-zone-contenu-1-poster.webp",
+    "bytes": 25862223
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2026/03/photo-site-header-3-1.png",
+    "sourceBytes": 1477796,
+    "path": "assets/images/projets/1-million-de-gourmands-ca-se-fete/1-million-de-gourmands-ca-se-fete-hero.webp",
+    "width": 1440,
+    "height": 926,
+    "variants": [
+      {
+        "path": "assets/images/projets/1-million-de-gourmands-ca-se-fete/1-million-de-gourmands-ca-se-fete-hero-900.webp",
+        "width": 899
+      },
+      {
+        "path": "assets/images/projets/1-million-de-gourmands-ca-se-fete/1-million-de-gourmands-ca-se-fete-hero-480.webp",
+        "width": 479
+      }
+    ],
+    "bytes": 128662
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2026/03/photos-site-Anekdote-carre-6.png",
+    "sourceBytes": 608458,
+    "path": "assets/images/projets/1-million-de-gourmands-ca-se-fete/1-million-de-gourmands-ca-se-fete-apercu.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/1-million-de-gourmands-ca-se-fete/1-million-de-gourmands-ca-se-fete-apercu-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 61968
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2026/03/photos-site-Anekdote-carre-7.png",
+    "sourceBytes": 578059,
+    "path": "assets/images/projets/1-million-de-gourmands-ca-se-fete/1-million-de-gourmands-ca-se-fete-contenu-1.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/1-million-de-gourmands-ca-se-fete/1-million-de-gourmands-ca-se-fete-contenu-1-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 57982
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2026/03/photos-site-Anekdote-carre-8.png",
+    "sourceBytes": 693695,
+    "path": "assets/images/projets/1-million-de-gourmands-ca-se-fete/1-million-de-gourmands-ca-se-fete-contenu-2.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/1-million-de-gourmands-ca-se-fete/1-million-de-gourmands-ca-se-fete-contenu-2-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 79434
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2026/03/photo-site-header-2-1.png",
+    "sourceBytes": 1135969,
+    "path": "assets/images/projets/skincarebysamy-x-yves-rocher/skincarebysamy-x-yves-rocher-hero.webp",
+    "width": 1440,
+    "height": 926,
+    "variants": [
+      {
+        "path": "assets/images/projets/skincarebysamy-x-yves-rocher/skincarebysamy-x-yves-rocher-hero-900.webp",
+        "width": 899
+      },
+      {
+        "path": "assets/images/projets/skincarebysamy-x-yves-rocher/skincarebysamy-x-yves-rocher-hero-480.webp",
+        "width": 479
+      }
+    ],
+    "bytes": 107040
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2026/03/photos-site-Anekdote-carre-5.png",
+    "sourceBytes": 295212,
+    "path": "assets/images/projets/skincarebysamy-x-yves-rocher/skincarebysamy-x-yves-rocher-apercu.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/skincarebysamy-x-yves-rocher/skincarebysamy-x-yves-rocher-apercu-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 31052
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2026/03/photos-site-Anekdote-carre-4.png",
+    "sourceBytes": 535165,
+    "path": "assets/images/projets/skincarebysamy-x-yves-rocher/skincarebysamy-x-yves-rocher-contenu-1.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/skincarebysamy-x-yves-rocher/skincarebysamy-x-yves-rocher-contenu-1-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 49294
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2026/03/photos-site-Anekdote-carre-3.png",
+    "sourceBytes": 401932,
+    "path": "assets/images/projets/skincarebysamy-x-yves-rocher/skincarebysamy-x-yves-rocher-contenu-2.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/skincarebysamy-x-yves-rocher/skincarebysamy-x-yves-rocher-contenu-2-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 26110
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2025/03/photo-site-header-1.png",
+    "sourceBytes": 1647941,
+    "path": "assets/images/projets/anniversaire-30-ans-jujufitcats/anniversaire-30-ans-jujufitcats-hero.webp",
+    "width": 1440,
+    "height": 926,
+    "variants": [
+      {
+        "path": "assets/images/projets/anniversaire-30-ans-jujufitcats/anniversaire-30-ans-jujufitcats-hero-900.webp",
+        "width": 899
+      },
+      {
+        "path": "assets/images/projets/anniversaire-30-ans-jujufitcats/anniversaire-30-ans-jujufitcats-hero-480.webp",
+        "width": 479
+      }
+    ],
+    "bytes": 83094
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2025/03/photos-site-Anekdote-carre.png",
+    "sourceBytes": 833985,
+    "path": "assets/images/projets/anniversaire-30-ans-jujufitcats/anniversaire-30-ans-jujufitcats-apercu.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/anniversaire-30-ans-jujufitcats/anniversaire-30-ans-jujufitcats-apercu-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 82330
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2025/03/photos-site-Anekdote-carre-1.png",
+    "sourceBytes": 837194,
+    "path": "assets/images/projets/anniversaire-30-ans-jujufitcats/anniversaire-30-ans-jujufitcats-contenu-2.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/anniversaire-30-ans-jujufitcats/anniversaire-30-ans-jujufitcats-contenu-2-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 84310
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2024/12/photo-site-header-7.png",
+    "sourceBytes": 1869839,
+    "path": "assets/images/projets/bnp-paribas/bnp-paribas-hero.webp",
+    "width": 1440,
+    "height": 926,
+    "variants": [
+      {
+        "path": "assets/images/projets/bnp-paribas/bnp-paribas-hero-900.webp",
+        "width": 899
+      },
+      {
+        "path": "assets/images/projets/bnp-paribas/bnp-paribas-hero-480.webp",
+        "width": 479
+      }
+    ],
+    "bytes": 173922
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2025/12/photos-site-Anekdote-carre-10.jpg",
+    "sourceBytes": 75168,
+    "path": "assets/images/projets/bnp-paribas/bnp-paribas-apercu.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/bnp-paribas/bnp-paribas-apercu-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 56986
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2025/12/photos-site-Anekdote-carre-9.jpg",
+    "sourceBytes": 51715,
+    "path": "assets/images/projets/bnp-paribas/bnp-paribas-contenu-1.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/bnp-paribas/bnp-paribas-contenu-1-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 32116
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2024/10/IMG-20241011-WA0012.jpg",
+    "sourceBytes": 318141,
+    "path": "assets/images/projets/event-tiktok-x-aroma-zone/event-tiktok-x-aroma-zone-hero.webp",
+    "width": 1920,
+    "height": 1078,
+    "variants": [
+      {
+        "path": "assets/images/projets/event-tiktok-x-aroma-zone/event-tiktok-x-aroma-zone-hero-900.webp",
+        "width": 899
+      },
+      {
+        "path": "assets/images/projets/event-tiktok-x-aroma-zone/event-tiktok-x-aroma-zone-hero-480.webp",
+        "width": 479
+      }
+    ],
+    "bytes": 223128
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2024/10/4.png",
+    "sourceBytes": 533665,
+    "path": "assets/images/projets/event-tiktok-x-aroma-zone/event-tiktok-x-aroma-zone-apercu.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/event-tiktok-x-aroma-zone/event-tiktok-x-aroma-zone-apercu-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 41840
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2024/10/1.png",
+    "sourceBytes": 434042,
+    "path": "assets/images/projets/event-tiktok-x-aroma-zone/event-tiktok-x-aroma-zone-contenu-1.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/event-tiktok-x-aroma-zone/event-tiktok-x-aroma-zone-contenu-1-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 31702
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/IMG_1b045-1-1-min.jpg",
+    "sourceBytes": 77967,
+    "path": "assets/images/projets/vichy-feat-jujufitcat/vichy-feat-jujufitcat-hero.webp",
+    "width": 1440,
+    "height": 926,
+    "variants": [
+      {
+        "path": "assets/images/projets/vichy-feat-jujufitcat/vichy-feat-jujufitcat-hero-900.webp",
+        "width": 899
+      },
+      {
+        "path": "assets/images/projets/vichy-feat-jujufitcat/vichy-feat-jujufitcat-hero-480.webp",
+        "width": 479
+      }
+    ],
+    "bytes": 40544
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/IMG_1b045-1-min.jpg",
+    "sourceBytes": 51373,
+    "path": "assets/images/projets/vichy-feat-jujufitcat/vichy-feat-jujufitcat-apercu.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/vichy-feat-jujufitcat/vichy-feat-jujufitcat-apercu-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 30518
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/Capture-decran-2023-11-24-a-16.42-1.jpg",
+    "sourceBytes": 74036,
+    "path": "assets/images/projets/vichy-feat-jujufitcat/vichy-feat-jujufitcat-contenu-1.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/vichy-feat-jujufitcat/vichy-feat-jujufitcat-contenu-1-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 38662
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/VICHY-1.mp4",
+    "sourceBytes": 1172750,
+    "path": "assets/videos/vichy-feat-jujufitcat/vichy-feat-jujufitcat-contenu-2.mp4",
+    "poster": "assets/videos/vichy-feat-jujufitcat/vichy-feat-jujufitcat-contenu-2-poster.webp",
+    "bytes": 542674
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/header-1-2.jpg",
+    "sourceBytes": 69443,
+    "path": "assets/images/projets/benefit-feat-marcus/benefit-feat-marcus-hero.webp",
+    "width": 1440,
+    "height": 926,
+    "variants": [
+      {
+        "path": "assets/images/projets/benefit-feat-marcus/benefit-feat-marcus-hero-900.webp",
+        "width": 899
+      },
+      {
+        "path": "assets/images/projets/benefit-feat-marcus/benefit-feat-marcus-hero-480.webp",
+        "width": 479
+      }
+    ],
+    "bytes": 53954
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/header-1-1.jpg",
+    "sourceBytes": 85683,
+    "path": "assets/images/projets/benefit-feat-marcus/benefit-feat-marcus-apercu.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/benefit-feat-marcus/benefit-feat-marcus-apercu-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 48510
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/343416181_959633988502255_7977967210366240956_n-1.jpg",
+    "sourceBytes": 109529,
+    "path": "assets/images/projets/benefit-feat-marcus/benefit-feat-marcus-contenu-1.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/benefit-feat-marcus/benefit-feat-marcus-contenu-1-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 61996
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/BENEFIT_MARCUS.mp4",
+    "sourceBytes": 664753,
+    "path": "assets/videos/benefit-feat-marcus/benefit-feat-marcus-contenu-2.mp4",
+    "poster": "assets/videos/benefit-feat-marcus/benefit-feat-marcus-contenu-2-poster.webp",
+    "bytes": 302456
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2024/11/photo-site-header.png",
+    "sourceBytes": 961091,
+    "path": "assets/images/projets/lassie-x-multi-talents/lassie-x-multi-talents-hero.webp",
+    "width": 1440,
+    "height": 926,
+    "variants": [
+      {
+        "path": "assets/images/projets/lassie-x-multi-talents/lassie-x-multi-talents-hero-900.webp",
+        "width": 899
+      },
+      {
+        "path": "assets/images/projets/lassie-x-multi-talents/lassie-x-multi-talents-hero-480.webp",
+        "width": 479
+      }
+    ],
+    "bytes": 42618
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2024/11/photo-site-responsive-1.png",
+    "sourceBytes": 797203,
+    "path": "assets/images/projets/lassie-x-multi-talents/lassie-x-multi-talents-apercu.webp",
+    "width": 720,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "assets/images/projets/lassie-x-multi-talents/lassie-x-multi-talents-apercu-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 35526
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2024/12/photos-site-Anekdote-carre-4.mp4",
+    "sourceBytes": 2936766,
+    "path": "assets/videos/lassie-x-multi-talents/lassie-x-multi-talents-contenu-1.mp4",
+    "poster": "assets/videos/lassie-x-multi-talents/lassie-x-multi-talents-contenu-1-poster.webp",
+    "bytes": 915334
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2024/11/photos-site-Anekdote-carre-1.mp4",
+    "sourceBytes": 7314383,
+    "path": "assets/videos/lassie-x-multi-talents/lassie-x-multi-talents-contenu-2.mp4",
+    "poster": "assets/videos/lassie-x-multi-talents/lassie-x-multi-talents-contenu-2-poster.webp",
+    "bytes": 2452414
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2024/12/photo-site-header-3.png",
+    "sourceBytes": 2181810,
+    "path": "assets/images/projets/paysan-breton-x-createurs-ugc/paysan-breton-x-createurs-ugc-hero.webp",
+    "width": 1440,
+    "height": 926,
+    "variants": [
+      {
+        "path": "assets/images/projets/paysan-breton-x-createurs-ugc/paysan-breton-x-createurs-ugc-hero-900.webp",
+        "width": 899
+      },
+      {
+        "path": "assets/images/projets/paysan-breton-x-createurs-ugc/paysan-breton-x-createurs-ugc-hero-480.webp",
+        "width": 479
+      }
+    ],
+    "bytes": 139630
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2024/12/photos-site-Anekdote-carre-2.jpg",
+    "sourceBytes": 83819,
+    "path": "assets/images/projets/paysan-breton-x-createurs-ugc/paysan-breton-x-createurs-ugc-apercu.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/paysan-breton-x-createurs-ugc/paysan-breton-x-createurs-ugc-apercu-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 67674
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2024/11/photos-site-Anekdote-carre-2.mp4",
+    "sourceBytes": 15358697,
+    "path": "assets/videos/paysan-breton-x-createurs-ugc/paysan-breton-x-createurs-ugc-contenu-1.mp4",
+    "poster": "assets/videos/paysan-breton-x-createurs-ugc/paysan-breton-x-createurs-ugc-contenu-1-poster.webp",
+    "bytes": 4796499
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2024/11/photos-site-Anekdote-carre-3.mp4",
+    "sourceBytes": 22677048,
+    "path": "assets/videos/paysan-breton-x-createurs-ugc/paysan-breton-x-createurs-ugc-contenu-2.mp4",
+    "poster": "assets/videos/paysan-breton-x-createurs-ugc/paysan-breton-x-createurs-ugc-contenu-2-poster.webp",
+    "bytes": 8087511
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2024/12/photo-site-header-4.png",
+    "sourceBytes": 2063867,
+    "path": "assets/images/projets/portage-vichy/portage-vichy-hero.webp",
+    "width": 1440,
+    "height": 926,
+    "variants": [
+      {
+        "path": "assets/images/projets/portage-vichy/portage-vichy-hero-900.webp",
+        "width": 899
+      },
+      {
+        "path": "assets/images/projets/portage-vichy/portage-vichy-hero-480.webp",
+        "width": 479
+      }
+    ],
+    "bytes": 195090
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2024/12/photos-site-Anekdote-carre-3.jpg",
+    "sourceBytes": 105630,
+    "path": "assets/images/projets/portage-vichy/portage-vichy-apercu.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/portage-vichy/portage-vichy-apercu-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 98054
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2024/12/photos-site-Anekdote-carre-4.jpg",
+    "sourceBytes": 98170,
+    "path": "assets/images/projets/portage-vichy/portage-vichy-contenu-1.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/portage-vichy/portage-vichy-contenu-1-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 87812
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2024/12/photos-site-Anekdote-carre-5.jpg",
+    "sourceBytes": 77372,
+    "path": "assets/images/projets/portage-vichy/portage-vichy-contenu-2.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/portage-vichy/portage-vichy-contenu-2-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 54662
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/12/3-1-min.jpg",
+    "sourceBytes": 137689,
+    "path": "assets/images/projets/pinterest/pinterest-hero.webp",
+    "width": 1440,
+    "height": 926,
+    "variants": [
+      {
+        "path": "assets/images/projets/pinterest/pinterest-hero-900.webp",
+        "width": 899
+      },
+      {
+        "path": "assets/images/projets/pinterest/pinterest-hero-480.webp",
+        "width": 479
+      }
+    ],
+    "bytes": 82104
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/12/IMG_1965-1-min.jpg",
+    "sourceBytes": 123609,
+    "path": "assets/images/projets/pinterest/pinterest-apercu.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/pinterest/pinterest-apercu-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 102644
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/3-OK-WhatsApp-Image-2023-10-05-a-15.22-1.jpg",
+    "sourceBytes": 106649,
+    "path": "assets/images/projets/pinterest/pinterest-contenu-2.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/pinterest/pinterest-contenu-2-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 63646
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/header-1-2-1.jpg",
+    "sourceBytes": 59319,
+    "path": "assets/images/projets/strategie-tiktok-x-dyson/strategie-tiktok-x-dyson-hero.webp",
+    "width": 1440,
+    "height": 926,
+    "variants": [
+      {
+        "path": "assets/images/projets/strategie-tiktok-x-dyson/strategie-tiktok-x-dyson-hero-900.webp",
+        "width": 899
+      },
+      {
+        "path": "assets/images/projets/strategie-tiktok-x-dyson/strategie-tiktok-x-dyson-hero-480.webp",
+        "width": 479
+      }
+    ],
+    "bytes": 46536
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/dyson-2-1-min.jpg",
+    "sourceBytes": 45769,
+    "path": "assets/images/projets/strategie-tiktok-x-dyson/strategie-tiktok-x-dyson-apercu.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/strategie-tiktok-x-dyson/strategie-tiktok-x-dyson-apercu-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 25352
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/STYLETO-1-min.jpg",
+    "sourceBytes": 64773,
+    "path": "assets/images/projets/strategie-tiktok-x-dyson/strategie-tiktok-x-dyson-contenu-1.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/strategie-tiktok-x-dyson/strategie-tiktok-x-dyson-contenu-1-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 38996
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/STRAT_TIKTOK.mp4",
+    "sourceBytes": 931056,
+    "path": "assets/videos/strategie-tiktok-x-dyson/strategie-tiktok-x-dyson-contenu-2.mp4",
+    "poster": "assets/videos/strategie-tiktok-x-dyson/strategie-tiktok-x-dyson-contenu-2-poster.webp",
+    "bytes": 427123
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/header-1-7.jpg",
+    "sourceBytes": 91456,
+    "path": "assets/images/projets/yves-rocher-2/yves-rocher-2-hero.webp",
+    "width": 1440,
+    "height": 926,
+    "variants": [
+      {
+        "path": "assets/images/projets/yves-rocher-2/yves-rocher-2-hero-900.webp",
+        "width": 899
+      },
+      {
+        "path": "assets/images/projets/yves-rocher-2/yves-rocher-2-hero-480.webp",
+        "width": 479
+      }
+    ],
+    "bytes": 72200
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/header-2.jpg",
+    "sourceBytes": 95823,
+    "path": "assets/images/projets/yves-rocher-2/yves-rocher-2-apercu.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/yves-rocher-2/yves-rocher-2-apercu-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 57720
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/YVES_ROCHER_1.mp4",
+    "sourceBytes": 1600464,
+    "path": "assets/videos/yves-rocher-2/yves-rocher-2-contenu-1.mp4",
+    "poster": "assets/videos/yves-rocher-2/yves-rocher-2-contenu-1-poster.webp",
+    "bytes": 883211
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/YVES_ROCHER_2.mp4",
+    "sourceBytes": 1580115,
+    "path": "assets/videos/yves-rocher-2/yves-rocher-2-contenu-2.mp4",
+    "poster": "assets/videos/yves-rocher-2/yves-rocher-2-contenu-2-poster.webp",
+    "bytes": 862101
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/header-1-3.jpg",
+    "sourceBytes": 144481,
+    "path": "assets/images/projets/mr-moustache-x-multi-talents/mr-moustache-x-multi-talents-hero.webp",
+    "width": 1440,
+    "height": 926,
+    "variants": [
+      {
+        "path": "assets/images/projets/mr-moustache-x-multi-talents/mr-moustache-x-multi-talents-hero-900.webp",
+        "width": 899
+      },
+      {
+        "path": "assets/images/projets/mr-moustache-x-multi-talents/mr-moustache-x-multi-talents-hero-480.webp",
+        "width": 479
+      }
+    ],
+    "bytes": 150564
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/header-1-4.jpg",
+    "sourceBytes": 94595,
+    "path": "assets/images/projets/mr-moustache-x-multi-talents/mr-moustache-x-multi-talents-apercu.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/mr-moustache-x-multi-talents/mr-moustache-x-multi-talents-apercu-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 82632
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/350633800_255272360518193_7687870669346013756_n-1-1.jpg",
+    "sourceBytes": 157911,
+    "path": "assets/images/projets/mr-moustache-x-multi-talents/mr-moustache-x-multi-talents-contenu-1.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/mr-moustache-x-multi-talents/mr-moustache-x-multi-talents-contenu-1-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 128606
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/Design-sans-titre-1.mp4",
+    "sourceBytes": 2221963,
+    "path": "assets/videos/mr-moustache-x-multi-talents/mr-moustache-x-multi-talents-contenu-2.mp4",
+    "poster": "assets/videos/mr-moustache-x-multi-talents/mr-moustache-x-multi-talents-contenu-2-poster.webp",
+    "bytes": 815288
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/Header-1-1-1.jpg",
+    "sourceBytes": 107299,
+    "path": "assets/images/projets/loreal-luxe-x-my-origines/loreal-luxe-x-my-origines-hero.webp",
+    "width": 1440,
+    "height": 926,
+    "variants": [
+      {
+        "path": "assets/images/projets/loreal-luxe-x-my-origines/loreal-luxe-x-my-origines-hero-900.webp",
+        "width": 899
+      },
+      {
+        "path": "assets/images/projets/loreal-luxe-x-my-origines/loreal-luxe-x-my-origines-hero-480.webp",
+        "width": 479
+      }
+    ],
+    "bytes": 94826
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/Header-2-1.jpg",
+    "sourceBytes": 80694,
+    "path": "assets/images/projets/loreal-luxe-x-my-origines/loreal-luxe-x-my-origines-apercu.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/loreal-luxe-x-my-origines/loreal-luxe-x-my-origines-apercu-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 59916
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/photo-3-1.jpg",
+    "sourceBytes": 132936,
+    "path": "assets/images/projets/loreal-luxe-x-my-origines/loreal-luxe-x-my-origines-contenu-1.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/loreal-luxe-x-my-origines/loreal-luxe-x-my-origines-contenu-1-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 88276
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/LOREAL.mp4",
+    "sourceBytes": 1769738,
+    "path": "assets/videos/loreal-luxe-x-my-origines/loreal-luxe-x-my-origines-contenu-2.mp4",
+    "poster": "assets/videos/loreal-luxe-x-my-origines/loreal-luxe-x-my-origines-contenu-2-poster.webp",
+    "bytes": 999318
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/Capture-decran-2023-11-24-a-16.28-1-1-1-e1701878664983.jpg",
+    "sourceBytes": 42895,
+    "path": "assets/images/projets/milka-x-natoo/milka-x-natoo-apercu.webp",
+    "width": 665,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/milka-x-natoo/milka-x-natoo-apercu-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 26528
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/NATOO_MILKA.mp4",
+    "sourceBytes": 1021488,
+    "path": "assets/videos/milka-x-natoo/milka-x-natoo-contenu-2.mp4",
+    "poster": "assets/videos/milka-x-natoo/milka-x-natoo-contenu-2-poster.webp",
+    "bytes": 507126
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/IMG_1528-2-1.jpg",
+    "sourceBytes": 81307,
+    "path": "assets/images/projets/etam-x-jujufitcat/etam-x-jujufitcat-hero.webp",
+    "width": 1440,
+    "height": 926,
+    "variants": [
+      {
+        "path": "assets/images/projets/etam-x-jujufitcat/etam-x-jujufitcat-hero-900.webp",
+        "width": 899
+      },
+      {
+        "path": "assets/images/projets/etam-x-jujufitcat/etam-x-jujufitcat-hero-480.webp",
+        "width": 479
+      }
+    ],
+    "bytes": 67014
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/IMG_1528-1.jpg",
+    "sourceBytes": 75477,
+    "path": "assets/images/projets/etam-x-jujufitcat/etam-x-jujufitcat-apercu.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/etam-x-jujufitcat/etam-x-jujufitcat-apercu-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 50530
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/IMG_1527-1.jpg",
+    "sourceBytes": 81264,
+    "path": "assets/images/projets/etam-x-jujufitcat/etam-x-jujufitcat-contenu-1.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/etam-x-jujufitcat/etam-x-jujufitcat-contenu-1-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 55466
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/IMG_1525-1.jpg",
+    "sourceBytes": 85314,
+    "path": "assets/images/projets/etam-x-jujufitcat/etam-x-jujufitcat-contenu-2.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/etam-x-jujufitcat/etam-x-jujufitcat-contenu-2-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 60792
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/JC-lena-Bis-bis-1.jpg",
+    "sourceBytes": 71634,
+    "path": "assets/images/projets/courir-x-lena-situations/courir-x-lena-situations-apercu.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/courir-x-lena-situations/courir-x-lena-situations-apercu-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 34960
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/Lena-x-VIVO-1-1.jpg",
+    "sourceBytes": 89771,
+    "path": "assets/images/projets/courir-x-lena-situations/courir-x-lena-situations-contenu-2.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/courir-x-lena-situations/courir-x-lena-situations-contenu-2-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 44980
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/header-2-2.jpg",
+    "sourceBytes": 37347,
+    "path": "assets/images/projets/strategie-tiktok-x-oh-my-cream/strategie-tiktok-x-oh-my-cream-apercu.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/strategie-tiktok-x-oh-my-cream/strategie-tiktok-x-oh-my-cream-apercu-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 34822
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/Capture-decran-2023-11-24-a-16.51-1-1.jpg",
+    "sourceBytes": 27075,
+    "path": "assets/images/projets/savage-fenty-x-jujufitcat/savage-fenty-x-jujufitcat-apercu.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/savage-fenty-x-jujufitcat/savage-fenty-x-jujufitcat-apercu-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 19632
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/SAVAGE-FENTY.mp4",
+    "sourceBytes": 594063,
+    "path": "assets/videos/savage-fenty-x-jujufitcat/savage-fenty-x-jujufitcat-contenu-2.mp4",
+    "poster": "assets/videos/savage-fenty-x-jujufitcat/savage-fenty-x-jujufitcat-contenu-2-poster.webp",
+    "bytes": 278051
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/header-1-5.jpg",
+    "sourceBytes": 40010,
+    "path": "assets/images/projets/air-up-x-jujufitcat/air-up-x-jujufitcat-hero.webp",
+    "width": 1440,
+    "height": 808,
+    "variants": [
+      {
+        "path": "assets/images/projets/air-up-x-jujufitcat/air-up-x-jujufitcat-hero-900.webp",
+        "width": 900
+      },
+      {
+        "path": "assets/images/projets/air-up-x-jujufitcat/air-up-x-jujufitcat-hero-480.webp",
+        "width": 479
+      }
+    ],
+    "bytes": 27190
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/header-2-3.jpg",
+    "sourceBytes": 22147,
+    "path": "assets/images/projets/air-up-x-jujufitcat/air-up-x-jujufitcat-apercu.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/air-up-x-jujufitcat/air-up-x-jujufitcat-apercu-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 16080
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/Capture-decran-2023-11-15-a-11.36-2.jpg",
+    "sourceBytes": 63538,
+    "path": "assets/images/projets/air-up-x-jujufitcat/air-up-x-jujufitcat-contenu-1.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/air-up-x-jujufitcat/air-up-x-jujufitcat-contenu-1-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 28022
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/AIR_UP_JUJUFITCAT.mp4",
+    "sourceBytes": 748272,
+    "path": "assets/videos/air-up-x-jujufitcat/air-up-x-jujufitcat-contenu-2.mp4",
+    "poster": "assets/videos/air-up-x-jujufitcat/air-up-x-jujufitcat-contenu-2-poster.webp",
+    "bytes": 353262
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/download-2.jpg",
+    "sourceBytes": 48160,
+    "path": "assets/images/projets/sephora-x-les-eclaireuses/sephora-x-les-eclaireuses-apercu.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/sephora-x-les-eclaireuses/sephora-x-les-eclaireuses-apercu-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 27806
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/SEPHORA-1.mp4",
+    "sourceBytes": 476368,
+    "path": "assets/videos/sephora-x-les-eclaireuses/sephora-x-les-eclaireuses-contenu-2.mp4",
+    "poster": "assets/videos/sephora-x-les-eclaireuses/sephora-x-les-eclaireuses-contenu-2-poster.webp",
+    "bytes": 298353
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/header-1-6.jpg",
+    "sourceBytes": 111726,
+    "path": "assets/images/projets/carrefour-x-multi-talents/carrefour-x-multi-talents-hero.webp",
+    "width": 1440,
+    "height": 926,
+    "variants": [
+      {
+        "path": "assets/images/projets/carrefour-x-multi-talents/carrefour-x-multi-talents-hero-900.webp",
+        "width": 899
+      },
+      {
+        "path": "assets/images/projets/carrefour-x-multi-talents/carrefour-x-multi-talents-hero-480.webp",
+        "width": 479
+      }
+    ],
+    "bytes": 104032
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/header-2-4.jpg",
+    "sourceBytes": 109258,
+    "path": "assets/images/projets/carrefour-x-multi-talents/carrefour-x-multi-talents-apercu.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/carrefour-x-multi-talents/carrefour-x-multi-talents-apercu-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 79538
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/367951315_617511167036963_3998204506723506565_n-1-1-1.jpg",
+    "sourceBytes": 182432,
+    "path": "assets/images/projets/carrefour-x-multi-talents/carrefour-x-multi-talents-contenu-1.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/carrefour-x-multi-talents/carrefour-x-multi-talents-contenu-1-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 129630
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/395064504_342148645025013_4961183264663038455_n-1-1-1.jpg",
+    "sourceBytes": 127502,
+    "path": "assets/images/projets/carrefour-x-multi-talents/carrefour-x-multi-talents-contenu-2.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/carrefour-x-multi-talents/carrefour-x-multi-talents-contenu-2-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 84692
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/12/choose-1-1-1.jpg",
+    "sourceBytes": 172818,
+    "path": "assets/images/projets/strategie-tiktok-x-choose/strategie-tiktok-x-choose-hero.webp",
+    "width": 1440,
+    "height": 926,
+    "variants": [
+      {
+        "path": "assets/images/projets/strategie-tiktok-x-choose/strategie-tiktok-x-choose-hero-900.webp",
+        "width": 899
+      },
+      {
+        "path": "assets/images/projets/strategie-tiktok-x-choose/strategie-tiktok-x-choose-hero-480.webp",
+        "width": 479
+      }
+    ],
+    "bytes": 102356
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/12/choose-1-2.jpg",
+    "sourceBytes": 74628,
+    "path": "assets/images/projets/strategie-tiktok-x-choose/strategie-tiktok-x-choose-apercu.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/projets/strategie-tiktok-x-choose/strategie-tiktok-x-choose-apercu-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 37178
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/CORPO-CHRISTELLE.jpg",
+    "sourceBytes": 88607,
+    "path": "assets/images/equipe/anekdote-1-christelle-portrait.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/equipe/anekdote-1-christelle-portrait-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 62310
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/FUN-CHRISTELLE.jpg",
+    "sourceBytes": 88805,
+    "path": "assets/images/equipe/anekdote-1-christelle-spontane.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/equipe/anekdote-1-christelle-spontane-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 62510
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/CORPO-Tiffany-Teixeira-1.jpg",
+    "sourceBytes": 30435,
+    "path": "assets/images/equipe/anekdote-2-tiffany-portrait.webp",
+    "width": 334,
+    "height": 487,
+    "variants": [],
+    "bytes": 22710
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/FUN-Tiffany-Teixeira-1.jpg",
+    "sourceBytes": 31567,
+    "path": "assets/images/equipe/anekdote-2-tiffany-spontane.webp",
+    "width": 334,
+    "height": 487,
+    "variants": [],
+    "bytes": 21574
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/corpo-Emma-Lahoreau-1.jpg",
+    "sourceBytes": 32640,
+    "path": "assets/images/equipe/anekdote-3-emma-portrait.webp",
+    "width": 334,
+    "height": 487,
+    "variants": [],
+    "bytes": 25478
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/fun-Emma-Lahoreau-1.jpg",
+    "sourceBytes": 38909,
+    "path": "assets/images/equipe/anekdote-3-emma-spontane.webp",
+    "width": 334,
+    "height": 487,
+    "variants": [],
+    "bytes": 30036
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2025/09/85df6196-a83e-4472-970f-e53ecaa0353c.jpg",
+    "sourceBytes": 171019,
+    "path": "assets/images/equipe/anekdote-4-emma-portrait.webp",
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "path": "assets/images/equipe/anekdote-4-emma-portrait-900.webp",
+        "width": 900
+      },
+      {
+        "path": "assets/images/equipe/anekdote-4-emma-portrait-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 148520
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2025/09/3cd473f3-33ea-43fc-ba97-8d139d0734a4-2.jpg",
+    "sourceBytes": 350898,
+    "path": "assets/images/equipe/anekdote-4-emma-spontane.webp",
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "path": "assets/images/equipe/anekdote-4-emma-spontane-900.webp",
+        "width": 900
+      },
+      {
+        "path": "assets/images/equipe/anekdote-4-emma-spontane-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 259160
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2025/09/12.png",
+    "sourceBytes": 177999,
+    "path": "assets/images/equipe/anekdote-5-pauline-portrait.webp",
+    "width": 334,
+    "height": 487,
+    "variants": [],
+    "bytes": 10908
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2025/09/11.png",
+    "sourceBytes": 422802,
+    "path": "assets/images/equipe/anekdote-5-pauline-spontane.webp",
+    "width": 334,
+    "height": 487,
+    "variants": [],
+    "bytes": 62620
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2024/09/6.png",
+    "sourceBytes": 261253,
+    "path": "assets/images/equipe/anekdote-6-carla-portrait.webp",
+    "width": 334,
+    "height": 487,
+    "variants": [],
+    "bytes": 23374
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2024/09/7.png",
+    "sourceBytes": 264833,
+    "path": "assets/images/equipe/anekdote-6-carla-spontane.webp",
+    "width": 334,
+    "height": 487,
+    "variants": [],
+    "bytes": 30656
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2026/09/PHOTO-1-SITE-ANEKDOTE.png",
+    "sourceBytes": 199823,
+    "path": "assets/images/equipe/anekdote-7-raphaël-portrait.webp",
+    "width": 334,
+    "height": 487,
+    "variants": [],
+    "bytes": 20408
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2026/09/PHOTO-2-SITE-ANEKDOTE.png",
+    "sourceBytes": 231559,
+    "path": "assets/images/equipe/anekdote-7-raphaël-spontane.webp",
+    "width": 334,
+    "height": 487,
+    "variants": [],
+    "bytes": 19916
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2025/09/PHOTO-2025-09-23-16-43-15.jpg",
+    "sourceBytes": 209753,
+    "path": "assets/images/equipe/anekdote-8-margaux-portrait.webp",
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "path": "assets/images/equipe/anekdote-8-margaux-portrait-900.webp",
+        "width": 900
+      },
+      {
+        "path": "assets/images/equipe/anekdote-8-margaux-portrait-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 177852
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2025/09/PHOTO-2025-09-23-16-46-30.jpg",
+    "sourceBytes": 154216,
+    "path": "assets/images/equipe/anekdote-8-margaux-spontane.webp",
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "path": "assets/images/equipe/anekdote-8-margaux-spontane-900.webp",
+        "width": 900
+      },
+      {
+        "path": "assets/images/equipe/anekdote-8-margaux-spontane-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 127540
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2026/06/photos-site-Anekdote-carre-12.png",
+    "sourceBytes": 390987,
+    "path": "assets/images/newsroom/masterclass-influence-a-l-efap-d-aix-en-provence-couverture.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/newsroom/masterclass-influence-a-l-efap-d-aix-en-provence-couverture-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 27898
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2026/03/photos-site-Anekdote-carre-9.png",
+    "sourceBytes": 787673,
+    "path": "assets/images/newsroom/forum-des-entrepreneurs-au-velodrome-couverture.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/newsroom/forum-des-entrepreneurs-au-velodrome-couverture-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 106214
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2025/01/photos-site-Anekdote-carre-11.jpg",
+    "sourceBytes": 83687,
+    "path": "assets/images/newsroom/une-nouvelle-aventure-pour-anekdote-couverture.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/newsroom/une-nouvelle-aventure-pour-anekdote-couverture-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 66078
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2025/01/photos-site-Anekdote-carre-8.jpg",
+    "sourceBytes": 69938,
+    "path": "assets/images/newsroom/umicc-couverture.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/newsroom/umicc-couverture-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 50890
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2024/05/Wishlist-format-site-internet-668-pxl-par-668-1.jpg",
+    "sourceBytes": 301870,
+    "path": "assets/images/newsroom/anekdote-x-vivatech-couverture.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/newsroom/anekdote-x-vivatech-couverture-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 54876
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/380573016_1306177696770762_1306017657901695400_n-1.jpg",
+    "sourceBytes": 77840,
+    "path": "assets/images/newsroom/soiree-jo-paris-couverture.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/newsroom/soiree-jo-paris-couverture-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 51014
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/ANEKDOTE_PRESENTATION.mp4",
+    "sourceBytes": 5012254,
+    "path": "assets/videos/home-visuel-1.mp4",
+    "bytes": 2826704
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2024/09/Design-sans-titre-7.png",
+    "sourceBytes": 918394,
+    "path": "assets/images/home/home-visuel-15.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/home/home-visuel-15-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 109206
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/paris-2024-anekdote.jpg",
+    "sourceBytes": 326897,
+    "path": "assets/images/home/home-visuel-20.webp",
+    "width": 1336,
+    "height": 1336,
+    "variants": [
+      {
+        "path": "assets/images/home/home-visuel-20-900.webp",
+        "width": 900
+      },
+      {
+        "path": "assets/images/home/home-visuel-20-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 167372
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/Air-France-logo-couleur-1.svg",
+    "sourceBytes": 126609,
+    "path": "assets/images/home/home-visuel-27.svg",
+    "bytes": 126609
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/Choose-logo-noir-1.svg",
+    "sourceBytes": 38082,
+    "path": "assets/images/home/home-visuel-28.svg",
+    "bytes": 38082
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/L_Oreal-logo-noir.svg",
+    "sourceBytes": 46972,
+    "path": "assets/images/home/home-visuel-29.svg",
+    "bytes": 46972
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/Air-Up-logo-couleur-1.svg",
+    "sourceBytes": 54685,
+    "path": "assets/images/home/home-visuel-30.svg",
+    "bytes": 54685
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/Wethenew-logo-noir-1.svg",
+    "sourceBytes": 57110,
+    "path": "assets/images/home/home-visuel-31.svg",
+    "bytes": 57110
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/Oceansapart-logo-noir-1.svg",
+    "sourceBytes": 34429,
+    "path": "assets/images/home/home-visuel-32.svg",
+    "bytes": 34429
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/Benefit-logo-rose-1.svg",
+    "sourceBytes": 59561,
+    "path": "assets/images/home/home-visuel-33.svg",
+    "bytes": 59561
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/My-Origines-logo-couelurs-1.svg",
+    "sourceBytes": 92403,
+    "path": "assets/images/home/home-visuel-34.svg",
+    "bytes": 92403
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/Vichy-logo-noir-1.svg",
+    "sourceBytes": 43593,
+    "path": "assets/images/home/home-visuel-35.svg",
+    "bytes": 43593
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/Carrefour-logo-longueur.svg",
+    "sourceBytes": 144032,
+    "path": "assets/images/home/home-visuel-36.svg",
+    "bytes": 144032
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/Dyson-logo-noir-1.svg",
+    "sourceBytes": 12149,
+    "path": "assets/images/home/home-visuel-37.svg",
+    "bytes": 12149
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/Monsieur-Moustache-logo-noir-1.svg",
+    "sourceBytes": 47657,
+    "path": "assets/images/home/home-visuel-38.svg",
+    "bytes": 47657
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/12/Babbel-logo-couleur-1.svg",
+    "sourceBytes": 104852,
+    "path": "assets/images/home/home-visuel-39.svg",
+    "bytes": 104852
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/les-eclaireuses-logo-noir.svg",
+    "sourceBytes": 87331,
+    "path": "assets/images/home/home-visuel-40.svg",
+    "bytes": 87331
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/LVMH-logo-noir-1.svg",
+    "sourceBytes": 113242,
+    "path": "assets/images/home/home-visuel-41.svg",
+    "bytes": 113242
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/Oh-My-Cream-logo-noir-1.svg",
+    "sourceBytes": 38800,
+    "path": "assets/images/home/home-visuel-57.svg",
+    "bytes": 38800
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/Milka-logo-couleur-1.svg",
+    "sourceBytes": 63231,
+    "path": "assets/images/home/home-visuel-58.svg",
+    "bytes": 63231
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/Savage-x-Fenty-logo-noir-1.svg",
+    "sourceBytes": 32114,
+    "path": "assets/images/home/home-visuel-59.svg",
+    "bytes": 32114
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/Sephora-logo-noir-1.svg",
+    "sourceBytes": 35558,
+    "path": "assets/images/home/home-visuel-60.svg",
+    "bytes": 35558
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/Etam-logo-noir-1.svg",
+    "sourceBytes": 285330,
+    "path": "assets/images/home/home-visuel-62.svg",
+    "bytes": 285330
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/Fabletics-logo-noir-1.svg",
+    "sourceBytes": 19026,
+    "path": "assets/images/home/home-visuel-63.svg",
+    "bytes": 19026
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/12/marcus-x-brand-content-1-min.jpg",
+    "sourceBytes": 41326,
+    "path": "assets/images/home/home-ambiance-6.webp",
+    "width": 340,
+    "height": 1000,
+    "variants": [],
+    "bytes": 23354
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/12/Design-sans-titre-1.mp4",
+    "sourceBytes": 5544079,
+    "path": "assets/videos/campagne-dinfluence-visuel-1.mp4",
+    "poster": "assets/videos/campagne-dinfluence-visuel-1-poster.webp",
+    "bytes": 2041221
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/banner-influence.jpg",
+    "sourceBytes": 152937,
+    "path": "assets/images/campagne-dinfluence/campagne-dinfluence-ambiance-1.webp",
+    "width": 1440,
+    "height": 926,
+    "variants": [
+      {
+        "path": "assets/images/campagne-dinfluence/campagne-dinfluence-ambiance-1-900.webp",
+        "width": 899
+      },
+      {
+        "path": "assets/images/campagne-dinfluence/campagne-dinfluence-ambiance-1-480.webp",
+        "width": 479
+      }
+    ],
+    "bytes": 153530
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/icon-espresso.svg",
+    "sourceBytes": 545,
+    "path": "assets/images/contact/contact-visuel-3.svg",
+    "bytes": 545
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/icon-americano.svg",
+    "sourceBytes": 552,
+    "path": "assets/images/contact/contact-visuel-4.svg",
+    "bytes": 552
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/icon-macchiato.svg",
+    "sourceBytes": 824,
+    "path": "assets/images/contact/contact-visuel-5.svg",
+    "bytes": 824
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/icon-cappucino.svg",
+    "sourceBytes": 957,
+    "path": "assets/images/contact/contact-visuel-6.svg",
+    "bytes": 957
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/icon-latte.svg",
+    "sourceBytes": 955,
+    "path": "assets/images/contact/contact-visuel-7.svg",
+    "bytes": 955
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/icon-chocolat.svg",
+    "sourceBytes": 1808,
+    "path": "assets/images/contact/contact-visuel-8.svg",
+    "bytes": 1808
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/icon-rooftop.svg",
+    "sourceBytes": 47748,
+    "path": "assets/images/contact/contact-visuel-9.svg",
+    "bytes": 47748
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/icon-reunion.svg",
+    "sourceBytes": 2501,
+    "path": "assets/images/contact/contact-visuel-10.svg",
+    "bytes": 2501
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/icon-salon.svg",
+    "sourceBytes": 3139,
+    "path": "assets/images/contact/contact-visuel-11.svg",
+    "bytes": 3139
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/12/IMG_0822-1-1.jpg",
+    "sourceBytes": 187520,
+    "path": "assets/images/contact/contact-ambiance-1.webp",
+    "width": 1440,
+    "height": 926,
+    "variants": [
+      {
+        "path": "assets/images/contact/contact-ambiance-1-900.webp",
+        "width": 899
+      },
+      {
+        "path": "assets/images/contact/contact-ambiance-1-480.webp",
+        "width": 479
+      }
+    ],
+    "bytes": 127220
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2024/04/WhatsApp-Video-2024-04-24-at-12.25.05.mp4",
+    "sourceBytes": 8715907,
+    "path": "assets/videos/evenements-visuel-1.mp4",
+    "poster": "assets/videos/evenements-visuel-1-poster.webp",
+    "bytes": 3683577
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/banner-event-e1700151238251.jpg",
+    "sourceBytes": 110756,
+    "path": "assets/images/evenements/evenements-ambiance-1.webp",
+    "width": 1440,
+    "height": 722,
+    "variants": [
+      {
+        "path": "assets/images/evenements/evenements-ambiance-1-900.webp",
+        "width": 900
+      },
+      {
+        "path": "assets/images/evenements/evenements-ambiance-1-480.webp",
+        "width": 479
+      }
+    ],
+    "bytes": 90962
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/3-IMG_4636-1.jpg",
+    "sourceBytes": 127321,
+    "path": "assets/images/brand-content/brand-content-visuel-1.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/brand-content/brand-content-visuel-1-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 87724
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/12/marcus-x-brand-content-1-1-1.jpg",
+    "sourceBytes": 142841,
+    "path": "assets/images/brand-content/brand-content-ambiance-1.webp",
+    "width": 1440,
+    "height": 926,
+    "variants": [
+      {
+        "path": "assets/images/brand-content/brand-content-ambiance-1-900.webp",
+        "width": 899
+      },
+      {
+        "path": "assets/images/brand-content/brand-content-ambiance-1-480.webp",
+        "width": 479
+      }
+    ],
+    "bytes": 68358
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2024/05/Design-sans-titre-40.jpg",
+    "sourceBytes": 620862,
+    "path": "assets/images/strategie/strategie-ambiance-1.webp",
+    "width": 1440,
+    "height": 926,
+    "variants": [
+      {
+        "path": "assets/images/strategie/strategie-ambiance-1-900.webp",
+        "width": 899
+      },
+      {
+        "path": "assets/images/strategie/strategie-ambiance-1-480.webp",
+        "width": 479
+      }
+    ],
+    "bytes": 140102
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2024/09/Design-sans-titre-14.png",
+    "sourceBytes": 721685,
+    "path": "assets/images/agence/agence-visuel-3.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/agence/agence-visuel-3-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 76148
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2024/09/Design-sans-titre-3.png",
+    "sourceBytes": 935342,
+    "path": "assets/images/agence/agence-visuel-4.webp",
+    "width": 680,
+    "height": 680,
+    "variants": [
+      {
+        "path": "assets/images/agence/agence-visuel-4-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 85934
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/icon-quotemark.png",
+    "sourceBytes": 17841,
+    "path": "assets/images/agence/agence-visuel-6.webp",
+    "width": 174,
+    "height": 150,
+    "variants": [],
+    "bytes": 4540
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2024/09/Design-sans-titre-1.png",
+    "sourceBytes": 4237366,
+    "path": "assets/images/agence/agence-ambiance-1.webp",
+    "width": 1920,
+    "height": 1227,
+    "variants": [
+      {
+        "path": "assets/images/agence/agence-ambiance-1-900.webp",
+        "width": 900
+      },
+      {
+        "path": "assets/images/agence/agence-ambiance-1-480.webp",
+        "width": 479
+      }
+    ],
+    "bytes": 294962
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/3-1-1.jpg",
+    "sourceBytes": 94566,
+    "path": "assets/images/rse-corporate/rse-corporate-visuel-1.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/rse-corporate/rse-corporate-visuel-1-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 52652
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/12/wework-1-1-1.jpg",
+    "sourceBytes": 209158,
+    "path": "assets/images/rse-corporate/rse-corporate-ambiance-1.webp",
+    "width": 1440,
+    "height": 926,
+    "variants": [
+      {
+        "path": "assets/images/rse-corporate/rse-corporate-ambiance-1-900.webp",
+        "width": 899
+      },
+      {
+        "path": "assets/images/rse-corporate/rse-corporate-ambiance-1-480.webp",
+        "width": 479
+      }
+    ],
+    "bytes": 138908
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2024/09/Design-sans-titre-15.png",
+    "sourceBytes": 733543,
+    "path": "assets/images/equipe/equipe-visuel-2.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/equipe/equipe-visuel-2-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 65350
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2026/06/photos-site-Anekdote-carre.png",
+    "sourceBytes": 46196,
+    "path": "assets/images/performance-affiliation/performance-affiliation-visuel-1.webp",
+    "width": 668,
+    "height": 668,
+    "variants": [
+      {
+        "path": "assets/images/performance-affiliation/performance-affiliation-visuel-1-480.webp",
+        "width": 480
+      }
+    ],
+    "bytes": 31230
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2026/03/photo-site-header-5.png",
+    "sourceBytes": 839067,
+    "path": "assets/images/performance-affiliation/performance-affiliation-ambiance-1.webp",
+    "width": 1440,
+    "height": 926,
+    "variants": [
+      {
+        "path": "assets/images/performance-affiliation/performance-affiliation-ambiance-1-900.webp",
+        "width": 899
+      },
+      {
+        "path": "assets/images/performance-affiliation/performance-affiliation-ambiance-1-480.webp",
+        "width": 479
+      }
+    ],
+    "bytes": 100908
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/logo-anekdote.svg",
+    "sourceBytes": 115873,
+    "path": "assets/brand/anekdote-logo.svg",
+    "bytes": 115873
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/logo-arpp.png",
+    "sourceBytes": 8817,
+    "path": "assets/brand/arpp-umicc.webp",
+    "width": 216,
+    "height": 28,
+    "variants": [],
+    "bytes": 2376
+  }
+]

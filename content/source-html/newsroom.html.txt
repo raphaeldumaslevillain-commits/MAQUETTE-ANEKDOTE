@@ -1,0 +1,375 @@
+
+<!DOCTYPE html>
+<html lang="fr-FR" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,400;1,600&display=swap" rel="stylesheet">
+	<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v28.1 - https://yoast.com/product/yoast-seo-wordpress/ -->
+	<title>Anekdote | Newsroom | Toutes les actus de l&#039;influence</title>
+	<meta name="description" content="Bienvenue sur la Newsroom Anekdote ! Découvrez les derniers évènements et actualités sur le marché de l&#039;influence !" />
+	<link rel="canonical" href="https://www.anekdote.fr/newsroom/" />
+	<meta property="og:locale" content="fr_FR" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Anekdote | Newsroom | Toutes les actus de l&#039;influence" />
+	<meta property="og:description" content="Bienvenue sur la Newsroom Anekdote ! Découvrez les derniers évènements et actualités sur le marché de l&#039;influence !" />
+	<meta property="og:url" content="https://www.anekdote.fr/newsroom/" />
+	<meta property="og:site_name" content="Anekdote" />
+	<meta property="article:modified_time" content="2026-06-30T15:24:19+00:00" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/www.anekdote.fr\/newsroom\/","url":"https:\/\/www.anekdote.fr\/newsroom\/","name":"Anekdote | Newsroom | Toutes les actus de l'influence","isPartOf":{"@id":"https:\/\/www.anekdote.fr\/#website"},"datePublished":"2023-11-13T11:21:15+00:00","dateModified":"2026-06-30T15:24:19+00:00","description":"Bienvenue sur la Newsroom Anekdote ! Découvrez les derniers évènements et actualités sur le marché de l'influence !","breadcrumb":{"@id":"https:\/\/www.anekdote.fr\/newsroom\/#breadcrumb"},"inLanguage":"fr-FR","potentialAction":[{"@type":"ReadAction","target":["https:\/\/www.anekdote.fr\/newsroom\/"]}]},{"@type":"BreadcrumbList","@id":"https:\/\/www.anekdote.fr\/newsroom\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/www.anekdote.fr\/"},{"@type":"ListItem","position":2,"name":"Newsroom"}]},{"@type":"WebSite","@id":"https:\/\/www.anekdote.fr\/#website","url":"https:\/\/www.anekdote.fr\/","name":"Anekdote","description":"","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/www.anekdote.fr\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"fr-FR"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="alternate" type="application/rss+xml" title="Anekdote &raquo; Flux" href="https://www.anekdote.fr/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Anekdote &raquo; Flux des commentaires" href="https://www.anekdote.fr/comments/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.anekdote.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.anekdote.fr%2Fnewsroom%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.anekdote.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.anekdote.fr%2Fnewsroom%2F&#038;format=xml" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+
+
+<link rel='stylesheet' id='contact-form-7-css' href='https://www.anekdote.fr/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.6' media='all' />
+<link rel='stylesheet' id='twentysixteen-style-css' href='https://www.anekdote.fr/wp-content/themes/anekdote/style.css?ver=20221101' media='all' />
+<link rel="https://api.w.org/" href="https://www.anekdote.fr/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.anekdote.fr/wp-json/wp/v2/pages/19" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.anekdote.fr/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.0.2" />
+<link rel='shortlink' href='https://www.anekdote.fr/?p=19' />
+<!-- Matomo --><script>
+(function () {
+function initTracking() {
+var _paq = window._paq = window._paq || [];
+_paq.push(['trackAllContentImpressions']);_paq.push(['trackPageView']);_paq.push(['enableLinkTracking']);_paq.push(['alwaysUseSendBeacon']);_paq.push(['setTrackerUrl', "\/\/www.anekdote.fr\/wp-content\/plugins\/matomo\/app\/matomo.php"]);_paq.push(['setSiteId', '1']);var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+g.type='text/javascript'; g.async=true; g.src="\/\/www.anekdote.fr\/wp-content\/uploads\/matomo\/matomo.js"; s.parentNode.insertBefore(g,s);
+}
+if (document.prerendering) {
+	document.addEventListener('prerenderingchange', initTracking, {once: true});
+} else {
+	initTracking();
+}
+})();
+</script>
+<!-- End Matomo Code --><link rel="icon" href="https://www.anekdote.fr/wp-content/uploads/2023/12/cropped-favicon-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www.anekdote.fr/wp-content/uploads/2023/12/cropped-favicon-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.anekdote.fr/wp-content/uploads/2023/12/cropped-favicon-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www.anekdote.fr/wp-content/uploads/2023/12/cropped-favicon-270x270.png" />
+</head>
+
+<body class="wp-singular page-template page-template-templates page-template-newsroom page-template-templatesnewsroom-php page page-id-19 wp-embed-responsive wp-theme-anekdote">
+<div id="page" class="site">
+	<div class="site-inner">
+	
+	<div class="menu-container">
+		<div class="main-menu-container">
+			<a href="https://www.anekdote.fr" class="menu-logo">
+				<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/logo-anekdote.svg" alt="Anekdote" aria-hidden="true" loading="lazy"/>
+			</a>
+			<nav class="main-menu-navigation">
+				<div class="menu-navigation-content"><ul id="menu-menu-principal" class="menu"><li id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"><a href="https://www.anekdote.fr/agence/">Agence</a></li>
+<li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="https://www.anekdote.fr/hub-projets/">Projets</a></li>
+<li id="menu-item-261" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-261"><a>Expertises</a>
+<ul class="sub-menu">
+	<li id="menu-item-272" class="campaign-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-272"><a href="https://www.anekdote.fr/campagne-dinfluence/">Campagne d’influence</a></li>
+	<li id="menu-item-275" class="strategy-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-275"><a href="https://www.anekdote.fr/strategie/">Stratégie</a></li>
+	<li id="menu-item-273" class="event-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-273"><a href="https://www.anekdote.fr/evenements/">Évènements</a></li>
+	<li id="menu-item-276" class="brand-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-276"><a href="https://www.anekdote.fr/brand-content/">Brand content</a></li>
+	<li id="menu-item-274" class="coaching-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-274"><a href="https://www.anekdote.fr/rse-corporate/">RSE / Corporate</a></li>
+	<li id="menu-item-2048" class="solar-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-2048"><a href="https://www.anekdote.fr/performance-affiliation/">Performance / Affiliation</a></li>
+</ul>
+</li>
+<li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="https://www.anekdote.fr/equipe/">Équipe</a></li>
+<li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="https://www.anekdote.fr/talents/">Talents</a></li>
+<li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-19 current_page_item menu-item-21"><a href="https://www.anekdote.fr/newsroom/" aria-current="page">Newsroom</a></li>
+<li id="menu-item-1320" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1320"><a href="https://www.anekdote.fr/contact/">Contact</a></li>
+</ul></div>			</nav>
+			
+			<div class="responsive-menu-button">
+				<div class="bar-1">&nbsp;</div>
+				<div class="bar-2">&nbsp;</div>
+				<div class="bar-3">&nbsp;</div>
+			</div>
+		</div>
+	</div>	
+		
+		<div class="responsive-menu-container">
+			<div class="responsive-menu-header">
+				<a href="https://www.anekdote.fr" class="menu-logo">
+					<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/logo-anekdote.svg" alt="Anekdote" aria-hidden="true" loading="lazy"/>
+				</a>
+
+				<div class="close-menu-button">
+					<div class="bar-1">&nbsp;</div>
+					<div class="bar-3">&nbsp;</div>
+				</div>
+			</div>
+			
+			<nav class="responsive-menu-navigation">
+				<div class="responsive-navigation-content"><ul id="menu-menu-principal-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"><a href="https://www.anekdote.fr/agence/">Agence</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="https://www.anekdote.fr/hub-projets/">Projets</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-261"><a>Expertises</a>
+<ul class="sub-menu">
+	<li class="campaign-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-272"><a href="https://www.anekdote.fr/campagne-dinfluence/">Campagne d’influence</a></li>
+	<li class="strategy-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-275"><a href="https://www.anekdote.fr/strategie/">Stratégie</a></li>
+	<li class="event-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-273"><a href="https://www.anekdote.fr/evenements/">Évènements</a></li>
+	<li class="brand-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-276"><a href="https://www.anekdote.fr/brand-content/">Brand content</a></li>
+	<li class="coaching-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-274"><a href="https://www.anekdote.fr/rse-corporate/">RSE / Corporate</a></li>
+	<li class="solar-sub-link menu-item menu-item-type-post_type menu-item-object-page menu-item-2048"><a href="https://www.anekdote.fr/performance-affiliation/">Performance / Affiliation</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="https://www.anekdote.fr/equipe/">Équipe</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="https://www.anekdote.fr/talents/">Talents</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-19 current_page_item menu-item-21"><a href="https://www.anekdote.fr/newsroom/" aria-current="page">Newsroom</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1320"><a href="https://www.anekdote.fr/contact/">Contact</a></li>
+</ul></div>			</nav>
+		</div>	
+		
+		<div id="content" class="site-content">
+<div class="newsroom-page">	
+						<div class="page-header-banner-container">
+				<style>
+					.page-header-banner-container{
+						background-image : url(https://www.anekdote.fr/wp-content/uploads/2024/04/Design-sans-titre-21.jpg)
+					}
+
+					@media screen and (max-width: 768px) {
+						.page-header-banner-container{
+							background-image : url(https://www.anekdote.fr/wp-content/uploads/2024/04/Design-sans-titre-26.jpg)
+						}
+					}
+				</style>				
+				
+				<div class="page-header-banner-content">
+					<h1 class="page-header-banner-title"><span class="title-line-1">La newsroom</span></h1>
+					<div class="page-header-banner-baseline"><p>Bienvenue sur la Newsroom Anekdote ! Découvrez les dernières actualités sur les événements récents qui nous ont marqué et les nouvelles tendances du marché.</p>
+</div>
+				</div>
+				
+				<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/legend-newsroom.svg" alt="Newsroom" aria-hidden="true" loading="lazy" class="page-header-banner-legende">
+				
+				<img src="https://www.anekdote.fr/wp-content/uploads/2023/12/legend-newsroom-responsive.svg" alt="Newsroom" aria-hidden="true" loading="lazy" class="page-header-banner-legende-responsive">
+			</div>
+				
+	<div class="bloc-newsroom-container">
+									<div class="bloc-column-container">
+					<div class="bloc-column-visual">
+						<img src="https://www.anekdote.fr/wp-content/uploads/2026/06/photos-site-Anekdote-carre-12.png" alt="Newsroom" aria-hidden="true" loading="lazy"/>
+					</div>
+
+					<div class="bloc-column-text">
+						<h2>Masterclass Influence à l'EFAP d'Aix en Provence</h2>
+						<div class="newsroom-text-container">
+							<p><span style="font-weight: 400;">Le mardi 5 mai, Christelle est intervenue auprès des étudiants de l’EFAP d’Aix-en-Provence dans le cadre d’une masterclass dédiée aux métiers et enjeux du marketing d’influence. Organisée sur le campus, cette intervention avait pour objectif d’apporter une vision concrète, stratégique et responsable d’un écosystème en constante évolution.</span></p>
+							<div class="newsroom-texte-content">
+								<p><span style="font-weight: 400;">Au cœur des échanges : les valeurs portées par Anekdote, l’importance de l’éthique dans les collaborations entre marques, agences et créateurs, ainsi que le rôle structurant de l’UMICC dans la professionnalisation du secteur. L’intervention a notamment permis de rappeler que l’influence est un levier puissant, qui implique transparence, responsabilité et respect des audiences.</span></p>
+<p><span style="font-weight: 400;">À travers un retour d’expérience personnel et professionnel, les étudiants ont pu découvrir la diversité des parcours menant aux métiers de l’influence. Côté annonceur, marque média puis agence, l’intervention a mis en lumière le fait qu’il n’existe pas de trajectoire unique, mais une pluralité de chemins possibles, nourris par la curiosité, l’engagement et l’expérience terrain.</span></p>
+<p><span style="font-weight: 400;">Cette masterclass s’inscrivait dans un séminaire plus large visant à permettre aux étudiants de comprendre l’écosystème du marketing d’influence, d’en identifier les enjeux stratégiques, et d’acquérir les clés pour concevoir, piloter et mesurer des campagnes performantes. Une attention particulière a été portée à l’approche 360° du groupe Digital Brand Makers, aux bonnes pratiques du secteur, ainsi qu’aux retours d’expérience concrets mêlant talents, campagnes, brand content et événementiel.</span></p>
+<p><span style="font-weight: 400;">En apportant une vision agence à la fois stratégique, opérationnelle et engagée, Anekdote poursuit son ambition : contribuer à la transmission des savoirs, accompagner les futurs professionnels et participer activement à la structuration d’une influence plus durable et responsable.</span></p>
+								
+															</div>
+							<span class="newsroom-read-cta cta-circled">
+								<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/circle-cta.svg" alt="cercle" aria-hidden="true" loading="lazy"/>
+							</span>
+						</div>
+					</div>
+				</div>		
+							<div class="bloc-column-container">
+					<div class="bloc-column-visual">
+						<img src="https://www.anekdote.fr/wp-content/uploads/2026/03/photos-site-Anekdote-carre-9.png" alt="Newsroom" aria-hidden="true" loading="lazy"/>
+					</div>
+
+					<div class="bloc-column-text">
+						<h2>Forum des Entrepreneurs au Vélodrome</h2>
+						<div class="newsroom-text-container">
+							<p>Le 15 octobre dernier, Christelle la fondatrice d’Anekdote participait au 25e Forum des Entrepreneurs organisé par l’UPE 13 à l’Orange Vélodrome de Marseille 🏟️</p>
+<p>Un événement placé sous le signe de la jeunesse et de l’avenir, où dirigeants, créateurs de contenu et jeunes talents ont échangé sur les nouvelles façons d’entreprendre, de manager et d’innover.</p>
+							<div class="newsroom-texte-content">
+								<p><span style="font-weight: 400;">Un moment fort : Christelle prenait la parole sur la grande scène du Vélodrome devant plus de 600 entrepreneurs et entreprises. Une experience grandiose, à la hauteur de l’énergie du lieu.</span></p>
+<p><span style="font-weight: 400;">🎤 </span><b>Sujet de sa prise de parole :</b><b><br />
+</b><b>“Comment les créateurs de contenu sont devenus des partenaires de croissance ?”</b></p>
+<p><span style="font-weight: 400;">Aux côtés d’invités de qualité comme Sixtine Moullé-Berteaux fondatrice du média Le Crayon et Hugues de Rosny fondateur du Média Positif, les échanges ont mis en lumière une réalité incontournable : l’influence n’est plus seulement un levier de visibilité, mais un véritable moteur stratégique de développement.</span></p>
+<p><span style="font-weight: 400;">Un sujet passionnant qui ouvre de nouvelles perspectives sur la manière dont les marques collaborent aujourd’hui avec les créateurs : branding, notoriété, engagement, conversion…</span></p>
+<p><span style="font-weight: 400;">Un événement placé sous le signe de la jeunesse et de l’avenir, où dirigeants, créateurs de contenu et jeunes talents ont échangé sur les nouvelles façons d’entreprendre, de manager et d’innover.</span></p>
+								
+															</div>
+							<span class="newsroom-read-cta cta-circled">
+								<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/circle-cta.svg" alt="cercle" aria-hidden="true" loading="lazy"/>
+							</span>
+						</div>
+					</div>
+				</div>		
+							<div class="bloc-column-container">
+					<div class="bloc-column-visual">
+						<img src="https://www.anekdote.fr/wp-content/uploads/2025/01/photos-site-Anekdote-carre-11.jpg" alt="Newsroom" aria-hidden="true" loading="lazy"/>
+					</div>
+
+					<div class="bloc-column-text">
+						<h2>Une nouvelle aventure pour Anekdote !</h2>
+						<div class="newsroom-text-container">
+							<p><span style="font-weight: 400;">Depuis septembre 2024, l’agence Anekdote a eu le plaisir de fusionner avec deux agences exceptionnelles, Quarks et Baci, pour donner naissance à</span><b> DBM (Digital Brand Maker)</b><span style="font-weight: 400;">. Vous pouvez découvrir notre univers sur notre site, <span style="text-decoration: underline;"><a href="https://digitalbrandmakers-group.com/">ici</a>.</span></span></p>
+							<div class="newsroom-texte-content">
+								<p><span style="font-weight: 400;">En unissant nos forces, nous proposons désormais une </span><b>expérience 360° en marketing d&rsquo;influence</b><span style="font-weight: 400;"> à nos clients. De la stratégie au management, en passant par la production de contenu, Digital Brand Maker se positionne comme un véritable </span><b>matchmaker</b><span style="font-weight: 400;"> : nous connectons les moments de vie des créateurs en fonction du story-telling et de l’actualité de la marque  pour des collaborations impactantes et authentiques.</span></p>
+<p><span style="font-weight: 400;">Cette nouvelle aventure est pour nous une source constante d’enrichissement, marquée par de beaux défis et des moments d’équipe mémorables.</span></p>
+<p><b>Notre mission ? Faire rayonner le monde de l’influence avec une influence commerciale éthique et continuer à repousser les limites de la créativité et de l’innovation.</b></p>
+<p><span style="font-weight: 400;">Restez connectés, le meilleur reste à venir !</span></p>
+								
+															</div>
+							<span class="newsroom-read-cta cta-circled">
+								<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/circle-cta.svg" alt="cercle" aria-hidden="true" loading="lazy"/>
+							</span>
+						</div>
+					</div>
+				</div>		
+							<div class="bloc-column-container">
+					<div class="bloc-column-visual">
+						<img src="https://www.anekdote.fr/wp-content/uploads/2025/01/photos-site-Anekdote-carre-8.jpg" alt="Newsroom" aria-hidden="true" loading="lazy"/>
+					</div>
+
+					<div class="bloc-column-text">
+						<h2>UMICC </h2>
+						<div class="newsroom-text-container">
+							<p>Anekdote fait partie du comité exécutif de l’UMICC, mais qu’est ce que l&rsquo;Union des Métiers de l&rsquo;Influence et de la Création de Contenu (UMICC) ?</p>
+							<div class="newsroom-texte-content">
+								<p>Créée en janvier 2023, l’UMICC est la première fédération professionnelle regroupant les acteurs de l’influence dans le but de promouvoir une image positive du secteur et des créateurs de contenus auprès du public et dans les médias. La fédération est en étroite collaboration avec les pouvoirs publics afin de réglementer et d’encadrer le mieux possible le secteur de l’influence et les créateurs de contenu. nc été mise en place le 9 juin 2023 précisant les règles à respecter. Nous vous invitons à rejoindre l&rsquo;UMICC <span style="text-decoration: underline;"><a href="https://www.umicc.fr/">ici</a></span>, que vous soyez une agence, un créateur ou un annonceur, tout le monde a sa place et nous vous accueillerons au sein de l&rsquo;UMICC avec grand plaisir !Ainsi vous serez au courant de toute l&rsquo;évolution des lois en temps réel et vous pourrez assister à nos afterwork, soirées et conférences toute l&rsquo;année !</p>
+								
+															</div>
+							<span class="newsroom-read-cta cta-circled">
+								<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/circle-cta.svg" alt="cercle" aria-hidden="true" loading="lazy"/>
+							</span>
+						</div>
+					</div>
+				</div>		
+							<div class="bloc-column-container">
+					<div class="bloc-column-visual">
+						<img src="https://www.anekdote.fr/wp-content/uploads/2024/05/Wishlist-format-site-internet-668-pxl-par-668-1.jpg" alt="Newsroom" aria-hidden="true" loading="lazy"/>
+					</div>
+
+					<div class="bloc-column-text">
+						<h2>Anekdote x Vivatech </h2>
+						<div class="newsroom-text-container">
+							<p><span style="font-weight: 400;">Ce jeudi 23 mai, la Team Anekdote s’est rendue à Vivatech, l&rsquo;événement phare de la technologie en Europe. Pendant trois jours, les participants ont découvert les start-ups et innovations qui vont révolutionner le monde de demain, notamment en intelligence artificielle, technologie durable, santé et mobilité.</span></p>
+<p><span style="font-weight: 400;">Parmi les moments forts, le Creator Corner a offert des rencontres inédites entre créateurs de contenu et leur communauté. La Team Influence de Vivatechnologie a brillamment orchestré cette initiative, favorisant des échanges inspirants.</span></p>
+							<div class="newsroom-texte-content">
+								<p><span style="font-weight: 400;">L’Oréal BeautyTech a également attiré l’attention avec des innovations en skincare, makeup et haircare, et particulièrement pour leur programme « Immerse Yourself into your Creator Program » en partenariat avec Meta.</span></p>
+<p><span style="font-weight: 400;">Anekdote a profité de l&rsquo;événement pour renforcer son réseau et faire de merveilleuses rencontres, créant ainsi de nouvelles opportunités de collaboration et d&rsquo;échange dans le domaine de l&rsquo;influence et de la création de contenu.</span></p>
+<p><span style="font-weight: 400;">Vivatech a été une expérience enrichissante, offrant un aperçu des tendances futures et des innovations technologiques. Rendez-vous l&rsquo;année prochaine pour une nouvelle immersion au cœur de la tech et de l’influence !</span></p>
+								
+															</div>
+							<span class="newsroom-read-cta cta-circled">
+								<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/circle-cta.svg" alt="cercle" aria-hidden="true" loading="lazy"/>
+							</span>
+						</div>
+					</div>
+				</div>		
+							<div class="bloc-column-container">
+					<div class="bloc-column-visual">
+						<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/380573016_1306177696770762_1306017657901695400_n-1.jpg" alt="Newsroom" aria-hidden="true" loading="lazy"/>
+					</div>
+
+					<div class="bloc-column-text">
+						<h2>Soirée JO Paris </h2>
+						<div class="newsroom-text-container">
+							<p>Mardi 12 septembre, la team Anekdote était présente pour une soirée unique dédiée aux jeux olympiques en compagnie de nos deux sportifs hors du commun : jujufitcats et tiboinshape !</p>
+							<div class="newsroom-texte-content">
+								<p>Au programme :</p>
+<ul>
+<li>Un cadre merveilleux au Petit Palais &#8211; Musée des Beaux Arts de Paris.</li>
+<li>Une ambiance de folie avec cocktail, showcase et orchestre.</li>
+<li>Une superbe rencontre avec Tony Estanguet (président de Paris ) et le comité d’organisation des jeux olympiques &amp; paralympiques.</li>
+</ul>
+								
+															</div>
+							<span class="newsroom-read-cta cta-circled">
+								<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/circle-cta.svg" alt="cercle" aria-hidden="true" loading="lazy"/>
+							</span>
+						</div>
+					</div>
+				</div>		
+						</div>
+	
+</div> 
+
+
+		</div><!-- .site-content -->
+
+		<div class="footer-contact-icon-container">
+			<a href="https://www.anekdote.fr/contact" class="footer-contact-icon-content">
+				<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/icon-contact-hover.svg" class="footer-contact-icon-text top" alt="Contact" aria-hidden="true" loading="lazy"/>
+
+				<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/icon-contact.svg" alt="Contact" aria-hidden="true" loading="lazy"/>
+			</a>
+		</div>	
+
+		<div class="footer-contact-responsive-icon-container">
+			<a href="https://www.anekdote.fr/contact" class="footer-contact-icon-content">
+				<img src="https://www.anekdote.fr/wp-content/uploads/2023/12/icon-contact-responsive.svg" alt="Contact" aria-hidden="true" loading="lazy"/>
+			</a>
+		</div>	
+
+		<footer id="colophon" class="site-footer">
+			<div class="footer-container">
+				<div class="footer-content footer-left-column">
+					<ul class="footer-column">
+						<li><h3 class="footer-title">Plan du site</h3></li>
+						<li><a href="https://www.anekdote.fr/agence" title="Agence">Agence</a></li>
+						<li><a href="https://www.anekdote.fr/hub-projets" title="Projets">Projets</a></li>
+						<li><a href="https://www.anekdote.fr/talents" title="Talents">Talents</a></li>
+						<li><a href="https://www.anekdote.fr/equipe" title="Équipe">Équipe</a></li>
+					</ul>
+
+					<ul class="footer-column">
+						<li><h3 class="footer-title">Expertises</h3></li>
+						<li><a href="https://www.anekdote.fr/brand-content" title="Brand Content">Brand Content</a></li>
+						<li><a href="https://www.anekdote.fr/campagne-dinfluence" title="Campagnes d’Influence">Campagnes d’Influence</a></li>
+						<li><a href="https://www.anekdote.fr/strategie" title="Stratégie">Stratégie</a></li>
+						<li><a href="https://www.anekdote.fr/evenements" title="Événements">Événements</a></li>
+						<li><a href="https://www.anekdote.fr/coaching" title="Coaching">Coaching</a></li>
+						<li><a href="https://www.anekdote.fr/performance-affiliation" title="Coaching">Performance / Affiliation</a></li>
+					</ul>
+				</div>
+
+				<div class="footer-content footer-right-column">
+					<ul class="footer-column">
+						<li><h3 class="footer-title">Légal</h3></li>
+						<li><a href="https://www.anekdote.fr/politique-de-confidentialite" title="Confidentialité">Confidentialité</a></li>
+						<li><a href="https://www.anekdote.fr/mentions-legales" title="Mentions légales">Mentions légales</a></li>
+					</ul>
+
+					<ul class="footer-column">
+						<li><h3 class="footer-title">Contact</h3></li>
+						<li><a href="https://www.instagram.com/anekdotefr/" target="_blank" title="Instagram">Instagram</a></li>
+						<li><a href="https://linkedin.com/company/anekdote-influence" target="_blank" title="Linkedin">Linkedin</a></li>
+					</ul>
+
+					<ul class="footer-column">
+						<li><h3 class="footer-title">Localisation</h3></li>
+						<li>4 rue Jules Lefebvre,</li>
+						<li>Paris 75009</li>
+					</ul>
+				</div>
+			</div>
+			
+			<p class="label-container">
+				<span>En partenariat avec</span> 
+				<img src="https://www.anekdote.fr/wp-content/uploads/2023/11/logo-arpp.png" alt="Umic - Arpp" aria-hidden="true" loading="lazy"/>
+			</p>
+			
+			<p class="copyright-container">© 2023 — Copyright</p>
+		</footer><!-- .site-footer -->
+
+
+	</div><!-- .site-inner -->
+</div><!-- .site -->
+
+<script src="https://www.anekdote.fr/wp-content/themes/anekdote/js/jquery.min.js"></script>
+<script src="https://www.anekdote.fr/wp-content/themes/anekdote/slick/slick.min.js"></script>
+<script src="https://www.anekdote.fr/wp-content/themes/anekdote/js/script.js"></script>
+
+</body>
+</html>
