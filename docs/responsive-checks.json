@@ -1,44 +1,501 @@
-[
-  {
-    "path": "agence/index.html",
-    "brokenImages": [],
-    "h1s": 1,
-    "pageWidth": 390,
-    "width": 390
-  },
-  {
-    "path": "equipe/index.html",
-    "brokenImages": [],
-    "h1s": 1,
-    "pageWidth": 390,
-    "width": 390
-  },
-  {
-    "path": "newsroom/index.html",
-    "brokenImages": [],
-    "h1s": 1,
-    "pageWidth": 390,
-    "width": 390
-  },
-  {
-    "path": "expertises/index.html",
-    "brokenImages": [],
-    "h1s": 1,
-    "pageWidth": 390,
-    "width": 390
-  },
-  {
-    "path": "projets/biocyte-x-solar-metrics-influence-affiliation/index.html",
-    "brokenImages": [],
-    "h1s": 1,
-    "pageWidth": 390,
-    "width": 390
-  },
-  {
-    "path": "projets/concert-aya-nakamura-x-ghd-x-juliette-has-a-gun/index.html",
-    "brokenImages": [],
-    "h1s": 1,
-    "pageWidth": 390,
-    "width": 390
+{
+  "checks": [
+    {
+      "route": "accueil",
+      "broken": [],
+      "profiles": [],
+      "retiredLinks": 0,
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "route": "agence/",
+      "broken": [],
+      "profiles": [],
+      "retiredLinks": 0,
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "route": "expertises/",
+      "broken": [],
+      "profiles": [],
+      "retiredLinks": 0,
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "route": "equipe/",
+      "broken": [],
+      "profiles": [
+        {
+          "available": 396.0078125,
+          "body": 374.5625,
+          "photo": 575,
+          "story": 575
+        },
+        {
+          "available": 396.0078125,
+          "body": 239.171875,
+          "photo": 575,
+          "story": 575
+        },
+        {
+          "available": 396.0078125,
+          "body": 214.375,
+          "photo": 574.999755859375,
+          "story": 575
+        },
+        {
+          "available": 396.0078125,
+          "body": 288.765625,
+          "photo": 575,
+          "story": 575
+        },
+        {
+          "available": 396.0078125,
+          "body": 365.765625,
+          "photo": 575,
+          "story": 575
+        },
+        {
+          "available": 396.0078125,
+          "body": 223.171875,
+          "photo": 575,
+          "story": 575
+        },
+        {
+          "available": 396.0078125,
+          "body": 223.171875,
+          "photo": 575,
+          "story": 575
+        },
+        {
+          "available": 396.0078125,
+          "body": 198.375,
+          "photo": 575,
+          "story": 575
+        }
+      ],
+      "retiredLinks": 0,
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "route": "talents/",
+      "broken": [],
+      "profiles": [],
+      "retiredLinks": 0,
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "route": "contact/",
+      "broken": [],
+      "profiles": [],
+      "retiredLinks": 0,
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "route": "hub-projets/",
+      "broken": [],
+      "profiles": [],
+      "retiredLinks": 0,
+      "scroll": 375,
+      "width": 375
+    },
+    {
+      "route": "accueil",
+      "broken": [],
+      "profiles": [],
+      "retiredLinks": 0,
+      "scroll": 768,
+      "width": 768
+    },
+    {
+      "route": "agence/",
+      "broken": [],
+      "profiles": [],
+      "retiredLinks": 0,
+      "scroll": 768,
+      "width": 768
+    },
+    {
+      "route": "expertises/",
+      "broken": [],
+      "profiles": [],
+      "retiredLinks": 0,
+      "scroll": 768,
+      "width": 768
+    },
+    {
+      "route": "equipe/",
+      "broken": [],
+      "profiles": [
+        {
+          "available": 364.6016845703125,
+          "body": 222.7813720703125,
+          "photo": 520,
+          "story": 520.0001220703125
+        },
+        {
+          "available": 364.6015625,
+          "body": 139.984375,
+          "photo": 520,
+          "story": 520
+        },
+        {
+          "available": 364.6015625,
+          "body": 115.1875,
+          "photo": 520,
+          "story": 520
+        },
+        {
+          "available": 364.6015625,
+          "body": 139.984375,
+          "photo": 520,
+          "story": 520
+        },
+        {
+          "available": 364.6015625,
+          "body": 238.78125,
+          "photo": 520,
+          "story": 520
+        },
+        {
+          "available": 364.6015625,
+          "body": 123.984375,
+          "photo": 520,
+          "story": 520
+        },
+        {
+          "available": 364.6015625,
+          "body": 99.1875,
+          "photo": 520,
+          "story": 520
+        },
+        {
+          "available": 364.6015625,
+          "body": 99.1875,
+          "photo": 520,
+          "story": 520
+        }
+      ],
+      "retiredLinks": 0,
+      "scroll": 768,
+      "width": 768
+    },
+    {
+      "route": "talents/",
+      "broken": [],
+      "profiles": [],
+      "retiredLinks": 0,
+      "scroll": 768,
+      "width": 768
+    },
+    {
+      "route": "contact/",
+      "broken": [],
+      "profiles": [],
+      "retiredLinks": 0,
+      "scroll": 768,
+      "width": 768
+    },
+    {
+      "route": "hub-projets/",
+      "broken": [],
+      "profiles": [],
+      "retiredLinks": 0,
+      "scroll": 768,
+      "width": 768
+    },
+    {
+      "route": "accueil",
+      "broken": [],
+      "profiles": [],
+      "retiredLinks": 0,
+      "scroll": 1024,
+      "width": 1024
+    },
+    {
+      "route": "agence/",
+      "broken": [],
+      "profiles": [],
+      "retiredLinks": 0,
+      "scroll": 1024,
+      "width": 1024
+    },
+    {
+      "route": "expertises/",
+      "broken": [],
+      "profiles": [],
+      "retiredLinks": 0,
+      "scroll": 1024,
+      "width": 1024
+    },
+    {
+      "route": "equipe/",
+      "broken": [],
+      "profiles": [
+        {
+          "available": 435.6015625,
+          "body": 285.1875,
+          "photo": 620,
+          "story": 620
+        },
+        {
+          "available": 435.6016845703125,
+          "body": 200.7891845703125,
+          "photo": 620.0001220703125,
+          "story": 620.0001220703125
+        },
+        {
+          "available": 435.6015625,
+          "body": 147.9921875,
+          "photo": 620,
+          "story": 620
+        },
+        {
+          "available": 435.6015625,
+          "body": 253.5859375,
+          "photo": 620,
+          "story": 620
+        },
+        {
+          "available": 435.6015625,
+          "body": 301.1875,
+          "photo": 619.999755859375,
+          "story": 619.999755859375
+        },
+        {
+          "available": 435.6015625,
+          "body": 211.1875,
+          "photo": 620,
+          "story": 620
+        },
+        {
+          "available": 435.6015625,
+          "body": 158.390625,
+          "photo": 620,
+          "story": 620
+        },
+        {
+          "available": 435.6015625,
+          "body": 184.7890625,
+          "photo": 620,
+          "story": 620
+        }
+      ],
+      "retiredLinks": 0,
+      "scroll": 1024,
+      "width": 1024
+    },
+    {
+      "route": "talents/",
+      "broken": [],
+      "profiles": [],
+      "retiredLinks": 0,
+      "scroll": 1024,
+      "width": 1024
+    },
+    {
+      "route": "contact/",
+      "broken": [],
+      "profiles": [],
+      "retiredLinks": 0,
+      "scroll": 1024,
+      "width": 1024
+    },
+    {
+      "route": "hub-projets/",
+      "broken": [],
+      "profiles": [],
+      "retiredLinks": 0,
+      "scroll": 1024,
+      "width": 1024
+    },
+    {
+      "route": "accueil",
+      "broken": [],
+      "profiles": [],
+      "retiredLinks": 0,
+      "scroll": 1440,
+      "width": 1440
+    },
+    {
+      "route": "agence/",
+      "broken": [],
+      "profiles": [],
+      "retiredLinks": 0,
+      "scroll": 1440,
+      "width": 1440
+    },
+    {
+      "route": "expertises/",
+      "broken": [],
+      "profiles": [],
+      "retiredLinks": 0,
+      "scroll": 1440,
+      "width": 1440
+    },
+    {
+      "route": "equipe/",
+      "broken": [],
+      "profiles": [
+        {
+          "available": 400.3984375,
+          "body": 232.390625,
+          "photo": 580,
+          "story": 580
+        },
+        {
+          "available": 400.3984375,
+          "body": 174.390625,
+          "photo": 580,
+          "story": 580
+        },
+        {
+          "available": 400.3984375,
+          "body": 121.59375,
+          "photo": 580,
+          "story": 580
+        },
+        {
+          "available": 400.3984375,
+          "body": 174.390625,
+          "photo": 580,
+          "story": 580
+        },
+        {
+          "available": 400.3984375,
+          "body": 248.390625,
+          "photo": 580,
+          "story": 580
+        },
+        {
+          "available": 400.3984375,
+          "body": 158.390625,
+          "photo": 580,
+          "story": 580
+        },
+        {
+          "available": 400.3984375,
+          "body": 131.9921875,
+          "photo": 580,
+          "story": 580
+        },
+        {
+          "available": 400.3984375,
+          "body": 105.59375,
+          "photo": 580,
+          "story": 580
+        }
+      ],
+      "retiredLinks": 0,
+      "scroll": 1440,
+      "width": 1440
+    },
+    {
+      "route": "talents/",
+      "broken": [],
+      "profiles": [],
+      "retiredLinks": 0,
+      "scroll": 1440,
+      "width": 1440
+    },
+    {
+      "route": "contact/",
+      "broken": [],
+      "profiles": [],
+      "retiredLinks": 0,
+      "scroll": 1440,
+      "width": 1440
+    },
+    {
+      "route": "hub-projets/",
+      "broken": [],
+      "profiles": [],
+      "retiredLinks": 0,
+      "scroll": 1440,
+      "width": 1440
+    }
+  ],
+  "anecdotes375": [
+    {
+      "available": 396.0078125,
+      "body": 253.5703125,
+      "name": "Christelle",
+      "photo": 575,
+      "story": 575
+    },
+    {
+      "available": 396.0078125,
+      "body": 239.171875,
+      "name": "Tiffany",
+      "photo": 575,
+      "story": 575
+    },
+    {
+      "available": 396.0078125,
+      "body": 99.1875,
+      "name": "Emma",
+      "photo": 575,
+      "story": 575
+    },
+    {
+      "available": 396.0078125,
+      "body": 164.78125,
+      "name": "Emma",
+      "photo": 575,
+      "story": 575
+    },
+    {
+      "available": 396.0078125,
+      "body": 173.578125,
+      "name": "Pauline",
+      "photo": 575,
+      "story": 575
+    },
+    {
+      "available": 396.0078125,
+      "body": 148.78125,
+      "name": "Carla",
+      "photo": 575,
+      "story": 575
+    },
+    {
+      "available": 396.0078125,
+      "body": 223.171875,
+      "name": "Raphaël",
+      "photo": 575,
+      "story": 575
+    },
+    {
+      "available": 396.0078125,
+      "body": 74.390625,
+      "name": "Margaux",
+      "photo": 575,
+      "story": 575
+    }
+  ],
+  "interactionChecks": {
+    "agencyDeck": true,
+    "manifestDeck": true,
+    "expertiseAccordion": true,
+    "portraitReplacement": true,
+    "tastesTouch": true,
+    "marqueePauseResume": true,
+    "menuEscape": true,
+    "counterIntermediate": [
+      "6.3M",
+      "1,51 M",
+      "27 333"
+    ],
+    "counterFinal": [
+      "7.2M",
+      "1,73 M",
+      "31 377"
+    ]
   }
-]
+}

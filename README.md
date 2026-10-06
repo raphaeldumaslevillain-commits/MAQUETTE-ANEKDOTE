@@ -12,9 +12,12 @@ Refonte intégrale en HTML, CSS et JavaScript. Site statique, médias et polices
 
 - 33 études de cas, avec leurs textes, médias et KPI publiés.
 - 6 expertises, agence, équipe de 8 personnes, talents.
-- Newsroom : 6 articles repris et rendus accessibles individuellement.
+- Accueil centré sur l’agence et les expertises, deux bandeaux de logos à sens opposés.
+- Agence et manifeste en decks ; témoignages Talents en carrousel.
+- Portraits avec préférences au survol / au toucher et anecdotes remplaçant les biographies.
+- Newsroom supprimée de l’expérience et des routes publiques, à la demande du client.
 - Contact en trois étapes, pages légales et conservation des anciennes routes.
-- 65 fichiers HTML, dont 9 redirections et une page 404.
+- 58 fichiers HTML, dont 9 redirections et une page 404.
 
 L’audit porte sur les pages publiques accessibles le 6 octobre 2026 depuis [anekdote.fr](https://www.anekdote.fr/). Les informations commerciales, citations, biographies et résultats proviennent de ce site. Les nouveaux intertitres et compositions éditoriales organisent ces contenus ; ils ne créent pas de nouvelles réalisations ou de nouveaux résultats.
 
@@ -40,7 +43,7 @@ rse-corporate/ · performance-affiliation/
 hub-projets/               Portfolio et filtres
 projets/                   Études de cas et anciennes archives
 équipe → equipe/           Équipe
-talents/ · newsroom/ · contact/
+talents/ · contact/
 assets/                    Images WebP, SVG, vidéos MP4, polices WOFF2
 css/ · js/                 Styles et interactions
 content/                   Contenus et snapshots publics audités
@@ -71,9 +74,13 @@ Les liens internes sont relatifs : le site accepte le sous-répertoire `/MAQUETT
 
 Le formulaire utilise le destinataire technique existant d’Anekdote, Contact Form 7 n°547. La validation et les trois étapes ont été testées, ainsi que la réponse CORS du serveur. Aucun message de test n’a été envoyé : la réception effective d’un email reste à vérifier avec l’agence avant remplacement du site de production. L’interface confirme l’envoi uniquement si le serveur renvoie `mail_sent` et propose le formulaire original en cas d’échec.
 
-Les textes légaux historiques sont conservés. Ils contiennent l’ancienne adresse de siège, des références à WordPress / hébergeur / prestataire et un libellé d’email incomplet. Ils devront être validés par Anekdote pour le nouvel hébergement ; aucune information légale inconnue n’a été inventée.
+L’adresse Anekdote est corrigée partout en 29 rue de Mogador, 75009 Paris. Les autres textes légaux historiques restent conservés : références à WordPress / hébergeur / prestataire et libellé d’email incomplet. Ils devront être validés par Anekdote pour le nouvel hébergement ; aucune information légale inconnue n’a été inventée.
 
 La charte Drive cite PP Editorial New Italic. En l’absence de fichier web et de licence web fournis, cette version utilise Instrument Serif, libre sous OFL, avec Inter. Les deux polices sont hébergées localement ; leurs licences sont dans `assets/fonts/`.
+
+## Révision du 6 octobre 2026
+
+Les annotations et modifications demandées sont détaillées dans [MODIFICATIONS.md](docs/MODIFICATIONS.md). Les contenus source et l’audit initial restent archivés pour la traçabilité ; les anciens articles ne sont plus publiés.
 
 ## Documentation
 

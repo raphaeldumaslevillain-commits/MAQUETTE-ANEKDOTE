@@ -22,6 +22,8 @@ for path in pages:
   except Exception:errors.append([str(path),'invalid jsonld'])
 # Exact project prose and KPI checks.
 def norm(t):return re.sub(r'\s+',' ',t.replace('\u2068','')).strip()
+def approved(t):
+ return t.replace('4 rue Jules Lefebvre','29 rue de Mogador').replace('9 RUE ARISTIDE BRUANT 75018 PARIS','29 rue de Mogador 75009 Paris').replace('– Christelle, CEO.','Christelle, Co-Founder')
 D=json.loads((root/'content/site-content.json').read_text())
 for p in D['projects']:
  path=root/p['path']/'index.html';s=BeautifulSoup(path.read_text(),'html.parser');t=norm(s.get_text(' ',strip=True))
@@ -39,19 +41,20 @@ for t in D['team']:
   for par in BeautifulSoup(t[field],'html.parser').select('p,li'):
    original=norm(par.get_text(' ',strip=True))
    if original not in dest:errors.append(['equipe',t['name'],'missing source paragraph',original[:150]])
-for n in D['news']:
- target=root/'newsroom'/n['slug']/'index.html';dest=norm(BeautifulSoup(target.read_text(),'html.parser').get_text(' ',strip=True))
- for par in BeautifulSoup(n['html'],'html.parser').select('p,li'):
-  original=norm(par.get_text(' ',strip=True))
-  if original not in dest:errors.append(['newsroom',n['slug'],'missing source paragraph',original[:150]])
+# Newsroom was explicitly removed from the published experience by the user.
+if (root/'newsroom').exists():errors.append(['newsroom','retired routes still exist'])
+for path in pages:
+ ss=BeautifulSoup(path.read_text(),'html.parser')
+ if ss.select('a[href*="newsroom"]'):errors.append([str(path.relative_to(root)),'retired Newsroom link'])
+ if '4 rue Jules Lefebvre' in ss.get_text():errors.append([str(path.relative_to(root)),'old office address'])
 # Verify all institutional, expertise, talent and legal source paragraphs too.
 for key in ['agence','campagne-dinfluence','strategie','evenements','brand-content','rse-corporate','performance-affiliation','talents','mentions-legales','politique-de-confidentialite']:
  src=BeautifulSoup((root/'content/source-html'/(key+'.html.txt')).read_text(),'html.parser').select_one('#content')
  dest=norm(BeautifulSoup((root/key/'index.html').read_text(),'html.parser').get_text(' ',strip=True))
  for par in src.select('p,li'):
-  original=norm(par.get_text(' ',strip=True))
+  original=approved(norm(par.get_text(' ',strip=True)))
   if len(original)>10 and original not in dest:errors.append([key,'missing source paragraph',original[:150]])
-report={'html_pages':len(pages),'projects':len(D['projects']),'team':len(D['team']),'news':len(D['news']),'errors':errors}
+report={'html_pages':len(pages),'projects':len(D['projects']),'team':len(D['team']),'news':0,'approved_changes':['Newsroom removed','Office: 29 rue de Mogador','Agency quote: Christelle, Co-Founder'],'errors':errors}
 (root/'docs/static-validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2));print(json.dumps(report,ensure_ascii=False,indent=2))
 
 raise SystemExit(1 if errors else 0)

@@ -1550,20 +1550,6 @@
     "bytes": 62310
   },
   {
-    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/FUN-CHRISTELLE.jpg",
-    "sourceBytes": 88805,
-    "path": "assets/images/equipe/anekdote-1-christelle-spontane.webp",
-    "width": 668,
-    "height": 668,
-    "variants": [
-      {
-        "path": "assets/images/equipe/anekdote-1-christelle-spontane-480.webp",
-        "width": 480
-      }
-    ],
-    "bytes": 62510
-  },
-  {
     "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/CORPO-Tiffany-Teixeira-1.jpg",
     "sourceBytes": 30435,
     "path": "assets/images/equipe/anekdote-2-tiffany-portrait.webp",
@@ -1573,15 +1559,6 @@
     "bytes": 22710
   },
   {
-    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/FUN-Tiffany-Teixeira-1.jpg",
-    "sourceBytes": 31567,
-    "path": "assets/images/equipe/anekdote-2-tiffany-spontane.webp",
-    "width": 334,
-    "height": 487,
-    "variants": [],
-    "bytes": 21574
-  },
-  {
     "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/corpo-Emma-Lahoreau-1.jpg",
     "sourceBytes": 32640,
     "path": "assets/images/equipe/anekdote-3-emma-portrait.webp",
@@ -1589,15 +1566,6 @@
     "height": 487,
     "variants": [],
     "bytes": 25478
-  },
-  {
-    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/fun-Emma-Lahoreau-1.jpg",
-    "sourceBytes": 38909,
-    "path": "assets/images/equipe/anekdote-3-emma-spontane.webp",
-    "width": 334,
-    "height": 487,
-    "variants": [],
-    "bytes": 30036
   },
   {
     "source": "https://www.anekdote.fr/wp-content/uploads/2025/09/85df6196-a83e-4472-970f-e53ecaa0353c.jpg",
@@ -1618,24 +1586,6 @@
     "bytes": 148520
   },
   {
-    "source": "https://www.anekdote.fr/wp-content/uploads/2025/09/3cd473f3-33ea-43fc-ba97-8d139d0734a4-2.jpg",
-    "sourceBytes": 350898,
-    "path": "assets/images/equipe/anekdote-4-emma-spontane.webp",
-    "width": 1200,
-    "height": 1600,
-    "variants": [
-      {
-        "path": "assets/images/equipe/anekdote-4-emma-spontane-900.webp",
-        "width": 900
-      },
-      {
-        "path": "assets/images/equipe/anekdote-4-emma-spontane-480.webp",
-        "width": 480
-      }
-    ],
-    "bytes": 259160
-  },
-  {
     "source": "https://www.anekdote.fr/wp-content/uploads/2025/09/12.png",
     "sourceBytes": 177999,
     "path": "assets/images/equipe/anekdote-5-pauline-portrait.webp",
@@ -1643,15 +1593,6 @@
     "height": 487,
     "variants": [],
     "bytes": 10908
-  },
-  {
-    "source": "https://www.anekdote.fr/wp-content/uploads/2025/09/11.png",
-    "sourceBytes": 422802,
-    "path": "assets/images/equipe/anekdote-5-pauline-spontane.webp",
-    "width": 334,
-    "height": 487,
-    "variants": [],
-    "bytes": 62620
   },
   {
     "source": "https://www.anekdote.fr/wp-content/uploads/2024/09/6.png",
@@ -1663,15 +1604,6 @@
     "bytes": 23374
   },
   {
-    "source": "https://www.anekdote.fr/wp-content/uploads/2024/09/7.png",
-    "sourceBytes": 264833,
-    "path": "assets/images/equipe/anekdote-6-carla-spontane.webp",
-    "width": 334,
-    "height": 487,
-    "variants": [],
-    "bytes": 30656
-  },
-  {
     "source": "https://www.anekdote.fr/wp-content/uploads/2026/09/PHOTO-1-SITE-ANEKDOTE.png",
     "sourceBytes": 199823,
     "path": "assets/images/equipe/anekdote-7-raphaël-portrait.webp",
@@ -1679,15 +1611,6 @@
     "height": 487,
     "variants": [],
     "bytes": 20408
-  },
-  {
-    "source": "https://www.anekdote.fr/wp-content/uploads/2026/09/PHOTO-2-SITE-ANEKDOTE.png",
-    "sourceBytes": 231559,
-    "path": "assets/images/equipe/anekdote-7-raphaël-spontane.webp",
-    "width": 334,
-    "height": 487,
-    "variants": [],
-    "bytes": 19916
   },
   {
     "source": "https://www.anekdote.fr/wp-content/uploads/2025/09/PHOTO-2025-09-23-16-43-15.jpg",
@@ -1708,144 +1631,10 @@
     "bytes": 177852
   },
   {
-    "source": "https://www.anekdote.fr/wp-content/uploads/2025/09/PHOTO-2025-09-23-16-46-30.jpg",
-    "sourceBytes": 154216,
-    "path": "assets/images/equipe/anekdote-8-margaux-spontane.webp",
-    "width": 1200,
-    "height": 1600,
-    "variants": [
-      {
-        "path": "assets/images/equipe/anekdote-8-margaux-spontane-900.webp",
-        "width": 900
-      },
-      {
-        "path": "assets/images/equipe/anekdote-8-margaux-spontane-480.webp",
-        "width": 480
-      }
-    ],
-    "bytes": 127540
-  },
-  {
-    "source": "https://www.anekdote.fr/wp-content/uploads/2026/06/photos-site-Anekdote-carre-12.png",
-    "sourceBytes": 390987,
-    "path": "assets/images/newsroom/masterclass-influence-a-l-efap-d-aix-en-provence-couverture.webp",
-    "width": 668,
-    "height": 668,
-    "variants": [
-      {
-        "path": "assets/images/newsroom/masterclass-influence-a-l-efap-d-aix-en-provence-couverture-480.webp",
-        "width": 480
-      }
-    ],
-    "bytes": 27898
-  },
-  {
-    "source": "https://www.anekdote.fr/wp-content/uploads/2026/03/photos-site-Anekdote-carre-9.png",
-    "sourceBytes": 787673,
-    "path": "assets/images/newsroom/forum-des-entrepreneurs-au-velodrome-couverture.webp",
-    "width": 668,
-    "height": 668,
-    "variants": [
-      {
-        "path": "assets/images/newsroom/forum-des-entrepreneurs-au-velodrome-couverture-480.webp",
-        "width": 480
-      }
-    ],
-    "bytes": 106214
-  },
-  {
-    "source": "https://www.anekdote.fr/wp-content/uploads/2025/01/photos-site-Anekdote-carre-11.jpg",
-    "sourceBytes": 83687,
-    "path": "assets/images/newsroom/une-nouvelle-aventure-pour-anekdote-couverture.webp",
-    "width": 668,
-    "height": 668,
-    "variants": [
-      {
-        "path": "assets/images/newsroom/une-nouvelle-aventure-pour-anekdote-couverture-480.webp",
-        "width": 480
-      }
-    ],
-    "bytes": 66078
-  },
-  {
-    "source": "https://www.anekdote.fr/wp-content/uploads/2025/01/photos-site-Anekdote-carre-8.jpg",
-    "sourceBytes": 69938,
-    "path": "assets/images/newsroom/umicc-couverture.webp",
-    "width": 668,
-    "height": 668,
-    "variants": [
-      {
-        "path": "assets/images/newsroom/umicc-couverture-480.webp",
-        "width": 480
-      }
-    ],
-    "bytes": 50890
-  },
-  {
-    "source": "https://www.anekdote.fr/wp-content/uploads/2024/05/Wishlist-format-site-internet-668-pxl-par-668-1.jpg",
-    "sourceBytes": 301870,
-    "path": "assets/images/newsroom/anekdote-x-vivatech-couverture.webp",
-    "width": 668,
-    "height": 668,
-    "variants": [
-      {
-        "path": "assets/images/newsroom/anekdote-x-vivatech-couverture-480.webp",
-        "width": 480
-      }
-    ],
-    "bytes": 54876
-  },
-  {
-    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/380573016_1306177696770762_1306017657901695400_n-1.jpg",
-    "sourceBytes": 77840,
-    "path": "assets/images/newsroom/soiree-jo-paris-couverture.webp",
-    "width": 668,
-    "height": 668,
-    "variants": [
-      {
-        "path": "assets/images/newsroom/soiree-jo-paris-couverture-480.webp",
-        "width": 480
-      }
-    ],
-    "bytes": 51014
-  },
-  {
     "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/ANEKDOTE_PRESENTATION.mp4",
     "sourceBytes": 5012254,
     "path": "assets/videos/home-visuel-1.mp4",
     "bytes": 2826704
-  },
-  {
-    "source": "https://www.anekdote.fr/wp-content/uploads/2024/09/Design-sans-titre-7.png",
-    "sourceBytes": 918394,
-    "path": "assets/images/home/home-visuel-15.webp",
-    "width": 668,
-    "height": 668,
-    "variants": [
-      {
-        "path": "assets/images/home/home-visuel-15-480.webp",
-        "width": 480
-      }
-    ],
-    "bytes": 109206
-  },
-  {
-    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/paris-2024-anekdote.jpg",
-    "sourceBytes": 326897,
-    "path": "assets/images/home/home-visuel-20.webp",
-    "width": 1336,
-    "height": 1336,
-    "variants": [
-      {
-        "path": "assets/images/home/home-visuel-20-900.webp",
-        "width": 900
-      },
-      {
-        "path": "assets/images/home/home-visuel-20-480.webp",
-        "width": 480
-      }
-    ],
-    "bytes": 167372
   },
   {
     "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/Air-France-logo-couleur-1.svg",
@@ -1972,15 +1761,6 @@
     "sourceBytes": 19026,
     "path": "assets/images/home/home-visuel-63.svg",
     "bytes": 19026
-  },
-  {
-    "source": "https://www.anekdote.fr/wp-content/uploads/2023/12/marcus-x-brand-content-1-min.jpg",
-    "sourceBytes": 41326,
-    "path": "assets/images/home/home-ambiance-6.webp",
-    "width": 340,
-    "height": 1000,
-    "variants": [],
-    "bytes": 23354
   },
   {
     "source": "https://www.anekdote.fr/wp-content/uploads/2023/12/Design-sans-titre-1.mp4",
@@ -2155,20 +1935,6 @@
     "bytes": 140102
   },
   {
-    "source": "https://www.anekdote.fr/wp-content/uploads/2024/09/Design-sans-titre-14.png",
-    "sourceBytes": 721685,
-    "path": "assets/images/agence/agence-visuel-3.webp",
-    "width": 668,
-    "height": 668,
-    "variants": [
-      {
-        "path": "assets/images/agence/agence-visuel-3-480.webp",
-        "width": 480
-      }
-    ],
-    "bytes": 76148
-  },
-  {
     "source": "https://www.anekdote.fr/wp-content/uploads/2024/09/Design-sans-titre-3.png",
     "sourceBytes": 935342,
     "path": "assets/images/agence/agence-visuel-4.webp",
@@ -2181,15 +1947,6 @@
       }
     ],
     "bytes": 85934
-  },
-  {
-    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/icon-quotemark.png",
-    "sourceBytes": 17841,
-    "path": "assets/images/agence/agence-visuel-6.webp",
-    "width": 174,
-    "height": 150,
-    "variants": [],
-    "bytes": 4540
   },
   {
     "source": "https://www.anekdote.fr/wp-content/uploads/2024/09/Design-sans-titre-1.png",
@@ -2301,5 +2058,11 @@
     "height": 28,
     "variants": [],
     "bytes": 2376
+  },
+  {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/Group-1798.svg",
+    "path": "assets/images/equipe/christelle-mantras.svg",
+    "sourceBytes": 114544,
+    "bytes": 114544
   }
 ]

@@ -1,7 +1,12 @@
 {
-  "html_pages": 65,
+  "html_pages": 58,
   "projects": 33,
   "team": 8,
-  "news": 6,
+  "news": 0,
+  "approved_changes": [
+    "Newsroom removed",
+    "Office: 29 rue de Mogador",
+    "Agency quote: Christelle, Co-Founder"
+  ],
   "errors": []
 }

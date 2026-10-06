@@ -2301,5 +2301,11 @@
     "height": 28,
     "variants": [],
     "bytes": 2376
+  },
+  "https://www.anekdote.fr/wp-content/uploads/2023/11/Group-1798.svg": {
+    "source": "https://www.anekdote.fr/wp-content/uploads/2023/11/Group-1798.svg",
+    "path": "assets/images/equipe/christelle-mantras.svg",
+    "sourceBytes": 114544,
+    "bytes": 114544
   }
 }

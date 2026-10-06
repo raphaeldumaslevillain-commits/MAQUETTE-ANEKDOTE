@@ -1,40 +1,19 @@
 # Editorial × Human × Proof
 
-## Une publication vivante
+L’accueil présente d’abord Anekdote, puis ses six expertises, ses partenaires et son équipe. La preuve apparaît ensuite avec les trois résultats réels. Les études de cas disposent de leur portfolio et de leurs pages dédiées.
 
-L’accueil commence par une signature typographique monumentale et un vrai visuel GHD / Juliette Has A Gun. La typographie, la photographie et le contraste des échelles créent le rythme : scène de campagne, ouverture éditoriale, projets sur fond noir, grandes preuves, liste d’expertises, respiration humaine et actualités. L’orange #FF471F reste un signal de navigation et de résultat. Le bleu de la charte n’a pas été utilisé car aucune composition ne le nécessitait.
+Inter structure les informations, les citations de l’agence et les chiffres. Instrument Serif porte certains titres et invitations. Le crème, le noir et l’orange #FF471F restent les repères de marque. Le vrai logo apparaît dans le header et, à grande échelle et en gris discret, dans le footer. Les partenaires ARPP / UMICC y prennent davantage de place.
 
-Le logo original reste présent dans la navigation. Le mot Anekdote composé dans le hero est un traitement éditorial de titre, pas un remplacement du logo de marque.
+L’agence réunit histoire, raison d’être et engagements dans un deck de trois chapitres. Le manifeste dispose de six slides, chacune reprenant son titre et son paragraphe source. Les commandes visibles, la navigation au clavier et des transitions courtes permettent d’explorer ces contenus sans une longue succession verticale. Ces decks ne tournent pas automatiquement.
 
-## Grammaire
+Les expertises utilisent un accordéon natif, des descriptions lisibles et des liens directs. Le nouveau visuel vient de l’activation Soskin à Cannes. Les talents associent un vrai portrait à trois principes stratégiques, puis un deck de cinq témoignages publiés.
 
-Inter structure les informations et les chiffres. Instrument Serif, souvent italique, porte les ruptures et les invitations. Filets, légendes, indices et flèches servent la lecture. Les mises en page diffèrent selon la matière : grand projet en scène, paire décalée, rangées d’actualités, portraits alternés, témoignages publiés et KPI affichés à grande échelle. Les campagnes conservent leurs couleurs réelles.
+Les biographies et photos de l’équipe occupent la même hauteur. Les biographies longues sont réparties en pages lisibles, sans couper les textes ni ajouter une zone de défilement interne. Le bouton « Une Anekdote » remplace la biographie. Les préférences sont présentées par des cœurs et cœurs barrés sur la photo, avec un accès au toucher et au clavier. Seules les préférences effectivement publiées sont utilisées : Carla a deux éléments « Je n’aime pas », et aucune liste n’est inventée pour Christelle.
 
-Les expertises se lisent comme un sommaire stratégique, avec descriptions complètes et accès aux pages. Les portraits ont une deuxième image spontanée lorsqu’elle existe réellement ; les anecdotes restent lisibles dans une ouverture native au clavier.
+Les deux bandeaux de marques défilent en sens opposés. Une commande permet de les arrêter ou de les reprendre ; le survol des logos et le focus mettent le mouvement en pause. Les chiffres comptent rapidement à leur première apparition, puis gardent les valeurs et formats exacts. Les lecteurs d’écran accèdent aux chiffres finaux, sans annonce de chaque image de l’animation.
 
-## Benchmark
+Les labels suivent la nomenclature `02 • NOS EXPERTISES`. La Newsroom est supprimée. Le contact conserve exactement son formulaire et ses interactions ; seuls les éléments globaux et l’adresse changent.
 
-[Woo](https://www.woo.paris/) : entrée à forte présence visuelle, grands contenus et articulation entre campagnes et preuves. Le principe retenu est la mise en scène du travail, sans reprendre son identité, ses effets ni ses textes.
+Les mouvements utilisent principalement transformation et opacité. Ils respectent `prefers-reduced-motion`. Une feuille de repli rend les contenus complets consultables sans JavaScript. Aucune librairie d’animation, scène 3D ou image générée n’est ajoutée.
 
-[BETC](https://www.betc.com/fr/) : importance du portfolio, hiérarchie visuelle et coexistence des réalisations avec l’actualité culturelle. Le principe retenu est la lecture éditoriale d’une agence à travers ses projets et sa vie.
-
-La charte Anekdote consultée sur Drive fournit le repère chromatique orange / bleu et la relation entre Inter et serif italique. Instrument Serif est ici une alternative libre et locale à la police commerciale PP Editorial New Italic citée dans cette charte.
-
-## Interactions et mouvement
-
-- Menu natif plein écran : navigation complète, clavier, fermeture Échap et retour du focus.
-- Portfolio filtré par expertise réelle ; état partageable dans l’URL.
-- Apparitions au scroll courtes et légères ; contenu accessible si JavaScript est indisponible.
-- Transition entre pages sur les navigateurs compatibles, avec repli natif.
-- Images légèrement agrandies au survol et portraits spontanés lorsqu’ils existent.
-- Film dans une fenêtre de lecture ; vidéos de cas avec contrôles natifs, affiches et chargement différé.
-- Contact conversationnel : boisson, lieu, coordonnées ; pas de message d’envoi simulé.
-- Respect de `prefers-reduced-motion`, focus visible et liens d’évitement.
-
-## Choix concernant la 3D
-
-Aucune scène 3D n’a été ajoutée à cette livraison. Le contenu réel fournit déjà des images fortes ; une installation parisienne inventée aurait ajouté un coût de chargement sans apporter de preuve ni raconter une campagne réelle. La profondeur provient du cadrage, des échelles et du rythme éditorial. Le site conserve ainsi une mise en scène attribuable aux contenus Anekdote.
-
-## Mobile
-
-Le hero est recadré comme une scène verticale. Les projets, galeries, portraits, preuves et choix du contact changent de composition selon l’espace. La navigation compacte mène au même menu complet. Aucune interaction essentielle ne dépend du survol.
+Le benchmark initial [Woo](https://www.woo.paris/) et [BETC](https://www.betc.com/fr/) a fourni des principes de rythme et de composition, sans reprise de leur identité. Cette révision suit la demande du client et les règles pertinentes d’UI/UX Pro Max : lisibilité, priorité du contenu, navigation clavier, alternatives au survol, contrôle des contenus animés et stabilité des mises en page.
