@@ -212,10 +212,10 @@
 }
 @media(prefers-reduced-motion:reduce){.manifest-deck .deck-stage{gap:38px}}
 
-/* Home review: expertise titles start at the section gutter without an index. */
-.home-accordion summary{grid-template-columns:minmax(0,1fr) 40px}
-.home-accordion .expertise-answer{padding-left:0}
-@media(max-width:800px){.home-accordion summary{grid-template-columns:minmax(0,1fr) 25px}}
+/* Expertise lists start at the section gutter without an index. */
+:is(.home-accordion,.overview-accordion) summary{grid-template-columns:minmax(0,1fr) 40px}
+:is(.home-accordion,.overview-accordion) .expertise-answer{padding-left:0}
+@media(max-width:800px){:is(.home-accordion,.overview-accordion) summary{grid-template-columns:minmax(0,1fr) 25px}}
 
 /* Compact team portraits keep the name, copy and navigation together on screen. */
 .team-carousel-section{padding-block:28px 32px;scroll-margin-top:calc(var(--nav) + 12px)}

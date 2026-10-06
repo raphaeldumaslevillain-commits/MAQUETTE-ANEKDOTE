@@ -10,7 +10,6 @@ function fixture({saved = null, systemDark = false, reduced = false, storageBloc
   const attributes = {};
   const listeners = {};
   const classes = new Set();
-  const label = {textContent: ''};
   const status = {textContent: ''};
   const meta = {setAttribute(name, value) { this[name] = value; }};
   const storage = new Map(saved === null ? [] : [['anekdote-theme', saved]]);
@@ -18,9 +17,8 @@ function fixture({saved = null, systemDark = false, reduced = false, storageBloc
   const button = {
     title: '',
     setAttribute(name, value) { attributes[name] = value; },
-    querySelector: () => label,
     addEventListener(name, callback) { listeners[name] = callback; },
-    getBoundingClientRect: () => ({left: 900, top: 20, width: 110, height: 44})
+    getBoundingClientRect: () => ({left: 900, top: 20, width: 64, height: 44})
   };
   const root = {
     dataset: {},
@@ -58,13 +56,13 @@ function fixture({saved = null, systemDark = false, reduced = false, storageBloc
   });
   vm.runInContext(source('theme-init.js'), context);
   vm.runInContext(source('theme.js'), context);
-  return {buttonTitle: () => button.title, root, attributes, label, status, meta, storage, system, listeners, classes, animations, windowEvents, get snapshots() { return snapshots; }, get skipped() { return skipped; }};
+  return {buttonTitle: () => button.title, root, attributes, status, meta, storage, system, listeners, classes, animations, windowEvents, get snapshots() { return snapshots; }, get skipped() { return skipped; }};
 }
 
 (async () => {
   let f = fixture({saved: 'dark'});
   assert.equal(f.root.dataset.theme, 'dark');
-  assert.equal(f.label.textContent, 'Sombre');
+  assert.equal(f.buttonTitle(), 'Passer au thème clair');
   assert.equal(f.attributes['aria-checked'], 'true');
   assert.equal(f.meta.content, '#191918');
   checks++;

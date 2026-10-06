@@ -47,3 +47,7 @@ Les goûts de Louana et Louise sont comparés aux contenus transmis, et leur aff
 Les deux accordéons comportent six lignes et aucune ligne ouverte au chargement ; après rechargement de l’accueil, ils restent fermés. L’ouverture de Stratégie ferme Campagne d’influence. Le curseur du thème parcourt 66 px sur ordinateur et 20 px à 390 px, avec un bouton de 44 px de hauteur. À 320 px, le bouton mesure 60 px de largeur et l’en-tête conserve un espace entre le logo et les commandes.
 
 Les neuf tests du thème restent valides et le contrôle statique ne relève aucune erreur sur 58 fichiers HTML et 33 projets. Aucune erreur JavaScript n’a été observée. Voir compact-team-browser-checks.json et les aperçus equipe-louana-desktop.jpg, equipe-louise-desktop.jpg et equipe-louise-mobile.jpg.
+
+## Expertises sans numéros et thème en icônes
+
+Les six titres commencent au bord gauche de leur ligne à 1337, 390 et 320 px, sans index ni colonne vide. Les accordéons sont fermés au chargement ; ouvrir Stratégie ferme Campagne d’influence. Le bouton ne contient aucun texte visible, conserve son nom accessible et mesure 64 × 44 px, ou 60 × 44 px à 320 px. Le curseur parcourt 20 px, ou 16 px à 320 px ; Entrée et Espace activent le thème et le déploiement circulaire est observé. Le choix persiste au rechargement et sur Équipe. Aucun débordement ni erreur JavaScript n’est relevé après chargement des ressources versionnées. Les neuf contrôles du thème et la validation statique passent. Voir minimal-controls-browser-checks.json et previews/expertises-sans-numeros.jpg.

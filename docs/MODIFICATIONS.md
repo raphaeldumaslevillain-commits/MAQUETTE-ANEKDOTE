@@ -60,3 +60,11 @@ Les portraits du carrousel sont ramenés à 400 px maximum sur ordinateur, puis 
 Les textes sont répartis en paragraphes par idée, avec une introduction distincte et des espacements cohérents. Les phrases source sont conservées. La biographie de Carla, fournie en blocs HTML, bénéficie aussi de cette présentation.
 
 Louana et Louise sont ajoutées avec les photos et contenus transmis par le client, leurs trois goûts et leurs trois dégoûts. Le carrousel comporte désormais huit membres ; Christelle conserve sa présentation indépendante, soit neuf personnes au total. Pauline reste retirée.
+
+## Expertises sans numéros et thème uniquement en icônes
+
+Les six préfixes 01 • à 06 • sont également retirés de la page Expertises. Les titres et descriptions commencent au même bord gauche, sans colonne vide. Les lignes restent fermées au chargement.
+
+Le bouton de thème affiche uniquement le soleil ou la lune, dans une capsule compacte de 64 × 44 px (60 × 44 px sur les très petits écrans). Le curseur conserve son glissement de 380 ms et la page son déploiement circulaire. Le nom accessible, l’état et l’annonce du thème restent disponibles.
+
+Les fichiers de styles et de scripts portent une version calculée depuis leur contenu pour éviter qu’une ancienne copie en cache interfère avec les mises à jour.

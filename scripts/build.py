@@ -1,7 +1,7 @@
 from pathlib import Path
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse,urljoin
-import json,re,html,os,unicodedata,shutil
+import json,re,html,os,unicodedata,shutil,hashlib
 ROOT=Path(__file__).resolve().parents[1]
 DATA=json.loads((ROOT/'content/site-content.json').read_text())
 MAP=json.loads((ROOT/'content/media-map.json').read_text())
@@ -16,6 +16,8 @@ def bg(e):
  m=re.search(r'url\([\'\"]?(.*?)[\'\"]?\)',str(e));return m.group(1) if m else ''
 def rel(path):
  return os.path.relpath(path,Path(page).parent).replace(os.sep,'/')
+def versioned(path):
+ return rel(path)+'?v='+hashlib.sha256((ROOT/path).read_bytes()).hexdigest()[:12]
 def url(path=''):
  if path.startswith('http') or path.startswith('mailto:'):return path
  return rel((path.strip('/')+'/' if path.strip('/') else '')+'index.html')
@@ -96,7 +98,7 @@ def header(active):
  nav=[('Agence','agence'),('Projets','hub-projets'),('Expertises','expertises'),('Équipe','equipe')]
  h='<a class="skip-link" href="#main">Aller au contenu</a><div class="reading-progress" aria-hidden="true"></div><header class="site-header"><a class="logo" href="'+url()+'" aria-label="Anekdote, accueil"><img src="'+asset(BASE+'/wp-content/uploads/2023/11/logo-anekdote.svg')+'" alt="Anekdote" width="145" height="34"></a><nav class="desktop-nav" aria-label="Navigation principale">'
  for label,p in nav:h+=f'<a href="{url(p)}"'+(' aria-current="page"' if active==p else '')+'>'+label+'</a>'
- h+='</nav><div class="header-actions"><a class="coffee" href="'+url('contact')+'">Un café ?</a><button class="theme-toggle" type="button" data-theme-toggle role="switch" aria-checked="false" aria-label="Thème sombre" title="Passer au thème sombre"><span class="theme-icon" aria-hidden="true"><svg class="theme-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg><svg class="theme-moon" viewBox="0 0 24 24"><path d="M20.5 13.4A8.6 8.6 0 0 1 10.6 3.5a8.6 8.6 0 1 0 9.9 9.9Z"/></svg></span><span data-theme-label>Clair</span></button><button class="menu-toggle" aria-controls="navigation-dialog" aria-expanded="false" aria-label="Ouvrir le menu" data-menu-open><span>Menu</span><span class="menu-icon" aria-hidden="true"><i></i><i></i></span></button></div></header><span class="sr-only" data-theme-status role="status" aria-live="polite"></span>'
+ h+='</nav><div class="header-actions"><a class="coffee" href="'+url('contact')+'">Un café ?</a><button class="theme-toggle" type="button" data-theme-toggle role="switch" aria-checked="false" aria-label="Thème sombre" title="Passer au thème sombre"><span class="theme-icon" aria-hidden="true"><svg class="theme-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg><svg class="theme-moon" viewBox="0 0 24 24"><path d="M20.5 13.4A8.6 8.6 0 0 1 10.6 3.5a8.6 8.6 0 1 0 9.9 9.9Z"/></svg></span></button><button class="menu-toggle" aria-controls="navigation-dialog" aria-expanded="false" aria-label="Ouvrir le menu" data-menu-open><span>Menu</span><span class="menu-icon" aria-hidden="true"><i></i><i></i></span></button></div></header><span class="sr-only" data-theme-status role="status" aria-live="polite"></span>'
  h+='<dialog class="nav-dialog" id="navigation-dialog" aria-label="Navigation"><div class="nav-dialog-head"><a class="logo" href="'+url()+'"><img src="'+asset(BASE+'/wp-content/uploads/2023/11/logo-anekdote.svg')+'" alt="Anekdote" width="145" height="34"></a><button class="nav-close" data-menu-close>Fermer ×</button></div><div class="nav-grid"><nav class="nav-primary" aria-label="Toutes les pages">'
  for i,(label,p) in enumerate([('Accueil',''),('Agence','agence'),('Projets','hub-projets'),('Expertises','expertises'),('Équipe','equipe'),('Talents','talents'),('Contact','contact')]):h+=f'<a href="{url(p)}">{label}<small>{i+1:02d} •</small></a>'
  h+='</nav><nav class="nav-secondary" aria-label="Expertises et réseaux"><p class="eyebrow">Nos expertises</p>'
@@ -115,8 +117,8 @@ def footer():
 def write(path,body,title,description,active='',schema=None):
  global page;assert page==path
  canonical=BASE+'/'+('' if path=='index.html' else str(Path(path).parent)+'/')
- css='<script src="'+rel('js/theme-init.js')+'"></script>'+''.join(f'<link rel="stylesheet" href="{rel("css/"+x+".css")}">' for x in ['fonts','variables','reset','typography','layout','components','animations','responsive','editorial','theme'])+'<noscript><link rel="stylesheet" href="'+rel('css/no-script.css')+'"></noscript>'
- scripts=''.join(f'<script defer src="{rel("js/"+x+".js")}"></script>' for x in ['theme','navigation','animations','projects','main','editorial']+(['contact'] if active=='contact' else []))
+ css='<script src="'+versioned('js/theme-init.js')+'"></script>'+''.join(f'<link rel="stylesheet" href="{versioned("css/"+x+".css")}">' for x in ['fonts','variables','reset','typography','layout','components','animations','responsive','editorial','theme'])+'<noscript><link rel="stylesheet" href="'+versioned('css/no-script.css')+'"></noscript>'
+ scripts=''.join(f'<script defer src="{versioned("js/"+x+".js")}"></script>' for x in ['theme','navigation','animations','projects','main','editorial']+(['contact'] if active=='contact' else []))
  meta='<meta name="description" content="'+esc(description)+'"><link rel="canonical" href="'+canonical+'"><meta property="og:title" content="'+esc(title)+'"><meta property="og:description" content="'+esc(description)+'"><meta property="og:type" content="website"><meta property="og:url" content="'+canonical+'">'
  s={'@context':'https://schema.org','@type':'Organization','name':'Anekdote','url':BASE,'address':{'@type':'PostalAddress','streetAddress':'29 rue de Mogador','postalCode':'75009','addressLocality':'Paris','addressCountry':'FR'},'sameAs':['https://www.instagram.com/anekdotefr/','https://linkedin.com/company/anekdote-influence']}
  if schema:s=schema
@@ -270,7 +272,7 @@ def solar_metrics(c):
 def expertises():
  global page;page='expertises/index.html'
  b='<section class="page-intro expertise-intro"><p class="eyebrow">01 • Nos expertises</p><div class="editorial-heading"><h1 class="display">L’idée.<br><span class="italic">Puis l’action.</span></h1></div></section>'
- b+='<section class="expertise-overview wrap"><h2 class="sr-only">Nos expertises</h2><figure class="expertise-new-photo media-frame">'+picture(DATA['projects'][6]['hero'],'Activation influence Anekdote — Festival de Cannes x Soskin',eager=True)+'</figure>'+accordion()+'</section>'
+ b+='<section class="expertise-overview wrap"><h2 class="sr-only">Nos expertises</h2><figure class="expertise-new-photo media-frame">'+picture(DATA['projects'][6]['hero'],'Activation influence Anekdote — Festival de Cannes x Soskin',eager=True)+'</figure>'+accordion('overview-accordion',numbered=False)+'</section>'
  write(page,b,'Anekdote | Nos expertises en influence et création','Campagne d’influence, stratégie, évènements, Brand Content, RSE / Corporate, Performance / Affiliation.','expertises')
  for i,(label,key) in enumerate(SERVICES):
   page=key+'/index.html';s=soup(key);m=s.select_one('#content');b=hero_intro(esc(text(s.h1))+'<span class="orange">.</span>','',text(s.select_one('.page-header-banner-baseline')),True,'service-intro')

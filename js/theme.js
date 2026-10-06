@@ -16,7 +16,6 @@
     buttons.forEach(button => {
       button.setAttribute('aria-checked', String(dark));
       button.title = dark ? 'Passer au thème clair' : 'Passer au thème sombre';
-      button.querySelector('[data-theme-label]').textContent = dark ? 'Sombre' : 'Clair';
     });
     document.querySelector('meta[name="theme-color"]')?.setAttribute('content', dark ? '#191918' : '#f4f2eb');
   }
