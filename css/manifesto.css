@@ -16,7 +16,6 @@
 .manifesto-items{min-width:0}
 .manifesto-item{position:relative;padding:48px 0 54px;border-top:1px solid var(--line);scroll-margin-top:24px}
 .manifesto-item:first-child{padding-top:36px}
-.manifesto-item:last-child{min-height:600px;display:flex;flex-direction:column;justify-content:center}
 .manifesto-item::before{content:'';position:absolute;left:0;top:-1px;width:64px;height:2px;background:var(--orange);opacity:0;transform:scaleX(.25);transform-origin:left;transition:opacity .35s,transform .5s var(--ease)}
 .manifesto-item.is-active::before{opacity:1;transform:scaleX(1)}
 .manifesto-item h3{font-size:clamp(1.85rem,2.9vw,3.1rem);font-weight:500;line-height:1.12;letter-spacing:-.045em;text-wrap:balance;color:var(--ink);transition:color .35s}
@@ -41,7 +40,6 @@
  .manifesto-nav a[aria-current=true] span{transform:none}
  .manifesto-mark{display:none}
  .manifesto-item,.manifesto-item:first-child{padding-block:34px 38px}
- .manifesto-item:last-child{min-height:0}
  .manifesto-item h3{font-size:clamp(1.65rem,5.1vw,2.3rem)}
  .manifesto-item p{margin-top:20px}
 }

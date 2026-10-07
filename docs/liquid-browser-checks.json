@@ -1,0 +1,924 @@
+{
+  "layouts": [
+    {
+      "route": "index.html",
+      "selector": ".home-agency-copy h2",
+      "bodySizes": [
+        "16.8px",
+        "16.8px",
+        "16.8px"
+      ],
+      "font": "\"Instrument Serif\", Georgia, serif",
+      "fontSize": "65.772px",
+      "fontStyle": "italic",
+      "headingHeight": 130.40625,
+      "headingWidth": 491.390625,
+      "index": "0",
+      "pageOverflow": false,
+      "scrollY": 2379.5,
+      "state": "running",
+      "viewport": [
+        1134,
+        791
+      ],
+      "word": {
+        "height": 64.453125,
+        "left": 594.984375,
+        "right": 823.34375,
+        "width": 228.359375
+      },
+      "wordOverflow": false,
+      "words": [
+        "passionnée.",
+        "engagée."
+      ]
+    },
+    {
+      "route": "agence/index.html",
+      "selector": "#manifesto-title",
+      "bodySizes": [
+        "16.8px",
+        "16.8px",
+        "16.8px"
+      ],
+      "font": "\"Instrument Serif\", Georgia, serif",
+      "fontSize": "52.164px",
+      "fontStyle": "italic",
+      "headingHeight": 108.453125,
+      "headingWidth": 340.6015625,
+      "index": "0",
+      "pageOverflow": false,
+      "scrollY": 1180.5,
+      "state": "running",
+      "viewport": [
+        1134,
+        791
+      ],
+      "word": {
+        "height": 53.7265625,
+        "left": 47.625,
+        "right": 166.4453125,
+        "width": 118.8203125
+      },
+      "wordOverflow": false,
+      "words": [
+        "anime.",
+        "motive.",
+        "engage."
+      ]
+    },
+    {
+      "route": "hub-projets/index.html",
+      "selector": ".portfolio-intro h1",
+      "bodySizes": [
+        "16.8px",
+        "16.8px",
+        "16.8px"
+      ],
+      "font": "\"Instrument Serif\", Georgia, serif",
+      "fontSize": "115.668px",
+      "fontStyle": "italic",
+      "headingHeight": 111.2265625,
+      "headingWidth": 1038.75,
+      "index": "0",
+      "pageOverflow": false,
+      "scrollY": 0,
+      "state": "running",
+      "viewport": [
+        1134,
+        791
+      ],
+      "word": {
+        "height": 108.7265625,
+        "left": 268.0390625,
+        "right": 508.96875,
+        "width": 240.9296875
+      },
+      "wordOverflow": false,
+      "words": [
+        "projets.",
+        "fiertés."
+      ]
+    },
+    {
+      "route": "equipe/index.html",
+      "selector": "#founder-name",
+      "bodySizes": [
+        "16.8px",
+        "16.8px",
+        "16.8px"
+      ],
+      "font": "Inter, Arial, sans-serif",
+      "fontSize": "124.74px",
+      "fontStyle": "normal",
+      "headingHeight": 137.71875,
+      "headingWidth": 1038.75,
+      "index": "0",
+      "pageOverflow": false,
+      "scrollY": 819,
+      "state": "running",
+      "viewport": [
+        1134,
+        791
+      ],
+      "word": {
+        "height": 134.71875,
+        "left": 47.625,
+        "right": 525.2734375,
+        "width": 477.6484375
+      },
+      "wordOverflow": false,
+      "words": [
+        "Christelle",
+        "Girl Boss"
+      ]
+    },
+    {
+      "route": "talents/index.html",
+      "selector": ".talents-voices h2",
+      "bodySizes": [
+        "16.8px",
+        "16.8px",
+        "16.8px"
+      ],
+      "font": "\"Instrument Serif\", Georgia, serif",
+      "fontSize": "56.7px",
+      "fontStyle": "italic",
+      "headingHeight": 112.625,
+      "headingWidth": 388.28125,
+      "index": "0",
+      "pageOverflow": false,
+      "scrollY": 1134.5,
+      "state": "running",
+      "viewport": [
+        1134,
+        791
+      ],
+      "word": {
+        "height": 55.5625,
+        "left": 120.03125,
+        "right": 295.0078125,
+        "width": 174.9765625
+      },
+      "wordOverflow": false,
+      "words": [
+        "collaborer.",
+        "créer.",
+        "réussir."
+      ]
+    },
+    {
+      "route": "index.html",
+      "selector": ".home-agency-copy h2",
+      "bodySizes": [
+        "16.8px",
+        "16.8px",
+        "16.8px"
+      ],
+      "font": "\"Instrument Serif\", Georgia, serif",
+      "fontSize": "53.6px",
+      "fontStyle": "italic",
+      "headingHeight": 106.046875,
+      "headingWidth": 280,
+      "index": "0",
+      "pageOverflow": false,
+      "scrollY": 2457,
+      "state": "running",
+      "viewport": [
+        320,
+        791
+      ],
+      "word": {
+        "height": 52.5234375,
+        "left": 20,
+        "right": 206.1015625,
+        "width": 186.1015625
+      },
+      "wordOverflow": false,
+      "words": [
+        "passionnée.",
+        "engagée."
+      ]
+    },
+    {
+      "route": "agence/index.html",
+      "selector": "#manifesto-title",
+      "bodySizes": [
+        "16.8px",
+        "16.8px",
+        "16.8px"
+      ],
+      "font": "\"Instrument Serif\", Georgia, serif",
+      "fontSize": "48px",
+      "fontStyle": "italic",
+      "headingHeight": 100.375,
+      "headingWidth": 280,
+      "index": "0",
+      "pageOverflow": false,
+      "scrollY": 1823.5,
+      "state": "running",
+      "viewport": [
+        320,
+        791
+      ],
+      "word": {
+        "height": 49.4375,
+        "left": 20,
+        "right": 129.3515625,
+        "width": 109.3515625
+      },
+      "wordOverflow": false,
+      "words": [
+        "anime.",
+        "motive.",
+        "engage."
+      ]
+    },
+    {
+      "route": "hub-projets/index.html",
+      "selector": ".portfolio-intro h1",
+      "bodySizes": [
+        "16.8px",
+        "16.8px",
+        "16.8px"
+      ],
+      "font": "\"Instrument Serif\", Georgia, serif",
+      "fontSize": "60.8px",
+      "fontStyle": "italic",
+      "headingHeight": 61.578125,
+      "headingWidth": 280,
+      "index": "0",
+      "pageOverflow": false,
+      "scrollY": 0,
+      "state": "running",
+      "viewport": [
+        320,
+        791
+      ],
+      "word": {
+        "height": 59.578125,
+        "left": 135.8671875,
+        "right": 262.515625,
+        "width": 126.6484375
+      },
+      "wordOverflow": false,
+      "words": [
+        "projets.",
+        "fiertés."
+      ]
+    },
+    {
+      "route": "equipe/index.html",
+      "selector": "#founder-name",
+      "bodySizes": [
+        "16.8px",
+        "16.8px",
+        "16.8px"
+      ],
+      "font": "Inter, Arial, sans-serif",
+      "fontSize": "51.2px",
+      "fontStyle": "normal",
+      "headingHeight": 56.796875,
+      "headingWidth": 280,
+      "index": "0",
+      "pageOverflow": false,
+      "scrollY": 1200.5,
+      "state": "running",
+      "viewport": [
+        320,
+        791
+      ],
+      "word": {
+        "height": 55.296875,
+        "left": 20,
+        "right": 216.0546875,
+        "width": 196.0546875
+      },
+      "wordOverflow": false,
+      "words": [
+        "Christelle",
+        "Girl Boss"
+      ]
+    },
+    {
+      "route": "talents/index.html",
+      "selector": ".talents-voices h2",
+      "bodySizes": [
+        "16.8px",
+        "16.8px",
+        "16.8px"
+      ],
+      "font": "\"Instrument Serif\", Georgia, serif",
+      "fontSize": "56px",
+      "fontStyle": "italic",
+      "headingHeight": 111.25,
+      "headingWidth": 280,
+      "index": "0",
+      "pageOverflow": false,
+      "scrollY": 1775,
+      "state": "running",
+      "viewport": [
+        320,
+        791
+      ],
+      "word": {
+        "height": 54.875,
+        "left": 91.515625,
+        "right": 264.3359375,
+        "width": 172.8203125
+      },
+      "wordOverflow": false,
+      "words": [
+        "collaborer.",
+        "créer.",
+        "réussir."
+      ]
+    },
+    {
+      "route": "index.html",
+      "selector": ".home-agency-copy h2",
+      "bodySizes": [
+        "16.8px",
+        "16.8px",
+        "16.8px"
+      ],
+      "font": "\"Instrument Serif\", Georgia, serif",
+      "fontSize": "53.6px",
+      "fontStyle": "italic",
+      "headingHeight": 106.046875,
+      "headingWidth": 350,
+      "index": "0",
+      "pageOverflow": false,
+      "scrollY": 2427.5,
+      "state": "running",
+      "viewport": [
+        390,
+        844
+      ],
+      "word": {
+        "height": 52.5234375,
+        "left": 20,
+        "right": 206.1015625,
+        "width": 186.1015625
+      },
+      "wordOverflow": false,
+      "words": [
+        "passionnée.",
+        "engagée."
+      ]
+    },
+    {
+      "route": "agence/index.html",
+      "selector": "#manifesto-title",
+      "bodySizes": [
+        "16.8px",
+        "16.8px",
+        "16.8px"
+      ],
+      "font": "\"Instrument Serif\", Georgia, serif",
+      "fontSize": "48px",
+      "fontStyle": "italic",
+      "headingHeight": 100.375,
+      "headingWidth": 350,
+      "index": "0",
+      "pageOverflow": false,
+      "scrollY": 1602,
+      "state": "running",
+      "viewport": [
+        390,
+        844
+      ],
+      "word": {
+        "height": 49.4375,
+        "left": 20,
+        "right": 129.3515625,
+        "width": 109.3515625
+      },
+      "wordOverflow": false,
+      "words": [
+        "anime.",
+        "motive.",
+        "engage."
+      ]
+    },
+    {
+      "route": "hub-projets/index.html",
+      "selector": ".portfolio-intro h1",
+      "bodySizes": [
+        "16.8px",
+        "16.8px",
+        "16.8px"
+      ],
+      "font": "\"Instrument Serif\", Georgia, serif",
+      "fontSize": "60.8px",
+      "fontStyle": "italic",
+      "headingHeight": 61.57811737060547,
+      "headingWidth": 350,
+      "index": "0",
+      "pageOverflow": false,
+      "scrollY": 0,
+      "state": "running",
+      "viewport": [
+        390,
+        844
+      ],
+      "word": {
+        "height": 59.57811737060547,
+        "left": 135.8671875,
+        "right": 262.515625,
+        "width": 126.6484375
+      },
+      "wordOverflow": false,
+      "words": [
+        "projets.",
+        "fiertés."
+      ]
+    },
+    {
+      "route": "equipe/index.html",
+      "selector": "#founder-name",
+      "bodySizes": [
+        "16.8px",
+        "16.8px",
+        "16.8px"
+      ],
+      "font": "Inter, Arial, sans-serif",
+      "fontSize": "54.6px",
+      "fontStyle": "normal",
+      "headingHeight": 60.46875,
+      "headingWidth": 350,
+      "index": "0",
+      "pageOverflow": false,
+      "scrollY": 1121.5,
+      "state": "running",
+      "viewport": [
+        390,
+        844
+      ],
+      "word": {
+        "height": 58.96875,
+        "left": 20,
+        "right": 229.0703125,
+        "width": 209.0703125
+      },
+      "wordOverflow": false,
+      "words": [
+        "Christelle",
+        "Girl Boss"
+      ]
+    },
+    {
+      "route": "talents/index.html",
+      "selector": ".talents-voices h2",
+      "bodySizes": [
+        "16.8px",
+        "16.8px",
+        "16.8px"
+      ],
+      "font": "\"Instrument Serif\", Georgia, serif",
+      "fontSize": "56px",
+      "fontStyle": "italic",
+      "headingHeight": 111.25,
+      "headingWidth": 350,
+      "index": "0",
+      "pageOverflow": false,
+      "scrollY": 1591.5,
+      "state": "running",
+      "viewport": [
+        390,
+        844
+      ],
+      "word": {
+        "height": 54.875,
+        "left": 91.515625,
+        "right": 264.3359375,
+        "width": 172.8203125
+      },
+      "wordOverflow": false,
+      "words": [
+        "collaborer.",
+        "créer.",
+        "réussir."
+      ]
+    }
+  ],
+  "services": [
+    {
+      "route": "campagne-dinfluence",
+      "baseFont": "Inter, Arial, sans-serif",
+      "copy": "16.8px",
+      "overflow": false,
+      "serifFont": "\"Instrument Serif\", Georgia, serif",
+      "serifRight": 872.78125,
+      "serifStyle": "italic",
+      "text": "Campagne d'influence.",
+      "titleHeight": 104.28125,
+      "titleWidth": 1038.75,
+      "viewport": [
+        1134,
+        791
+      ]
+    },
+    {
+      "route": "strategie",
+      "baseFont": "Inter, Arial, sans-serif",
+      "copy": "16.8px",
+      "overflow": false,
+      "serifFont": "\"Instrument Serif\", Georgia, serif",
+      "serifRight": 304.484375,
+      "serifStyle": "italic",
+      "text": "Stratégie.",
+      "titleHeight": 104.28125,
+      "titleWidth": 1038.75,
+      "viewport": [
+        1134,
+        791
+      ]
+    },
+    {
+      "route": "evenements",
+      "baseFont": "Inter, Arial, sans-serif",
+      "copy": "16.8px",
+      "overflow": false,
+      "serifFont": "\"Instrument Serif\", Georgia, serif",
+      "serifRight": 406.5703125,
+      "serifStyle": "italic",
+      "text": "Évènements.",
+      "titleHeight": 104.28125,
+      "titleWidth": 1038.75,
+      "viewport": [
+        1134,
+        791
+      ]
+    },
+    {
+      "route": "brand-content",
+      "baseFont": "Inter, Arial, sans-serif",
+      "copy": "16.8px",
+      "overflow": false,
+      "serifFont": "\"Instrument Serif\", Georgia, serif",
+      "serifRight": 540.6875,
+      "serifStyle": "italic",
+      "text": "Brand content.",
+      "titleHeight": 104.28126525878906,
+      "titleWidth": 1038.75,
+      "viewport": [
+        1134,
+        791
+      ]
+    },
+    {
+      "route": "rse-corporate",
+      "baseFont": "Inter, Arial, sans-serif",
+      "copy": "16.8px",
+      "overflow": false,
+      "serifFont": "\"Instrument Serif\", Georgia, serif",
+      "serifRight": 607.421875,
+      "serifStyle": "italic",
+      "text": "RSE CORPORATE.",
+      "titleHeight": 104.28125,
+      "titleWidth": 1038.75,
+      "viewport": [
+        1134,
+        791
+      ]
+    },
+    {
+      "route": "performance-affiliation",
+      "baseFont": "Inter, Arial, sans-serif",
+      "copy": "16.8px",
+      "overflow": false,
+      "serifFont": "\"Instrument Serif\", Georgia, serif",
+      "serifRight": 493.90625,
+      "serifStyle": "italic",
+      "text": "Solar Metrics.",
+      "titleHeight": 104.28125,
+      "titleWidth": 1038.75,
+      "viewport": [
+        1134,
+        791
+      ]
+    },
+    {
+      "route": "campagne-dinfluence",
+      "baseFont": "Inter, Arial, sans-serif",
+      "copy": "16.8px",
+      "overflow": false,
+      "serifFont": "\"Instrument Serif\", Georgia, serif",
+      "serifRight": 172.0546875,
+      "serifStyle": "italic",
+      "text": "Campagne d'influence.",
+      "titleHeight": 92.375,
+      "titleWidth": 280,
+      "viewport": [
+        320,
+        791
+      ]
+    },
+    {
+      "route": "strategie",
+      "baseFont": "Inter, Arial, sans-serif",
+      "copy": "16.8px",
+      "overflow": false,
+      "serifFont": "\"Instrument Serif\", Georgia, serif",
+      "serifRight": 135.3203125,
+      "serifStyle": "italic",
+      "text": "Stratégie.",
+      "titleHeight": 46.6875,
+      "titleWidth": 280,
+      "viewport": [
+        320,
+        791
+      ]
+    },
+    {
+      "route": "evenements",
+      "baseFont": "Inter, Arial, sans-serif",
+      "copy": "16.8px",
+      "overflow": false,
+      "serifFont": "\"Instrument Serif\", Georgia, serif",
+      "serifRight": 181.1484375,
+      "serifStyle": "italic",
+      "text": "Évènements.",
+      "titleHeight": 46.68750762939453,
+      "titleWidth": 280,
+      "viewport": [
+        320,
+        791
+      ]
+    },
+    {
+      "route": "brand-content",
+      "baseFont": "Inter, Arial, sans-serif",
+      "copy": "16.8px",
+      "overflow": false,
+      "serifFont": "\"Instrument Serif\", Georgia, serif",
+      "serifRight": 241.359375,
+      "serifStyle": "italic",
+      "text": "Brand content.",
+      "titleHeight": 46.6875,
+      "titleWidth": 280,
+      "viewport": [
+        320,
+        791
+      ]
+    },
+    {
+      "route": "rse-corporate",
+      "baseFont": "Inter, Arial, sans-serif",
+      "copy": "16.8px",
+      "overflow": false,
+      "serifFont": "\"Instrument Serif\", Georgia, serif",
+      "serifRight": 271.3203125,
+      "serifStyle": "italic",
+      "text": "RSE CORPORATE.",
+      "titleHeight": 46.6875,
+      "titleWidth": 280,
+      "viewport": [
+        320,
+        791
+      ]
+    },
+    {
+      "route": "performance-affiliation",
+      "baseFont": "Inter, Arial, sans-serif",
+      "copy": "16.8px",
+      "overflow": false,
+      "serifFont": "\"Instrument Serif\", Georgia, serif",
+      "serifRight": 220.359375,
+      "serifStyle": "italic",
+      "text": "Solar Metrics.",
+      "titleHeight": 46.6875,
+      "titleWidth": 280,
+      "viewport": [
+        320,
+        791
+      ]
+    },
+    {
+      "route": "campagne-dinfluence",
+      "baseFont": "Inter, Arial, sans-serif",
+      "copy": "16.8px",
+      "overflow": false,
+      "serifFont": "\"Instrument Serif\", Georgia, serif",
+      "serifRight": 172.0546875,
+      "serifStyle": "italic",
+      "text": "Campagne d'influence.",
+      "titleHeight": 92.375,
+      "titleWidth": 350,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "route": "strategie",
+      "baseFont": "Inter, Arial, sans-serif",
+      "copy": "16.8px",
+      "overflow": false,
+      "serifFont": "\"Instrument Serif\", Georgia, serif",
+      "serifRight": 135.3203125,
+      "serifStyle": "italic",
+      "text": "Stratégie.",
+      "titleHeight": 46.6875,
+      "titleWidth": 350,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "route": "evenements",
+      "baseFont": "Inter, Arial, sans-serif",
+      "copy": "16.8px",
+      "overflow": false,
+      "serifFont": "\"Instrument Serif\", Georgia, serif",
+      "serifRight": 181.1484375,
+      "serifStyle": "italic",
+      "text": "Évènements.",
+      "titleHeight": 46.6875,
+      "titleWidth": 350,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "route": "brand-content",
+      "baseFont": "Inter, Arial, sans-serif",
+      "copy": "16.8px",
+      "overflow": false,
+      "serifFont": "\"Instrument Serif\", Georgia, serif",
+      "serifRight": 241.359375,
+      "serifStyle": "italic",
+      "text": "Brand content.",
+      "titleHeight": 46.68749237060547,
+      "titleWidth": 350,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "route": "rse-corporate",
+      "baseFont": "Inter, Arial, sans-serif",
+      "copy": "16.8px",
+      "overflow": false,
+      "serifFont": "\"Instrument Serif\", Georgia, serif",
+      "serifRight": 271.3203125,
+      "serifStyle": "italic",
+      "text": "RSE CORPORATE.",
+      "titleHeight": 46.6875,
+      "titleWidth": 350,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "route": "performance-affiliation",
+      "baseFont": "Inter, Arial, sans-serif",
+      "copy": "16.8px",
+      "overflow": false,
+      "serifFont": "\"Instrument Serif\", Georgia, serif",
+      "serifRight": 220.359375,
+      "serifStyle": "italic",
+      "text": "Solar Metrics.",
+      "titleHeight": 46.6875,
+      "titleWidth": 350,
+      "viewport": [
+        390,
+        844
+      ]
+    }
+  ],
+  "light": [
+    {
+      "route": "index.html",
+      "bodyPaper": "rgb(244, 242, 235)",
+      "color": "rgb(23, 23, 22)",
+      "label": "passionnée. ou engagée.",
+      "overflow": false,
+      "theme": "light",
+      "words": [
+        "passionnée.",
+        "engagée."
+      ]
+    },
+    {
+      "route": "agence/index.html",
+      "bodyPaper": "rgb(244, 242, 235)",
+      "color": "rgb(23, 23, 22)",
+      "label": "anime. ou motive. ou engage.",
+      "overflow": false,
+      "theme": "light",
+      "words": [
+        "anime.",
+        "motive.",
+        "engage."
+      ]
+    },
+    {
+      "route": "hub-projets/index.html",
+      "bodyPaper": "rgb(244, 242, 235)",
+      "color": "rgb(23, 23, 22)",
+      "label": "projets. ou fiertés.",
+      "overflow": false,
+      "theme": "light",
+      "words": [
+        "projets.",
+        "fiertés."
+      ]
+    },
+    {
+      "route": "equipe/index.html",
+      "bodyPaper": "rgb(244, 242, 235)",
+      "color": "rgb(23, 23, 22)",
+      "label": "Christelle ou Girl Boss",
+      "overflow": false,
+      "theme": "light",
+      "words": [
+        "Christelle",
+        "Girl Boss"
+      ]
+    },
+    {
+      "route": "talents/index.html",
+      "bodyPaper": "rgb(244, 242, 235)",
+      "color": "rgb(244, 242, 235)",
+      "label": "collaborer. ou créer. ou réussir.",
+      "overflow": false,
+      "theme": "light",
+      "words": [
+        "collaborer.",
+        "créer.",
+        "réussir."
+      ]
+    }
+  ],
+  "manifesto": {
+    "active": "4",
+    "gaps": [
+      103,
+      103,
+      103,
+      103,
+      103
+    ],
+    "lastHeight": 197.4296875,
+    "paragraphs": [
+      "16.8px",
+      "16.8px",
+      "16.8px",
+      "16.8px",
+      "16.8px",
+      "16.8px"
+    ],
+    "scrollY": 2215.5,
+    "viewport": [
+      1134,
+      791
+    ]
+  },
+  "motionStart": {
+    "from": "projets.",
+    "fromFilter": "none",
+    "headingHeight": 111.2265625,
+    "index": "0",
+    "to": "fiertés.",
+    "toFilter": "none"
+  },
+  "motionEnd": {
+    "from": "fiertés.",
+    "fromFilter": "blur(14.633px)",
+    "headingHeight": 111.2265625,
+    "index": "1",
+    "to": "projets.",
+    "toFilter": "blur(4.37369px)"
+  },
+  "motionBeforePause": {
+    "from": "projets.",
+    "headingHeight": 111.2265625,
+    "index": "0",
+    "opacity": "0.581932"
+  },
+  "pause": {
+    "filter": "none",
+    "headingHeight": 111.2265625,
+    "index": "1",
+    "opacity": "1",
+    "pressed": "true",
+    "state": "paused"
+  },
+  "finalStill": {
+    "filter": "none",
+    "pressed": "true",
+    "scrollY": 0,
+    "viewport": [
+      1134,
+      791
+    ],
+    "word": "projets."
+  },
+  "errors": []
+}

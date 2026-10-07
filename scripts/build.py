@@ -97,6 +97,11 @@ def hero_intro(title,kicker,description='',serif=False,cls=''):
  eyebrow=f'<p class="eyebrow">{kicker}</p>' if kicker else ''
  heading_class='display serif' if serif else 'display'
  return f'<section class="page-intro {cls}">{eyebrow}<h1 class="{heading_class}">{title}</h1>'+(f'<p class="lead">{description}</p>' if description else '')+'</section>'
+def liquid_text(words,cls='italic'):
+ # Size from all variants once; expose one stable accessible name while the visual layers morph.
+ h='<span class="liquid-word '+esc(cls)+'" data-liquid data-liquid-words="'+esc(json.dumps(words,ensure_ascii=False))+'"><span class="liquid-static">'+esc(words[0])+'</span><button type="button" class="liquid-switch" data-liquid-switch hidden aria-label="'+esc(' ou '.join(words))+'" aria-describedby="liquid-motion-help" aria-pressed="false" title="Mettre en pause l’animation"><span class="liquid-stage" aria-hidden="true">'
+ for word in words:h+='<span class="liquid-size">'+esc(word)+'</span>'
+ return h+'<span class="liquid-layer" data-liquid-from>'+esc(words[0])+'</span><span class="liquid-layer" data-liquid-to></span></span></button></span>'
 def header(active):
  nav=[('Accueil',''),('Agence','agence'),('Projets','hub-projets'),('Expertises','expertises'),('Équipe','equipe')]
  h='<a class="skip-link" href="#main">Aller au contenu</a><div class="reading-progress" aria-hidden="true"></div><header class="site-header"><a class="logo" href="'+url()+'" aria-label="Anekdote, accueil"><img src="'+asset(BASE+'/wp-content/uploads/2023/11/logo-anekdote.svg')+'" alt="Anekdote" width="145" height="34"></a><nav class="desktop-nav" aria-label="Navigation principale">'
@@ -120,13 +125,15 @@ def footer():
 def write(path,body,title,description,active='',schema=None):
  global page;assert page==path
  canonical=BASE+'/'+('' if path=='index.html' else str(Path(path).parent)+'/')
- css='<script src="'+versioned('js/theme-init.js')+'"></script>'+''.join(f'<link rel="stylesheet" href="{versioned("css/"+x+".css")}">' for x in ['fonts','variables','reset','typography','layout','components','animations','responsive','editorial','theme']+(['manifesto'] if active=='agence' else []))+'<noscript><link rel="stylesheet" href="'+versioned('css/no-script.css')+'"></noscript>'
- scripts=''.join(f'<script defer src="{versioned("js/"+x+".js")}"></script>' for x in ['theme','navigation','animations','projects','main','editorial']+(['service-rotator'] if path=='index.html' else [])+(['manifesto'] if active=='agence' else [])+(['contact'] if active=='contact' else []))
+ liquid='data-liquid ' in body
+ css='<script src="'+versioned('js/theme-init.js')+'"></script>'+''.join(f'<link rel="stylesheet" href="{versioned("css/"+x+".css")}">' for x in ['fonts','variables','reset','typography','layout','components','animations','responsive','editorial','theme']+(['liquid-text'] if liquid or 'service-intro' in body else [])+(['manifesto'] if active=='agence' else []))+'<noscript><link rel="stylesheet" href="'+versioned('css/no-script.css')+'"></noscript>'
+ scripts=''.join(f'<script defer src="{versioned("js/"+x+".js")}"></script>' for x in ['theme','navigation','animations','projects','main','editorial']+(['service-rotator'] if path=='index.html' else [])+(['manifesto'] if active=='agence' else [])+(['liquid-text'] if liquid else [])+(['contact'] if active=='contact' else []))
  meta='<meta name="description" content="'+esc(description)+'"><link rel="canonical" href="'+canonical+'"><meta property="og:title" content="'+esc(title)+'"><meta property="og:description" content="'+esc(description)+'"><meta property="og:type" content="website"><meta property="og:url" content="'+canonical+'">'
  s={'@context':'https://schema.org','@type':'Organization','name':'Anekdote','url':BASE,'address':{'@type':'PostalAddress','streetAddress':'29 rue de Mogador','postalCode':'75009','addressLocality':'Paris','addressCountry':'FR'},'sameAs':['https://www.instagram.com/anekdotefr/','https://linkedin.com/company/anekdote-influence']}
  if schema:s=schema
  modal='<dialog id="video-dialog" class="video-dialog" aria-label="Vidéo"><div class="video-dialog-top"><span data-video-title>Le film Anekdote</span><button class="video-dialog-close" data-video-close>Fermer ×</button></div><video playsinline controls preload="none"></video></dialog>'
- output='<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f4f2eb"><title>'+esc(title)+'</title>'+meta+css+'<link rel="icon" href="'+rel('assets/brand/favicon.svg')+'" type="image/svg+xml"><script type="application/ld+json">'+json.dumps(s,ensure_ascii=False).replace('</','<'+chr(92)+'/')+'</script>'+scripts+'</head><body>'+header(active)+'<main id="main">'+body+'</main>'+footer()+modal+'</body></html>'
+ filters='<svg class="liquid-filters" width="0" height="0" aria-hidden="true" focusable="false"><defs><filter id="liquid-threshold" x="-25%" y="-50%" width="150%" height="200%" color-interpolation-filters="sRGB"><feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 255 -140"/></filter></defs></svg><span id="liquid-motion-help" class="sr-only">Activer pour mettre en pause ou reprendre l’animation. Le survol et le focus la suspendent aussi.</span>' if liquid else ''
+ output='<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f4f2eb"><title>'+esc(title)+'</title>'+meta+css+'<link rel="icon" href="'+rel('assets/brand/favicon.svg')+'" type="image/svg+xml"><script type="application/ld+json">'+json.dumps(s,ensure_ascii=False).replace('</','<'+chr(92)+'/')+'</script>'+scripts+'</head><body>'+filters+header(active)+'<main id="main">'+body+'</main>'+footer()+modal+'</body></html>'
  dest=ROOT/path;dest.parent.mkdir(parents=True,exist_ok=True);dest.write_text(output);route_manifest.append({'path':path,'source':canonical,'title':title})
 
 
@@ -199,7 +206,7 @@ def home():
  b+='<section class="company-stage">'+picture(bg(ag.select_one('.page-header-banner-container')),'L’équipe Anekdote dans un escalier parisien',eager=True)+'<div class="company-overlay"><p class="eyebrow">Enchanté !</p><h2>Nous créons<br>vos <span class="italic">campagnes.</span></h2></div></section>'
  b+='<section class="section home-services"><div class="home-services-heading"><div><h2 class="section-title">L’idée.<br><span class="italic">Puis l’action.</span></h2></div><p class="lead">Nous créons vos campagnes pour accélérer votre notoriété et optimiser votre conversion.</p></div>'+accordion('home-accordion',numbered=False)+'</section>'
  b+='<section class="section clients"><div class="client-intro"><h2>Nous vous adorons,<br><span class="italic">c’est réciproque.</span></h2><p>Nous avons plus de 50 partenaires qui nous font confiance dans la beauté, la mode, la tech/app, la food et le retail.</p></div>'+client_marquees()+'</section>'
- b+='<section class="section home-agency"><div class="home-agency-photo media-frame reveal">'+picture(BASE+'/wp-content/uploads/2024/09/Design-sans-titre-3.png','Un moment partagé par l’équipe Anekdote')+'</div><div class="home-agency-copy"><h2 class="section-title">Une équipe<br><span class="italic">passionnée.</span></h2><p class="lead">L’échange est notre moteur, le partage est notre super-force, et la positivité est notre arme secrète.</p></div></section>'
+ b+='<section class="section home-agency"><div class="home-agency-photo media-frame reveal">'+picture(BASE+'/wp-content/uploads/2024/09/Design-sans-titre-3.png','Un moment partagé par l’équipe Anekdote')+'</div><div class="home-agency-copy"><h2 class="section-title">Une équipe<br>'+liquid_text(['passionnée.','engagée.'])+'</h2><p class="lead">L’échange est notre moteur, le partage est notre super-force, et la positivité est notre arme secrète.</p></div></section>'
  b+='<section class="section proof"><div class="proof-copy"><h2 class="section-title">La créativité.<br><span class="italic">Et son impact.</span></h2><p>Une équipe passionnée pour des campagnes sur-mesure et performantes.</p></div><div class="proof-kpis">'
  for v,l,p,number,decimals,suffix,separator in [('7.2M','de vues au total',ghd,7.2,1,'M','.'),('1,73 M','de reach',DATA['projects'][1],1.73,2,' M',','),('31 377','clics sur lien',DATA['projects'][0],31377,0,'',' ')]:
   b+='<a class="proof-row" href="'+url(p['path'])+'"><strong><span class="sr-only">'+v+'</span><span aria-hidden="true" data-count="'+str(number)+'" data-decimals="'+str(decimals)+'" data-suffix="'+suffix+'" data-separator="'+separator+'">'+v+'</span></strong><p>'+l+'<span>'+esc(p['title'])+'</span></p></a>'
@@ -208,7 +215,7 @@ def home():
 
 def agency_manifesto():
  convictions=json.loads((ROOT/'content/agency-manifesto.json').read_text())
- h='<section class="agency-manifesto" id="manifeste" data-manifesto aria-labelledby="manifesto-title"><div class="manifesto-layout"><div class="manifesto-aside"><h2 id="manifesto-title">Ce qui nous<br><span class="italic">anime.</span></h2><nav class="manifesto-nav" aria-label="Les convictions du manifeste">'
+ h='<section class="agency-manifesto" id="manifeste" data-manifesto aria-labelledby="manifesto-title"><div class="manifesto-layout"><div class="manifesto-aside"><h2 id="manifesto-title">Ce qui nous<br>'+liquid_text(['anime.','motive.','engage.'])+'</h2><nav class="manifesto-nav" aria-label="Les convictions du manifeste">'
  for item in convictions:h+='<a href="#conviction-'+esc(item['key'])+'" data-manifesto-link><span>'+esc(item['label'])+'</span></a>'
  h+='</nav><svg class="manifesto-mark" viewBox="0 0 80 80" aria-hidden="true"><circle class="guide" cx="40" cy="40" r="24"/><path class="guide" d="M40 3v10M40 67v10M8 21l8 4M64 56l8 4M8 59l8-4M64 25l8-4"/><path class="signal" d="M40 3v13"/><circle cx="40" cy="40" r="3" fill="currentColor"/></svg></div><div class="manifesto-items">'
  for item in convictions:
@@ -235,7 +242,7 @@ def agency():
  write(page,b,PAGES[BASE+'/agence/']['title'],PAGES[BASE+'/agence/']['description'],'agence')
 
 def portfolio():
- global page;page='hub-projets/index.html';s=soup('hub-projets');b=hero_intro('Nos <span class="italic">projets.</span>','',text(s.select_one('.page-header-banner-baseline')),cls='portfolio-intro')
+ global page;page='hub-projets/index.html';s=soup('hub-projets');b=hero_intro('Nos '+liquid_text(['projets.','fiertés.']),'',text(s.select_one('.page-header-banner-baseline')),cls='portfolio-intro')
  b+='<section class="portfolio" aria-label="Portfolio">'
  for i,p in enumerate(DATA['projects']):b+=project_item(p,i,True)
  b+='</section>'
@@ -286,7 +293,9 @@ def expertises():
  b+='<section class="expertise-overview wrap"><h2 class="sr-only">Nos expertises</h2><figure class="expertise-new-photo media-frame">'+picture(DATA['projects'][6]['hero'],'Activation influence Anekdote — Festival de Cannes x Soskin',eager=True)+'</figure>'+accordion('overview-accordion',numbered=False)+'</section>'
  write(page,b,'Anekdote | Nos expertises en influence et création','Campagne d’influence, stratégie, évènements, Brand Content, RSE / Corporate, Performance / Affiliation.','expertises')
  for i,(label,key) in enumerate(SERVICES):
-  page=key+'/index.html';s=soup(key);m=s.select_one('#content');b=hero_intro(esc(text(s.h1))+'<span class="orange">.</span>','',text(s.select_one('.page-header-banner-baseline')),True,'service-intro')
+  page=key+'/index.html';s=soup(key);m=s.select_one('#content')
+  titles={'campagne-dinfluence':"Campagne <span class=\"italic\">d'influence</span>",'strategie':'<span class="italic">Stratégie</span>','evenements':'<span class="italic">Évènements</span>','brand-content':'Brand <span class="italic">content</span>','rse-corporate':'RSE <span class="italic">CORPORATE</span>','performance-affiliation':'Solar <span class="italic">Metrics</span>'}
+  b=hero_intro(titles[key]+'<span class="orange">.</span>','',text(s.select_one('.page-header-banner-baseline')),False,'service-intro')
   b+='<div class="page-visual media-frame">'+picture(bg(s.select_one('.page-header-banner-container')),label,eager=True)+'</div>'
   for c in m.select('.bloc-column-text'):
    if key=='performance-affiliation':b+=solar_metrics(c)
@@ -318,7 +327,7 @@ def team():
  b=hero_intro('L’équipe <span class="italic">Anekdote.</span>','',text(s.select_one('.page-header-banner-baseline')),cls='team-intro')
  spirit=s.select_one('.bloc-column-text');im=s.select_one('.bloc-column-visual img')
  b+='<section class="team-spirit"><div><h2 class="section-title">L’esprit<br><span class="italic">d’équipe.</span></h2><div class="prose">'+inner(spirit,True)+'</div></div><div class="media-frame team-group-photo">'+picture(im['src'],'Un moment partagé par l’équipe Anekdote',eager=True)+'</div></section>'
- b+='<section class="founder-section wrap" aria-labelledby="founder-name"><div class="founder-heading reveal"><h2 id="founder-name">Christelle<span class="italic">.</span></h2><span class="founder-role">Co-Founder</span></div><div class="founder-layout"><div class="founder-photo media-frame reveal">'+picture(christelle['portrait'],'Christelle — Co-Founder d’Anekdote',sizes='(max-width: 800px) 90vw, 42vw')+'</div><div class="founder-story prose reveal">'+clean(christelle['bio'])+'</div></div><div class="founder-anecdote reveal"><div><p class="eyebrow">Une Anekdote</p><div class="prose">'+portrait_content(christelle['anecdote'])+'</div></div><div class="founder-mantras">'+picture(BASE+'/wp-content/uploads/2023/11/Group-1798.svg','Les deux mantras de Christelle')+'</div></div></section>'
+ b+='<section class="founder-section wrap" aria-labelledby="founder-name"><div class="founder-heading reveal"><h2 id="founder-name">'+liquid_text(['Christelle','Girl Boss'],cls='')+'<span class="italic">.</span></h2><span class="founder-role">Co-Founder</span></div><div class="founder-layout"><div class="founder-photo media-frame reveal">'+picture(christelle['portrait'],'Christelle — Co-Founder d’Anekdote',sizes='(max-width: 800px) 90vw, 42vw')+'</div><div class="founder-story prose reveal">'+clean(christelle['bio'])+'</div></div><div class="founder-anecdote reveal"><div><p class="eyebrow">Une Anekdote</p><div class="prose">'+portrait_content(christelle['anecdote'])+'</div></div><div class="founder-mantras">'+picture(BASE+'/wp-content/uploads/2023/11/Group-1798.svg','Les deux mantras de Christelle')+'</div></div></section>'
  b+='<section class="team-carousel-section wrap" id="team-members" aria-label="L’équipe Anekdote"><div class="deck team-carousel" data-deck role="region" aria-roledescription="carrousel" aria-label="Les membres de l’équipe"><div class="deck-stage">'
  for i,t in enumerate(members):
   key='member-'+str(i+1);an=BeautifulSoup(t['anecdote'],'html.parser');groups=[[text(li) for li in ul.select('li')] for ul in an.select('ul')];overlay=''
@@ -344,7 +353,7 @@ def talents():
   # Quotation and attribution remain word-for-word as published.
   p=node.select_one('p');parts=p.decode_contents().split('<br/>');quote=text(BeautifulSoup(parts[0],'html.parser'));author=text(BeautifulSoup(parts[-1],'html.parser'));name=author.lstrip('- ').strip()
   slides.append((name,'<blockquote><p>'+esc(quote)+'</p><footer>'+esc(author)+'</footer></blockquote>'))
- b+='<section class="talents-voices section"><div><p class="eyebrow">02 • Leurs mots</p><h2 class="section-title">Le plaisir<br>de <span class="italic">collaborer.</span></h2></div>'+deck(slides,'Les témoignages publiés des talents','voices-deck')+'</section>'
+ b+='<section class="talents-voices section"><div><p class="eyebrow">02 • Leurs mots</p><h2 class="section-title">Le plaisir<br>de '+liquid_text(['collaborer.','créer.','réussir.'])+'</h2></div>'+deck(slides,'Les témoignages publiés des talents','voices-deck')+'</section>'
  write(page,b,PAGES[BASE+'/talents/']['title'],PAGES[BASE+'/talents/']['description'],'talents')
 
 def contact():

@@ -1,0 +1,14 @@
+/* The supplied liquid morph, adapted to the site's typography and static pages. */
+.liquid-filters{position:absolute;pointer-events:none}
+.liquid-word{display:inline-grid;vertical-align:baseline;max-width:100%;text-align:left}
+.liquid-switch{display:inline-grid;position:relative;border:0;padding:0;background:none;color:inherit;font:inherit;letter-spacing:inherit;line-height:inherit;text-align:inherit;min-height:44px;max-width:100%;vertical-align:baseline}
+.liquid-stage{display:grid;position:relative;isolation:isolate;filter:url(#liquid-threshold) blur(.6px);padding-inline:.06em;margin-inline:-.06em}
+.liquid-size{grid-area:1/1;visibility:hidden;white-space:nowrap;pointer-events:none}
+.liquid-layer{position:absolute;inset:0 .06em auto;white-space:nowrap;line-height:inherit;pointer-events:none}
+.liquid-layer[data-liquid-to]{opacity:0}
+.liquid-switch:focus-visible{outline-width:2px;outline-offset:5px;border-radius:4px}
+.service-intro .display{font-size:clamp(3.3rem,8.8vw,9.5rem);line-height:1.02;text-wrap:balance}
+@media(max-width:800px){.service-intro .display{font-size:clamp(2.8rem,10.8vw,4.6rem)}}
+@media(max-width:420px){.founder-heading h2{font-size:clamp(3.2rem,14vw,4rem)}}
+@media(prefers-reduced-motion:reduce){.liquid-stage{filter:none}}
+@media(print){.liquid-switch{display:none!important}.liquid-static{display:inline!important}}
