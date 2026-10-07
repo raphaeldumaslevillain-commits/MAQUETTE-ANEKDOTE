@@ -313,3 +313,9 @@ picture.site-photo>img{border-radius:inherit}
 .founder-anecdote .prose .founder-punchline{font-family:var(--serif);font-style:italic;font-weight:400;font-size:clamp(1.5rem,2.3vw,1.85rem);line-height:1.2;margin-top:16px}
 .founder-punchline>span{display:block}
 @media(max-width:800px){.founder-anecdote .prose .founder-punchline{font-size:clamp(1.25rem,5.5vw,1.85rem)}}
+
+.talents-feature-photo img{filter:grayscale(1)}
+.contact-form .form-actions .button{border-radius:12px;transition:background .2s,border-color .2s,color .2s}
+.contact-form .form-actions .button.secondary:hover{background:var(--orange);border-color:var(--orange);color:var(--accent-ink)}
+.desktop-nav{gap:clamp(14px,1.7vw,27px)}
+@media(min-width:801px) and (max-width:1100px){.desktop-nav{gap:14px;font-size:.76rem}}

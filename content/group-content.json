@@ -1,0 +1,51 @@
+{
+  "sources": [
+    "https://digitalbrandmakers-group.com/groupe-dbm/",
+    "https://www.agencequarks.com/"
+  ],
+  "intro": "Digital Brand Makers réunit des équipes qui relient les marques, les créateurs et leurs publics. Des expertises complémentaires, une ambition partagée.",
+  "mission": "Nous défendons une influence responsable, des collaborations justes et des relations durables. Le groupe accompagne les marques et les créateurs avec la même exigence : associer la qualité des idées à la précision des résultats.",
+  "founders": "Cofondé par Émilie Le Guinec et Christelle Egron, DBM place le collectif au cœur de son développement.",
+  "entities": [
+    {
+      "key": "anekdote",
+      "name": "Anekdote",
+      "specialty": "Influence & Brand Content",
+      "title": "Faire parler<br><span class=\"italic\">les marques.</span>",
+      "copy": "Anekdote imagine des stratégies et des campagnes d’influence sur mesure. De la notoriété à la conversion, l’agence relie les marques à leurs communautés par des contenus et des rencontres qui comptent.",
+      "tags": ["Stratégie", "Campagnes", "Évènements"],
+      "link": "agence",
+      "cta": "Découvrir Anekdote"
+    },
+    {
+      "key": "quarks",
+      "name": "Quarks",
+      "specialty": "Talent management",
+      "title": "Faire grandir<br><span class=\"italic\">les talents.</span>",
+      "copy": "Quarks accompagne les créateurs et les personnalités dans la construction de leur parcours. Partenariats, mentorat, production et conseil en image : une équipe dédiée pour développer leurs projets, affirmer leur singularité et créer des collaborations durables.",
+      "tags": ["Représentation", "Mentorat", "Production"],
+      "link": "https://www.agencequarks.com/",
+      "cta": "Découvrir Quarks"
+    },
+    {
+      "key": "baci",
+      "name": "Baci",
+      "specialty": "Stratégie d’image",
+      "title": "Donner forme<br><span class=\"italic\">aux marques.</span>",
+      "copy": "Baci travaille l’image des marques et conçoit des contenus qui expriment leur identité. Une approche créative pour faire émerger des prises de parole cohérentes, singulières et authentiques.",
+      "tags": ["Image de marque", "Création", "Contenus"],
+      "link": "https://agencebaci.com/",
+      "cta": "Découvrir Baci"
+    },
+    {
+      "key": "solar-metrics",
+      "name": "Solar Metrics",
+      "specialty": "Influence performance",
+      "title": "Transformer l’impact<br><span class=\"italic\">en résultats.</span>",
+      "copy": "Solar Metrics associe influence, affiliation et acquisition digitale. Son approche s’appuie sur les données et le retour sur investissement pour accompagner la croissance des marques et mesurer l’efficacité des activations.",
+      "tags": ["Acquisition", "Affiliation", "Growth Marketing"],
+      "link": "performance-affiliation",
+      "cta": "Découvrir Solar Metrics"
+    }
+  ]
+}

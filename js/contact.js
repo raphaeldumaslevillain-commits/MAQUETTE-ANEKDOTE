@@ -60,7 +60,7 @@
         submit.textContent = 'Message envoyé';
         submit.disabled = true;
       } else {
-        status.textContent = result.message || 'Le message n’a pas été envoyé. Vous pouvez réessayer ou utiliser le formulaire du site Anekdote.';
+        status.textContent = result.message || 'Le message n’a pas été envoyé. Vous pouvez réessayer dans quelques instants.';
         if (Array.isArray(result.invalid_fields)) {
           for (const field of result.invalid_fields) {
             const input = form.elements.namedItem(field.field);
@@ -74,7 +74,7 @@
         submit.disabled = false;
       }
     } catch {
-      status.textContent = 'L’envoi n’a pas pu être confirmé. Réessayez ou utilisez le formulaire du site Anekdote ci-dessous.';
+      status.textContent = 'L’envoi n’a pas pu être confirmé. Réessayez dans quelques instants.';
       submit.disabled = false;
     }
   });

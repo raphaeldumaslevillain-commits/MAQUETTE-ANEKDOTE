@@ -11,13 +11,13 @@ Refonte intégrale en HTML, CSS et JavaScript. Site statique, médias et polices
 ## Contenu
 
 - 33 projets en compositions régulières avec image, paragraphe et zone de KPI ; études de cas complètes et chiffres animés.
-- 6 expertises, agence, équipe de 7 personnes, talents.
+- 6 expertises, agence, équipe de 9 personnes, talents et groupe DBM.
 - Accueil centré sur l’agence et les expertises, deux bandeaux de logos à sens opposés.
 - Agence à flèche unique et frappe rapide ; manifeste automatique toutes les trois secondes et témoignages Talents en carrousel manuel.
-- Christelle en portrait complet indépendant ; six membres en carrousel, photo carrée et paragraphe de même hauteur, goûts sur la photo.
+- Christelle en portrait complet indépendant ; huit membres en carrousel, photo carrée et paragraphe de même hauteur, goûts sur la photo.
 - Newsroom supprimée de l’expérience et des routes publiques, à la demande du client.
 - Contact en trois étapes, pages légales et conservation des anciennes routes.
-- 58 fichiers HTML, dont 9 redirections et une page 404.
+- 59 fichiers HTML, dont 9 redirections et une page 404.
 
 L’audit porte sur les pages publiques accessibles le 6 octobre 2026 depuis [anekdote.fr](https://www.anekdote.fr/). Les informations commerciales, citations, biographies et résultats proviennent de ce site. Les nouveaux intertitres et compositions éditoriales organisent ces contenus ; ils ne créent pas de nouvelles réalisations ou de nouveaux résultats.
 
@@ -43,7 +43,7 @@ rse-corporate/ · performance-affiliation/
 hub-projets/               Portfolio de 33 projets
 projets/                   Études de cas et anciennes archives
 équipe → equipe/           Équipe
-talents/ · contact/
+talents/ · groupe/ · contact/
 assets/                    Images WebP, SVG, vidéos MP4, polices WOFF2
 css/ · js/                 Styles et interactions
 content/                   Contenus et snapshots publics audités
@@ -72,9 +72,9 @@ Les liens internes sont relatifs : le site accepte le sous-répertoire `/MAQUETT
 
 ## Points de reprise
 
-Le formulaire utilise le destinataire technique existant d’Anekdote, Contact Form 7 n°547. La validation et les trois étapes ont été testées, ainsi que la réponse CORS du serveur. Aucun message de test n’a été envoyé : la réception effective d’un email reste à vérifier avec l’agence avant remplacement du site de production. L’interface confirme l’envoi uniquement si le serveur renvoie `mail_sent` et propose le formulaire original en cas d’échec.
+Le formulaire utilise le destinataire technique existant d’Anekdote, Contact Form 7 n°547. La validation et les trois étapes ont été testées, ainsi que la réponse CORS du serveur. Aucun message de test n’a été envoyé : la réception effective d’un email reste à vérifier avec l’agence avant remplacement du site de production. L’interface confirme l’envoi uniquement si le serveur renvoie `mail_sent` et permet de réessayer en cas d’échec.
 
-L’adresse Anekdote est corrigée partout en 29 rue de Mogador, 75009 Paris. Les autres textes légaux historiques restent conservés : références à WordPress / hébergeur / prestataire et libellé d’email incomplet. Ils devront être validés par Anekdote pour le nouvel hébergement ; aucune information légale inconnue n’a été inventée.
+L’adresse Anekdote est corrigée partout en 29 rue de Mogador, 75009 Paris. Le crédit de développement indique une réalisation en interne par le groupe DBM, à la demande du client. Les autres textes légaux historiques restent conservés, notamment les références à WordPress / hébergeur et le libellé d’email incomplet. Ils devront être validés par Anekdote pour le nouvel hébergement ; aucune information légale inconnue n’a été inventée.
 
 La charte Drive cite PP Editorial New Italic. En l’absence de fichier web et de licence web fournis, cette version utilise Instrument Serif, libre sous OFL, avec Inter. Les deux polices sont hébergées localement ; leurs licences sont dans `assets/fonts/`.
 
@@ -94,3 +94,11 @@ Le bouton soleil/lune de l’en-tête permet de choisir le thème clair ou sombr
 - [Pages](docs/routes.json) et [médias](docs/assets.json)
 
 Le code de cette livraison et les éléments de marque doivent être utilisés dans le cadre du projet Anekdote. Les photos, vidéos, campagnes, logos et citations restent ceux de leurs ayants droit respectifs. Les licences OFL s’appliquent aux polices concernées.
+
+## Groupe DBM
+
+La page Groupe présente Anekdote, Quarks, Baci et Solar Metrics à partir des sources publiques du groupe. Le lien est ajouté au header, au menu complet et mobile, au footer et au sitemap de toutes les pages.
+
+Le logo DBM apparaît d’abord seul. Au scroll, quatre fragments se séparent et laissent place aux quatre logos du groupe, avec une animation réversible. Les SVG fournis sont conservés en vectoriel et passés en monochrome. La séquence suit le scroll natif, sans bibliothèque supplémentaire ni blocage du défilement. Les contenus et les cinq logos restent visibles sans JavaScript et lorsque la préférence de mouvement réduit est activée.
+
+Le contenu s’édite dans `content/group-content.json`, la mise en page dans `css/groupe.css` et le mouvement dans `js/groupe.js`.

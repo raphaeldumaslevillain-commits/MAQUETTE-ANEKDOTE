@@ -44,6 +44,7 @@ for t in D['team']:
   if not fragment.select('p'):paragraphs+=[node for node in fragment.select('div') if not node.find(['div','p','ul'])]
   for par in paragraphs:
    original=norm(par.get_text(' ',strip=True))
+   if t['name']=='Christelle' and field=='anecdote':original=original.replace('une seule punchline «','une seule punchline : «')
    if original not in dest:errors.append(['equipe',t['name'],'missing source paragraph',original[:150]])
 # Both expertise lists start collapsed; opening a row remains an explicit user action.
 for route in ['index.html','expertises/index.html']:
@@ -65,9 +66,21 @@ for key in ['agence','campagne-dinfluence','strategie','evenements','brand-conte
  else:source_paragraphs=src.select('p,li')
  for par in source_paragraphs:
   original=approved(norm(par.get_text(' ',strip=True)))
+  if key=='mentions-legales' and 'Digital Green' in original:original='Ce site est développé en interne par les équipes du groupe DBM.'
   if key=='agence' and par.find_parent(class_='page-header-banner-baseline'):continue # Annotation 17: explicit removal.
   if len(original)>10 and original not in dest:errors.append([key,'missing source paragraph',original[:150]])
-report={'html_pages':len(pages),'projects':len(D['projects']),'team':sum(t['name']!='Pauline' for t in D['team']),'news':0,'approved_changes':['Newsroom removed','Office: 29 rue de Mogador','Agency quote: Christelle, Co-Founder','Pauline profile removed','Expertise pages end after approach / Solar Metrics'],'errors':errors}
+# The new institutional route must be reachable through every global navigation.
+for path in pages:
+ ss=BeautifulSoup(path.read_text(),'html.parser')
+ if ss.select_one('meta[http-equiv="refresh"]'):continue
+ for selector in ['.desktop-nav','.nav-primary','.footer-grid']:
+  region=ss.select_one(selector)
+  if not region or not region.select_one('a[href$="groupe/index.html"],a[href="index.html"]' if path.parent.name=='groupe' else 'a[href$="groupe/index.html"]'):
+   errors.append([str(path.relative_to(root)),'missing Groupe navigation',selector])
+groupe=BeautifulSoup((root/'groupe/index.html').read_text(),'html.parser')
+if len(groupe.select('.group-brand'))!=4 or len(groupe.select('.group-entity'))!=4:errors.append(['groupe','four entities required'])
+if 'https://www.anekdote.fr/groupe/' not in (root/'sitemap.xml').read_text():errors.append(['groupe','sitemap entry missing'])
+report={'html_pages':len(pages),'projects':len(D['projects']),'team':sum(t['name']!='Pauline' for t in D['team']),'news':0,'approved_changes':['Newsroom removed','Office: 29 rue de Mogador','Agency quote: Christelle, Co-Founder','Pauline profile removed','Expertise pages end after approach / Solar Metrics','Founder anecdote colon','Internal site development credit','DBM group and four entities in all global navigation'],'errors':errors}
 (root/'docs/static-validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2));print(json.dumps(report,ensure_ascii=False,indent=2))
 
 raise SystemExit(1 if errors else 0)

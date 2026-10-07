@@ -1,5 +1,13 @@
 # Révision des 76 annotations — 6 octobre 2026
 
+## Ajout du groupe et huit annotations — 7 octobre 2026
+
+La page Groupe est ajoutée dans les trois navigations communes et le sitemap. Elle présente DBM et ses quatre entités : Anekdote, Quarks, Baci et Solar Metrics. La séquence initiale transforme quatre fragments du logo DBM en quatre signatures monochromes, puis les sections détaillent leurs expertises. L’animation suit le scroll natif dans les deux sens ; les logos restent accessibles sous forme statique sans JavaScript ou en mouvement réduit.
+
+Évènements reprend le titre Notre approche et la composition en deux colonnes des autres expertises. L’introduction de l’anecdote de Christelle se termine par deux-points. La photo Talents passe en noir et blanc. Le lien vers le formulaire original est supprimé sur Contact, ses boutons reçoivent un rayon de 12 px et Retour devient orange au survol. Le crédit de développement indique une réalisation en interne par le groupe DBM.
+
+La page Groupe et son déploiement des quatre logos sont vérifiés à 1456 × 784 et 375 × 667 px ; le header est aussi contrôlé à 1024 × 768 px. Aucun message n’est envoyé pendant les contrôles du formulaire.
+
 Les corrections sont intégrées au générateur et aux styles de toutes les pages concernées. Les indications du client sur les suppressions priment sur la conservation de la composition précédente. Les textes et chiffres source restent archivés pour la traçabilité.
 
 | Annotations | Modification |

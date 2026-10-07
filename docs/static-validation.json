@@ -1,5 +1,5 @@
 {
-  "html_pages": 58,
+  "html_pages": 59,
   "projects": 33,
   "team": 9,
   "news": 0,
@@ -8,7 +8,10 @@
     "Office: 29 rue de Mogador",
     "Agency quote: Christelle, Co-Founder",
     "Pauline profile removed",
-    "Expertise pages end after approach / Solar Metrics"
+    "Expertise pages end after approach / Solar Metrics",
+    "Founder anecdote colon",
+    "Internal site development credit",
+    "DBM group and four entities in all global navigation"
   ],
   "errors": []
 }

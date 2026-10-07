@@ -108,12 +108,12 @@ def liquid_text(words,cls='italic'):
  h+='<filter id="'+filter_id+'-threshold" x="-25%" y="-50%" width="150%" height="200%" color-interpolation-filters="sRGB"><feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 255 -140"/><feGaussianBlur stdDeviation=".6"/></filter></defs>'
  return h+'<g data-liquid-ink data-liquid-filter="'+filter_id+'"><text x="0" y="0" data-liquid-from>'+esc(words[0])+'</text><text x="0" y="0" data-liquid-to></text></g></svg></span></button></span>'
 def header(active):
- nav=[('Accueil',''),('Agence','agence'),('Projets','hub-projets'),('Expertises','expertises'),('Équipe','equipe'),('Talents','talents')]
+ nav=[('Accueil',''),('Agence','agence'),('Projets','hub-projets'),('Expertises','expertises'),('Équipe','equipe'),('Talents','talents'),('Groupe','groupe')]
  h='<a class="skip-link" href="#main">Aller au contenu</a><div class="reading-progress" aria-hidden="true"></div><header class="site-header"><a class="logo" href="'+url()+'" aria-label="Anekdote, accueil"><img src="'+asset(BASE+'/wp-content/uploads/2023/11/logo-anekdote.svg')+'" alt="Anekdote" width="145" height="34"></a><nav class="desktop-nav" aria-label="Navigation principale">'
  for label,p in nav:h+=f'<a href="{url(p)}"'+(' class="nav-team"' if p=='equipe' else '')+(' aria-current="page"' if active==p and (p or page=='index.html') else '')+'>'+label+'</a>'
  h+='</nav><div class="header-actions"><a class="coffee" href="'+url('contact')+'">Un café ?</a><button class="theme-toggle" type="button" data-theme-toggle role="switch" aria-checked="false" aria-label="Thème sombre" title="Passer au thème sombre"><span class="theme-icon" aria-hidden="true"><svg class="theme-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg><svg class="theme-moon" viewBox="0 0 24 24"><path d="M20.5 13.4A8.6 8.6 0 0 1 10.6 3.5a8.6 8.6 0 1 0 9.9 9.9Z"/></svg></span></button><button class="menu-toggle" aria-controls="navigation-dialog" aria-expanded="false" aria-label="Ouvrir le menu" data-menu-open><span>Menu</span><span class="menu-icon" aria-hidden="true"><i></i><i></i></span></button></div></header><span class="sr-only" data-theme-status role="status" aria-live="polite"></span>'
  h+='<dialog class="nav-dialog" id="navigation-dialog" aria-label="Navigation"><div class="nav-dialog-head"><a class="logo" href="'+url()+'"><img src="'+asset(BASE+'/wp-content/uploads/2023/11/logo-anekdote.svg')+'" alt="Anekdote" width="145" height="34"></a><button class="nav-close" data-menu-close>Fermer ×</button></div><div class="nav-grid"><nav class="nav-primary" aria-label="Toutes les pages">'
- for i,(label,p) in enumerate([('Accueil',''),('Agence','agence'),('Projets','hub-projets'),('Expertises','expertises'),('Équipe','equipe'),('Talents','talents'),('Contact','contact')]):h+=f'<a href="{url(p)}">{label}<small>{i+1:02d} •</small></a>'
+ for i,(label,p) in enumerate([('Accueil',''),('Agence','agence'),('Projets','hub-projets'),('Expertises','expertises'),('Équipe','equipe'),('Talents','talents'),('Groupe','groupe'),('Contact','contact')]):h+=f'<a href="{url(p)}">{label}<small>{i+1:02d} •</small></a>'
  h+='</nav><nav class="nav-secondary" aria-label="Expertises et réseaux"><p class="eyebrow">Nos expertises</p>'
  for label,p in SERVICES:h+=f'<a href="{url(p)}">{label}</a>'
  h+='<p class="eyebrow">Retrouvons-nous</p><a href="https://www.instagram.com/anekdotefr/" target="_blank" rel="noopener">Instagram</a><a href="https://linkedin.com/company/anekdote-influence" target="_blank" rel="noopener">LinkedIn</a><p class="eyebrow">29 rue de Mogador<br>75009 Paris</p></nav></div></dialog>'
@@ -121,7 +121,7 @@ def header(active):
 
 def footer():
  h='<footer class="site-footer"><a href="'+url('contact')+'" class="footer-invitation"><h2>Un café ?</h2><span class="circle-link" aria-hidden="true">↗</span></a><div class="footer-grid"><div><p class="eyebrow">Localisation</p><p>29 rue de Mogador,<br>75009 Paris</p><a href="'+url('contact')+'">Contactez-nous</a></div><div><p class="eyebrow">L’agence</p>'
- for label,p in [('Agence','agence'),('Projets','hub-projets'),('Équipe','equipe'),('Talents','talents')]:h+=f'<a href="{url(p)}">{label}</a>'
+ for label,p in [('Agence','agence'),('Projets','hub-projets'),('Équipe','equipe'),('Talents','talents'),('Groupe','groupe')]:h+=f'<a href="{url(p)}">{label}</a>'
  h+='</div><div><p class="eyebrow">Expertises</p>'
  for label,p in SERVICES:h+=f'<a href="{url(p)}">{label}</a>'
  h+='</div><div><p class="eyebrow">Suivez-nous</p><a href="https://www.instagram.com/anekdotefr/" target="_blank" rel="noopener">Instagram</a><a href="https://linkedin.com/company/anekdote-influence" target="_blank" rel="noopener">LinkedIn</a><p class="eyebrow" style="margin-top:25px">Légal</p><a href="'+url('mentions-legales')+'">Mentions légales</a><a href="'+url('politique-de-confidentialite')+'">Confidentialité</a></div></div><div class="footer-bottom"><span>© Anekdote</span><span class="footer-partner">En partenariat avec <img src="'+asset(BASE+'/wp-content/uploads/2023/11/logo-arpp.png')+'" alt="ARPP et UMICC" width="216" height="28" loading="lazy"></span><button class="back-top" data-top>Retour en haut ↑</button></div><div class="footer-brand" aria-hidden="true"><img src="'+asset(BASE+'/wp-content/uploads/2023/11/logo-anekdote.svg')+'" alt="" width="1162" height="270" loading="lazy"></div></footer>'
@@ -131,8 +131,8 @@ def write(path,body,title,description,active='',schema=None):
  global page;assert page==path
  canonical=BASE+'/'+('' if path=='index.html' else str(Path(path).parent)+'/')
  liquid='data-liquid ' in body
- css='<script src="'+versioned('js/theme-init.js')+'"></script>'+''.join(f'<link rel="stylesheet" href="{versioned("css/"+x+".css")}">' for x in ['fonts','variables','reset','typography','layout','components','animations','responsive','editorial','theme']+(['liquid-text'] if liquid or 'service-intro' in body else [])+(['manifesto'] if active=='agence' else []))+'<noscript><link rel="stylesheet" href="'+versioned('css/no-script.css')+'"></noscript>'
- scripts=''.join(f'<script defer src="{versioned("js/"+x+".js")}"></script>' for x in ['theme','navigation','animations','projects','main','editorial']+(['manifesto'] if active=='agence' else [])+(['liquid-text'] if liquid else [])+(['contact'] if active=='contact' else []))
+ css='<script src="'+versioned('js/theme-init.js')+'"></script>'+''.join(f'<link rel="stylesheet" href="{versioned("css/"+x+".css")}">' for x in ['fonts','variables','reset','typography','layout','components','animations','responsive','editorial','theme']+(['liquid-text'] if liquid or 'service-intro' in body else [])+(['manifesto'] if active=='agence' else [])+(['groupe'] if active=='groupe' else []))+'<noscript><link rel="stylesheet" href="'+versioned('css/no-script.css')+'"></noscript>'
+ scripts=''.join(f'<script defer src="{versioned("js/"+x+".js")}"></script>' for x in ['theme','navigation','animations','projects','main','editorial']+(['manifesto'] if active=='agence' else [])+(['liquid-text'] if liquid else [])+(['contact'] if active=='contact' else [])+(['groupe'] if active=='groupe' else []))
  meta='<meta name="description" content="'+esc(description)+'"><link rel="canonical" href="'+canonical+'"><meta property="og:title" content="'+esc(title)+'"><meta property="og:description" content="'+esc(description)+'"><meta property="og:type" content="website"><meta property="og:url" content="'+canonical+'">'
  s={'@context':'https://schema.org','@type':'Organization','name':'Anekdote','url':BASE,'address':{'@type':'PostalAddress','streetAddress':'29 rue de Mogador','postalCode':'75009','addressLocality':'Paris','addressCountry':'FR'},'sameAs':['https://www.instagram.com/anekdotefr/','https://linkedin.com/company/anekdote-influence']}
  if schema:s=schema
@@ -201,7 +201,7 @@ def founder_anecdote(content):
  first,breakpoint,last=punchline.partition(' au 38')
  quote='<span>'+esc(separator+' '+first.strip())+'</span>'
  if breakpoint:quote+=' <span>'+esc((breakpoint+last).strip())+'</span>'
- return '<p class="founder-anecdote-intro">'+esc(intro.strip())+'</p><p class="founder-punchline">'+quote+'</p>'
+ return '<p class="founder-anecdote-intro">'+esc(intro.strip().rstrip(' :'))+' :</p><p class="founder-punchline">'+quote+'</p>'
 
 def bio_chunks(content,limit=530):
  node=BeautifulSoup(content,'html.parser');paras=node.select('p')
@@ -316,8 +316,8 @@ def expertises():
    if key=='performance-affiliation':b+=solar_metrics(c)
    else:
     title=text(c.find('h2'))
-    heading='' if key=='evenements' else '<div><h2>'+esc(title)+'</h2></div>'
-    b+='<section class="story-section reveal'+(' approach-copy-only' if key=='evenements' else '')+'">'+heading+'<div class="prose">'+inner(c,True)+'</div></section>'
+    heading='<div><h2>'+('Notre approche' if key=='evenements' else esc(title))+'</h2></div>'
+    b+='<section class="story-section reveal">'+heading+'<div class="prose">'+inner(c,True)+'</div></section>'
   # Annotation revision: the expertise page ends after its approach / Solar Metrics.
   write(page,b,PAGES[BASE+'/'+key+'/']['title'],PAGES[BASE+'/'+key+'/']['description'],'expertises')
 
@@ -371,6 +371,24 @@ def talents():
  b+='<section class="talents-voices section"><div><h2 class="section-title">Le plaisir<br>de '+liquid_text(['collaborer.','créer.','réussir.'])+'</h2></div>'+deck(slides,'Les témoignages publiés des talents','voices-deck',labels=False,named_tabs=True,arrows=False)+'</section>'
  write(page,b,PAGES[BASE+'/talents/']['title'],PAGES[BASE+'/talents/']['description'],'talents')
 
+def group():
+ global page;page='groupe/index.html'
+ data=json.loads((ROOT/'content/group-content.json').read_text())
+ dimensions={'dbm':(441,110),'anekdote':(1088,256),'quarks':(1921,630),'baci':(359,166),'solar-metrics':(509,368)}
+ def logo(key,cls='',alt=''):
+  w,h=dimensions[key]
+  return '<img class="'+cls+'" src="'+localpath('assets/brand/groupe/'+key+'.svg')+'" alt="'+esc(alt)+'" width="'+str(w)+'" height="'+str(h)+'" decoding="async">'
+ b='<section class="group-unfold" data-group-unfold aria-label="Digital Brand Makers et ses quatre entités"><div class="group-sticky"><div class="group-heading"><p class="eyebrow">Digital Brand Makers</p><h1>Un groupe.<br><span class="italic">Une même ambition.</span></h1></div><div class="group-heading-final" aria-hidden="true"><p>Des expertises.<br><span class="italic">La force du collectif.</span></p></div><div class="group-scene">'+logo('dbm','group-origin','DBM — Digital Brand Makers')+'<div class="group-shards" aria-hidden="true">'+''.join('<div class="group-shard">'+logo('dbm')+'</div>' for _ in range(4))+'</div><svg class="group-tethers" viewBox="0 0 1000 1000" preserveAspectRatio="none" aria-hidden="true"><path pathLength="1" d="M500 520C500 390 380 380 250 380"/><path pathLength="1" d="M500 520C500 390 620 380 750 380"/><path pathLength="1" d="M500 520C500 650 380 710 250 710"/><path pathLength="1" d="M500 520C500 650 620 710 750 710"/></svg><div class="group-brands">'
+ for entity in data['entities']:
+  b+='<a class="group-brand" data-brand="'+entity['key']+'" href="#groupe-'+entity['key']+'" aria-label="Découvrir '+entity['name']+'">'+logo(entity['key'],alt=entity['name'])+'<span>'+entity['specialty']+'</span></a>'
+ b+='</div></div><div class="group-foot"><p>'+esc(data['intro'])+'</p><div class="group-scroll-hint" aria-hidden="true"><span>Le collectif se révèle</span><svg viewBox="0 0 20 44"><path d="M10 2v36m-6-6 6 6 6-6"/></svg></div></div><div class="group-timeline" aria-hidden="true"><span data-group-phase>01 — Une vision</span><div class="group-timeline-track"><i></i></div><span>DBM</span></div></div></section>'
+ b+='<section class="group-about wrap reveal"><div><p class="eyebrow">Notre conviction</p><h2>Les bonnes<br><span class="italic">connexions.</span></h2></div><div class="prose"><p>'+esc(data['mission'])+'</p><p class="group-founders">'+esc(data['founders'])+'</p>'+link('Découvrir le groupe DBM',data['sources'][0])+'</div></section><div class="group-entities wrap">'
+ for i,entity in enumerate(data['entities']):
+  b+='<section class="group-entity reveal" id="groupe-'+entity['key']+'" data-entity="'+entity['key']+'" aria-label="'+entity['name']+'"><div class="group-entity-logo">'+logo(entity['key'],alt=entity['name'])+'</div><div class="group-entity-copy"><p class="eyebrow">'+str(i+1).zfill(2)+' • '+entity['specialty']+'</p><h2>'+entity['title']+'</h2><p>'+esc(entity['copy'])+'</p><ul class="group-tags">'+''.join('<li>'+esc(tag)+'</li>' for tag in entity['tags'])+'</ul>'+link(entity['cta'],entity['link'])+'</div></section>'
+ b+='</div><section class="group-closing wrap reveal"><h2>Plus de regards.<br><span class="italic">Plus de possibles.</span></h2><p>Une idée à partager, un projet à construire ? Faisons se rencontrer les bonnes énergies.</p>'+link('Parlons de votre projet','contact')+'</section>'
+ schema={'@context':'https://schema.org','@type':'AboutPage','name':'Le groupe DBM','url':BASE+'/groupe/','mainEntity':{'@type':'Organization','name':'Digital Brand Makers','url':'https://digitalbrandmakers-group.com/','subOrganization':[{'@type':'Organization','name':e['name']} for e in data['entities']]}}
+ write(page,b,'Anekdote | Le groupe DBM — La force du collectif','Découvrez Digital Brand Makers : Anekdote, Quarks, Baci et Solar Metrics. Influence, talents, image de marque et performance, réunis dans un même collectif.','groupe',schema)
+
 def contact():
  global page;page='contact/index.html';s=soup('contact');b=hero_intro('Un <span class="italic">café ?</span>','07 • Contactez-nous',text(s.select_one('.page-header-banner-baseline')),cls='contact-intro')
  b+='<section class="contact-layout"><aside class="contact-aside"><div class="media-frame">'+picture(bg(s.select_one('.page-header-banner-container')),'Le rooftop Anekdote — Paris',eager=True)+'</div><p class="eyebrow">29 rue de Mogador • 75009 Paris</p><p class="annotation">On a hâte d’écouter vos projets.</p></aside><form class="contact-form" data-contact-form data-endpoint="https://www.anekdote.fr/wp-json/contact-form-7/v1/contact-forms/547/feedback" action="https://www.anekdote.fr/contact/#wpcf7-f547-o1" method="post"><input type="hidden" name="_wpcf7" value="547"><input type="hidden" name="_wpcf7_version" value="6.1.6"><input type="hidden" name="_wpcf7_locale" value="fr_FR"><input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f547-o1"><input type="hidden" name="_wpcf7_container_post" value="0"><input type="hidden" name="_wpcf7_posted_data_hash" value=""><section class="form-step" data-step="0"><h2 tabindex="-1">Quelle est votre<br><span class="italic">boisson préférée ?</span></h2><fieldset class="choice-grid"><legend class="sr-only">Choisissez une boisson</legend>'
@@ -382,17 +400,21 @@ def contact():
  b+='</fieldset><div class="form-actions"><button class="button secondary" type="button" data-prev>Retour</button></div></section><section class="form-step" data-step="2"><h2 tabindex="-1">Rencontrons<span class="italic">-nous.</span></h2><p class="form-recap" data-recap></p><div class="form-grid"><div class="form-field full"><label for="gender">Civilité*</label><select id="gender" name="your-gender" required><option value="">Choisissez</option><option>Mademoiselle</option><option>Madame</option><option>Monsieur</option><option>Autre</option></select></div>'
  for label,name,kind,required,autocomplete in [('Nom*','your-name','text',True,'family-name'),('Prénom*','your-firstname','text',True,'given-name'),('Téléphone','your-tel','tel',False,'tel'),('Adresse mail*','your-email','email',True,'email')]:
   b+='<div class="form-field"><label for="'+name+'">'+label+'</label><input id="'+name+'" name="'+name+'" type="'+kind+'" maxlength="400" autocomplete="'+autocomplete+'"'+(' required' if required else '')+'></div>'
- b+='<div class="form-field full"><label for="message">Votre message</label><textarea id="message" name="your-message" maxlength="2000" rows="5"></textarea></div></div><p class="form-consent">Les champs marqués * sont obligatoires. Vos informations servent à répondre à votre demande. <a href="'+url('politique-de-confidentialite')+'">Politique de confidentialité</a>.</p><div class="form-actions"><button class="button secondary" type="button" data-prev>Retour</button><button class="button" type="submit">Envoyer</button></div><p class="form-status" role="status" aria-live="polite" data-form-status></p><p class="form-consent"><a href="https://www.anekdote.fr/contact/" target="_blank" rel="noopener">Accéder au formulaire Anekdote</a></p></section></form></section>'
+ b+='<div class="form-field full"><label for="message">Votre message</label><textarea id="message" name="your-message" maxlength="2000" rows="5"></textarea></div></div><p class="form-consent">Les champs marqués * sont obligatoires. Vos informations servent à répondre à votre demande. <a href="'+url('politique-de-confidentialite')+'">Politique de confidentialité</a>.</p><div class="form-actions"><button class="button secondary" type="button" data-prev>Retour</button><button class="button" type="submit">Envoyer</button></div><p class="form-status" role="status" aria-live="polite" data-form-status></p></section></form></section>'
  write(page,b,PAGES[BASE+'/contact/']['title'],PAGES[BASE+'/contact/']['description'],'contact')
 
 def legal():
  global page
  for key in ['mentions-legales','politique-de-confidentialite']:
-  page=key+'/index.html';s=soup(key);m=s.select_one('#content');b=hero_intro(esc(text(s.h1)),'Anekdote — Informations légales',serif=True)+'<article class="legal-layout"><div class="prose">'+inner(m,True)+'</div></article>'
+  page=key+'/index.html';s=soup(key);m=s.select_one('#content')
+  if key=='mentions-legales':
+   for par in m.select('p'):
+    if 'Digital Green' in text(par):par.clear();par.append('Ce site est développé en interne par les équipes du groupe DBM.')
+  b=hero_intro(esc(text(s.h1)),'Anekdote — Informations légales',serif=True)+'<article class="legal-layout"><div class="prose">'+inner(m,True)+'</div></article>'
   write(page,b,PAGES[BASE+'/'+key+'/']['title'],PAGES[BASE+'/'+key+'/']['description'])
 
 shutil.rmtree(ROOT/'newsroom',ignore_errors=True)
-home();agency();portfolio();cases();expertises();team();talents();contact();legal()
+home();agency();portfolio();cases();expertises();team();talents();group();contact();legal()
 # Keep legacy archive routes usable; their contents now point to the complete portfolio.
 for path in ['projets','projets/page/2','projets/page/3','projets/page/4','hub-projets/page/1','hub-projets/page/2','hub-projets/page/3','hub-projets/page/4','coaching']:
  page=path+'/index.html';dest=url('performance-affiliation' if path=='coaching' else 'hub-projets');p=ROOT/page;p.parent.mkdir(parents=True,exist_ok=True)

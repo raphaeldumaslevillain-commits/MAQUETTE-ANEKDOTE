@@ -1,5 +1,11 @@
 # Sources et médias
 
+## Groupe DBM — 7 octobre 2026
+
+La présentation du groupe, de ses entités et de ses cofondatrices s’appuie sur [la page officielle DBM](https://digitalbrandmakers-group.com/groupe-dbm/). Le détail de l’accompagnement Quarks est complété depuis [le site officiel Quarks](https://www.agencequarks.com/). Le contenu est reformulé et conservé dans `content/group-content.json` ; aucun résultat chiffré n’est ajouté.
+
+Les cinq logos SVG DBM, Anekdote, Quarks, Baci et Solar Metrics sont fournis par le client. Des copies monochromes sont enregistrées dans `assets/brand/groupe/` en conservant les contours vectoriels et les proportions. Les originaux Drive restent inchangés. La skill UI UX Pro Max et une recherche de composants 21st.dev ont servi à orienter la composition et le mouvement ; l’animation est écrite pour le site statique, sans dépendance externe.
+
 ## Référence éditoriale
 
 https://www.anekdote.fr/ — pages publiques auditées le 6 octobre 2026. La liste complète des URL et la matière extraite sont conservées dans `content/source-pages.json` et `content/site-content.json`. Les citations de talents sont celles publiées dans la page Talents. Aucun témoignage généré n’est présent.
