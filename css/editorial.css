@@ -275,3 +275,15 @@ picture.site-photo>img{border-radius:inherit}
 .home-services-heading .lead{font-size:1.05rem}
 
 .media-frame{border-radius:var(--photo-radius)}
+
+/* One reading size for introductions, descriptions and editorial body copy. */
+:root{--body-copy-size:1.05rem}
+:is(.lead,.project-description,.prose,.prose p,.prose div,.prose li,
+ .home-agency-copy .lead,.editorial-heading .lead,.page-intro .lead,.home-services-heading .lead,
+ .expertise-answer p,.expertise-list p,.agency-deck .prose p,.agency-quote blockquote p,
+ .manifest-deck p:not(.eyebrow),.person-story .prose p,.person-story .prose div,
+ .founder-story p,.founder-story p:first-child,.founder-anecdote .prose p,.member-story>p,
+ .photo-anecdote p:not(.eyebrow),.talents-principles p,.voices-deck blockquote p,
+ .talent-quote p,.talent-wall .prose p,.case-chapter .prose p,.solar-narrative p,.solar-measures>p,
+ .annotation,.form-recap,.form-consent,.form-status){font-size:var(--body-copy-size)}
+.founder-anecdote .prose p,.voices-deck blockquote p,.talent-quote p,.annotation{line-height:1.5}
