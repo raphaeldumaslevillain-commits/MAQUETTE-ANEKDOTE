@@ -1,0 +1,172 @@
+{
+  "checks": [
+    {
+      "client": {
+        "centerDifference": 0,
+        "fontSize": "16.8px",
+        "paragraph": {
+          "height": 55.421875,
+          "top": 1981.2734375
+        },
+        "title": {
+          "height": 118.640625,
+          "top": 1949.6640625
+        }
+      },
+      "font": "\"Instrument Serif\", Georgia, serif",
+      "fontSize": "15.3755px",
+      "openAccordions": 0,
+      "overflow": false,
+      "page": "/index.html",
+      "phrase": "Agence de conseil en stratégie d’influence",
+      "scrollY": 0,
+      "serviceBounds": {
+        "containerHeight": 44,
+        "height": 23.0625,
+        "left": 56.1484375,
+        "right": 268.6640625
+      },
+      "viewport": [
+        1337,
+        790
+      ],
+      "whiteSpace": "nowrap"
+    },
+    {
+      "clientCenterDifference": 162.75390625,
+      "clientColumns": "280px",
+      "clientFontSize": "16.8px",
+      "font": "\"Instrument Serif\", Georgia, serif",
+      "fontSize": "12px",
+      "overflow": false,
+      "page": "/index.html",
+      "serviceHeight": 18,
+      "serviceRight": 185.8671875,
+      "viewport": [
+        320,
+        790
+      ],
+      "whiteSpace": "nowrap"
+    },
+    {
+      "clientCenterDifference": 148.8984375,
+      "clientColumns": "350px",
+      "clientFontSize": "16.8px",
+      "font": "\"Instrument Serif\", Georgia, serif",
+      "fontSize": "12px",
+      "overflow": false,
+      "page": "/index.html",
+      "serviceHeight": 18,
+      "serviceRight": 185.8671875,
+      "viewport": [
+        390,
+        844
+      ],
+      "whiteSpace": "nowrap"
+    },
+    {
+      "clientCenterDifference": 107.765625,
+      "clientColumns": "752px",
+      "clientFontSize": "16.8px",
+      "font": "\"Instrument Serif\", Georgia, serif",
+      "fontSize": "12px",
+      "overflow": false,
+      "page": "/index.html",
+      "serviceHeight": 18,
+      "serviceRight": 189.8671875,
+      "viewport": [
+        800,
+        790
+      ],
+      "whiteSpace": "nowrap"
+    },
+    {
+      "clientCenterDifference": -0.00390625,
+      "clientColumns": "478.344px 398.633px",
+      "clientFontSize": "16.8px",
+      "font": "\"Instrument Serif\", Georgia, serif",
+      "fontSize": "12.0635px",
+      "overflow": false,
+      "page": "/index.html",
+      "serviceHeight": 18.09375,
+      "serviceRight": 210.75,
+      "viewport": [
+        1049,
+        790
+      ],
+      "whiteSpace": "nowrap"
+    },
+    {
+      "bodyFont": null,
+      "introEyebrows": 0,
+      "openAccordions": 0,
+      "overflow": false,
+      "page": "/expertises/index.html",
+      "title": "L’idée.Puis l’action.",
+      "titleBounds": {
+        "height": 214.125,
+        "top": 159.91278076171875
+      },
+      "viewport": [
+        1337,
+        790
+      ]
+    },
+    {
+      "bodyFont": "16.8px",
+      "introEyebrows": 0,
+      "openAccordions": 0,
+      "overflow": false,
+      "page": "/equipe/index.html",
+      "title": "L’équipe Anekdote.",
+      "titleBounds": {
+        "height": 131.6875,
+        "top": 152.56930541992188
+      },
+      "viewport": [
+        1337,
+        790
+      ]
+    },
+    {
+      "bodyFont": null,
+      "introEyebrows": 0,
+      "openAccordions": 0,
+      "overflow": false,
+      "page": "/expertises/index.html",
+      "title": "L’idée.Puis l’action.",
+      "titleBounds": {
+        "height": 126.9375,
+        "top": 119.9410400390625
+      },
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "bodyFont": "16.8px",
+      "introEyebrows": 0,
+      "openAccordions": 0,
+      "overflow": false,
+      "page": "/equipe/index.html",
+      "title": "L’équipe Anekdote.",
+      "titleBounds": {
+        "height": 121.15625,
+        "top": 117.45285034179688
+      },
+      "viewport": [
+        390,
+        844
+      ]
+    }
+  ],
+  "errors": [],
+  "clientCapture": {
+    "scrollY": 1767.5,
+    "viewport": [
+      1337,
+      790
+    ]
+  }
+}

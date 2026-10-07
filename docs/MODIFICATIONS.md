@@ -80,3 +80,7 @@ Tous les cadres photographiques partagent les coins arrondis existants : 24 px s
 ## Taille de lecture unifiée à 16,8 px
 
 Tous les textes d’introduction, descriptions, paragraphes éditoriaux, biographies et citations utilisent une taille commune de 1,05 rem, soit 16,8 px avec la taille de base du site. Cette règle s’applique sur ordinateur et mobile et remplace les variations de taille propres aux sections. Elle couvre notamment L’échange est notre moteur…, les approches des expertises, les études de cas, le manifeste, les portraits de l’équipe, les textes de Talents et Contact. Les listes descriptives des blocs de contenu suivent la même taille. Les titres, petits intertitres, chiffres et légendes conservent leur hiérarchie.
+
+## Centrage des partenaires, ligne serif et introductions épurées
+
+Sur l’accueil, le paragraphe des partenaires est centré verticalement dans sa ligne de grille par rapport au titre. La ligne animée utilise Instrument Serif, la même famille serif que les titres éditoriaux du site ; le cycle, la frappe et les commandes de pause sont conservés. Les libellés 01 • Nos expertises et 01 • #TeamAnekdote sont retirés des introductions des pages Expertises et Équipe.

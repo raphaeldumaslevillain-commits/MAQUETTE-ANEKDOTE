@@ -262,7 +262,8 @@ picture.site-photo{display:block;border-radius:var(--photo-radius);overflow:hidd
 picture.site-photo>img{border-radius:inherit}
 :is(.media-frame,.company-stage,.case-hero,.next-project):has(>picture.site-photo){border-radius:var(--photo-radius);overflow:hidden}
 /* The text keeps a stable single line while its visual copy types. */
-.masthead-meta .masthead-services{font-size:clamp(.75rem,1.15vw,1rem);letter-spacing:0;text-transform:none;white-space:nowrap;min-height:44px;width:100%;min-width:0;line-height:1.5}
+.masthead-meta .masthead-services{font-family:var(--serif);font-size:clamp(.75rem,1.15vw,1rem);letter-spacing:0;text-transform:none;white-space:nowrap;min-height:44px;width:100%;min-width:0;line-height:1.5}
+.client-intro>p{align-self:center}
 .service-static,.service-toggle{min-height:44px;align-items:center}
 .service-static{display:flex}
 .service-toggle{display:inline-flex;gap:3px;min-width:44px;padding:0;border:0;background:none;font:inherit;text-align:left;white-space:nowrap}

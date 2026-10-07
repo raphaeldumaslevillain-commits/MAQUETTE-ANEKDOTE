@@ -275,7 +275,7 @@ def solar_metrics(c):
 
 def expertises():
  global page;page='expertises/index.html'
- b='<section class="page-intro expertise-intro"><p class="eyebrow">01 • Nos expertises</p><div class="editorial-heading"><h1 class="display">L’idée.<br><span class="italic">Puis l’action.</span></h1></div></section>'
+ b='<section class="page-intro expertise-intro"><div class="editorial-heading"><h1 class="display">L’idée.<br><span class="italic">Puis l’action.</span></h1></div></section>'
  b+='<section class="expertise-overview wrap"><h2 class="sr-only">Nos expertises</h2><figure class="expertise-new-photo media-frame">'+picture(DATA['projects'][6]['hero'],'Activation influence Anekdote — Festival de Cannes x Soskin',eager=True)+'</figure>'+accordion('overview-accordion',numbered=False)+'</section>'
  write(page,b,'Anekdote | Nos expertises en influence et création','Campagne d’influence, stratégie, évènements, Brand Content, RSE / Corporate, Performance / Affiliation.','expertises')
  for i,(label,key) in enumerate(SERVICES):
@@ -308,7 +308,7 @@ def member_paragraphs(member):
 def team():
  global page;page='equipe/index.html';s=soup('equipe');christelle=DATA['team'][0]
  members=[dict(t,display_name=('Emma.L' if j==2 else 'Emma.c' if j==3 else t['name'])) for j,t in enumerate(DATA['team']) if j>0 and t['name']!='Pauline']
- b=hero_intro('L’équipe <span class="italic">Anekdote.</span>','01 • #TeamAnekdote',text(s.select_one('.page-header-banner-baseline')),cls='team-intro')
+ b=hero_intro('L’équipe <span class="italic">Anekdote.</span>','',text(s.select_one('.page-header-banner-baseline')),cls='team-intro')
  spirit=s.select_one('.bloc-column-text');im=s.select_one('.bloc-column-visual img')
  b+='<section class="team-spirit"><div><h2 class="section-title">L’esprit<br><span class="italic">d’équipe.</span></h2><div class="prose">'+inner(spirit,True)+'</div></div><div class="media-frame team-group-photo">'+picture(im['src'],'Un moment partagé par l’équipe Anekdote',eager=True)+'</div></section>'
  b+='<section class="founder-section wrap" aria-labelledby="founder-name"><div class="founder-heading reveal"><h2 id="founder-name">Christelle<span class="italic">.</span></h2><span class="founder-role">Co-Founder</span></div><div class="founder-layout"><div class="founder-photo media-frame reveal">'+picture(christelle['portrait'],'Christelle — Co-Founder d’Anekdote',sizes='(max-width: 800px) 90vw, 42vw')+'</div><div class="founder-story prose reveal">'+clean(christelle['bio'])+'</div></div><div class="founder-anecdote reveal"><div><p class="eyebrow">Une Anekdote</p><div class="prose">'+portrait_content(christelle['anecdote'])+'</div></div><div class="founder-mantras">'+picture(BASE+'/wp-content/uploads/2023/11/Group-1798.svg','Les deux mantras de Christelle')+'</div></div></section>'
