@@ -1,0 +1,50 @@
+/* Agency convictions share the site's typography, gutters and theme tokens. */
+.agency-manifesto{padding:90px var(--gutter) 100px;scroll-margin-top:18px}
+.manifesto-layout{display:grid;grid-template-columns:minmax(260px,.75fr) minmax(0,1.35fr);gap:clamp(40px,7.5vw,140px);align-items:start}
+.manifesto-aside{position:sticky;top:calc(var(--nav) + 32px)}
+.manifesto-aside h2{font-size:clamp(3.1rem,4.6vw,5.5rem);line-height:1.03;letter-spacing:-.06em;text-wrap:balance}
+.manifesto-nav{display:flex;flex-direction:column;max-width:270px;margin-top:34px}
+.manifesto-nav a{display:flex;align-items:center;gap:14px;min-height:44px;padding:10px 0;border-bottom:1px solid var(--line);font-size:.84rem;color:var(--muted);transition:color .25s}
+.manifesto-nav a::before{content:'';width:6px;height:6px;flex:none;border:1px solid currentColor;border-radius:50%;transition:background .25s,transform .35s var(--ease)}
+.manifesto-nav a span{transition:transform .35s var(--ease)}
+.manifesto-nav a:hover,.manifesto-nav a[aria-current=true]{color:var(--ink)}
+.manifesto-nav a[aria-current=true]::before{background:var(--orange);border-color:var(--orange);transform:scale(1.3)}
+.manifesto-nav a[aria-current=true] span{transform:translateX(5px)}
+.manifesto-mark{display:block;width:70px;height:70px;margin-top:30px;color:var(--orange);transform:rotate(var(--manifesto-angle,0deg));transition:transform .75s var(--ease)}
+.manifesto-mark .guide{stroke:var(--line);stroke-width:1;fill:none}
+.manifesto-mark .signal{stroke:currentColor;stroke-width:3;stroke-linecap:round}
+.manifesto-items{min-width:0}
+.manifesto-item{position:relative;padding:48px 0 54px;border-top:1px solid var(--line);scroll-margin-top:24px}
+.manifesto-item:first-child{padding-top:36px}
+.manifesto-item:last-child{min-height:600px;display:flex;flex-direction:column;justify-content:center}
+.manifesto-item::before{content:'';position:absolute;left:0;top:-1px;width:64px;height:2px;background:var(--orange);opacity:0;transform:scaleX(.25);transform-origin:left;transition:opacity .35s,transform .5s var(--ease)}
+.manifesto-item.is-active::before{opacity:1;transform:scaleX(1)}
+.manifesto-item h3{font-size:clamp(1.85rem,2.9vw,3.1rem);font-weight:500;line-height:1.12;letter-spacing:-.045em;text-wrap:balance;color:var(--ink);transition:color .35s}
+.manifesto-item h3 em{font-family:var(--serif);font-weight:400;font-size:1.16em;letter-spacing:-.015em;white-space:normal;transition:color .35s}
+.manifesto-item p{font-size:var(--body-copy-size,1.05rem);line-height:1.65;max-width:56ch;margin-top:24px;text-wrap:pretty}
+.agency-manifesto.is-enhanced .manifesto-item:not(.is-active) h3{color:var(--muted)}
+.agency-manifesto.is-enhanced .manifesto-item.is-active h3 em{color:var(--orange)}
+.agency-manifesto.is-enhanced .manifesto-item.is-active h3{animation:conviction-enter .5s var(--ease)}
+@keyframes conviction-enter{from{opacity:.7;transform:translateY(8px)}to{opacity:1;transform:none}}
+@media(max-width:1050px){
+ .manifesto-layout{grid-template-columns:minmax(230px,.75fr) minmax(0,1.35fr);gap:45px}
+ .manifesto-aside h2{font-size:3.3rem}
+ .manifesto-item h3{font-size:1.95rem}
+}
+@media(max-width:800px){
+ .agency-manifesto{padding-block:60px 65px}
+ .manifesto-layout{grid-template-columns:minmax(0,1fr);gap:36px}
+ .manifesto-aside{position:static}
+ .manifesto-aside h2{font-size:clamp(3rem,8.5vw,4.2rem)}
+ .manifesto-nav{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 16px;max-width:none;margin-top:25px}
+ .manifesto-nav a{gap:8px;font-size:.75rem}
+ .manifesto-nav a[aria-current=true] span{transform:none}
+ .manifesto-mark{display:none}
+ .manifesto-item,.manifesto-item:first-child{padding-block:34px 38px}
+ .manifesto-item:last-child{min-height:0}
+ .manifesto-item h3{font-size:clamp(1.65rem,5.1vw,2.3rem)}
+ .manifesto-item p{margin-top:20px}
+}
+@media(max-width:360px){.manifesto-nav{grid-template-columns:repeat(2,minmax(0,1fr))}.manifesto-item h3{font-size:1.55rem}}
+@media(prefers-reduced-motion:reduce){.manifesto-mark{transform:none}.manifesto-nav a,.manifesto-nav a::before,.manifesto-nav a span,.manifesto-item::before,.manifesto-item h3,.manifesto-item h3 em{transition:none}.agency-manifesto.is-enhanced .manifesto-item.is-active h3{animation:none}}
+@media(print){.manifesto-aside{position:static}.manifesto-nav,.manifesto-mark{display:none}.manifesto-layout{display:block}.manifesto-item{break-inside:avoid}.agency-manifesto.is-enhanced .manifesto-item h3,.agency-manifesto.is-enhanced .manifesto-item h3 em{color:var(--ink)}}

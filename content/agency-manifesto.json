@@ -1,0 +1,44 @@
+[
+  {
+    "key": "collectif",
+    "label": "Collectif",
+    "title": "NOUS NE SOMMES PAS SIMPLEMENT UNE AGENCE,",
+    "emphasis": "UNE AGENCE,",
+    "copy": "mais avant tout un collectif de personnes passionnées qui valorise un marketing d’influence authentique et inspirant."
+  },
+  {
+    "key": "curiosite",
+    "label": "Curiosité",
+    "title": "NOUS SOMMES DES COMMUNICANTS,",
+    "emphasis": "COMMUNICANTS,",
+    "copy": "où l’art de cultiver la curiosité, et de développer de nouvelles idées créatives anime notre quotidien."
+  },
+  {
+    "key": "contenus",
+    "label": "Contenus",
+    "title": "NOUS CROYONS EN LA FORCE DES CONTENUS",
+    "emphasis": "CONTENUS",
+    "copy": "pour inspirer, émouvoir, et créer des connexions uniques entre les marques et leurs communautés."
+  },
+  {
+    "key": "empreinte",
+    "label": "Empreinte",
+    "title": "NOUS VISONS À FAIRE EN SORTE QUE CHAQUE MOT ET CHAQUE IMAGE",
+    "emphasis": "CHAQUE IMAGE",
+    "copy": "laisse une empreinte mémorable et créée un héritage durable à travers nos partenariats, nos contenus et nos créations."
+  },
+  {
+    "key": "transparence",
+    "label": "Transparence",
+    "title": "NOUS ACCOMPAGNONS LES MARQUES DE MANIÈRE TRANSPARENTE,",
+    "emphasis": "TRANSPARENTE,",
+    "copy": "en collaborant main dans la main avec vous pour partager une réflexion commune."
+  },
+  {
+    "key": "energie",
+    "label": "Énergie",
+    "title": "NOUS METTONS TOUTE NOTRE ÉNERGIE",
+    "emphasis": "ÉNERGIE",
+    "copy": "pour apporter de la valeur à vos campagnes."
+  }
+]

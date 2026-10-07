@@ -1,0 +1,803 @@
+{
+  "layouts": [
+    {
+      "active": "0",
+      "asidePosition": "sticky",
+      "items": [
+        {
+          "copy": "mais avant tout un collectif de personnes passionnées qui valorise un marketing d’influence authentique et inspirant.",
+          "copyOverflows": false,
+          "font": "16.8px",
+          "headingOverflows": false,
+          "title": "NOUS NE SOMMES PAS SIMPLEMENT UNE AGENCE,"
+        },
+        {
+          "copy": "où l’art de cultiver la curiosité, et de développer de nouvelles idées créatives anime notre quotidien.",
+          "copyOverflows": false,
+          "font": "16.8px",
+          "headingOverflows": false,
+          "title": "NOUS SOMMES DES COMMUNICANTS,"
+        },
+        {
+          "copy": "pour inspirer, émouvoir, et créer des connexions uniques entre les marques et leurs communautés.",
+          "copyOverflows": false,
+          "font": "16.8px",
+          "headingOverflows": false,
+          "title": "NOUS CROYONS EN LA FORCE DES CONTENUS"
+        },
+        {
+          "copy": "laisse une empreinte mémorable et créée un héritage durable à travers nos partenariats, nos contenus et nos créations.",
+          "copyOverflows": false,
+          "font": "16.8px",
+          "headingOverflows": false,
+          "title": "NOUS VISONS À FAIRE EN SORTE QUE CHAQUE MOT ET CHAQUE IMAGE"
+        },
+        {
+          "copy": "en collaborant main dans la main avec vous pour partager une réflexion commune.",
+          "copyOverflows": false,
+          "font": "16.8px",
+          "headingOverflows": false,
+          "title": "NOUS ACCOMPAGNONS LES MARQUES DE MANIÈRE TRANSPARENTE,"
+        },
+        {
+          "copy": "pour apporter de la valeur à vos campagnes.",
+          "copyOverflows": false,
+          "font": "16.8px",
+          "headingOverflows": false,
+          "title": "NOUS METTONS TOUTE NOTRE ÉNERGIE"
+        }
+      ],
+      "links": [
+        {
+          "height": 44,
+          "left": 56.1484375,
+          "right": 326.1484375,
+          "text": "Collectif"
+        },
+        {
+          "height": 44,
+          "left": 56.1484375,
+          "right": 326.1484375,
+          "text": "Curiosité"
+        },
+        {
+          "height": 44,
+          "left": 56.1484375,
+          "right": 326.1484375,
+          "text": "Contenus"
+        },
+        {
+          "height": 44,
+          "left": 56.1484375,
+          "right": 326.1484375,
+          "text": "Empreinte"
+        },
+        {
+          "height": 44,
+          "left": 56.1484375,
+          "right": 326.1484375,
+          "text": "Transparence"
+        },
+        {
+          "height": 44,
+          "left": 56.1484375,
+          "right": 326.1484375,
+          "text": "Énergie"
+        }
+      ],
+      "oldDecks": 0,
+      "overflow": false,
+      "scrollY": 1156.5,
+      "sections": 1,
+      "theme": "dark",
+      "viewport": [
+        1337,
+        790
+      ]
+    },
+    {
+      "active": "0",
+      "asidePosition": "sticky",
+      "items": [
+        {
+          "copy": "mais avant tout un collectif de personnes passionnées qui valorise un marketing d’influence authentique et inspirant.",
+          "copyOverflows": false,
+          "font": "16.8px",
+          "headingOverflows": false,
+          "title": "NOUS NE SOMMES PAS SIMPLEMENT UNE AGENCE,"
+        },
+        {
+          "copy": "où l’art de cultiver la curiosité, et de développer de nouvelles idées créatives anime notre quotidien.",
+          "copyOverflows": false,
+          "font": "16.8px",
+          "headingOverflows": false,
+          "title": "NOUS SOMMES DES COMMUNICANTS,"
+        },
+        {
+          "copy": "pour inspirer, émouvoir, et créer des connexions uniques entre les marques et leurs communautés.",
+          "copyOverflows": false,
+          "font": "16.8px",
+          "headingOverflows": false,
+          "title": "NOUS CROYONS EN LA FORCE DES CONTENUS"
+        },
+        {
+          "copy": "laisse une empreinte mémorable et créée un héritage durable à travers nos partenariats, nos contenus et nos créations.",
+          "copyOverflows": false,
+          "font": "16.8px",
+          "headingOverflows": false,
+          "title": "NOUS VISONS À FAIRE EN SORTE QUE CHAQUE MOT ET CHAQUE IMAGE"
+        },
+        {
+          "copy": "en collaborant main dans la main avec vous pour partager une réflexion commune.",
+          "copyOverflows": false,
+          "font": "16.8px",
+          "headingOverflows": false,
+          "title": "NOUS ACCOMPAGNONS LES MARQUES DE MANIÈRE TRANSPARENTE,"
+        },
+        {
+          "copy": "pour apporter de la valeur à vos campagnes.",
+          "copyOverflows": false,
+          "font": "16.8px",
+          "headingOverflows": false,
+          "title": "NOUS METTONS TOUTE NOTRE ÉNERGIE"
+        }
+      ],
+      "links": [
+        {
+          "height": 44,
+          "left": 56.1484375,
+          "right": 326.1484375,
+          "text": "Collectif"
+        },
+        {
+          "height": 44,
+          "left": 56.1484375,
+          "right": 326.1484375,
+          "text": "Curiosité"
+        },
+        {
+          "height": 44,
+          "left": 56.1484375,
+          "right": 326.1484375,
+          "text": "Contenus"
+        },
+        {
+          "height": 44,
+          "left": 56.1484375,
+          "right": 326.1484375,
+          "text": "Empreinte"
+        },
+        {
+          "height": 44,
+          "left": 56.1484375,
+          "right": 326.1484375,
+          "text": "Transparence"
+        },
+        {
+          "height": 44,
+          "left": 56.1484375,
+          "right": 326.1484375,
+          "text": "Énergie"
+        }
+      ],
+      "oldDecks": 0,
+      "overflow": false,
+      "scrollY": 1156.5,
+      "sections": 1,
+      "theme": "dark",
+      "viewport": [
+        1337,
+        660
+      ]
+    },
+    {
+      "active": "0",
+      "asidePosition": "sticky",
+      "items": [
+        {
+          "copy": "mais avant tout un collectif de personnes passionnées qui valorise un marketing d’influence authentique et inspirant.",
+          "copyOverflows": false,
+          "font": "16.8px",
+          "headingOverflows": false,
+          "title": "NOUS NE SOMMES PAS SIMPLEMENT UNE AGENCE,"
+        },
+        {
+          "copy": "où l’art de cultiver la curiosité, et de développer de nouvelles idées créatives anime notre quotidien.",
+          "copyOverflows": false,
+          "font": "16.8px",
+          "headingOverflows": false,
+          "title": "NOUS SOMMES DES COMMUNICANTS,"
+        },
+        {
+          "copy": "pour inspirer, émouvoir, et créer des connexions uniques entre les marques et leurs communautés.",
+          "copyOverflows": false,
+          "font": "16.8px",
+          "headingOverflows": false,
+          "title": "NOUS CROYONS EN LA FORCE DES CONTENUS"
+        },
+        {
+          "copy": "laisse une empreinte mémorable et créée un héritage durable à travers nos partenariats, nos contenus et nos créations.",
+          "copyOverflows": false,
+          "font": "16.8px",
+          "headingOverflows": false,
+          "title": "NOUS VISONS À FAIRE EN SORTE QUE CHAQUE MOT ET CHAQUE IMAGE"
+        },
+        {
+          "copy": "en collaborant main dans la main avec vous pour partager une réflexion commune.",
+          "copyOverflows": false,
+          "font": "16.8px",
+          "headingOverflows": false,
+          "title": "NOUS ACCOMPAGNONS LES MARQUES DE MANIÈRE TRANSPARENTE,"
+        },
+        {
+          "copy": "pour apporter de la valeur à vos campagnes.",
+          "copyOverflows": false,
+          "font": "16.8px",
+          "headingOverflows": false,
+          "title": "NOUS METTONS TOUTE NOTRE ÉNERGIE"
+        }
+      ],
+      "links": [
+        {
+          "height": 44,
+          "left": 44.0546875,
+          "right": 314.0546875,
+          "text": "Collectif"
+        },
+        {
+          "height": 44,
+          "left": 44.0546875,
+          "right": 314.0546875,
+          "text": "Curiosité"
+        },
+        {
+          "height": 44,
+          "left": 44.0546875,
+          "right": 314.0546875,
+          "text": "Contenus"
+        },
+        {
+          "height": 44,
+          "left": 44.0546875,
+          "right": 314.0546875,
+          "text": "Empreinte"
+        },
+        {
+          "height": 44,
+          "left": 44.0546875,
+          "right": 314.0546875,
+          "text": "Transparence"
+        },
+        {
+          "height": 44,
+          "left": 44.0546875,
+          "right": 314.0546875,
+          "text": "Énergie"
+        }
+      ],
+      "oldDecks": 0,
+      "overflow": false,
+      "scrollY": 1143,
+      "sections": 1,
+      "theme": "dark",
+      "viewport": [
+        1049,
+        790
+      ]
+    },
+    {
+      "active": "0",
+      "asidePosition": "sticky",
+      "items": [
+        {
+          "copy": "mais avant tout un collectif de personnes passionnées qui valorise un marketing d’influence authentique et inspirant.",
+          "copyOverflows": false,
+          "font": "16.8px",
+          "headingOverflows": false,
+          "title": "NOUS NE SOMMES PAS SIMPLEMENT UNE AGENCE,"
+        },
+        {
+          "copy": "où l’art de cultiver la curiosité, et de développer de nouvelles idées créatives anime notre quotidien.",
+          "copyOverflows": false,
+          "font": "16.8px",
+          "headingOverflows": false,
+          "title": "NOUS SOMMES DES COMMUNICANTS,"
+        },
+        {
+          "copy": "pour inspirer, émouvoir, et créer des connexions uniques entre les marques et leurs communautés.",
+          "copyOverflows": false,
+          "font": "16.8px",
+          "headingOverflows": false,
+          "title": "NOUS CROYONS EN LA FORCE DES CONTENUS"
+        },
+        {
+          "copy": "laisse une empreinte mémorable et créée un héritage durable à travers nos partenariats, nos contenus et nos créations.",
+          "copyOverflows": false,
+          "font": "16.8px",
+          "headingOverflows": false,
+          "title": "NOUS VISONS À FAIRE EN SORTE QUE CHAQUE MOT ET CHAQUE IMAGE"
+        },
+        {
+          "copy": "en collaborant main dans la main avec vous pour partager une réflexion commune.",
+          "copyOverflows": false,
+          "font": "16.8px",
+          "headingOverflows": false,
+          "title": "NOUS ACCOMPAGNONS LES MARQUES DE MANIÈRE TRANSPARENTE,"
+        },
+        {
+          "copy": "pour apporter de la valeur à vos campagnes.",
+          "copyOverflows": false,
+          "font": "16.8px",
+          "headingOverflows": false,
+          "title": "NOUS METTONS TOUTE NOTRE ÉNERGIE"
+        }
+      ],
+      "links": [
+        {
+          "height": 44,
+          "left": 33.640625,
+          "right": 279.609375,
+          "text": "Collectif"
+        },
+        {
+          "height": 44,
+          "left": 33.640625,
+          "right": 279.609375,
+          "text": "Curiosité"
+        },
+        {
+          "height": 44,
+          "left": 33.640625,
+          "right": 279.609375,
+          "text": "Contenus"
+        },
+        {
+          "height": 44,
+          "left": 33.640625,
+          "right": 279.609375,
+          "text": "Empreinte"
+        },
+        {
+          "height": 44,
+          "left": 33.640625,
+          "right": 279.609375,
+          "text": "Transparence"
+        },
+        {
+          "height": 44,
+          "left": 33.640625,
+          "right": 279.609375,
+          "text": "Énergie"
+        }
+      ],
+      "oldDecks": 0,
+      "overflow": false,
+      "scrollY": 1288,
+      "sections": 1,
+      "theme": "dark",
+      "viewport": [
+        801,
+        790
+      ]
+    },
+    {
+      "active": "0",
+      "asidePosition": "static",
+      "items": [
+        {
+          "copy": "mais avant tout un collectif de personnes passionnées qui valorise un marketing d’influence authentique et inspirant.",
+          "copyOverflows": false,
+          "font": "16.8px",
+          "headingOverflows": false,
+          "title": "NOUS NE SOMMES PAS SIMPLEMENT UNE AGENCE,"
+        },
+        {
+          "copy": "où l’art de cultiver la curiosité, et de développer de nouvelles idées créatives anime notre quotidien.",
+          "copyOverflows": false,
+          "font": "16.8px",
+          "headingOverflows": false,
+          "title": "NOUS SOMMES DES COMMUNICANTS,"
+        },
+        {
+          "copy": "pour inspirer, émouvoir, et créer des connexions uniques entre les marques et leurs communautés.",
+          "copyOverflows": false,
+          "font": "16.8px",
+          "headingOverflows": false,
+          "title": "NOUS CROYONS EN LA FORCE DES CONTENUS"
+        },
+        {
+          "copy": "laisse une empreinte mémorable et créée un héritage durable à travers nos partenariats, nos contenus et nos créations.",
+          "copyOverflows": false,
+          "font": "16.8px",
+          "headingOverflows": false,
+          "title": "NOUS VISONS À FAIRE EN SORTE QUE CHAQUE MOT ET CHAQUE IMAGE"
+        },
+        {
+          "copy": "en collaborant main dans la main avec vous pour partager une réflexion commune.",
+          "copyOverflows": false,
+          "font": "16.8px",
+          "headingOverflows": false,
+          "title": "NOUS ACCOMPAGNONS LES MARQUES DE MANIÈRE TRANSPARENTE,"
+        },
+        {
+          "copy": "pour apporter de la valeur à vos campagnes.",
+          "copyOverflows": false,
+          "font": "16.8px",
+          "headingOverflows": false,
+          "title": "NOUS METTONS TOUTE NOTRE ÉNERGIE"
+        }
+      ],
+      "links": [
+        {
+          "height": 44,
+          "left": 24,
+          "right": 264,
+          "text": "Collectif"
+        },
+        {
+          "height": 44,
+          "left": 280,
+          "right": 520,
+          "text": "Curiosité"
+        },
+        {
+          "height": 44,
+          "left": 536,
+          "right": 776,
+          "text": "Contenus"
+        },
+        {
+          "height": 44,
+          "left": 24,
+          "right": 264,
+          "text": "Empreinte"
+        },
+        {
+          "height": 44,
+          "left": 280,
+          "right": 520,
+          "text": "Transparence"
+        },
+        {
+          "height": 44,
+          "left": 536,
+          "right": 776,
+          "text": "Énergie"
+        }
+      ],
+      "oldDecks": 0,
+      "overflow": false,
+      "scrollY": 1375.5,
+      "sections": 1,
+      "theme": "dark",
+      "viewport": [
+        800,
+        790
+      ]
+    },
+    {
+      "active": "0",
+      "asidePosition": "static",
+      "items": [
+        {
+          "copy": "mais avant tout un collectif de personnes passionnées qui valorise un marketing d’influence authentique et inspirant.",
+          "copyOverflows": false,
+          "font": "16.8px",
+          "headingOverflows": false,
+          "title": "NOUS NE SOMMES PAS SIMPLEMENT UNE AGENCE,"
+        },
+        {
+          "copy": "où l’art de cultiver la curiosité, et de développer de nouvelles idées créatives anime notre quotidien.",
+          "copyOverflows": false,
+          "font": "16.8px",
+          "headingOverflows": false,
+          "title": "NOUS SOMMES DES COMMUNICANTS,"
+        },
+        {
+          "copy": "pour inspirer, émouvoir, et créer des connexions uniques entre les marques et leurs communautés.",
+          "copyOverflows": false,
+          "font": "16.8px",
+          "headingOverflows": false,
+          "title": "NOUS CROYONS EN LA FORCE DES CONTENUS"
+        },
+        {
+          "copy": "laisse une empreinte mémorable et créée un héritage durable à travers nos partenariats, nos contenus et nos créations.",
+          "copyOverflows": false,
+          "font": "16.8px",
+          "headingOverflows": false,
+          "title": "NOUS VISONS À FAIRE EN SORTE QUE CHAQUE MOT ET CHAQUE IMAGE"
+        },
+        {
+          "copy": "en collaborant main dans la main avec vous pour partager une réflexion commune.",
+          "copyOverflows": false,
+          "font": "16.8px",
+          "headingOverflows": false,
+          "title": "NOUS ACCOMPAGNONS LES MARQUES DE MANIÈRE TRANSPARENTE,"
+        },
+        {
+          "copy": "pour apporter de la valeur à vos campagnes.",
+          "copyOverflows": false,
+          "font": "16.8px",
+          "headingOverflows": false,
+          "title": "NOUS METTONS TOUTE NOTRE ÉNERGIE"
+        }
+      ],
+      "links": [
+        {
+          "height": 44,
+          "left": 20,
+          "right": 126,
+          "text": "Collectif"
+        },
+        {
+          "height": 44,
+          "left": 142,
+          "right": 248,
+          "text": "Curiosité"
+        },
+        {
+          "height": 44,
+          "left": 264,
+          "right": 370,
+          "text": "Contenus"
+        },
+        {
+          "height": 44,
+          "left": 20,
+          "right": 126,
+          "text": "Empreinte"
+        },
+        {
+          "height": 44,
+          "left": 142,
+          "right": 248,
+          "text": "Transparence"
+        },
+        {
+          "height": 44,
+          "left": 264,
+          "right": 370,
+          "text": "Énergie"
+        }
+      ],
+      "oldDecks": 0,
+      "overflow": false,
+      "scrollY": 1616,
+      "sections": 1,
+      "theme": "dark",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "active": "0",
+      "asidePosition": "static",
+      "items": [
+        {
+          "copy": "mais avant tout un collectif de personnes passionnées qui valorise un marketing d’influence authentique et inspirant.",
+          "copyOverflows": false,
+          "font": "16.8px",
+          "headingOverflows": false,
+          "title": "NOUS NE SOMMES PAS SIMPLEMENT UNE AGENCE,"
+        },
+        {
+          "copy": "où l’art de cultiver la curiosité, et de développer de nouvelles idées créatives anime notre quotidien.",
+          "copyOverflows": false,
+          "font": "16.8px",
+          "headingOverflows": false,
+          "title": "NOUS SOMMES DES COMMUNICANTS,"
+        },
+        {
+          "copy": "pour inspirer, émouvoir, et créer des connexions uniques entre les marques et leurs communautés.",
+          "copyOverflows": false,
+          "font": "16.8px",
+          "headingOverflows": false,
+          "title": "NOUS CROYONS EN LA FORCE DES CONTENUS"
+        },
+        {
+          "copy": "laisse une empreinte mémorable et créée un héritage durable à travers nos partenariats, nos contenus et nos créations.",
+          "copyOverflows": false,
+          "font": "16.8px",
+          "headingOverflows": false,
+          "title": "NOUS VISONS À FAIRE EN SORTE QUE CHAQUE MOT ET CHAQUE IMAGE"
+        },
+        {
+          "copy": "en collaborant main dans la main avec vous pour partager une réflexion commune.",
+          "copyOverflows": false,
+          "font": "16.8px",
+          "headingOverflows": false,
+          "title": "NOUS ACCOMPAGNONS LES MARQUES DE MANIÈRE TRANSPARENTE,"
+        },
+        {
+          "copy": "pour apporter de la valeur à vos campagnes.",
+          "copyOverflows": false,
+          "font": "16.8px",
+          "headingOverflows": false,
+          "title": "NOUS METTONS TOUTE NOTRE ÉNERGIE"
+        }
+      ],
+      "links": [
+        {
+          "height": 44,
+          "left": 20,
+          "right": 152,
+          "text": "Collectif"
+        },
+        {
+          "height": 44,
+          "left": 168,
+          "right": 300,
+          "text": "Curiosité"
+        },
+        {
+          "height": 44,
+          "left": 20,
+          "right": 152,
+          "text": "Contenus"
+        },
+        {
+          "height": 44,
+          "left": 168,
+          "right": 300,
+          "text": "Empreinte"
+        },
+        {
+          "height": 44,
+          "left": 20,
+          "right": 152,
+          "text": "Transparence"
+        },
+        {
+          "height": 44,
+          "left": 168,
+          "right": 300,
+          "text": "Énergie"
+        }
+      ],
+      "oldDecks": 0,
+      "overflow": false,
+      "scrollY": 1837.5,
+      "sections": 1,
+      "theme": "dark",
+      "viewport": [
+        320,
+        790
+      ]
+    }
+  ],
+  "scroll": [
+    {
+      "target": 0,
+      "active": 0,
+      "asideTop": 169.65625,
+      "currentLink": "Collectif",
+      "headingColor": "rgb(255, 113, 79)",
+      "overflow": false,
+      "scrollY": 1175
+    },
+    {
+      "target": 1,
+      "active": 1,
+      "asideTop": 114,
+      "currentLink": "Curiosité",
+      "headingColor": "rgb(250, 117, 85)",
+      "overflow": false,
+      "scrollY": 1438.5
+    },
+    {
+      "target": 2,
+      "active": 2,
+      "asideTop": 114,
+      "currentLink": "Contenus",
+      "headingColor": "rgb(255, 113, 79)",
+      "overflow": false,
+      "scrollY": 1672
+    },
+    {
+      "target": 3,
+      "active": 3,
+      "asideTop": 114,
+      "currentLink": "Empreinte",
+      "headingColor": "rgb(250, 118, 86)",
+      "overflow": false,
+      "scrollY": 1947.5
+    },
+    {
+      "target": 4,
+      "active": 4,
+      "asideTop": 114,
+      "currentLink": "Transparence",
+      "headingColor": "rgb(251, 117, 85)",
+      "overflow": false,
+      "scrollY": 2224.5
+    },
+    {
+      "target": 5,
+      "active": 5,
+      "asideTop": -150.3203125,
+      "currentLink": "Énergie",
+      "headingColor": "rgb(235, 132, 105)",
+      "overflow": false,
+      "scrollY": 2500
+    }
+  ],
+  "last": {
+    "active": "5",
+    "asideBottom": 639.6875,
+    "asideTop": 114,
+    "headingTop": 418.10595703125,
+    "overflow": false,
+    "paragraphBottom": 518.328125,
+    "scrollY": 2500.5,
+    "viewport": [
+      1337,
+      790
+    ]
+  },
+  "mobileJump": {
+    "active": "5",
+    "currentLink": "Énergie",
+    "focus": "heading-energie",
+    "hash": "#conviction-energie",
+    "headerBottom": 70,
+    "headingTop": 159.140625,
+    "scrollY": 3472,
+    "viewport": [
+      320,
+      790
+    ]
+  },
+  "keyboard": {
+    "active": "4",
+    "currentLink": "Transparence",
+    "focus": "heading-transparence",
+    "hash": "#conviction-transparence",
+    "headerBottom": 82,
+    "headingTop": 173.078125,
+    "scrollY": 2270,
+    "viewport": [
+      1337,
+      790
+    ]
+  },
+  "light": {
+    "active": "0",
+    "background": "rgb(244, 242, 235)",
+    "bodyColor": "rgb(23, 23, 22)",
+    "bodySizes": [
+      "16.8px",
+      "16.8px",
+      "16.8px",
+      "16.8px",
+      "16.8px",
+      "16.8px"
+    ],
+    "overflow": false,
+    "scrollY": 1154.5,
+    "serif": "\"Instrument Serif\", Georgia, serif",
+    "theme": "light",
+    "viewport": [
+      1337,
+      790
+    ]
+  },
+  "errors": [],
+  "finalDesktop": {
+    "active": "0",
+    "scrollY": 1136.5,
+    "theme": "dark",
+    "viewport": [
+      1337,
+      790
+    ]
+  },
+  "finalMobile": {
+    "active": "0",
+    "scrollY": 1666.5,
+    "viewport": [
+      390,
+      844
+    ]
+  }
+}

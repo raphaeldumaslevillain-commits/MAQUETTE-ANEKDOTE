@@ -1,0 +1,50 @@
+const fs = require('fs');
+const vm = require('vm');
+const assert = require('node:assert/strict');
+const path = require('node:path');
+const root = path.resolve(__dirname, '..');
+const source = fs.readFileSync(path.join(root, 'js/manifesto.js'), 'utf8');
+const css = fs.readFileSync(path.join(root, 'css/manifesto.css'), 'utf8');
+function fixture({reduced = false, observer = true, present = true} = {}) {
+  const classList = () => ({values:new Set(), toggle(name, active){active ? this.values.add(name) : this.values.delete(name);}, contains(name){return this.values.has(name);}});
+  const items = Array.from({length:6}, (_, index) => ({index, classList:classList(), focused:null, scrolled:null, querySelector(){return {focus:options=>{this.focused=options;}};}, scrollIntoView(options){this.scrolled=options;}, getBoundingClientRect(){return {top:100 + index * 260, height:260};}}));
+  const links = items.map((_, index) => ({attrs:{href:'#conviction-'+index}, listeners:{}, textContent:String(index), setAttribute(name,value){this.attrs[name]=value;}, removeAttribute(name){delete this.attrs[name];}, getAttribute(name){return this.attrs[name];}, addEventListener(name,fn){this.listeners[name]=fn;}}));
+  const section = {dataset:{}, classList:classList(), props:{}, style:{setProperty(name,value){section.props[name]=value;}}, querySelectorAll(selector){return selector==='[data-conviction]' ? items : links;}};
+  const media = {matches:reduced, listeners:{}, addEventListener(name,fn){this.listeners[name]=fn;}};
+  const observers = [];
+  const events = {};
+  const context = {document:{querySelector(){return present ? section : null;}}, matchMedia(){return media;}, innerHeight:790, history:{replaceState(...args){context.hash=args[2];}}, addEventListener(name,fn){events[name]=fn;}, requestAnimationFrame(fn){fn();return 1;}, cancelAnimationFrame(){}, Set, Math};
+  if(observer) context.IntersectionObserver = class {constructor(callback,options){this.callback=callback;this.options=options;observers.push(this);} observe(){} disconnect(){this.disconnected=true;}};
+  context.window=context;
+  vm.runInNewContext(source, context);
+  const click = (index, modifier = {}) => {let prevented=false;links[index].listeners.click({...modifier,preventDefault(){prevented=true;}});return prevented;};
+  return {section,items,links,media,observers,context,events,click};
+}
+const f=fixture();
+assert.equal(f.section.dataset.activeConviction, '0');
+assert.equal(f.observers[0].options.rootMargin, '-190px 0px -363px 0px');
+assert.equal(f.observers[0].options.threshold.length,6);
+for(let i=0;i<6;i++){
+  assert.equal(f.click(i),true);
+  assert.equal(f.section.dataset.activeConviction,String(i));
+  assert.equal(f.items.filter(item=>item.classList.contains('is-active')).length,1);
+  assert.equal(f.links.filter(link=>link.attrs['aria-current']==='true').length,1);
+  assert.equal(f.items[i].focused.preventScroll,true);
+  assert.equal(f.items[i].scrolled.behavior,'smooth');
+  assert.equal(f.context.hash,'#conviction-'+i);
+}
+assert.equal(f.click(0,{metaKey:true}),false);
+assert.equal(f.section.dataset.activeConviction,'5');
+f.observers[0].callback([{target:f.items[3],isIntersecting:true}]);
+assert.equal(f.section.dataset.activeConviction,'3');
+f.media.matches=true;f.media.listeners.change();
+assert.equal(f.section.classList.contains('is-enhanced'),false);
+f.click(2);assert.equal(f.items[2].scrolled.behavior,'instant');
+f.context.innerHeight=844;f.events.resize();
+assert.equal(f.observers[0].disconnected,true);
+assert.equal(f.observers[1].options.rootMargin,'-203px 0px -388px 0px');
+const fallback=fixture({observer:false});fallback.click(4);assert.equal(fallback.section.dataset.activeConviction,'4');
+assert.doesNotThrow(()=>fixture({present:false}));
+assert.match(css,/@media\(prefers-reduced-motion:reduce\)/);
+assert.match(css,/\.manifesto-mark\{transform:none\}/);
+console.log(JSON.stringify({passed:true,covers:['six links','single active conviction','observer scroll selection','pixel reading window','resize','keyboard-compatible link activation','modified clicks','reduced motion change','observer fallback','other pages guard']}));

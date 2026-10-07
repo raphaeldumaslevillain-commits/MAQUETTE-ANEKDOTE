@@ -120,8 +120,8 @@ def footer():
 def write(path,body,title,description,active='',schema=None):
  global page;assert page==path
  canonical=BASE+'/'+('' if path=='index.html' else str(Path(path).parent)+'/')
- css='<script src="'+versioned('js/theme-init.js')+'"></script>'+''.join(f'<link rel="stylesheet" href="{versioned("css/"+x+".css")}">' for x in ['fonts','variables','reset','typography','layout','components','animations','responsive','editorial','theme'])+'<noscript><link rel="stylesheet" href="'+versioned('css/no-script.css')+'"></noscript>'
- scripts=''.join(f'<script defer src="{versioned("js/"+x+".js")}"></script>' for x in ['theme','navigation','animations','projects','main','editorial']+(['service-rotator'] if path=='index.html' else [])+(['contact'] if active=='contact' else []))
+ css='<script src="'+versioned('js/theme-init.js')+'"></script>'+''.join(f'<link rel="stylesheet" href="{versioned("css/"+x+".css")}">' for x in ['fonts','variables','reset','typography','layout','components','animations','responsive','editorial','theme']+(['manifesto'] if active=='agence' else []))+'<noscript><link rel="stylesheet" href="'+versioned('css/no-script.css')+'"></noscript>'
+ scripts=''.join(f'<script defer src="{versioned("js/"+x+".js")}"></script>' for x in ['theme','navigation','animations','projects','main','editorial']+(['service-rotator'] if path=='index.html' else [])+(['manifesto'] if active=='agence' else [])+(['contact'] if active=='contact' else []))
  meta='<meta name="description" content="'+esc(description)+'"><link rel="canonical" href="'+canonical+'"><meta property="og:title" content="'+esc(title)+'"><meta property="og:description" content="'+esc(description)+'"><meta property="og:type" content="website"><meta property="og:url" content="'+canonical+'">'
  s={'@context':'https://schema.org','@type':'Organization','name':'Anekdote','url':BASE,'address':{'@type':'PostalAddress','streetAddress':'29 rue de Mogador','postalCode':'75009','addressLocality':'Paris','addressCountry':'FR'},'sameAs':['https://www.instagram.com/anekdotefr/','https://linkedin.com/company/anekdote-influence']}
  if schema:s=schema
@@ -206,6 +206,16 @@ def home():
  b+='</div></section>'
  write(page,b,PAGES[BASE+'/']['title'],PAGES[BASE+'/']['description'],'')
 
+def agency_manifesto():
+ convictions=json.loads((ROOT/'content/agency-manifesto.json').read_text())
+ h='<section class="agency-manifesto" id="manifeste" data-manifesto aria-labelledby="manifesto-title"><div class="manifesto-layout"><div class="manifesto-aside"><h2 id="manifesto-title">Ce qui nous<br><span class="italic">anime.</span></h2><nav class="manifesto-nav" aria-label="Les convictions du manifeste">'
+ for item in convictions:h+='<a href="#conviction-'+esc(item['key'])+'" data-manifesto-link><span>'+esc(item['label'])+'</span></a>'
+ h+='</nav><svg class="manifesto-mark" viewBox="0 0 80 80" aria-hidden="true"><circle class="guide" cx="40" cy="40" r="24"/><path class="guide" d="M40 3v10M40 67v10M8 21l8 4M64 56l8 4M8 59l8-4M64 25l8-4"/><path class="signal" d="M40 3v13"/><circle cx="40" cy="40" r="3" fill="currentColor"/></svg></div><div class="manifesto-items">'
+ for item in convictions:
+  title=item['title'];emphasis=item['emphasis'];assert title.endswith(emphasis)
+  h+='<article class="manifesto-item" id="conviction-'+esc(item['key'])+'" data-conviction aria-labelledby="heading-'+esc(item['key'])+'"><h3 id="heading-'+esc(item['key'])+'" tabindex="-1">'+esc(title[:-len(emphasis)])+'<em>'+esc(emphasis)+'</em></h3><p>'+esc(item['copy'])+'</p></article>'
+ return h+'</div></div></section>'
+
 def agency():
  global page;page='agence/index.html';s=soup('agence');m=s.select_one('#content');sections={text(h):h.parent for h in m.select('h2')}
  b='<section class="agency-intro page-intro"><div class="editorial-heading"><h1 class="display">L’<span class="italic">agence.</span></h1></div></section>'
@@ -221,10 +231,7 @@ def agency():
   for chunk in chunks:slides.append((title,'<h2>'+esc(title)+'</h2><div class="prose">'+clean(''.join(str(x) for x in chunk))+'</div>'))
  b+='<section class="agency-about wrap"><div class="agency-photo media-frame">'+picture(bg(s.select_one('.page-header-banner-container')),'L’équipe Anekdote',eager=True)+'</div>'+deck(slides,'L’histoire et les engagements Anekdote','agency-deck',True,labels=False)+'</section>'
  q=sections['Pourquoi Anekdote ?'];paras=q.select('p');b+='<section class="agency-quote"><blockquote>'+''.join(clean(str(x)) for x in paras[:2])+'<footer>Christelle, Co-Founder</footer></blockquote></section>'
- manifest=sections['Manifeste'];slides=[]
- for item in manifest.select('.agence-manifeste-text'):
-  h=item.select_one('h3');copy=item.select_one('p');slides.append(('Manifeste','<h3>'+esc(text(h))+'</h3><p>'+esc(text(copy))+'</p>'))
- b+='<section class="manifest-section section"><div class="manifest-heading"><h2>Ce qui nous<br><span class="italic">anime.</span></h2></div>'+deck(slides,'Le manifeste Anekdote','manifest-deck',labels=False,autoplay=True)+'</section>'
+ b+=agency_manifesto()
  write(page,b,PAGES[BASE+'/agence/']['title'],PAGES[BASE+'/agence/']['description'],'agence')
 
 def portfolio():
