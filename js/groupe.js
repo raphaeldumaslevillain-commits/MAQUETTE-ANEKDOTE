@@ -10,9 +10,6 @@
   const brands = [...section.querySelectorAll('.group-brand')];
   const tethers = section.querySelector('.group-tethers');
   const paths = [...tethers.querySelectorAll('path')];
-  const foot = section.querySelector('.group-foot');
-  const track = section.querySelector('.group-timeline-track i');
-  const phase = section.querySelector('[data-group-phase]');
   const clamp = value => Math.max(0, Math.min(1, value));
   const range = (value, start, end) => clamp((value - start) / (end - start));
   const ease = value => value * value * (3 - 2 * value);
@@ -23,7 +20,6 @@
   const render = p => {
     const depart = ease(range(p, .08, .5));
     const arrive = ease(range(p, .28, .76));
-    const label = ease(range(p, .65, .85));
     const heading = ease(range(p, .56, .82));
     origin.style.opacity = String(1 - range(p, .08, .12));
     origin.style.transform = `translate(-50%,-50%) scale(${1 - depart * .07})`;
@@ -31,7 +27,6 @@
     intro.style.transform = `translateY(${-depart * 35}px)`;
     finalHeading.style.opacity = String(heading);
     finalHeading.style.transform = `translateY(${(1 - heading) * 24}px)`;
-    foot.style.opacity = String(1 - ease(range(p, .16, .48)));
     shards.forEach((shard, index) => {
       const x = index % 2 ? 1 : -1;
       const y = index < 2 ? -1 : 1;
@@ -46,15 +41,9 @@
       brand.style.opacity = String(local);
       brand.classList.toggle('is-ready', p > .73);
       brand.inert = p <= .73;
-      const caption = brand.querySelector('span');
-      caption.style.opacity = String(label);
-      caption.style.transform = `translateY(${(1 - label) * 12}px)`;
     });
     tethers.style.opacity = String(range(p, .25, .45) * (1 - range(p, .67, .87)) * .24);
     paths.forEach(path => { path.style.strokeDashoffset = String(1 - arrive); });
-    track.style.transform = `scaleX(${p})`;
-    const nextPhase = p < .24 ? '01 — Une vision' : p < .72 ? '02 — Des expertises' : '03 — Un collectif';
-    if (phase.textContent !== nextPhase) phase.textContent = nextPhase;
   };
   const tick = () => {
     frame = 0;
@@ -88,7 +77,7 @@
     section.classList.toggle('is-animated', enabled);
     brands.forEach(brand => { brand.inert = false; });
     if (enabled) measure();
-    else [origin, intro, finalHeading, ...shards, ...brands, ...brands.map(brand => brand.querySelector('span')), tethers, ...paths, foot, track].forEach(element => { element.removeAttribute('style'); });
+    else [origin, intro, finalHeading, ...shards, ...brands, tethers, ...paths].forEach(element => { element.removeAttribute('style'); });
   };
   addEventListener('scroll', onScroll, {passive: true});
   addEventListener('resize', measure, {passive: true});

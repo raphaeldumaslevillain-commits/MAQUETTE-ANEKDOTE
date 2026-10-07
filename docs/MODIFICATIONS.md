@@ -1,5 +1,11 @@
 # Révision des 76 annotations — 6 octobre 2026
 
+## Groupe épuré et ordre de navigation — 7 octobre 2026
+
+Le header et le menu burger suivent maintenant l’ordre Accueil, Groupe, Agence, Équipe, Expertises, Talents sur les 50 pages. Contact reste en dernier dans le menu complet. Équipe reste visible aux largeurs intermédiaires où les six liens tiennent dans le header.
+
+La séquence Groupe conserve uniquement les titres et logos : le texte d’introduction, les légendes des quatre signatures, l’indication de scroll et la barre de progression avec ses libellés sont retirés. Le logo DBM et ses quatre fragments ont la même largeur réduite, 560 px maximum sur ordinateur et 70 vw sur mobile. Notre conviction est retiré, et les quatre intitulés d’expertise perdent leurs numéros et puces.
+
 ## Ajout du groupe et huit annotations — 7 octobre 2026
 
 La page Groupe est ajoutée dans les trois navigations communes et le sitemap. Elle présente DBM et ses quatre entités : Anekdote, Quarks, Baci et Solar Metrics. La séquence initiale transforme quatre fragments du logo DBM en quatre signatures monochromes, puis les sections détaillent leurs expertises. L’animation suit le scroll natif dans les deux sens ; les logos restent accessibles sous forme statique sans JavaScript ou en mouvement réduit.

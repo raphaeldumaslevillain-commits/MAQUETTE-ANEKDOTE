@@ -6,21 +6,15 @@
 .group-heading h1{font-size:clamp(3.7rem,6.5vw,7rem);line-height:.97;letter-spacing:-.055em}
 .group-heading .italic{letter-spacing:-.035em}
 .group-scene{position:relative;min-height:360px;margin:40px auto}
-.group-origin{width:min(68vw,790px);height:auto;margin:60px auto 90px;filter:brightness(0) invert(1)}
+.group-origin{width:min(52vw,560px);height:auto;margin:60px auto 90px;filter:brightness(0) invert(1)}
 .group-shards{display:none}
 .group-brands{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:32px}
-.group-brand{display:flex;flex-direction:column;align-items:center;gap:24px;min-width:0;text-align:center;padding:10px;color:inherit}
+.group-brand{display:flex;align-items:center;justify-content:center;min-width:0;padding:10px;color:inherit}
 .group-brand img{width:100%;height:90px;object-fit:contain;filter:brightness(0) invert(1)}
 .group-brand[data-brand=baci] img{max-width:210px}
 .group-brand[data-brand=solar-metrics] img{max-width:145px;height:105px}
-.group-brand span{font-size:.76rem;color:#c3c3bd;letter-spacing:.02em}
 .group-brand:focus-visible{outline:2px solid #f4f2eb;outline-offset:10px;border-radius:4px}
 .group-tethers{display:none}
-.group-foot{display:flex;align-items:end;justify-content:space-between;gap:40px;position:relative;z-index:3;margin-top:32px}
-.group-foot p{font-size:var(--body-copy-size);line-height:1.6;max-width:39ch;color:#c3c3bd}
-.group-scroll-hint{display:flex;align-items:center;gap:20px;font-size:.72rem;color:#c3c3bd}
-.group-scroll-hint svg{width:18px;height:42px;stroke:currentColor;fill:none;stroke-width:1.2}
-.group-timeline{display:none}
 .group-unfold.is-animated{height:310svh}
 .is-animated .group-sticky{position:sticky;top:var(--nav);height:calc(100svh - var(--nav));min-height:560px;padding-top:clamp(30px,5svh,60px);overflow:hidden;isolation:isolate}
 .is-animated .group-heading{position:absolute;top:clamp(30px,5svh,60px);left:var(--gutter);right:var(--gutter);max-width:none;transform-origin:left top;will-change:transform,opacity}
@@ -29,8 +23,8 @@
 .is-animated .group-heading-final{display:block;position:absolute;left:var(--gutter);right:var(--gutter);top:clamp(30px,5svh,60px);opacity:0;z-index:3;pointer-events:none;will-change:transform,opacity}
 .group-heading-final p{font-size:clamp(2.6rem,4.3vw,4.6rem);line-height:1;letter-spacing:-.045em}
 .is-animated .group-scene{position:absolute;inset:0;margin:0;min-height:0}
-.is-animated .group-origin{position:absolute;top:52%;left:50%;width:min(66vw,790px);margin:0;transform:translate(-50%,-50%);will-change:transform,opacity}
-.is-animated .group-shards{display:block;position:absolute;top:52%;left:50%;width:min(66vw,790px);aspect-ratio:441/110;transform:translate(-50%,-50%);pointer-events:none}
+.is-animated .group-origin{position:absolute;top:52%;left:50%;width:min(52vw,560px);margin:0;transform:translate(-50%,-50%);will-change:transform,opacity}
+.is-animated .group-shards{display:block;position:absolute;top:52%;left:50%;width:min(52vw,560px);aspect-ratio:441/110;transform:translate(-50%,-50%);pointer-events:none}
 .group-shard{position:absolute;inset:0;opacity:0;will-change:transform,opacity}
 .group-shard img{width:100%;height:100%;filter:brightness(0) invert(1)}
 .group-shard:nth-child(1){clip-path:polygon(0 0,53% 0,47% 52%,0 48%)}
@@ -38,22 +32,16 @@
 .group-shard:nth-child(3){clip-path:polygon(0 48%,47% 52%,53% 100%,0 100%)}
 .group-shard:nth-child(4){clip-path:polygon(47% 52%,100% 48%,100% 100%,53% 100%)}
 .is-animated .group-brands{display:contents}
-.is-animated .group-brand{position:absolute;left:50%;top:52%;width:clamp(190px,25vw,340px);height:148px;margin:0;padding:0;gap:20px;opacity:0;pointer-events:none;will-change:transform,opacity}
+.is-animated .group-brand{position:absolute;left:50%;top:52%;width:clamp(190px,25vw,340px);height:98px;margin:0;padding:0;opacity:0;pointer-events:none;will-change:transform,opacity}
 .is-animated .group-brand img{height:98px;flex:none}
 .is-animated .group-brand[data-brand=baci] img{max-width:205px}
 .is-animated .group-brand[data-brand=solar-metrics] img{max-width:146px}
-.is-animated .group-brand span{opacity:0;transform:translateY(12px);will-change:transform,opacity}
 .is-animated .group-brand.is-ready{pointer-events:auto}
 .is-animated .group-brand:hover img{opacity:.76;transition:opacity .2s}
 .is-animated .group-tethers{display:block;position:absolute;inset:0;width:100%;height:100%;fill:none;stroke:#f4f2eb;stroke-width:.7;opacity:0;pointer-events:none}
 .group-tethers path{vector-effect:non-scaling-stroke;stroke-width:1;stroke-dasharray:1;stroke-dashoffset:1}
-.is-animated .group-foot{position:absolute;bottom:clamp(38px,6svh,65px);left:var(--gutter);right:var(--gutter);margin:0;will-change:opacity}
-.is-animated .group-timeline{display:flex;align-items:center;gap:24px;position:absolute;bottom:18px;left:var(--gutter);right:var(--gutter);font-size:.63rem;letter-spacing:.09em;text-transform:uppercase;color:#bcbcb6}
-.group-timeline-track{height:1px;background:#ffffff26;flex:1;overflow:hidden}
-.group-timeline-track i{display:block;height:100%;background:#f4f2eb;transform-origin:left;transform:scaleX(0)}
 .group-about{display:grid;grid-template-columns:1fr 1.1fr;gap:8vw;padding-block:90px;align-items:start}
 .group-about h2{font-size:clamp(3rem,5.3vw,5.8rem);line-height:1.02;letter-spacing:-.05em}
-.group-about .eyebrow{margin-bottom:26px;color:var(--muted)}
 .group-about .prose p{line-height:1.7;max-width:54ch}
 .group-about .group-founders{color:var(--muted);margin-top:25px}
 .group-about .text-link{margin-top:28px}
@@ -77,21 +65,17 @@
  .group-heading h1{font-size:clamp(3rem,10vw,4.5rem)}
  .group-brands{grid-template-columns:repeat(2,minmax(0,1fr));gap:30px 20px}
  .group-brand img{height:70px}.group-brand[data-brand=solar-metrics] img{height:78px}
- .group-origin{width:88%;margin:60px auto}
+ .group-origin{width:70vw;margin:60px auto}
  .group-unfold.is-animated{height:260svh}
  .is-animated .group-sticky{min-height:500px;padding-top:26px}
  .is-animated .group-heading,.is-animated .group-heading-final{top:26px}
  .is-animated .group-heading h1{font-size:clamp(3rem,10vw,4.6rem)}
  .group-heading-final p{font-size:clamp(2.5rem,8vw,3.6rem)}
- .is-animated .group-origin,.is-animated .group-shards{width:85vw}
- .is-animated .group-brand{width:40vw;height:117px;gap:14px}
+ .is-animated .group-origin,.is-animated .group-shards{width:70vw}
+ .is-animated .group-brand{width:40vw;height:70px}
  .is-animated .group-brand img{height:66px}
  .is-animated .group-brand[data-brand=baci] img{max-width:142px}
  .is-animated .group-brand[data-brand=solar-metrics] img{max-width:94px;height:70px}
- .group-brand span{font-size:.64rem;max-width:15ch;line-height:1.4}
- .group-foot{gap:18px}.group-foot p{font-size:.9rem;max-width:32ch}
- .is-animated .group-foot{bottom:48px}
- .group-scroll-hint span{display:none}
  .group-about{grid-template-columns:1fr;gap:35px;padding-block:58px}
  .group-entity{grid-template-columns:1fr;gap:35px;padding-block:48px}
  .group-entity-logo{min-height:150px;justify-content:start}
@@ -104,11 +88,9 @@
  .group-unfold.is-animated{height:auto}
  .is-animated .group-sticky{position:relative;top:auto;height:auto;min-height:0;overflow:visible}
  .is-animated .group-heading{position:relative;inset:auto;transform:none!important;opacity:1!important}
- .is-animated .group-heading-final,.is-animated .group-shards,.is-animated .group-tethers,.is-animated .group-timeline,.group-scroll-hint{display:none}
+ .is-animated .group-heading-final,.is-animated .group-shards,.is-animated .group-tethers{display:none}
  .is-animated .group-scene{position:relative;margin-block:40px}
  .is-animated .group-origin{position:relative;top:auto;left:auto;transform:none!important;opacity:1!important;margin:50px auto}
  .is-animated .group-brands{display:grid}
  .is-animated .group-brand{position:relative;top:auto;left:auto;width:auto;height:auto;transform:none!important;opacity:1!important;pointer-events:auto}
- .is-animated .group-brand span{opacity:1!important;transform:none!important}
- .is-animated .group-foot{position:relative;inset:auto;opacity:1!important}
 }

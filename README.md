@@ -102,3 +102,5 @@ La page Groupe présente Anekdote, Quarks, Baci et Solar Metrics à partir des s
 Le logo DBM apparaît d’abord seul. Au scroll, quatre fragments se séparent et laissent place aux quatre logos du groupe, avec une animation réversible. Les SVG fournis sont conservés en vectoriel et passés en monochrome. La séquence suit le scroll natif, sans bibliothèque supplémentaire ni blocage du défilement. Les contenus et les cinq logos restent visibles sans JavaScript et lorsque la préférence de mouvement réduit est activée.
 
 Le contenu s’édite dans `content/group-content.json`, la mise en page dans `css/groupe.css` et le mouvement dans `js/groupe.js`.
+
+La séquence est épurée après validation : logo DBM réduit, paragraphes et légendes supprimés, sans barre de progression. Les intitulés des quatre entités ne portent plus de numérotation. Le header et le menu complet partagent l’ordre Accueil, Groupe, Agence, Équipe, Expertises, Talents ; Contact complète le menu.
