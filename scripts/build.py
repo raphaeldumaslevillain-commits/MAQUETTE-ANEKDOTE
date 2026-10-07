@@ -348,7 +348,7 @@ def team():
 
 def talents():
  global page;page='talents/index.html';s=soup('talents')
- b='<section class="page-intro talents-intro"><p class="eyebrow">01 • Les talents</p><div class="editorial-heading"><h1 class="display">Notre<br><span class="italic">talent ?</span></h1><p class="lead">Un network puissant de créateurs de contenu !</p></div></section>'
+ b='<section class="page-intro talents-intro"><div class="editorial-heading"><h1 class="display">Notre<br><span class="italic">talent ?</span></h1></div></section>'
  b+='<section class="talents-feature wrap"><div class="talents-feature-photo media-frame">'+picture(DATA['projects'][8]['thumbnail'],'Meganvlt — Festival de Cannes x Aroma-Zone',eager=True)+'</div><div class="talents-principles">'
  for i,node in enumerate(s.select('.bloc-talents-text')):
   b+='<article><span class="eyebrow">'+str(i+1).zfill(2)+' •</span><h2>'+esc(text(node.select_one('h2')))+'</h2><div class="prose">'+clean(''.join(str(x) for x in node.select('p')))+'</div></article>'
