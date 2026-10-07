@@ -9,6 +9,21 @@
     const stage = element.querySelector('.liquid-stage');
     const from = element.querySelector('[data-liquid-from]');
     const to = element.querySelector('[data-liquid-to]');
+    const ink = element.querySelector('[data-liquid-ink]');
+    const baseline = element.querySelector('[data-liquid-baseline]');
+    const blurFrom = element.querySelector('[data-liquid-blur-from]');
+    const blurTo = element.querySelector('[data-liquid-blur-to]');
+    const alphaFrom = element.querySelector('[data-liquid-alpha-from]');
+    const alphaTo = element.querySelector('[data-liquid-alpha-to]');
+    // Keep blur, opacity and threshold in one SVG rendering tree. WebKit can
+    // composite CSS-blurred HTML children outside their parent's SVG filter.
+    const filterId = ink.dataset.liquidFilter;
+    const measure = () => {
+      if (button.hidden) return;
+      const y = baseline.getBoundingClientRect().top - stage.getBoundingClientRect().top;
+      from.setAttribute('y', String(y));
+      to.setAttribute('y', String(y));
+    };
     let elapsed = 0, frame, lastTime = null, running = false, renderedIndex = -1;
     let onScreen = !('IntersectionObserver' in window), paused = false, hovered = false, focused = false;
     const render = () => {
@@ -21,16 +36,20 @@
         renderedIndex = index;
       }
       if (fraction === 0) {
-        stage.style.filter = 'none';
-        from.style.filter = to.style.filter = 'none';
+        ink.setAttribute('filter', 'none');
+        from.setAttribute('filter', 'none');
+        to.setAttribute('filter', 'none');
         from.style.opacity = '1';
         to.style.opacity = '0';
       } else {
-        stage.style.filter = '';
-        from.style.filter = `blur(${Math.min(8 / (1 - fraction) - 8, 100)}px)`;
-        from.style.opacity = String(Math.pow(1 - fraction, .4));
-        to.style.filter = `blur(${Math.min(8 / fraction - 8, 100)}px)`;
-        to.style.opacity = String(Math.pow(fraction, .4));
+        ink.setAttribute('filter', `url(#${filterId}-threshold)`);
+        from.setAttribute('filter', `url(#${filterId}-from)`);
+        to.setAttribute('filter', `url(#${filterId}-to)`);
+        blurFrom.setAttribute('stdDeviation', String(Math.min(8 / (1 - fraction) - 8, 100)));
+        blurTo.setAttribute('stdDeviation', String(Math.min(8 / fraction - 8, 100)));
+        alphaFrom.setAttribute('slope', String(Math.pow(1 - fraction, .4)));
+        alphaTo.setAttribute('slope', String(Math.pow(fraction, .4)));
+        from.style.opacity = to.style.opacity = '1';
       }
     };
     const settle = () => {
@@ -49,6 +68,7 @@
       const active = !reduced.matches && !paused && !hovered && !focused && onScreen && !document.hidden;
       button.hidden = reduced.matches;
       fallback.hidden = !reduced.matches;
+      measure();
       button.setAttribute('aria-pressed', String(paused));
       button.title = paused ? 'Reprendre l’animation' : 'Mettre en pause l’animation';
       element.dataset.liquidState = reduced.matches ? 'reduced' : active ? 'running' : 'paused';
@@ -72,5 +92,8 @@
     }, {threshold:.05}).observe(element);
     render();
     update();
+    if ('ResizeObserver' in window) new ResizeObserver(measure).observe(stage);
+    else window.addEventListener('resize', measure);
+    if (document.fonts) document.fonts.ready.then(measure);
   });
 })();
