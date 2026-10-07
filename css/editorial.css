@@ -279,7 +279,7 @@ picture.site-photo>img{border-radius:inherit}
 @keyframes service-cursor{50%{opacity:0}}
 @media(prefers-reduced-motion:reduce){.service-caret{animation:none}}
 
-.home-services-heading .lead{font-size:1.05rem}
+.home-services-heading .lead{font-size:1.05rem;align-self:center}
 
 .media-frame{border-radius:var(--photo-radius)}
 
