@@ -145,17 +145,17 @@ def write(path,body,title,description,active='',schema=None):
 def arrow(previous=False):
  return '<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="'+('M19 12H5m7-7-7 7 7 7' if previous else 'M5 12h14m-7-7 7 7-7 7')+'"/></svg>'
 
-def deck(slides,label,cls='',next_only=False,labels=True,autoplay=False):
+def deck(slides,label,cls='',next_only=False,labels=True,autoplay=False,named_tabs=False):
  # Content is readable without JavaScript. Inert inactive slides are added on enhancement.
  h='<div class="deck '+cls+'" data-deck'+(' data-autoplay="3000"' if autoplay else '')+' role="region" aria-roledescription="carrousel" aria-label="'+esc(label)+'"><div class="deck-stage">'
  for i,(title,body) in enumerate(slides):
   h+='<article class="deck-slide'+(' active' if i==0 else '')+'" data-slide role="group" aria-label="'+str(i+1)+' sur '+str(len(slides))+'">'+('<p class="eyebrow deck-label">'+str(i+1).zfill(2)+' • '+esc(title)+'</p>' if labels else '')+body+'</article>'
  if autoplay:return h+'</div></div>'
  if next_only:return h+'</div><div class="deck-controls deck-next-only"><span class="sr-only" aria-live="polite" aria-atomic="true" data-deck-status>'+esc(slides[0][0])+'</span><button type="button" data-deck-next aria-label="Lire la section suivante">'+arrow()+'</button></div></div>'
- h+='</div><div class="deck-controls"><div class="deck-tabs" aria-label="Choisir une page">'
+ h+='</div><div class="deck-controls"><div class="deck-tabs'+(' member-tabs' if named_tabs else '')+'" aria-label="Choisir une page">'
  for i,(title,body) in enumerate(slides):
-  h+='<button type="button" data-deck-go="'+str(i)+'" aria-label="'+esc(title)+', page '+str(i+1)+'" aria-pressed="'+('true' if i==0 else 'false')+'">'+str(i+1).zfill(2)+'</button>'
- h+='</div><div class="deck-arrows"><span class="deck-status" aria-live="polite" aria-atomic="true" data-deck-status>1 / '+str(len(slides))+'</span><button type="button" data-deck-prev aria-label="Page précédente">←</button><button type="button" data-deck-next aria-label="Page suivante">→</button></div></div></div>'
+  h+='<button type="button" data-deck-go="'+str(i)+'" aria-label="'+esc(title)+', page '+str(i+1)+'" aria-pressed="'+('true' if i==0 else 'false')+'">'+('<span class="member-name-index" aria-hidden="true">'+str(i+1).zfill(2)+'</span>'+esc(title) if named_tabs else str(i+1).zfill(2))+'</button>'
+ h+='</div><div class="deck-arrows"><span class="'+('sr-only' if named_tabs else 'deck-status')+'" aria-live="polite" aria-atomic="true" data-deck-status>1 / '+str(len(slides))+'</span><button type="button" data-deck-prev aria-label="Page précédente">'+arrow(True)+'</button><button type="button" data-deck-next aria-label="Page suivante">'+arrow()+'</button></div></div></div>'
  return h
 
 def accordion(cls='',numbered=True):
@@ -358,7 +358,7 @@ def talents():
   # Quotation and attribution remain word-for-word as published.
   p=node.select_one('p');parts=p.decode_contents().split('<br/>');quote=text(BeautifulSoup(parts[0],'html.parser'));author=text(BeautifulSoup(parts[-1],'html.parser'));name=author.lstrip('- ').strip()
   slides.append((name,'<blockquote><p>'+esc(quote)+'</p><footer>'+esc(author)+'</footer></blockquote>'))
- b+='<section class="talents-voices section"><div><p class="eyebrow">02 • Leurs mots</p><h2 class="section-title">Le plaisir<br>de '+liquid_text(['collaborer.','créer.','réussir.'])+'</h2></div>'+deck(slides,'Les témoignages publiés des talents','voices-deck')+'</section>'
+ b+='<section class="talents-voices section"><div><h2 class="section-title">Le plaisir<br>de '+liquid_text(['collaborer.','créer.','réussir.'])+'</h2></div>'+deck(slides,'Les témoignages publiés des talents','voices-deck',labels=False,named_tabs=True)+'</section>'
  write(page,b,PAGES[BASE+'/talents/']['title'],PAGES[BASE+'/talents/']['description'],'talents')
 
 def contact():

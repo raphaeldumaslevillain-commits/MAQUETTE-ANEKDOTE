@@ -61,7 +61,7 @@
 .member-photo{height:var(--portrait-size);cursor:pointer}
 .member-photo.show-tastes .photo-tastes{opacity:1;visibility:visible;transform:none}
 .photo-tastes h4{font-size:.75rem;text-transform:uppercase;letter-spacing:.09em;font-weight:500;margin-bottom:16px;color:#c5c3bb}
-.member-story{height:var(--portrait-size);overflow:auto;scrollbar-width:thin;scrollbar-color:var(--line) transparent;padding:20px 16px 20px 0;overscroll-behavior-y:contain}
+.member-story{height:var(--portrait-size);overflow:auto;scrollbar-width:thin;scrollbar-color:var(--line) transparent;padding:20px 16px 20px 0;overscroll-behavior-y:auto}
 .member-story>p{font-size:clamp(1rem,1.4vw,1.25rem);line-height:1.75;margin:0;max-width:52ch}
 .team-carousel .deck-controls{margin-top:36px;gap:25px}
 .member-tabs{gap:8px}
@@ -232,7 +232,7 @@
 .member-tabs button{flex:none;padding:10px 12px;white-space:nowrap}
 .team-carousel .deck-arrows{grid-column:3;justify-self:end;gap:12px}
 .team-carousel .deck-arrows button{width:44px;height:44px}
-.team-carousel .photo-tastes{padding:24px;gap:20px;overflow:auto;overscroll-behavior:contain}
+.team-carousel .photo-tastes{padding:24px;gap:20px;overflow:auto;overscroll-behavior:auto}
 .team-carousel .photo-tastes h4{margin-bottom:10px}
 .team-carousel .taste-group ul{gap:9px}
 .team-carousel .taste-group li{font-size:1rem}
@@ -282,6 +282,19 @@ picture.site-photo>img{border-radius:inherit}
 .home-services-heading .lead{font-size:1.05rem}
 
 .media-frame{border-radius:var(--photo-radius)}
+
+/* Talents uses the same pill tabs and circular arrows as the team carousel. */
+.talents-intro .editorial-heading{align-items:center}
+.talents-voices h2{margin-top:0}
+.voices-deck blockquote p{font-family:var(--sans);letter-spacing:normal}
+.voices-deck blockquote footer{font-family:var(--serif);font-style:italic;font-weight:400;font-size:1.5rem;line-height:1.2}
+.voices-deck.enhanced>.deck-controls{display:grid;grid-template-columns:minmax(0,1fr);gap:16px}
+.voices-deck .member-tabs{grid-column:1;justify-self:center;justify-content:center;width:100%;max-width:100%;gap:8px;flex-wrap:wrap;overflow:visible;padding-inline:0}
+.voices-deck .deck-arrows{grid-column:1;justify-self:center;margin-left:0;gap:12px}
+.voices-deck .deck-arrows button{display:grid;place-items:center;width:44px;height:44px;border-radius:50%;padding:0;line-height:1}
+.voices-deck .deck-arrows button svg{display:block;width:24px;height:24px}
+.voices-deck .deck-arrows button:hover{background:var(--paper);color:var(--ink)}
+@media(max-width:800px){.voices-deck.enhanced>.deck-controls{gap:8px}.voices-deck .member-tabs{padding:4px}}
 
 /* One reading size for introductions, descriptions and editorial body copy. */
 :root{--body-copy-size:1.05rem}
