@@ -145,7 +145,7 @@ def write(path,body,title,description,active='',schema=None):
 def arrow(previous=False):
  return '<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="'+('M19 12H5m7-7-7 7 7 7' if previous else 'M5 12h14m-7-7 7 7-7 7')+'"/></svg>'
 
-def deck(slides,label,cls='',next_only=False,labels=True,autoplay=False,named_tabs=False):
+def deck(slides,label,cls='',next_only=False,labels=True,autoplay=False,named_tabs=False,arrows=True):
  # Content is readable without JavaScript. Inert inactive slides are added on enhancement.
  h='<div class="deck '+cls+'" data-deck'+(' data-autoplay="3000"' if autoplay else '')+' role="region" aria-roledescription="carrousel" aria-label="'+esc(label)+'"><div class="deck-stage">'
  for i,(title,body) in enumerate(slides):
@@ -155,7 +155,10 @@ def deck(slides,label,cls='',next_only=False,labels=True,autoplay=False,named_ta
  h+='</div><div class="deck-controls"><div class="deck-tabs'+(' member-tabs' if named_tabs else '')+'" aria-label="Choisir une page">'
  for i,(title,body) in enumerate(slides):
   h+='<button type="button" data-deck-go="'+str(i)+'" aria-label="'+esc(title)+', page '+str(i+1)+'" aria-pressed="'+('true' if i==0 else 'false')+'">'+('<span class="member-name-index" aria-hidden="true">'+str(i+1).zfill(2)+'</span>'+esc(title) if named_tabs else str(i+1).zfill(2))+'</button>'
- h+='</div><div class="deck-arrows"><span class="'+('sr-only' if named_tabs else 'deck-status')+'" aria-live="polite" aria-atomic="true" data-deck-status>1 / '+str(len(slides))+'</span><button type="button" data-deck-prev aria-label="Page précédente">'+arrow(True)+'</button><button type="button" data-deck-next aria-label="Page suivante">'+arrow()+'</button></div></div></div>'
+ h+='</div>'
+ if arrows:h+='<div class="deck-arrows"><span class="'+('sr-only' if named_tabs else 'deck-status')+'" aria-live="polite" aria-atomic="true" data-deck-status>1 / '+str(len(slides))+'</span><button type="button" data-deck-prev aria-label="Page précédente">'+arrow(True)+'</button><button type="button" data-deck-next aria-label="Page suivante">'+arrow()+'</button></div>'
+ else:h+='<span class="sr-only" aria-live="polite" aria-atomic="true" data-deck-status>1 / '+str(len(slides))+'</span>'
+ h+='</div></div>'
  return h
 
 def accordion(cls='',numbered=True):
@@ -191,6 +194,14 @@ def portrait_content(content):
  for x in node.select('h3'):
   if text(x) in ['Une Anekdote ?','2 mantras qui m’animent :','2 mantras qui m’animent:']:x.decompose()
  return clean(str(node))
+
+def founder_anecdote(content):
+ intro,separator,punchline=text(BeautifulSoup(portrait_content(content),'html.parser')).partition('«')
+ if not separator:return portrait_content(content)
+ first,breakpoint,last=punchline.partition(' au 38')
+ quote='<span>'+esc(separator+' '+first.strip())+'</span>'
+ if breakpoint:quote+=' <span>'+esc((breakpoint+last).strip())+'</span>'
+ return '<p class="founder-anecdote-intro">'+esc(intro.strip())+'</p><p class="founder-punchline">'+quote+'</p>'
 
 def bio_chunks(content,limit=530):
  node=BeautifulSoup(content,'html.parser');paras=node.select('p')
@@ -331,7 +342,7 @@ def team():
  b=hero_intro('L’équipe <span class="italic">Anekdote.</span>','',text(s.select_one('.page-header-banner-baseline')),cls='team-intro')
  spirit=s.select_one('.bloc-column-text');im=s.select_one('.bloc-column-visual img')
  b+='<section class="team-spirit"><div><h2 class="section-title">L’esprit<br><span class="italic">d’équipe.</span></h2><div class="prose">'+inner(spirit,True)+'</div></div><div class="media-frame team-group-photo">'+picture(im['src'],'Un moment partagé par l’équipe Anekdote',eager=True)+'</div></section>'
- b+='<section class="founder-section wrap" aria-labelledby="founder-name"><div class="founder-heading reveal"><h2 id="founder-name">'+liquid_text(['Christelle','Girl Boss'],cls='')+'<span class="italic">.</span></h2><span class="founder-role">Co-Founder</span></div><div class="founder-layout"><div class="founder-photo media-frame reveal">'+picture(christelle['portrait'],'Christelle — Co-Founder d’Anekdote',sizes='(max-width: 800px) 90vw, 42vw')+'</div><div class="founder-story prose reveal">'+clean(christelle['bio'])+'</div></div><div class="founder-anecdote reveal"><div><p class="eyebrow">Une Anekdote</p><div class="prose">'+portrait_content(christelle['anecdote'])+'</div></div><div class="founder-mantras">'+picture(BASE+'/wp-content/uploads/2023/11/Group-1798.svg','Les deux mantras de Christelle')+'</div></div></section>'
+ b+='<section class="founder-section wrap" aria-labelledby="founder-name"><div class="founder-heading reveal"><h2 id="founder-name">'+liquid_text(['Christelle','Girl Boss'],cls='')+'<span class="italic">.</span></h2><span class="founder-role">Founder</span></div><div class="founder-layout"><div class="founder-photo media-frame reveal">'+picture(christelle['portrait'],'Christelle — Founder d’Anekdote',sizes='(max-width: 800px) 90vw, 42vw')+'</div><div class="founder-story prose reveal">'+clean(christelle['bio'])+'</div></div><div class="founder-anecdote reveal"><div><p class="eyebrow">Une Anekdote</p><div class="prose">'+founder_anecdote(christelle['anecdote'])+'</div></div><div class="founder-mantras">'+picture(BASE+'/wp-content/uploads/2023/11/Group-1798.svg','Les deux mantras de Christelle')+'</div></div></section>'
  b+='<section class="team-carousel-section wrap" id="team-members" aria-label="L’équipe Anekdote"><div class="deck team-carousel" data-deck role="region" aria-roledescription="carrousel" aria-label="Les membres de l’équipe"><div class="deck-stage">'
  for i,t in enumerate(members):
   key='member-'+str(i+1);an=BeautifulSoup(t['anecdote'],'html.parser');groups=[[text(li) for li in ul.select('li')] for ul in an.select('ul')];overlay=''
@@ -342,7 +353,7 @@ def team():
   b+='<article class="deck-slide team-slide'+(' active' if i==0 else '')+'" data-slide role="group" aria-label="'+esc(t['display_name'])+', '+str(i+1)+' sur '+str(len(members))+'"><header class="member-heading"><h3>'+esc(t['display_name'])+'</h3></header><div class="member-layout"><div class="member-photo media-frame" data-profile-photo tabindex="0" role="button" aria-label="Découvrir les goûts de '+esc(t['display_name'])+'" aria-expanded="false" aria-controls="'+key+'-tastes">'+picture(t['portrait'],t['display_name']+' — portrait Anekdote',sizes='(max-width: 800px) 180px, 400px')+'<div class="photo-tastes" id="'+key+'-tastes" aria-hidden="true">'+overlay+'</div></div><div class="member-story" tabindex="0" role="region" aria-label="Le portrait de '+esc(t['display_name'])+'">'+member_paragraphs(t)+'</div></div></article>'
  b+='</div><div class="deck-controls"><div class="deck-tabs member-tabs" aria-label="Choisir un membre">'
  for i,t in enumerate(members):b+='<button type="button" data-deck-go="'+str(i)+'" aria-label="'+esc(t['display_name'])+', membre '+str(i+1)+'" aria-pressed="'+('true' if i==0 else 'false')+'"><span class="member-name-index" aria-hidden="true">'+str(i+1).zfill(2)+'</span>'+esc(t['display_name'])+'</button>'
- b+='</div><div class="deck-arrows"><span class="sr-only" data-deck-status aria-live="polite" aria-atomic="true">1 / '+str(len(members))+'</span><button type="button" data-deck-prev aria-label="Membre précédent">'+arrow(True)+'</button><button type="button" data-deck-next aria-label="Membre suivant">'+arrow()+'</button></div></div></div></section>'
+ b+='</div><span class="sr-only" data-deck-status aria-live="polite" aria-atomic="true">1 / '+str(len(members))+'</span></div></div></section>'
  write(page,b,PAGES[BASE+'/equipe/']['title'],PAGES[BASE+'/equipe/']['description'],'equipe')
 
 def talents():
@@ -357,7 +368,7 @@ def talents():
   # Quotation and attribution remain word-for-word as published.
   p=node.select_one('p');parts=p.decode_contents().split('<br/>');quote=text(BeautifulSoup(parts[0],'html.parser'));author=text(BeautifulSoup(parts[-1],'html.parser'));name=author.lstrip('- ').strip()
   slides.append((name,'<blockquote><p>'+esc(quote)+'</p><footer>'+esc(author)+'</footer></blockquote>'))
- b+='<section class="talents-voices section"><div><h2 class="section-title">Le plaisir<br>de '+liquid_text(['collaborer.','créer.','réussir.'])+'</h2></div>'+deck(slides,'Les témoignages publiés des talents','voices-deck',labels=False,named_tabs=True)+'</section>'
+ b+='<section class="talents-voices section"><div><h2 class="section-title">Le plaisir<br>de '+liquid_text(['collaborer.','créer.','réussir.'])+'</h2></div>'+deck(slides,'Les témoignages publiés des talents','voices-deck',labels=False,named_tabs=True,arrows=False)+'</section>'
  write(page,b,PAGES[BASE+'/talents/']['title'],PAGES[BASE+'/talents/']['description'],'talents')
 
 def contact():
