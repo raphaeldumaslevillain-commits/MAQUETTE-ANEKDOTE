@@ -84,3 +84,7 @@ Tous les textes d’introduction, descriptions, paragraphes éditoriaux, biograp
 ## Centrage des partenaires, ligne serif et introductions épurées
 
 Sur l’accueil, le paragraphe des partenaires est centré verticalement dans sa ligne de grille par rapport au titre. La ligne animée utilise Instrument Serif, la même famille serif que les titres éditoriaux du site ; le cycle, la frappe et les commandes de pause sont conservés. Les libellés 01 • Nos expertises et 01 • #TeamAnekdote sont retirés des introductions des pages Expertises et Équipe.
+
+## Nouveau portrait de Louise
+
+Le portrait de Louise est remplacé par la photo LOUISE.jpeg fournie par le client. La version WebP conserve le format carré et utilise un nouveau nom de fichier pour éviter une ancienne image en cache. Le cadre du carrousel et les arrondis existants sont conservés.

@@ -65,3 +65,7 @@ Les 49 pages générées sont vérifiées à 1456 × 790 et 390 × 844 px. Les 7
 ## Centrage, serif et suppression des deux libellés
 
 Neuf observations du navigateur couvrent l’accueil à 320, 390, 800, 1049 et 1337 px, ainsi que les pages Expertises et Équipe à 390 et 1337 px. Les centres verticaux du titre et du texte des partenaires coïncident à 1337 px, avec un écart inférieur à 0,01 px à 1049 px. Sur mobile, les blocs se suivent en une colonne. La ligne animée hérite de la famille Instrument Serif et reste sur une ligne ; aucun débordement horizontal n’est relevé. Les deux introductions ne contiennent plus de petit libellé, et leurs titres sont conservés. Les textes de lecture restent à 16,8 px et les accordéons démarrent fermés. Aucun message d’erreur JavaScript n’est relevé. La validation statique passe sur 58 fichiers HTML, 33 projets et 9 personnes. Voir layout-serif-browser-checks.json et les aperçus accueil-centrage-serif.jpg et introductions-sans-libelles.jpg.
+
+## Portrait de Louise remplacé
+
+La nouvelle photo est chargée dans le profil actif de Louise à 1337 × 790 et 390 × 844 px. Le cadre reste carré, ses coins mesurent 24 px sur ordinateur et 20 px sur mobile, et les commandes du carrousel restent dans la fenêtre. Aucun débordement horizontal ni message d’erreur JavaScript n’est relevé. La validation statique passe sur 58 fichiers HTML. Voir louise-photo-browser-checks.json et les deux aperçus equipe-louise-nouveau-portrait.

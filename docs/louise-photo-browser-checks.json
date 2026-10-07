@@ -1,0 +1,51 @@
+{
+  "checks": [
+    {
+      "controlsBottom": 695.03125,
+      "loaded": true,
+      "name": "Louise",
+      "natural": [
+        399,
+        399
+      ],
+      "overflow": false,
+      "photo": {
+        "bottom": 598.03125,
+        "height": 400,
+        "radius": "24px",
+        "top": 198.03125,
+        "width": 400
+      },
+      "scrollY": 2034,
+      "src": "http://127.0.0.1:8765/assets/images/equipe/louise-portrait-octobre-2026.webp",
+      "viewport": [
+        1337,
+        790
+      ]
+    },
+    {
+      "controlsBottom": 822.015625,
+      "loaded": true,
+      "name": "Louise",
+      "natural": [
+        179,
+        179
+      ],
+      "overflow": false,
+      "photo": {
+        "bottom": 292.015625,
+        "height": 151.9140625,
+        "radius": "20px",
+        "top": 140.1015625,
+        "width": 151.9140625
+      },
+      "scrollY": 2833,
+      "src": "http://127.0.0.1:8765/assets/images/equipe/louise-portrait-octobre-2026.webp",
+      "viewport": [
+        390,
+        844
+      ]
+    }
+  ],
+  "errors": []
+}
