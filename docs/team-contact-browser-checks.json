@@ -1,0 +1,295 @@
+{
+  "team": [
+    {
+      "active": "Tiffany",
+      "arrows": {
+        "bottom": 689.03125,
+        "width": 100
+      },
+      "controlsBottom": 695.03125,
+      "memberEyebrows": 0,
+      "overflow": false,
+      "scrollY": 2034,
+      "statusBounds": {
+        "height": 1,
+        "width": 1
+      },
+      "statusHidden": true,
+      "tabs": {
+        "left": 268.34375,
+        "scrollWidth": 800,
+        "width": 800.3046875
+      },
+      "tabsCenterDifference": -0.00390625,
+      "viewport": [
+        1337,
+        790
+      ]
+    },
+    {
+      "active": "Tiffany",
+      "arrows": {
+        "bottom": 681.140625,
+        "width": 100
+      },
+      "controlsBottom": 687.140625,
+      "memberEyebrows": 0,
+      "overflow": false,
+      "scrollY": 1992,
+      "statusBounds": {
+        "height": 1,
+        "width": 1
+      },
+      "statusHidden": true,
+      "tabs": {
+        "left": 179.84375,
+        "scrollWidth": 800,
+        "width": 800.3046875
+      },
+      "tabsCenterDifference": -0.00390625,
+      "viewport": [
+        1160,
+        790
+      ]
+    },
+    {
+      "active": "Tiffany",
+      "arrows": {
+        "bottom": 726.4921875,
+        "width": 100
+      },
+      "controlsBottom": 726.4921875,
+      "memberEyebrows": 0,
+      "overflow": false,
+      "scrollY": 1995,
+      "statusBounds": {
+        "height": 1,
+        "width": 1
+      },
+      "statusHidden": true,
+      "tabs": {
+        "left": 124.34375,
+        "scrollWidth": 800,
+        "width": 800.3046875
+      },
+      "tabsCenterDifference": -0.00390625,
+      "viewport": [
+        1049,
+        790
+      ]
+    },
+    {
+      "active": "Tiffany",
+      "arrows": {
+        "bottom": 824.015625,
+        "width": 350
+      },
+      "controlsBottom": 824.015625,
+      "memberEyebrows": 0,
+      "overflow": false,
+      "scrollY": 2831,
+      "statusBounds": {
+        "height": 1,
+        "width": 1
+      },
+      "statusHidden": true,
+      "tabs": {
+        "left": 20,
+        "scrollWidth": 796,
+        "width": 350
+      },
+      "tabsCenterDifference": 0,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "active": "Tiffany",
+      "arrows": {
+        "bottom": 760.625,
+        "width": 280
+      },
+      "controlsBottom": 760.625,
+      "memberEyebrows": 0,
+      "overflow": false,
+      "scrollY": 3048,
+      "statusBounds": {
+        "height": 1,
+        "width": 1
+      },
+      "statusHidden": true,
+      "tabs": {
+        "left": 20,
+        "scrollWidth": 796,
+        "width": 280
+      },
+      "tabsCenterDifference": 0,
+      "viewport": [
+        320,
+        790
+      ]
+    }
+  ],
+  "teamNavigation": [
+    "Louise",
+    "Tiffany",
+    "Emma.L"
+  ],
+  "contact": [
+    {
+      "continueButtons": 0,
+      "overflow": false,
+      "scrollY": 430,
+      "tasteLabels": [],
+      "viewport": [
+        1337,
+        790
+      ],
+      "visibleStep": "0"
+    },
+    {
+      "action": "Espresso",
+      "drink": "Espresso",
+      "focus": "Où voulez-vousvous installer ?",
+      "headingTop": 221.078125,
+      "nav": 82,
+      "placeOptions": [
+        "Rooftop",
+        "Salle de réunion",
+        "Salon/Canapé"
+      ],
+      "visibleStep": "1"
+    },
+    {
+      "action": "choose-drink",
+      "drink": "Espresso",
+      "focusHeading": true,
+      "visibleStep": "1"
+    },
+    {
+      "action": "choose-place",
+      "drink": "Espresso",
+      "focusHeading": true,
+      "overflow": false,
+      "place": "Rooftop",
+      "recap": "Espresso / Rooftop",
+      "status": "",
+      "visibleStep": "2"
+    },
+    {
+      "action": "choose-drink",
+      "drink": "Americano",
+      "focusHeading": true,
+      "visibleStep": "1"
+    },
+    {
+      "action": "choose-place",
+      "drink": "Americano",
+      "focusHeading": true,
+      "overflow": false,
+      "place": "Salle de réunion",
+      "recap": "Americano / Salle de réunion",
+      "status": "",
+      "visibleStep": "2"
+    },
+    {
+      "action": "choose-drink",
+      "drink": "Macchiato",
+      "focusHeading": true,
+      "visibleStep": "1"
+    },
+    {
+      "action": "choose-place",
+      "drink": "Macchiato",
+      "focusHeading": true,
+      "overflow": false,
+      "place": "Salon/Canapé",
+      "recap": "Macchiato / Salon/Canapé",
+      "status": "",
+      "visibleStep": "2"
+    },
+    {
+      "action": "choose-drink",
+      "drink": "Cappucino",
+      "focusHeading": true,
+      "visibleStep": "1"
+    },
+    {
+      "action": "choose-place",
+      "drink": "Cappucino",
+      "focusHeading": true,
+      "overflow": false,
+      "place": "Rooftop",
+      "recap": "Cappucino / Rooftop",
+      "status": "",
+      "visibleStep": "2"
+    },
+    {
+      "action": "choose-drink",
+      "drink": "Latte",
+      "focusHeading": true,
+      "visibleStep": "1"
+    },
+    {
+      "action": "choose-place",
+      "drink": "Latte",
+      "focusHeading": true,
+      "overflow": false,
+      "place": "Salle de réunion",
+      "recap": "Latte / Salle de réunion",
+      "status": "",
+      "visibleStep": "2"
+    },
+    {
+      "action": "choose-drink",
+      "drink": "Chocolat chaud",
+      "focusHeading": true,
+      "visibleStep": "1"
+    },
+    {
+      "action": "choose-place",
+      "drink": "Chocolat chaud",
+      "focusHeading": true,
+      "overflow": false,
+      "place": "Salon/Canapé",
+      "recap": "Chocolat chaud / Salon/Canapé",
+      "status": "",
+      "visibleStep": "2"
+    },
+    {
+      "action": "keyboard-drink-space",
+      "drink": "Espresso",
+      "step": "1"
+    },
+    {
+      "action": "keyboard-place-space",
+      "recap": "Espresso / Rooftop",
+      "step": "2"
+    },
+    {
+      "action": "mobile-drink",
+      "drink": "Latte",
+      "overflow": false,
+      "step": "1",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "action": "mobile-place",
+      "headingTop": 209.1640625,
+      "nav": 70,
+      "overflow": false,
+      "recap": "Latte / Salle de réunion",
+      "scrollY": 177,
+      "step": "2",
+      "viewport": [
+        390,
+        844
+      ]
+    }
+  ],
+  "errors": []
+}

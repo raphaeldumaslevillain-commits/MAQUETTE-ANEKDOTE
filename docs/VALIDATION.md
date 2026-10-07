@@ -69,3 +69,9 @@ Neuf observations du navigateur couvrent l’accueil à 320, 390, 800, 1049 et 1
 ## Portrait de Louise remplacé
 
 La nouvelle photo est chargée dans le profil actif de Louise à 1337 × 790 et 390 × 844 px. Le cadre reste carré, ses coins mesurent 24 px sur ordinateur et 20 px sur mobile, et les commandes du carrousel restent dans la fenêtre. Aucun débordement horizontal ni message d’erreur JavaScript n’est relevé. La validation statique passe sur 58 fichiers HTML. Voir louise-photo-browser-checks.json et les deux aperçus equipe-louise-nouveau-portrait.
+
+## Carrousel centré et Contact automatique
+
+Équipe est vérifiée à 1337 × 790, 1160 × 790, 1049 × 790, 390 × 844 et 320 × 790 px. La liste des membres est centrée à moins de 0,01 px du centre de la fenêtre. Les huit repères de membres sont absents ; le compteur reste uniquement dans une annonce masquée de 1 × 1 px. Les commandes tiennent dans la fenêtre et la page ne déborde pas horizontalement. Les flèches bouclent entre Tiffany et Louise, et Flèche droite permet de sélectionner Emma.L.
+
+Les six boissons et les trois lieux sont exercés dans le navigateur : un clic affiche exactement l’étape suivante et le récapitulatif conserve les deux valeurs. Le retour en arrière puis la resélection d’une option déjà cochée fonctionne. La sélection par Espace fonctionne pour les deux étapes. Le parcours est aussi vérifié à 390 × 844 px ; aucun débordement ni erreur JavaScript n’est relevé. Les boutons Continuer et le libellé À votre goût sont absents. Les contrôles ne déclenchent pas d’envoi du message. La syntaxe du script et la validation statique de 58 fichiers HTML passent. Voir team-contact-browser-checks.json et les aperçus equipe-controles-centres, contact-choix-direct et equipe-contact-navigation.

@@ -20,12 +20,22 @@
     steps[step].querySelector('h2')?.focus({preventScroll: true});
     if (scroll) form.scrollIntoView({behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth', block: 'start'});
   };
-  form.querySelectorAll('[data-next]').forEach(button => button.addEventListener('click', () => {
+  const advance = () => {
     const inputs = [...steps[current].querySelectorAll('input,select,textarea')];
     const invalid = inputs.find(input => !input.checkValidity());
     if (invalid) {invalid.reportValidity(); return;}
     show(Math.min(current + 1, steps.length - 1), true);
-  }));
+  };
+  const choose = event => {
+    const input = event.target;
+    if (!input.matches('input[type=radio][name=your-drink],input[type=radio][name=your-place]') || !input.checked) return;
+    if (input.closest('[data-step]') !== steps[current]) return;
+    advance();
+  };
+  // Click also handles choosing the same option again after going back.
+  // The active-step guard prevents click and change from advancing twice.
+  form.addEventListener('click', choose);
+  form.addEventListener('change', choose);
   form.querySelectorAll('[data-prev]').forEach(button => button.addEventListener('click', () => show(Math.max(0, current - 1), true)));
   // The static site keeps the existing Anekdote contact destination (CF7 form 547).
   // No new service receives this information. Never simulate a successful delivery.

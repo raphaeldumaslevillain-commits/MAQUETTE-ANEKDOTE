@@ -88,3 +88,9 @@ Sur l’accueil, le paragraphe des partenaires est centré verticalement dans sa
 ## Nouveau portrait de Louise
 
 Le portrait de Louise est remplacé par la photo LOUISE.jpeg fournie par le client. La version WebP conserve le format carré et utilise un nouveau nom de fichier pour éviter une ancienne image en cache. Le cadre du carrousel et les arrondis existants sont conservés.
+
+## Équipe centrée et choix directs sur Contact
+
+Les huit en-têtes de membres ne portent plus de repère #TeamAnekdote. Le compteur du carrousel est retiré de l’affichage ; son annonce reste disponible aux lecteurs d’écran. La liste des membres est centrée dans la page, avec les flèches à droite sur grand écran et sous la liste aux tailles intermédiaires et mobiles. La liste conserve son défilement horizontal sur mobile.
+
+Sur Contact, les boutons Continuer des deux premières étapes et le libellé À votre goût sont retirés. Choisir une boisson ouvre directement les lieux ; choisir un lieu ouvre les coordonnées et le message. Retour permet de modifier les choix, y compris en resélectionnant la même option. Le focus passe au titre de la nouvelle étape, avec un défilement adapté à l’en-tête et à la préférence de mouvement réduit. Le message reste envoyé au moyen du bouton Envoyer.

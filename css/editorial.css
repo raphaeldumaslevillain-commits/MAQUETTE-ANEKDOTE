@@ -227,15 +227,20 @@
 .member-story>p{font-size:clamp(1rem,1.15vw,1.125rem);line-height:1.6;max-width:64ch}
 .member-story>p+p{margin-top:14px}
 .member-story>p:first-child{font-weight:500}
-.team-carousel .deck-controls{margin-top:20px;flex-wrap:nowrap;gap:24px}
-.member-tabs{flex:1;min-width:0;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:thin;padding:6px;scroll-padding-inline:6px}
+.team-carousel.enhanced>.deck-controls{display:grid;grid-template-columns:minmax(104px,1fr) max-content minmax(104px,1fr);margin-top:20px;gap:16px}
+.member-tabs{grid-column:2;justify-self:center;min-width:0;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:thin;padding:6px;scroll-padding-inline:6px}
 .member-tabs button{flex:none;padding:10px 12px;white-space:nowrap}
-.team-carousel .deck-arrows{flex:none;margin-left:auto;gap:12px}
+.team-carousel .deck-arrows{grid-column:3;justify-self:end;gap:12px}
 .team-carousel .deck-arrows button{width:44px;height:44px}
 .team-carousel .photo-tastes{padding:24px;gap:20px;overflow:auto;overscroll-behavior:contain}
 .team-carousel .photo-tastes h4{margin-bottom:10px}
 .team-carousel .taste-group ul{gap:9px}
 .team-carousel .taste-group li{font-size:1rem}
+@media(max-width:1150px){
+ .team-carousel.enhanced>.deck-controls{grid-template-columns:minmax(0,1fr)}
+ .member-tabs{grid-column:1;width:max-content;max-width:100%}
+ .team-carousel .deck-arrows{grid-column:1;justify-self:center;margin-left:0}
+}
 @media(max-width:800px){
  .team-carousel-section{padding-block:16px}
  .member-heading{margin-bottom:10px;gap:12px}
@@ -248,7 +253,7 @@
  .member-story>p+p{margin-top:12px}
  .team-carousel.enhanced>.deck-controls{display:grid;grid-template-columns:minmax(0,1fr);gap:8px;margin-top:14px;padding-top:10px}
  .member-tabs{gap:8px;padding:4px;max-width:100%}
- .team-carousel .deck-arrows{width:100%;justify-content:flex-end;margin-left:0}
+ .team-carousel .deck-arrows{width:100%;justify-content:center;margin-left:0}
  .team-carousel .deck-status{margin-right:auto}
  .team-carousel .photo-tastes{padding:14px;gap:14px}
  .team-carousel .photo-tastes h4{font-size:.6rem;margin-bottom:6px}
@@ -258,6 +263,7 @@
 }
 
 /* Shared photo corners also cover contact, case chapters, galleries and next projects. */
+.contact-form{scroll-margin-top:calc(var(--nav) + 24px)}
 picture.site-photo{display:block;border-radius:var(--photo-radius);overflow:hidden}
 picture.site-photo>img{border-radius:inherit}
 :is(.media-frame,.company-stage,.case-hero,.next-project):has(>picture.site-photo){border-radius:var(--photo-radius);overflow:hidden}
