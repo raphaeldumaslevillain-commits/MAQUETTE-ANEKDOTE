@@ -103,4 +103,4 @@ Le logo DBM apparaît d’abord seul. Au scroll, quatre fragments se séparent e
 
 Le contenu s’édite dans `content/group-content.json`, la mise en page dans `css/groupe.css` et le mouvement dans `js/groupe.js`.
 
-La séquence est épurée après validation : logo DBM réduit, paragraphes et légendes supprimés, sans barre de progression. Les intitulés des quatre entités ne portent plus de numérotation. Le header et le menu complet partagent l’ordre Accueil, Groupe, Agence, Équipe, Expertises, Talents ; Contact complète le menu.
+La séquence est épurée après validation : logo DBM réduit, paragraphes et légendes supprimés, sans barre de progression. Les intitulés des quatre entités ne portent plus de numérotation. Le header et le menu complet partagent l’ordre Accueil, Groupe, Agence, Équipe, Expertises, Projets, Talents ; Contact complète le menu.

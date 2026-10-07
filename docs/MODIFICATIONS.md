@@ -1,5 +1,9 @@
 # Révision des 76 annotations — 6 octobre 2026
 
+## Retour de Projets dans la navigation — 7 octobre 2026
+
+Projets est rétabli après Expertises et avant Talents dans le header et le menu burger de toutes les pages. La page Portfolio et les 33 études de cas restent accessibles par leurs routes existantes. Le dossier public utilisé pour l’aperçu iPhone est également actualisé. Sous 900 px, les liens passent dans le menu burger pour éviter le débordement de la navigation.
+
 ## Groupe épuré et ordre de navigation — 7 octobre 2026
 
 Le header et le menu burger suivent maintenant l’ordre Accueil, Groupe, Agence, Équipe, Expertises, Talents sur les 50 pages. Contact reste en dernier dans le menu complet. Équipe reste visible aux largeurs intermédiaires où les six liens tiennent dans le header.

@@ -319,3 +319,4 @@ picture.site-photo>img{border-radius:inherit}
 .contact-form .form-actions .button.secondary:hover{background:var(--orange);border-color:var(--orange);color:var(--accent-ink)}
 .desktop-nav{gap:clamp(14px,1.7vw,27px)}
 @media(min-width:801px) and (max-width:1100px){.desktop-nav{gap:14px;font-size:.76rem}}
+@media(max-width:900px){.desktop-nav{display:none}}
