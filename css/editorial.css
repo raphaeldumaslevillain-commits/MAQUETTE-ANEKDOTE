@@ -256,3 +256,22 @@
  .team-carousel .taste-group li{font-size:.75rem;line-height:1.3}
  .team-carousel .taste-group svg{width:15px;height:15px}
 }
+
+/* Shared photo corners also cover contact, case chapters, galleries and next projects. */
+picture.site-photo{display:block;border-radius:var(--photo-radius);overflow:hidden}
+picture.site-photo>img{border-radius:inherit}
+:is(.media-frame,.company-stage,.case-hero,.next-project):has(>picture.site-photo){border-radius:var(--photo-radius);overflow:hidden}
+/* The text keeps a stable single line while its visual copy types. */
+.masthead-meta .masthead-services{font-size:clamp(.75rem,1.15vw,1rem);letter-spacing:0;text-transform:none;white-space:nowrap;min-height:44px;width:100%;min-width:0;line-height:1.5}
+.service-static,.service-toggle{min-height:44px;align-items:center}
+.service-static{display:flex}
+.service-toggle{display:inline-flex;gap:3px;min-width:44px;padding:0;border:0;background:none;font:inherit;text-align:left;white-space:nowrap}
+.service-toggle:hover [data-service-copy]{text-decoration:underline;text-decoration-color:var(--orange);text-underline-offset:4px}
+.service-caret{width:1px;height:1em;background:var(--orange);animation:service-cursor .8s step-end infinite}
+.service-toggle[aria-pressed=true] .service-caret{animation:none;opacity:.35}
+@keyframes service-cursor{50%{opacity:0}}
+@media(prefers-reduced-motion:reduce){.service-caret{animation:none}}
+
+.home-services-heading .lead{font-size:1.05rem}
+
+.media-frame{border-radius:var(--photo-radius)}

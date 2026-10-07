@@ -68,3 +68,11 @@ Les six préfixes 01 • à 06 • sont également retirés de la page Expertise
 Le bouton de thème affiche uniquement le soleil ou la lune, dans une capsule compacte de 64 × 44 px (60 × 44 px sur les très petits écrans). Le curseur conserve son glissement de 380 ms et la page son déploiement circulaire. Le nom accessible, l’état et l’annonce du thème restent disponibles.
 
 Les fichiers de styles et de scripts portent une version calculée depuis leur contenu pour éviter qu’une ancienne copie en cache interfère avec les mises à jour.
+
+## Accueil, ligne animée et arrondis de toutes les photos
+
+L’onglet Accueil est ajouté à la navigation principale de toutes les pages ; il apparaît aussi dans le menu mobile. Le lien vers Équipe conserve son comportement au seuil de 1150 px.
+
+Le texte au-dessus du nom Anekdote tient sur une ligne et alterne toutes les 2000 ms entre Agence de conseil en stratégie d’influence, Campagnes fil rouge, Événements, Portages, Affiliation et Social Media. Chaque phrase est frappée en 260 ms. Un clic met en pause ou reprend ; le focus, le survol, la sortie de l’écran et l’onglet masqué suspendent aussi le cycle. La préférence de mouvement réduit et l’absence de JavaScript présentent une phrase fixe, avec la liste complète disponible aux lecteurs d’écran.
+
+Tous les cadres photographiques partagent les coins arrondis existants : 24 px sur ordinateur et 20 px sur mobile. L’accueil, les chapitres et galeries des études de cas, les invitations vers le projet suivant, Talents et Contact sont couverts. Le texte d’introduction affiché à 20,98 px dans l’annotation passe à 16,8 px, y compris sur mobile.

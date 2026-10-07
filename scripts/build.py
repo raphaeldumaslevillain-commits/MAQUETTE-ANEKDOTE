@@ -8,6 +8,7 @@ MAP=json.loads((ROOT/'content/media-map.json').read_text())
 PAGES=json.loads((ROOT/'content/source-pages.json').read_text())
 BASE='https://www.anekdote.fr'
 SERVICES=[('Campagne d’influence','campagne-dinfluence'),('Stratégie','strategie'),('Évènements','evenements'),('Brand Content','brand-content'),('RSE / Corporate','rse-corporate'),('Performance / Affiliation','performance-affiliation')]
+HOME_SERVICES=['Agence de conseil en stratégie d’influence','Campagnes fil rouge','Événements','Portages','Affiliation','Social Media']
 page='index.html';used=set();route_manifest=[]
 def esc(s):return html.escape(str(s or ''),quote=True)
 def soup(key):return BeautifulSoup((ROOT/'content/source-html'/((key.replace('/','__') or 'home')+'.html.txt')).read_text(),'html.parser')
@@ -28,6 +29,8 @@ def localpath(path):used.add(path);return rel(path)
 def picture(source,alt='',cls='',eager=False,sizes='(max-width: 800px) 100vw, 90vw'):
  info=MAP.get(source)
  if not info or 'error' in info:return ''
+ photo=Path(info['path']).suffix.lower() in {'.jpg','.jpeg','.png','.webp','.avif'} and 'logo' not in source.lower() and not info['path'].startswith('assets/brand/')
+ if photo:cls=('site-photo '+cls).strip()
  src=asset(source);props=''
  if info.get('width'):
   props=f' width="{info["width"]}" height="{info["height"]}"'
@@ -95,9 +98,9 @@ def hero_intro(title,kicker,description='',serif=False,cls=''):
  heading_class='display serif' if serif else 'display'
  return f'<section class="page-intro {cls}">{eyebrow}<h1 class="{heading_class}">{title}</h1>'+(f'<p class="lead">{description}</p>' if description else '')+'</section>'
 def header(active):
- nav=[('Agence','agence'),('Projets','hub-projets'),('Expertises','expertises'),('Équipe','equipe')]
+ nav=[('Accueil',''),('Agence','agence'),('Projets','hub-projets'),('Expertises','expertises'),('Équipe','equipe')]
  h='<a class="skip-link" href="#main">Aller au contenu</a><div class="reading-progress" aria-hidden="true"></div><header class="site-header"><a class="logo" href="'+url()+'" aria-label="Anekdote, accueil"><img src="'+asset(BASE+'/wp-content/uploads/2023/11/logo-anekdote.svg')+'" alt="Anekdote" width="145" height="34"></a><nav class="desktop-nav" aria-label="Navigation principale">'
- for label,p in nav:h+=f'<a href="{url(p)}"'+(' aria-current="page"' if active==p else '')+'>'+label+'</a>'
+ for label,p in nav:h+=f'<a href="{url(p)}"'+(' class="nav-team"' if p=='equipe' else '')+(' aria-current="page"' if active==p and (p or page=='index.html') else '')+'>'+label+'</a>'
  h+='</nav><div class="header-actions"><a class="coffee" href="'+url('contact')+'">Un café ?</a><button class="theme-toggle" type="button" data-theme-toggle role="switch" aria-checked="false" aria-label="Thème sombre" title="Passer au thème sombre"><span class="theme-icon" aria-hidden="true"><svg class="theme-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg><svg class="theme-moon" viewBox="0 0 24 24"><path d="M20.5 13.4A8.6 8.6 0 0 1 10.6 3.5a8.6 8.6 0 1 0 9.9 9.9Z"/></svg></span></button><button class="menu-toggle" aria-controls="navigation-dialog" aria-expanded="false" aria-label="Ouvrir le menu" data-menu-open><span>Menu</span><span class="menu-icon" aria-hidden="true"><i></i><i></i></span></button></div></header><span class="sr-only" data-theme-status role="status" aria-live="polite"></span>'
  h+='<dialog class="nav-dialog" id="navigation-dialog" aria-label="Navigation"><div class="nav-dialog-head"><a class="logo" href="'+url()+'"><img src="'+asset(BASE+'/wp-content/uploads/2023/11/logo-anekdote.svg')+'" alt="Anekdote" width="145" height="34"></a><button class="nav-close" data-menu-close>Fermer ×</button></div><div class="nav-grid"><nav class="nav-primary" aria-label="Toutes les pages">'
  for i,(label,p) in enumerate([('Accueil',''),('Agence','agence'),('Projets','hub-projets'),('Expertises','expertises'),('Équipe','equipe'),('Talents','talents'),('Contact','contact')]):h+=f'<a href="{url(p)}">{label}<small>{i+1:02d} •</small></a>'
@@ -118,7 +121,7 @@ def write(path,body,title,description,active='',schema=None):
  global page;assert page==path
  canonical=BASE+'/'+('' if path=='index.html' else str(Path(path).parent)+'/')
  css='<script src="'+versioned('js/theme-init.js')+'"></script>'+''.join(f'<link rel="stylesheet" href="{versioned("css/"+x+".css")}">' for x in ['fonts','variables','reset','typography','layout','components','animations','responsive','editorial','theme'])+'<noscript><link rel="stylesheet" href="'+versioned('css/no-script.css')+'"></noscript>'
- scripts=''.join(f'<script defer src="{versioned("js/"+x+".js")}"></script>' for x in ['theme','navigation','animations','projects','main','editorial']+(['contact'] if active=='contact' else []))
+ scripts=''.join(f'<script defer src="{versioned("js/"+x+".js")}"></script>' for x in ['theme','navigation','animations','projects','main','editorial']+(['service-rotator'] if path=='index.html' else [])+(['contact'] if active=='contact' else []))
  meta='<meta name="description" content="'+esc(description)+'"><link rel="canonical" href="'+canonical+'"><meta property="og:title" content="'+esc(title)+'"><meta property="og:description" content="'+esc(description)+'"><meta property="og:type" content="website"><meta property="og:url" content="'+canonical+'">'
  s={'@context':'https://schema.org','@type':'Organization','name':'Anekdote','url':BASE,'address':{'@type':'PostalAddress','streetAddress':'29 rue de Mogador','postalCode':'75009','addressLocality':'Paris','addressCountry':'FR'},'sameAs':['https://www.instagram.com/anekdotefr/','https://linkedin.com/company/anekdote-influence']}
  if schema:s=schema
@@ -191,7 +194,8 @@ def bio_chunks(content,limit=530):
 
 def home():
  global page;page='index.html';ag=soup('agence');ho=soup('');ghd=DATA['projects'][3]
- b='<section class="masthead"><div class="masthead-meta"><p class="eyebrow">Agence de conseil<br>Marketing d’influence & Brand Content</p></div><h1 class="wordmark" aria-label="Anekdote">Anek<span class="italic">dote</span><span class="dot">.</span></h1></section>'
+ services='<p class="eyebrow masthead-services" data-service-rotator data-services="'+esc(json.dumps(HOME_SERVICES,ensure_ascii=False))+'"><span class="sr-only">'+esc('. '.join(HOME_SERVICES))+'.</span><span class="service-static" aria-hidden="true">'+esc(HOME_SERVICES[0])+'</span><button class="service-toggle" type="button" data-service-toggle aria-label="Mettre en pause les domaines d’expertise" aria-pressed="false" hidden><span data-service-copy aria-hidden="true">'+esc(HOME_SERVICES[0])+'</span><span class="service-caret" aria-hidden="true"></span></button></p>'
+ b='<section class="masthead"><div class="masthead-meta">'+services+'</div><h1 class="wordmark" aria-label="Anekdote">Anek<span class="italic">dote</span><span class="dot">.</span></h1></section>'
  b+='<section class="company-stage">'+picture(bg(ag.select_one('.page-header-banner-container')),'L’équipe Anekdote dans un escalier parisien',eager=True)+'<div class="company-overlay"><p class="eyebrow">Enchanté !</p><h2>Nous créons<br>vos <span class="italic">campagnes.</span></h2></div></section>'
  b+='<section class="section home-services"><div class="home-services-heading"><div><h2 class="section-title">L’idée.<br><span class="italic">Puis l’action.</span></h2></div><p class="lead">Nous créons vos campagnes pour accélérer votre notoriété et optimiser votre conversion.</p></div>'+accordion('home-accordion',numbered=False)+'</section>'
  b+='<section class="section clients"><div class="client-intro"><h2>Nous vous adorons,<br><span class="italic">c’est réciproque.</span></h2><p>Nous avons plus de 50 partenaires qui nous font confiance dans la beauté, la mode, la tech/app, la food et le retail.</p></div>'+client_marquees()+'</section>'

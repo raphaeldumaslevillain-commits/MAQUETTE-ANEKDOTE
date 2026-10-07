@@ -1,0 +1,2882 @@
+{
+  "photoDesktop": [
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "L’équipe Anekdote dans un escalier parisien",
+          "clip": "hidden",
+          "parent": "company-stage scene-motion",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Un moment partagé par l’équipe Anekdote",
+          "clip": "hidden",
+          "parent": "home-agency-photo media-frame reveal waiting",
+          "parentRadius": "24px",
+          "radius": "24px"
+        }
+      ],
+      "route": "/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Brand Content",
+          "clip": "hidden",
+          "parent": "page-visual media-frame scene-motion",
+          "parentRadius": "24px",
+          "radius": "24px"
+        }
+      ],
+      "route": "/brand-content/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Le rooftop Anekdote — Paris",
+          "clip": "hidden",
+          "parent": "media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        }
+      ],
+      "route": "/contact/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "RSE / Corporate",
+          "clip": "hidden",
+          "parent": "page-visual media-frame scene-motion",
+          "parentRadius": "24px",
+          "radius": "24px"
+        }
+      ],
+      "route": "/rse-corporate/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Performance / Affiliation",
+          "clip": "hidden",
+          "parent": "page-visual media-frame scene-motion",
+          "parentRadius": "24px",
+          "radius": "24px"
+        }
+      ],
+      "route": "/performance-affiliation/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Évènements",
+          "clip": "hidden",
+          "parent": "page-visual media-frame scene-motion",
+          "parentRadius": "24px",
+          "radius": "24px"
+        }
+      ],
+      "route": "/evenements/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "L’équipe Anekdote",
+          "clip": "hidden",
+          "parent": "agency-photo media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        }
+      ],
+      "route": "/agence/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Stratégie",
+          "clip": "hidden",
+          "parent": "page-visual media-frame scene-motion",
+          "parentRadius": "24px",
+          "radius": "24px"
+        }
+      ],
+      "route": "/strategie/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Campagne d’influence",
+          "clip": "hidden",
+          "parent": "page-visual media-frame scene-motion",
+          "parentRadius": "24px",
+          "radius": "24px"
+        }
+      ],
+      "route": "/campagne-dinfluence/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Activation influence Anekdote — Festival de Cannes x Soskin",
+          "clip": "hidden",
+          "parent": "expertise-new-photo media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        }
+      ],
+      "route": "/expertises/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Un moment partagé par l’équipe Anekdote",
+          "clip": "hidden",
+          "parent": "media-frame team-group-photo",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Christelle — Co-Founder d’Anekdote",
+          "clip": "hidden",
+          "parent": "founder-photo media-frame reveal waiting",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Tiffany — portrait Anekdote",
+          "clip": "hidden",
+          "parent": "member-photo media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Emma.L — portrait Anekdote",
+          "clip": "hidden",
+          "parent": "member-photo media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Emma.c — portrait Anekdote",
+          "clip": "hidden",
+          "parent": "member-photo media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Carla — portrait Anekdote",
+          "clip": "hidden",
+          "parent": "member-photo media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Raphaël — portrait Anekdote",
+          "clip": "hidden",
+          "parent": "member-photo media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Margaux — portrait Anekdote",
+          "clip": "hidden",
+          "parent": "member-photo media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Louana — portrait Anekdote",
+          "clip": "hidden",
+          "parent": "member-photo media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Louise — portrait Anekdote",
+          "clip": "hidden",
+          "parent": "member-photo media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        }
+      ],
+      "route": "/equipe/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "BIOCYTE x SOLAR METRICS | Influence & affiliation",
+          "clip": "hidden",
+          "parent": "project-row-photo media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "LANCEMENT K-BIOCYTE : Event influence",
+          "clip": "hidden",
+          "parent": "project-row-photo media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Campagne d’Influence Poderm",
+          "clip": "hidden",
+          "parent": "project-row-photo media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Concert Aya Nakamura x GHD x Juliette Has A Gun",
+          "clip": "hidden",
+          "parent": "project-row-photo media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Roland Garros x Vincent Nadal",
+          "clip": "hidden",
+          "parent": "project-row-photo media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Et si le culot s’invitait au Festival de Cannes ?",
+          "clip": "hidden",
+          "parent": "project-row-photo media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Festival de Cannes x Soskin",
+          "clip": "hidden",
+          "parent": "project-row-photo media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Festival de Cannes x Bijou Brijitte",
+          "clip": "hidden",
+          "parent": "project-row-photo media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Festival de Cannes x @meganvlt x Aroma – zone",
+          "clip": "hidden",
+          "parent": "project-row-photo media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "1 million de gourmands, ça se fête!",
+          "clip": "hidden",
+          "parent": "project-row-photo media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "@skincarebysamy X Yves Rocher",
+          "clip": "hidden",
+          "parent": "project-row-photo media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Anniversaire 30 ans Jujufitcats",
+          "clip": "hidden",
+          "parent": "project-row-photo media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "BNP Paribas",
+          "clip": "hidden",
+          "parent": "project-row-photo media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Event TikTok x Aroma-Zone",
+          "clip": "hidden",
+          "parent": "project-row-photo media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Vichy x Jujufitcat",
+          "clip": "hidden",
+          "parent": "project-row-photo media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Benefit x Marcus",
+          "clip": "hidden",
+          "parent": "project-row-photo media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Lassie x Multi-talents",
+          "clip": "hidden",
+          "parent": "project-row-photo media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Paysan Breton x Créateurs UGC",
+          "clip": "hidden",
+          "parent": "project-row-photo media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Portage Vichy",
+          "clip": "hidden",
+          "parent": "project-row-photo media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Pinterest",
+          "clip": "hidden",
+          "parent": "project-row-photo media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Stratégie Tiktok x Dyson",
+          "clip": "hidden",
+          "parent": "project-row-photo media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Yves Rocher",
+          "clip": "hidden",
+          "parent": "project-row-photo media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Mr Moustache x Multi-Talents",
+          "clip": "hidden",
+          "parent": "project-row-photo media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "L’Oréal Luxe x My Origines",
+          "clip": "hidden",
+          "parent": "project-row-photo media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Milka x Natoo",
+          "clip": "hidden",
+          "parent": "project-row-photo media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Etam x Jujufitcat",
+          "clip": "hidden",
+          "parent": "project-row-photo media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Courir x Lena Situations",
+          "clip": "hidden",
+          "parent": "project-row-photo media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Stratégie Tiktok x Oh My Cream",
+          "clip": "hidden",
+          "parent": "project-row-photo media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Savage Fenty x JujuFitCat",
+          "clip": "hidden",
+          "parent": "project-row-photo media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Air Up x Jujufitcat",
+          "clip": "hidden",
+          "parent": "project-row-photo media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Sephora x Les éclaireuses",
+          "clip": "hidden",
+          "parent": "project-row-photo media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Carrefour x Multi-talents",
+          "clip": "hidden",
+          "parent": "project-row-photo media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Stratégie Tiktok x Choose",
+          "clip": "hidden",
+          "parent": "project-row-photo media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        }
+      ],
+      "route": "/hub-projets/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Meganvlt — Festival de Cannes x Aroma-Zone",
+          "clip": "hidden",
+          "parent": "talents-feature-photo media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        }
+      ],
+      "route": "/talents/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "@skincarebysamy X Yves Rocher",
+          "clip": "hidden",
+          "parent": "case-hero scene-motion",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "@skincarebysamy X Yves Rocher",
+          "clip": "hidden",
+          "parent": "media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "@skincarebysamy X Yves Rocher",
+          "clip": "hidden",
+          "parent": "media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Anniversaire 30 ans Jujufitcats",
+          "clip": "hidden",
+          "parent": "next-project",
+          "parentRadius": "24px",
+          "radius": "24px"
+        }
+      ],
+      "route": "/projets/skincarebysamy-x-yves-rocher/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Event TikTok x Aroma-Zone",
+          "clip": "hidden",
+          "parent": "case-hero scene-motion",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Event TikTok x Aroma-Zone",
+          "clip": "hidden",
+          "parent": "media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Event TikTok x Aroma-Zone",
+          "clip": "hidden",
+          "parent": "media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Vichy x Jujufitcat",
+          "clip": "hidden",
+          "parent": "next-project",
+          "parentRadius": "24px",
+          "radius": "24px"
+        }
+      ],
+      "route": "/projets/event-tiktok-x-aroma-zone/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Paysan Breton x Créateurs UGC",
+          "clip": "hidden",
+          "parent": "case-hero scene-motion",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Portage Vichy",
+          "clip": "hidden",
+          "parent": "next-project",
+          "parentRadius": "24px",
+          "radius": "24px"
+        }
+      ],
+      "route": "/projets/paysan-breton-x-createurs-ugc/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Vichy x Jujufitcat",
+          "clip": "hidden",
+          "parent": "case-hero scene-motion",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Vichy x Jujufitcat",
+          "clip": "hidden",
+          "parent": "media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Benefit x Marcus",
+          "clip": "hidden",
+          "parent": "next-project",
+          "parentRadius": "24px",
+          "radius": "24px"
+        }
+      ],
+      "route": "/projets/vichy-feat-jujufitcat/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Festival de Cannes x @meganvlt x Aroma – zone",
+          "clip": "hidden",
+          "parent": "case-hero scene-motion",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Festival de Cannes x @meganvlt x Aroma – zone",
+          "clip": "hidden",
+          "parent": "media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "1 million de gourmands, ça se fête!",
+          "clip": "hidden",
+          "parent": "next-project",
+          "parentRadius": "24px",
+          "radius": "24px"
+        }
+      ],
+      "route": "/projets/festival-de-cannes-x-meganvlt-x-aroma-zone/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Festival de Cannes x Bijou Brijitte",
+          "clip": "hidden",
+          "parent": "case-hero scene-motion",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Festival de Cannes x Bijou Brijitte",
+          "clip": "hidden",
+          "parent": "media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Festival de Cannes x @meganvlt x Aroma – zone",
+          "clip": "hidden",
+          "parent": "next-project",
+          "parentRadius": "24px",
+          "radius": "24px"
+        }
+      ],
+      "route": "/projets/festival-de-cannes-x-bijou-brijitte/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Portage Vichy",
+          "clip": "hidden",
+          "parent": "case-hero scene-motion",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Portage Vichy",
+          "clip": "hidden",
+          "parent": "media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Portage Vichy",
+          "clip": "hidden",
+          "parent": "media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Pinterest",
+          "clip": "hidden",
+          "parent": "next-project",
+          "parentRadius": "24px",
+          "radius": "24px"
+        }
+      ],
+      "route": "/projets/portage-vichy/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "L’Oréal Luxe x My Origines",
+          "clip": "hidden",
+          "parent": "case-hero scene-motion",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "L’Oréal Luxe x My Origines",
+          "clip": "hidden",
+          "parent": "media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Milka x Natoo",
+          "clip": "hidden",
+          "parent": "next-project",
+          "parentRadius": "24px",
+          "radius": "24px"
+        }
+      ],
+      "route": "/projets/loreal-luxe-x-my-origines/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Stratégie Tiktok x Oh My Cream",
+          "clip": "hidden",
+          "parent": "case-hero scene-motion",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Stratégie Tiktok x Oh My Cream",
+          "clip": "hidden",
+          "parent": "media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Savage Fenty x JujuFitCat",
+          "clip": "hidden",
+          "parent": "next-project",
+          "parentRadius": "24px",
+          "radius": "24px"
+        }
+      ],
+      "route": "/projets/strategie-tiktok-x-oh-my-cream/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Pinterest",
+          "clip": "hidden",
+          "parent": "case-hero scene-motion",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Pinterest",
+          "clip": "hidden",
+          "parent": "media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Pinterest",
+          "clip": "hidden",
+          "parent": "media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Stratégie Tiktok x Dyson",
+          "clip": "hidden",
+          "parent": "next-project",
+          "parentRadius": "24px",
+          "radius": "24px"
+        }
+      ],
+      "route": "/projets/pinterest/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Stratégie Tiktok x Dyson",
+          "clip": "hidden",
+          "parent": "case-hero scene-motion",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Stratégie Tiktok x Dyson",
+          "clip": "hidden",
+          "parent": "media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Yves Rocher",
+          "clip": "hidden",
+          "parent": "next-project",
+          "parentRadius": "24px",
+          "radius": "24px"
+        }
+      ],
+      "route": "/projets/strategie-tiktok-x-dyson/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "LANCEMENT K-BIOCYTE : Event influence",
+          "clip": "hidden",
+          "parent": "case-hero scene-motion",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "LANCEMENT K-BIOCYTE : Event influence",
+          "clip": "hidden",
+          "parent": "media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "LANCEMENT K-BIOCYTE : Event influence",
+          "clip": "hidden",
+          "parent": "media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Campagne d’Influence Poderm",
+          "clip": "hidden",
+          "parent": "next-project",
+          "parentRadius": "24px",
+          "radius": "24px"
+        }
+      ],
+      "route": "/projets/lancement-k-biocyte-event-influence/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Courir x Lena Situations",
+          "clip": "hidden",
+          "parent": "media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Courir x Lena Situations",
+          "clip": "hidden",
+          "parent": "media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Stratégie Tiktok x Oh My Cream",
+          "clip": "hidden",
+          "parent": "next-project",
+          "parentRadius": "24px",
+          "radius": "24px"
+        }
+      ],
+      "route": "/projets/courir-x-lena-situations/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Yves Rocher",
+          "clip": "hidden",
+          "parent": "case-hero scene-motion",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Mr Moustache x Multi-Talents",
+          "clip": "hidden",
+          "parent": "next-project",
+          "parentRadius": "24px",
+          "radius": "24px"
+        }
+      ],
+      "route": "/projets/yves-rocher-2/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Stratégie Tiktok x Choose",
+          "clip": "hidden",
+          "parent": "case-hero scene-motion",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Stratégie Tiktok x Choose",
+          "clip": "hidden",
+          "parent": "media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "BIOCYTE x SOLAR METRICS | Influence & affiliation",
+          "clip": "hidden",
+          "parent": "next-project",
+          "parentRadius": "24px",
+          "radius": "24px"
+        }
+      ],
+      "route": "/projets/strategie-tiktok-x-choose/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Etam x Jujufitcat",
+          "clip": "hidden",
+          "parent": "case-hero scene-motion",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Etam x Jujufitcat",
+          "clip": "hidden",
+          "parent": "media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Etam x Jujufitcat",
+          "clip": "hidden",
+          "parent": "media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Courir x Lena Situations",
+          "clip": "hidden",
+          "parent": "next-project",
+          "parentRadius": "24px",
+          "radius": "24px"
+        }
+      ],
+      "route": "/projets/etam-x-jujufitcat/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Benefit x Marcus",
+          "clip": "hidden",
+          "parent": "case-hero scene-motion",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Benefit x Marcus",
+          "clip": "hidden",
+          "parent": "media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Lassie x Multi-talents",
+          "clip": "hidden",
+          "parent": "next-project",
+          "parentRadius": "24px",
+          "radius": "24px"
+        }
+      ],
+      "route": "/projets/benefit-feat-marcus/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Milka x Natoo",
+          "clip": "hidden",
+          "parent": "media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Etam x Jujufitcat",
+          "clip": "hidden",
+          "parent": "next-project",
+          "parentRadius": "24px",
+          "radius": "24px"
+        }
+      ],
+      "route": "/projets/milka-x-natoo/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "BNP Paribas",
+          "clip": "hidden",
+          "parent": "case-hero scene-motion",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "BNP Paribas",
+          "clip": "hidden",
+          "parent": "media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "BNP Paribas",
+          "clip": "hidden",
+          "parent": "media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Event TikTok x Aroma-Zone",
+          "clip": "hidden",
+          "parent": "next-project",
+          "parentRadius": "24px",
+          "radius": "24px"
+        }
+      ],
+      "route": "/projets/bnp-paribas/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Anniversaire 30 ans Jujufitcats",
+          "clip": "hidden",
+          "parent": "case-hero scene-motion",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Anniversaire 30 ans Jujufitcats",
+          "clip": "hidden",
+          "parent": "media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Anniversaire 30 ans Jujufitcats",
+          "clip": "hidden",
+          "parent": "media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "BNP Paribas",
+          "clip": "hidden",
+          "parent": "next-project",
+          "parentRadius": "24px",
+          "radius": "24px"
+        }
+      ],
+      "route": "/projets/anniversaire-30-ans-jujufitcats/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Lassie x Multi-talents",
+          "clip": "hidden",
+          "parent": "case-hero scene-motion",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Paysan Breton x Créateurs UGC",
+          "clip": "hidden",
+          "parent": "next-project",
+          "parentRadius": "24px",
+          "radius": "24px"
+        }
+      ],
+      "route": "/projets/lassie-x-multi-talents/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "1 million de gourmands, ça se fête!",
+          "clip": "hidden",
+          "parent": "case-hero scene-motion",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "1 million de gourmands, ça se fête!",
+          "clip": "hidden",
+          "parent": "media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "1 million de gourmands, ça se fête!",
+          "clip": "hidden",
+          "parent": "media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "@skincarebysamy X Yves Rocher",
+          "clip": "hidden",
+          "parent": "next-project",
+          "parentRadius": "24px",
+          "radius": "24px"
+        }
+      ],
+      "route": "/projets/1-million-de-gourmands-ca-se-fete/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Concert Aya Nakamura x GHD x Juliette Has A Gun",
+          "clip": "hidden",
+          "parent": "case-hero scene-motion",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Roland Garros x Vincent Nadal",
+          "clip": "hidden",
+          "parent": "next-project",
+          "parentRadius": "24px",
+          "radius": "24px"
+        }
+      ],
+      "route": "/projets/concert-aya-nakamura-x-ghd-x-juliette-has-a-gun/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Et si le culot s’invitait au Festival de Cannes ?",
+          "clip": "hidden",
+          "parent": "case-hero scene-motion",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Et si le culot s’invitait au Festival de Cannes ?",
+          "clip": "hidden",
+          "parent": "media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Festival de Cannes x Soskin",
+          "clip": "hidden",
+          "parent": "next-project",
+          "parentRadius": "24px",
+          "radius": "24px"
+        }
+      ],
+      "route": "/projets/et-si-le-culot-sinvitait-au-festival-de-cannes/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Savage Fenty x JujuFitCat",
+          "clip": "hidden",
+          "parent": "media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Air Up x Jujufitcat",
+          "clip": "hidden",
+          "parent": "next-project",
+          "parentRadius": "24px",
+          "radius": "24px"
+        }
+      ],
+      "route": "/projets/savage-fenty-x-jujufitcat/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Roland Garros x Vincent Nadal",
+          "clip": "hidden",
+          "parent": "case-hero scene-motion",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Roland Garros x Vincent Nadal",
+          "clip": "hidden",
+          "parent": "media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Roland Garros x Vincent Nadal",
+          "clip": "hidden",
+          "parent": "media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Et si le culot s’invitait au Festival de Cannes ?",
+          "clip": "hidden",
+          "parent": "next-project",
+          "parentRadius": "24px",
+          "radius": "24px"
+        }
+      ],
+      "route": "/projets/__trashed/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Sephora x Les éclaireuses",
+          "clip": "hidden",
+          "parent": "media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Carrefour x Multi-talents",
+          "clip": "hidden",
+          "parent": "next-project",
+          "parentRadius": "24px",
+          "radius": "24px"
+        }
+      ],
+      "route": "/projets/sephora-x-les-eclaireuses/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Mr Moustache x Multi-Talents",
+          "clip": "hidden",
+          "parent": "case-hero scene-motion",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Mr Moustache x Multi-Talents",
+          "clip": "hidden",
+          "parent": "media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "L’Oréal Luxe x My Origines",
+          "clip": "hidden",
+          "parent": "next-project",
+          "parentRadius": "24px",
+          "radius": "24px"
+        }
+      ],
+      "route": "/projets/mr-moustache-x-multi-talents/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Air Up x Jujufitcat",
+          "clip": "hidden",
+          "parent": "case-hero scene-motion",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Air Up x Jujufitcat",
+          "clip": "hidden",
+          "parent": "media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Sephora x Les éclaireuses",
+          "clip": "hidden",
+          "parent": "next-project",
+          "parentRadius": "24px",
+          "radius": "24px"
+        }
+      ],
+      "route": "/projets/air-up-x-jujufitcat/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Carrefour x Multi-talents",
+          "clip": "hidden",
+          "parent": "case-hero scene-motion",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Carrefour x Multi-talents",
+          "clip": "hidden",
+          "parent": "media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Carrefour x Multi-talents",
+          "clip": "hidden",
+          "parent": "media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Stratégie Tiktok x Choose",
+          "clip": "hidden",
+          "parent": "next-project",
+          "parentRadius": "24px",
+          "radius": "24px"
+        }
+      ],
+      "route": "/projets/carrefour-x-multi-talents/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "BIOCYTE x SOLAR METRICS | Influence & affiliation",
+          "clip": "hidden",
+          "parent": "case-hero scene-motion",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "BIOCYTE x SOLAR METRICS | Influence & affiliation",
+          "clip": "hidden",
+          "parent": "media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "LANCEMENT K-BIOCYTE : Event influence",
+          "clip": "hidden",
+          "parent": "next-project",
+          "parentRadius": "24px",
+          "radius": "24px"
+        }
+      ],
+      "route": "/projets/biocyte-x-solar-metrics-influence-affiliation/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Festival de Cannes x Soskin",
+          "clip": "hidden",
+          "parent": "case-hero scene-motion",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Festival de Cannes x Soskin",
+          "clip": "hidden",
+          "parent": "media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Festival de Cannes x Soskin",
+          "clip": "hidden",
+          "parent": "media-frame",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Festival de Cannes x Bijou Brijitte",
+          "clip": "hidden",
+          "parent": "next-project",
+          "parentRadius": "24px",
+          "radius": "24px"
+        }
+      ],
+      "route": "/projets/festival-de-cannes-x-soskin/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Campagne d’Influence Poderm",
+          "clip": "hidden",
+          "parent": "case-hero scene-motion",
+          "parentRadius": "24px",
+          "radius": "24px"
+        },
+        {
+          "alt": "Concert Aya Nakamura x GHD x Juliette Has A Gun",
+          "clip": "hidden",
+          "parent": "next-project",
+          "parentRadius": "24px",
+          "radius": "24px"
+        }
+      ],
+      "route": "/projets/campagne-dinfluence-poderm-juin-aout-2026-strategie-de-test-learn-et-optimisation-du-casting-createurs/index.html"
+    }
+  ],
+  "photoMobile": [
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "L’équipe Anekdote dans un escalier parisien",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Un moment partagé par l’équipe Anekdote",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        }
+      ],
+      "route": "/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Brand Content",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        }
+      ],
+      "route": "/brand-content/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Le rooftop Anekdote — Paris",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        }
+      ],
+      "route": "/contact/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "RSE / Corporate",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        }
+      ],
+      "route": "/rse-corporate/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Performance / Affiliation",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        }
+      ],
+      "route": "/performance-affiliation/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Évènements",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        }
+      ],
+      "route": "/evenements/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "L’équipe Anekdote",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        }
+      ],
+      "route": "/agence/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Stratégie",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        }
+      ],
+      "route": "/strategie/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Campagne d’influence",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        }
+      ],
+      "route": "/campagne-dinfluence/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Activation influence Anekdote — Festival de Cannes x Soskin",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        }
+      ],
+      "route": "/expertises/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Un moment partagé par l’équipe Anekdote",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Christelle — Co-Founder d’Anekdote",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Tiffany — portrait Anekdote",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Emma.L — portrait Anekdote",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Emma.c — portrait Anekdote",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Carla — portrait Anekdote",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Raphaël — portrait Anekdote",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Margaux — portrait Anekdote",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Louana — portrait Anekdote",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Louise — portrait Anekdote",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        }
+      ],
+      "route": "/equipe/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "BIOCYTE x SOLAR METRICS | Influence & affiliation",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "LANCEMENT K-BIOCYTE : Event influence",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Campagne d’Influence Poderm",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Concert Aya Nakamura x GHD x Juliette Has A Gun",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Roland Garros x Vincent Nadal",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Et si le culot s’invitait au Festival de Cannes ?",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Festival de Cannes x Soskin",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Festival de Cannes x Bijou Brijitte",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Festival de Cannes x @meganvlt x Aroma – zone",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "1 million de gourmands, ça se fête!",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "@skincarebysamy X Yves Rocher",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Anniversaire 30 ans Jujufitcats",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "BNP Paribas",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Event TikTok x Aroma-Zone",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Vichy x Jujufitcat",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Benefit x Marcus",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Lassie x Multi-talents",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Paysan Breton x Créateurs UGC",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Portage Vichy",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Pinterest",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Stratégie Tiktok x Dyson",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Yves Rocher",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Mr Moustache x Multi-Talents",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "L’Oréal Luxe x My Origines",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Milka x Natoo",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Etam x Jujufitcat",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Courir x Lena Situations",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Stratégie Tiktok x Oh My Cream",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Savage Fenty x JujuFitCat",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Air Up x Jujufitcat",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Sephora x Les éclaireuses",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Carrefour x Multi-talents",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Stratégie Tiktok x Choose",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        }
+      ],
+      "route": "/hub-projets/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Meganvlt — Festival de Cannes x Aroma-Zone",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        }
+      ],
+      "route": "/talents/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "@skincarebysamy X Yves Rocher",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "@skincarebysamy X Yves Rocher",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "@skincarebysamy X Yves Rocher",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Anniversaire 30 ans Jujufitcats",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        }
+      ],
+      "route": "/projets/skincarebysamy-x-yves-rocher/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Event TikTok x Aroma-Zone",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Event TikTok x Aroma-Zone",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Event TikTok x Aroma-Zone",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Vichy x Jujufitcat",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        }
+      ],
+      "route": "/projets/event-tiktok-x-aroma-zone/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Paysan Breton x Créateurs UGC",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Portage Vichy",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        }
+      ],
+      "route": "/projets/paysan-breton-x-createurs-ugc/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Vichy x Jujufitcat",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Vichy x Jujufitcat",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Benefit x Marcus",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        }
+      ],
+      "route": "/projets/vichy-feat-jujufitcat/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Festival de Cannes x @meganvlt x Aroma – zone",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Festival de Cannes x @meganvlt x Aroma – zone",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "1 million de gourmands, ça se fête!",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        }
+      ],
+      "route": "/projets/festival-de-cannes-x-meganvlt-x-aroma-zone/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Festival de Cannes x Bijou Brijitte",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Festival de Cannes x Bijou Brijitte",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Festival de Cannes x @meganvlt x Aroma – zone",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        }
+      ],
+      "route": "/projets/festival-de-cannes-x-bijou-brijitte/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Portage Vichy",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Portage Vichy",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Portage Vichy",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Pinterest",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        }
+      ],
+      "route": "/projets/portage-vichy/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "L’Oréal Luxe x My Origines",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "L’Oréal Luxe x My Origines",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Milka x Natoo",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        }
+      ],
+      "route": "/projets/loreal-luxe-x-my-origines/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Stratégie Tiktok x Oh My Cream",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Stratégie Tiktok x Oh My Cream",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Savage Fenty x JujuFitCat",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        }
+      ],
+      "route": "/projets/strategie-tiktok-x-oh-my-cream/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Pinterest",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Pinterest",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Pinterest",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Stratégie Tiktok x Dyson",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        }
+      ],
+      "route": "/projets/pinterest/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Stratégie Tiktok x Dyson",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Stratégie Tiktok x Dyson",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Yves Rocher",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        }
+      ],
+      "route": "/projets/strategie-tiktok-x-dyson/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "LANCEMENT K-BIOCYTE : Event influence",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "LANCEMENT K-BIOCYTE : Event influence",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "LANCEMENT K-BIOCYTE : Event influence",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Campagne d’Influence Poderm",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        }
+      ],
+      "route": "/projets/lancement-k-biocyte-event-influence/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Courir x Lena Situations",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Courir x Lena Situations",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Stratégie Tiktok x Oh My Cream",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        }
+      ],
+      "route": "/projets/courir-x-lena-situations/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Yves Rocher",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Mr Moustache x Multi-Talents",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        }
+      ],
+      "route": "/projets/yves-rocher-2/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Stratégie Tiktok x Choose",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Stratégie Tiktok x Choose",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "BIOCYTE x SOLAR METRICS | Influence & affiliation",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        }
+      ],
+      "route": "/projets/strategie-tiktok-x-choose/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Etam x Jujufitcat",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Etam x Jujufitcat",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Etam x Jujufitcat",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Courir x Lena Situations",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        }
+      ],
+      "route": "/projets/etam-x-jujufitcat/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Benefit x Marcus",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Benefit x Marcus",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Lassie x Multi-talents",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        }
+      ],
+      "route": "/projets/benefit-feat-marcus/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Milka x Natoo",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Etam x Jujufitcat",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        }
+      ],
+      "route": "/projets/milka-x-natoo/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "BNP Paribas",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "BNP Paribas",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "BNP Paribas",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Event TikTok x Aroma-Zone",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        }
+      ],
+      "route": "/projets/bnp-paribas/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Anniversaire 30 ans Jujufitcats",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Anniversaire 30 ans Jujufitcats",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Anniversaire 30 ans Jujufitcats",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "BNP Paribas",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        }
+      ],
+      "route": "/projets/anniversaire-30-ans-jujufitcats/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Lassie x Multi-talents",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Paysan Breton x Créateurs UGC",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        }
+      ],
+      "route": "/projets/lassie-x-multi-talents/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "1 million de gourmands, ça se fête!",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "1 million de gourmands, ça se fête!",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "1 million de gourmands, ça se fête!",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "@skincarebysamy X Yves Rocher",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        }
+      ],
+      "route": "/projets/1-million-de-gourmands-ca-se-fete/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Concert Aya Nakamura x GHD x Juliette Has A Gun",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Roland Garros x Vincent Nadal",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        }
+      ],
+      "route": "/projets/concert-aya-nakamura-x-ghd-x-juliette-has-a-gun/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Et si le culot s’invitait au Festival de Cannes ?",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Et si le culot s’invitait au Festival de Cannes ?",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Festival de Cannes x Soskin",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        }
+      ],
+      "route": "/projets/et-si-le-culot-sinvitait-au-festival-de-cannes/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Savage Fenty x JujuFitCat",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Air Up x Jujufitcat",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        }
+      ],
+      "route": "/projets/savage-fenty-x-jujufitcat/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Roland Garros x Vincent Nadal",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Roland Garros x Vincent Nadal",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Roland Garros x Vincent Nadal",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Et si le culot s’invitait au Festival de Cannes ?",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        }
+      ],
+      "route": "/projets/__trashed/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Sephora x Les éclaireuses",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Carrefour x Multi-talents",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        }
+      ],
+      "route": "/projets/sephora-x-les-eclaireuses/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Mr Moustache x Multi-Talents",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Mr Moustache x Multi-Talents",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "L’Oréal Luxe x My Origines",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        }
+      ],
+      "route": "/projets/mr-moustache-x-multi-talents/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Air Up x Jujufitcat",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Air Up x Jujufitcat",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Sephora x Les éclaireuses",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        }
+      ],
+      "route": "/projets/air-up-x-jujufitcat/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Carrefour x Multi-talents",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Carrefour x Multi-talents",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Carrefour x Multi-talents",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Stratégie Tiktok x Choose",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        }
+      ],
+      "route": "/projets/carrefour-x-multi-talents/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "BIOCYTE x SOLAR METRICS | Influence & affiliation",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "BIOCYTE x SOLAR METRICS | Influence & affiliation",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "LANCEMENT K-BIOCYTE : Event influence",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        }
+      ],
+      "route": "/projets/biocyte-x-solar-metrics-influence-affiliation/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Festival de Cannes x Soskin",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Festival de Cannes x Soskin",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Festival de Cannes x Soskin",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Festival de Cannes x Bijou Brijitte",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        }
+      ],
+      "route": "/projets/festival-de-cannes-x-soskin/index.html"
+    },
+    {
+      "overflow": false,
+      "photos": [
+        {
+          "alt": "Campagne d’Influence Poderm",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        },
+        {
+          "alt": "Concert Aya Nakamura x GHD x Juliette Has A Gun",
+          "clip": "hidden",
+          "parentRadius": "20px",
+          "radius": "20px"
+        }
+      ],
+      "route": "/projets/campagne-dinfluence-poderm-juin-aout-2026-strategie-de-test-learn-et-optimisation-du-casting-createurs/index.html"
+    }
+  ],
+  "homeGeometry": [
+    {
+      "actionsLeft": 126.8203125,
+      "line": {
+        "font": "12px",
+        "height": 44,
+        "index": "0",
+        "left": 20,
+        "paused": "true",
+        "right": 268.2265625,
+        "text": "Agence de conseil en stratégie d’influence",
+        "whiteSpace": "nowrap"
+      },
+      "logoRight": 118,
+      "navLeft": 0,
+      "navLinks": [
+        "Accueil",
+        "Agence",
+        "Projets",
+        "Expertises"
+      ],
+      "navRight": 0,
+      "navVisible": false,
+      "overflow": false,
+      "viewport": [
+        320,
+        667
+      ]
+    },
+    {
+      "actionsLeft": 169.7421875,
+      "line": {
+        "font": "12px",
+        "height": 44,
+        "index": "0",
+        "left": 20,
+        "paused": "true",
+        "right": 268.2265625,
+        "text": "Agence de conseil en stratégie d’influence",
+        "whiteSpace": "nowrap"
+      },
+      "logoRight": 135,
+      "navLeft": 0,
+      "navLinks": [
+        "Accueil",
+        "Agence",
+        "Projets",
+        "Expertises"
+      ],
+      "navRight": 0,
+      "navVisible": false,
+      "overflow": false,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "actionsLeft": 566.6796875,
+      "line": {
+        "font": "12px",
+        "height": 44,
+        "index": "0",
+        "left": 24,
+        "paused": "true",
+        "right": 272.2265625,
+        "text": "Agence de conseil en stratégie d’influence",
+        "whiteSpace": "nowrap"
+      },
+      "logoRight": 149,
+      "navLeft": 0,
+      "navLinks": [
+        "Accueil",
+        "Agence",
+        "Projets",
+        "Expertises"
+      ],
+      "navRight": 0,
+      "navVisible": false,
+      "overflow": false,
+      "viewport": [
+        800,
+        790
+      ]
+    },
+    {
+      "actionsLeft": 510.1015625,
+      "line": {
+        "font": "12px",
+        "height": 44,
+        "index": "0",
+        "left": 33.640625,
+        "paused": "true",
+        "right": 281.8671875,
+        "text": "Agence de conseil en stratégie d’influence",
+        "whiteSpace": "nowrap"
+      },
+      "logoRight": 178.640625,
+      "navLeft": 213.984375,
+      "navLinks": [
+        "Accueil",
+        "Agence",
+        "Projets",
+        "Expertises"
+      ],
+      "navRight": 474.765625,
+      "navVisible": true,
+      "overflow": false,
+      "viewport": [
+        801,
+        790
+      ]
+    },
+    {
+      "actionsLeft": 747.6875,
+      "line": {
+        "font": "12.0635px",
+        "height": 44,
+        "index": "0",
+        "left": 44.0546875,
+        "paused": "true",
+        "right": 293.5,
+        "text": "Agence de conseil en stratégie d’influence",
+        "whiteSpace": "nowrap"
+      },
+      "logoRight": 189.0546875,
+      "navLeft": 337.984375,
+      "navLinks": [
+        "Accueil",
+        "Agence",
+        "Projets",
+        "Expertises"
+      ],
+      "navRight": 598.765625,
+      "navVisible": true,
+      "overflow": false,
+      "viewport": [
+        1049,
+        790
+      ]
+    },
+    {
+      "actionsLeft": 821.40625,
+      "line": {
+        "font": "13.2365px",
+        "height": 44,
+        "index": "0",
+        "left": 48.3359375,
+        "paused": "true",
+        "right": 321.6953125,
+        "text": "Agence de conseil en stratégie d’influence",
+        "whiteSpace": "nowrap"
+      },
+      "logoRight": 193.3359375,
+      "navLeft": 322.1953125,
+      "navLinks": [
+        "Accueil",
+        "Agence",
+        "Projets",
+        "Expertises",
+        "Équipe"
+      ],
+      "navRight": 692.546875,
+      "navVisible": true,
+      "overflow": false,
+      "viewport": [
+        1151,
+        790
+      ]
+    },
+    {
+      "actionsLeft": 1113.59375,
+      "line": {
+        "font": "16px",
+        "height": 44,
+        "index": "0",
+        "left": 61.1484375,
+        "paused": "true",
+        "right": 390.78125,
+        "text": "Agence de conseil en stratégie d’influence",
+        "whiteSpace": "nowrap"
+      },
+      "logoRight": 206.1484375,
+      "navLeft": 474.6953125,
+      "navLinks": [
+        "Accueil",
+        "Agence",
+        "Projets",
+        "Expertises",
+        "Équipe"
+      ],
+      "navRight": 845.046875,
+      "navVisible": true,
+      "overflow": false,
+      "viewport": [
+        1456,
+        790
+      ]
+    }
+  ],
+  "finalFonts": [
+    {
+      "lead": "16.8px",
+      "overflow": false,
+      "viewport": [
+        320,
+        667
+      ]
+    },
+    {
+      "lead": "16.8px",
+      "overflow": false,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "lead": "16.8px",
+      "overflow": false,
+      "viewport": [
+        800,
+        790
+      ]
+    },
+    {
+      "lead": "16.8px",
+      "overflow": false,
+      "viewport": [
+        801,
+        790
+      ]
+    },
+    {
+      "lead": "16.8px",
+      "overflow": false,
+      "viewport": [
+        1049,
+        790
+      ]
+    },
+    {
+      "lead": "16.8px",
+      "overflow": false,
+      "viewport": [
+        1151,
+        790
+      ]
+    },
+    {
+      "lead": "16.8px",
+      "overflow": false,
+      "viewport": [
+        1456,
+        790
+      ]
+    }
+  ],
+  "scriptScenarios": [
+    "typing in 260ms",
+    "six-phrase loop",
+    "2000ms cadence",
+    "manual pause",
+    "focus pause",
+    "hover pause",
+    "hidden page pause",
+    "offscreen pause",
+    "reduced motion fallback"
+  ],
+  "errors": []
+}

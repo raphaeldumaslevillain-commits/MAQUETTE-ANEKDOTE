@@ -51,3 +51,9 @@ Les neuf tests du thème restent valides et le contrôle statique ne relève auc
 ## Expertises sans numéros et thème en icônes
 
 Les six titres commencent au bord gauche de leur ligne à 1337, 390 et 320 px, sans index ni colonne vide. Les accordéons sont fermés au chargement ; ouvrir Stratégie ferme Campagne d’influence. Le bouton ne contient aucun texte visible, conserve son nom accessible et mesure 64 × 44 px, ou 60 × 44 px à 320 px. Le curseur parcourt 20 px, ou 16 px à 320 px ; Entrée et Espace activent le thème et le déploiement circulaire est observé. Le choix persiste au rechargement et sur Équipe. Aucun débordement ni erreur JavaScript n’est relevé après chargement des ressources versionnées. Les neuf contrôles du thème et la validation statique passent. Voir minimal-controls-browser-checks.json et previews/expertises-sans-numeros.jpg.
+
+## Ligne d’accueil et photos arrondies
+
+Les 158 occurrences de photos sont contrôlées dans les 46 pages qui en contiennent, à 1049 × 790 et 390 × 844 px. Tous les cadres et leurs photos ont un rayon non nul ; aucun débordement horizontal n’est relevé. Le contrôle du HTML ne trouve aucune autre photo bitmap sans cadre identifié.
+
+L’accueil est vérifié à 320, 390, 800, 801, 1049, 1151 et 1456 px. La phrase la plus longue reste sur une ligne et l’en-tête ne se chevauche pas. Le texte d’introduction mesure 16,8 px aux sept tailles. Accueil mène bien de la page Expertises à l’accueil et est présent dans le menu mobile. La frappe est observée dans le navigateur ; un contrôle simulé vérifie les six phrases, le cycle de 2000 ms, la frappe de 260 ms, les pauses manuelle / focus / survol / visibilité et le repli sans mouvement. Aucun message d’erreur JavaScript n’est relevé. Voir hero-photo-browser-checks.json et previews/accueil-animation-arrondis.jpg.
