@@ -4,7 +4,6 @@
   const reduce = matchMedia('(prefers-reduced-motion: reduce)');
   const stage = section.querySelector('.group-sticky');
   const origin = section.querySelector('.group-origin');
-  const intro = section.querySelector('.group-heading');
   const finalHeading = section.querySelector('.group-heading-final');
   const shards = [...section.querySelectorAll('.group-shard')];
   const brands = [...section.querySelectorAll('.group-brand')];
@@ -23,8 +22,6 @@
     const heading = ease(range(p, .56, .82));
     origin.style.opacity = String(1 - range(p, .08, .12));
     origin.style.transform = `translate(-50%,-50%) scale(${1 - depart * .07})`;
-    intro.style.opacity = String(1 - ease(range(p, .08, .3)));
-    intro.style.transform = `translateY(${-depart * 35}px)`;
     finalHeading.style.opacity = String(heading);
     finalHeading.style.transform = `translateY(${(1 - heading) * 24}px)`;
     shards.forEach((shard, index) => {
@@ -77,7 +74,7 @@
     section.classList.toggle('is-animated', enabled);
     brands.forEach(brand => { brand.inert = false; });
     if (enabled) measure();
-    else [origin, intro, finalHeading, ...shards, ...brands, tethers, ...paths].forEach(element => { element.removeAttribute('style'); });
+    else [origin, finalHeading, ...shards, ...brands, tethers, ...paths].forEach(element => { element.removeAttribute('style'); });
   };
   addEventListener('scroll', onScroll, {passive: true});
   addEventListener('resize', measure, {passive: true});
